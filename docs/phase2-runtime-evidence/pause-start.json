@@ -1,0 +1,12 @@
+{
+  "count": 256,
+  "health": {
+    "status": "ok",
+    "phase": 1,
+    "clients": [
+      "7dtd",
+      "minecraft"
+    ]
+  },
+  "at": "2026-10-03T13:26:17.7394966+08:00"
+}

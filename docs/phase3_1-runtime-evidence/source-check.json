@@ -1,0 +1,138 @@
+[
+  {
+    "File": "config\\network.json",
+    "Unchanged": true
+  },
+  {
+    "File": "config\\coordinate.json",
+    "Unchanged": true
+  },
+  {
+    "File": "bridge-server\\Program.cs",
+    "Unchanged": true
+  },
+  {
+    "File": "bridge-server\\EntityTransport.cs",
+    "Unchanged": true
+  },
+  {
+    "File": "bridge-server\\CoordinateMapper.cs",
+    "Unchanged": true
+  },
+  {
+    "File": "bridge-server\\BridgeServer.csproj",
+    "Unchanged": true
+  },
+  {
+    "File": "tests\\run-phase3_1.ps1",
+    "Unchanged": true
+  },
+  {
+    "File": "tests\\run-phase2_1.ps1",
+    "Unchanged": true
+  },
+  {
+    "File": "tests\\run-phase2.ps1",
+    "Unchanged": true
+  },
+  {
+    "File": "tests\\run-phase1.ps1",
+    "Unchanged": true
+  },
+  {
+    "File": "tests\\prepare-runtime.ps1",
+    "Unchanged": true
+  },
+  {
+    "File": "7dtd-mod\\src\\BridgeMod.cs",
+    "Unchanged": true
+  },
+  {
+    "File": "7dtd-mod\\src\\BridgeClient.cs",
+    "Unchanged": true
+  },
+  {
+    "File": "7dtd-mod\\ModInfo.xml",
+    "Unchanged": true
+  },
+  {
+    "File": "7dtd-mod\\MC7DTD.Mod.csproj",
+    "Unchanged": true
+  },
+  {
+    "File": "tests\\phase1-runner\\Program.cs",
+    "Unchanged": true
+  },
+  {
+    "File": "tests\\phase1-runner\\Phase1Runner.csproj",
+    "Unchanged": true
+  },
+  {
+    "File": "tests\\launch-runtime.py",
+    "Unchanged": true
+  },
+  {
+    "File": "minecraft-mod\\bootstrap-gradle.ps1",
+    "Unchanged": true
+  },
+  {
+    "File": "minecraft-mod\\build.gradle",
+    "Unchanged": true
+  },
+  {
+    "File": "minecraft-mod\\settings.gradle",
+    "Unchanged": true
+  },
+  {
+    "File": "minecraft-mod\\gradle.properties",
+    "Unchanged": true
+  },
+  {
+    "File": "minecraft-mod\\gradle\\wrapper\\gradle-wrapper.properties",
+    "Unchanged": true
+  },
+  {
+    "File": "minecraft-mod\\src\\test\\java\\io\\mc7dtd\\ClientHarness.java",
+    "Unchanged": true
+  },
+  {
+    "File": "minecraft-mod\\src\\main\\resources\\fabric.mod.json",
+    "Unchanged": true
+  },
+  {
+    "File": "tests\\coordinate-runner\\Program.cs",
+    "Unchanged": true
+  },
+  {
+    "File": "tests\\coordinate-runner\\CoordinateRunner.csproj",
+    "Unchanged": true
+  },
+  {
+    "File": "tests\\client-harness\\Program.cs",
+    "Unchanged": true
+  },
+  {
+    "File": "tests\\client-harness\\ClientHarness.csproj",
+    "Unchanged": true
+  },
+  {
+    "File": "tests\\entity-runner\\Program.cs",
+    "Unchanged": true
+  },
+  {
+    "File": "tests\\entity-runner\\EntityRunner.csproj",
+    "Unchanged": true
+  },
+  {
+    "File": "minecraft-mod\\src\\main\\java\\io\\mc7dtd\\PlayerPositionSampler.java",
+    "Unchanged": true
+  },
+  {
+    "File": "minecraft-mod\\src\\main\\java\\io\\mc7dtd\\MinecraftBridgeMod.java",
+    "Unchanged": false
+  },
+  {
+    "File": "minecraft-mod\\src\\main\\java\\io\\mc7dtd\\BridgeClient.java",
+    "Unchanged": false
+  }
+]

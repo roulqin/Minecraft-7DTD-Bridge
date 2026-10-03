@@ -1,0 +1,66 @@
+[
+  {
+    "File": "config\\network.json",
+    "Unchanged": true
+  },
+  {
+    "File": "config\\coordinate.json",
+    "Unchanged": true
+  },
+  {
+    "File": "7dtd-mod\\src\\BridgeMod.cs",
+    "Unchanged": true
+  },
+  {
+    "File": "7dtd-mod\\src\\BridgeClient.cs",
+    "Unchanged": true
+  },
+  {
+    "File": "7dtd-mod\\ModInfo.xml",
+    "Unchanged": true
+  },
+  {
+    "File": "7dtd-mod\\MC7DTD.Mod.csproj",
+    "Unchanged": true
+  },
+  {
+    "File": "minecraft-mod\\build.gradle",
+    "Unchanged": true
+  },
+  {
+    "File": "minecraft-mod\\settings.gradle",
+    "Unchanged": true
+  },
+  {
+    "File": "minecraft-mod\\gradle.properties",
+    "Unchanged": true
+  },
+  {
+    "File": "minecraft-mod\\gradle\\wrapper\\gradle-wrapper.properties",
+    "Unchanged": true
+  },
+  {
+    "File": "minecraft-mod\\src\\main\\resources\\fabric.mod.json",
+    "Unchanged": true
+  },
+  {
+    "File": "minecraft-mod\\src\\test\\java\\io\\mc7dtd\\ClientHarness.java",
+    "Unchanged": true
+  },
+  {
+    "File": "minecraft-mod\\src\\main\\java\\io\\mc7dtd\\PlayerPositionSampler.java",
+    "Unchanged": true
+  },
+  {
+    "File": "minecraft-mod\\src\\main\\java\\io\\mc7dtd\\MinecraftBridgeMod.java",
+    "Unchanged": true
+  },
+  {
+    "File": "minecraft-mod\\src\\main\\java\\io\\mc7dtd\\EntityTestCommands.java",
+    "Unchanged": true
+  },
+  {
+    "File": "minecraft-mod\\src\\main\\java\\io\\mc7dtd\\BridgeClient.java",
+    "Unchanged": true
+  }
+]

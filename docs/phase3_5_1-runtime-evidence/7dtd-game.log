@@ -1,0 +1,1276 @@
+Mono path[0] = 'D:/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/Managed'
+Mono config path = 'D:/Steam/steamapps/common/7 Days To Die/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Loading player data from D:/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/data.unity3d
+Initialize engine version: 2022.3.62f2 (7670c08855a9)
+[Subsystems] Discovering subsystems at path D:/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5060 Laptop GPU (ID=0x2d59)
+    Vendor:   NVIDIA
+    VRAM:     7899 MB
+    Driver:   32.0.16.1074
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.175 seconds
+- Finished resetting the current domain, in  0.001 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 0.768600 ms
+2026-10-03T18:21:26 0.003 INF [BACKTRACE] Initialize
+2026-10-03T18:21:26 0.009 INF [BACKTRACE] Root log path: C:\Users\qin_roupl\AppData\Roaming\7DaysToDie\BacktraceLogs
+2026-10-03T18:21:26 0.028 INF [BACKTRACE] Deleted old log: C:\Users\qin_roupl\AppData\Roaming\7DaysToDie\BacktraceLogs\Player-2026-10-03_10-04-09.813.log
+2026-10-03T18:21:26 0.028 INF [BACKTRACE] Using log: C:\Users\qin_roupl\AppData\Roaming\7DaysToDie\BacktraceLogs\Player-2026-10-03_10-06-09.942.log
+2026-10-03T18:21:26 0.028 INF [BACKTRACE] Using log: C:\Users\qin_roupl\AppData\Roaming\7DaysToDie\BacktraceLogs\Player-2026-10-03_10-07-29.890.log
+2026-10-03T18:21:26 0.028 INF [BACKTRACE] Using log: C:\Users\qin_roupl\AppData\Roaming\7DaysToDie\BacktraceLogs\Player-2026-10-03_10-09-29.259.log
+2026-10-03T18:21:26 0.029 INF [BACKTRACE] Player log path: C:\Users\qin_roupl\AppData\Roaming\7DaysToDie\BacktraceLogs\Player-2026-10-03_10-21-26.154.log
+2026-10-03T18:21:26 0.044 INF [BACKTRACE] Initialized
+2026-10-03T18:21:26 0.068 INF Version: V 3.2.0 (b10) Compatibility Version: V 3.2.0, Build: WindowsPlayer 64 Bit
+2026-10-03T18:21:26 0.069 INF System information:
+2026-10-03T18:21:26 0.070 INF    OS: Windows 11  (10.0.26200) 64bit
+2026-10-03T18:21:26 0.071 INF    CPU: Intel(R) Core(TM) i7-14650HX (cores: 24)
+2026-10-03T18:21:26 0.071 INF    RAM: 16107 MB
+2026-10-03T18:21:26 0.072 INF    GPU: NVIDIA GeForce RTX 5060 Laptop GPU (7899 MB)
+2026-10-03T18:21:26 0.075 INF    Graphics API: Direct3D 11.0 [level 11.1] (shader level 5.0)
+2026-10-03T18:21:26 0.087 INF Local UTC offset: 8 hours
+2026-10-03T18:21:26 0.103 INF Command line arguments: "D:\Steam\steamapps\common\7 Days To Die\7DaysToDie.exe" -UserDataFolder=D:\wenjian\minecraft\7-M\runtime\7dtd -logfile D:\wenjian\minecraft\7-M\docs\runtime-evidence\7dtd-game.log -screen-fullscreen 0 -screen-width 960 -screen-height 600
+2026-10-03T18:21:26 0.105 INF Overriding default user data path to D:\wenjian\minecraft\7-M\runtime\7dtd
+2026-10-03T18:21:26 0.112 INF [Platform] Init
+2026-10-03T18:21:26 0.158 INF [Platform] Using native platform: Steam
+2026-10-03T18:21:26 0.160 INF [Platform] Using cross platform: EOS
+2026-10-03T18:21:26 0.161 INF [Platform] Using server platform: Steam
+2026-10-03T18:21:26 0.162 INF [Platform] Using server platform: XBL
+2026-10-03T18:21:26 0.163 INF [Platform] Using server platform: PSN
+2026-10-03T18:21:26 0.164 INF [Platform] Using server platform: LAN
+2026-10-03T18:21:26 0.173 INF Starting PlayerInputManager...
+2026-10-03T18:21:26 0.176 INF InControl (version 1.8.9 build 9376, native module = True, XInput = True)
+2026-10-03T18:21:26 0.179 INF InControl (version 1.8.9 build 9376)
+2026-10-03T18:21:26 0.185 INF InControl Native (version 1.0.6)
+2026-10-03T18:21:26 0.257 INF [InControl] NativeInputDeviceManager enabled.
+2026-10-03T18:21:26 0.277 INF [Platform] Initializing Steam
+Setting breakpad minidump AppID = 251570
+SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  76561199256208852 [API loaded no]
+2026-10-03T18:21:26 0.402 INF [Steamworks.NET] SteamAPI_Init() ok
+2026-10-03T18:21:26 0.405 INF [Steamworks.NET] Registering auth callbacks
+2026-10-03T18:21:26 0.407 INF Not running in Big Picture Mode, no on-screen keyboard available
+2026-10-03T18:21:26 0.408 INF [Platform] Initializing EOS
+2026-10-03T18:21:26 0.435 INF [EOS] Initialize: Success
+2026-10-03T18:21:26 0.463 INF [EOS-Voice] Successfully initialized.
+2026-10-03T18:21:26 0.464 INF [EOS-ACC] Not started with EAC, anticheat disabled
+2026-10-03T18:21:26 0.465 INF [EAC] AntiCheatServerP2P initialized with null interface
+2026-10-03T18:21:26 0.467 INF [Platform] Initializing XBL
+2026-10-03T18:21:26 0.469 INF [Platform] Initializing PSN
+2026-10-03T18:21:26 0.470 INF [Platform] Initializing LAN
+2026-10-03T18:21:26 0.527 INF [SaveDataUtils] InitStatic Begin
+2026-10-03T18:21:26 0.530 INF [SaveDataUtils] UserGameDataDir: D:\wenjian\minecraft\7-M\runtime\7dtd
+2026-10-03T18:21:26 0.531 INF [SaveDataUtils] SdPlayerPrefs -> Unity
+2026-10-03T18:21:26 0.532 INF [SaveDataUtils] InitStatic Complete
+2026-10-03T18:21:26 0.613 INF Last played version: V 3.2.0
+2026-10-03T18:21:26 0.830 INF Localization language from platform: schinese
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.475600 ms
+2026-10-03T18:21:27 0.856 INF Texture quality is set to 0
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 6637.
+Total: 7.203600 ms (FindLiveObjects: 0.218700 ms CreateObjectMapping: 0.083000 ms MarkObjects: 6.843500 ms  DeleteObjects: 0.058000 ms)
+
+The referenced script on this Behaviour (Game Object 'BlockProcessor') is missing!
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.494800 ms
+2026-10-03T18:21:34 8.378 INF Awake IsFocused: True
+2026-10-03T18:21:34 8.379 INF Awake
+2026-10-03T18:21:34 8.581 INF Occlusion: Awake
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 6970.
+Total: 7.345800 ms (FindLiveObjects: 0.207400 ms CreateObjectMapping: 0.117400 ms MarkObjects: 6.990900 ms  DeleteObjects: 0.029700 ms)
+
+2026-10-03T18:21:34 8.618 INF ApplyAllOptions streaming budget 7109.1 MB
+2026-10-03T18:21:34 8.620 INF ApplyAllOptions current screen 2560 x 1600, 240hz, window 960 x 600, mode Windowed
+2026-10-03T18:21:34 8.621 INF Texture quality is set to 0
+2026-10-03T18:21:34 8.622 INF ApplyTextureFilter 2, AF Enable
+2026-10-03T18:21:34 8.623 INF ApplyTerrainOptions 2
+2026-10-03T18:21:34 8.748 INF [MODS] Start loading from: 'D:\wenjian\minecraft\7-M\runtime\7dtd/Mods'
+2026-10-03T18:21:34 8.750 INF [MODS]   Trying to load from folder: 'MC7DTD-Bridge'
+2026-10-03T18:21:34 8.759 INF [MODS]     Loaded assembly MC7DTD.Bridge (in D:\wenjian\minecraft\7-M\runtime\7dtd\Mods\MC7DTD-Bridge\MC7DTD.Bridge.dll)
+2026-10-03T18:21:34 8.760 INF [MODS]     Loaded Mod: MC7DTD-Bridge (0.1.0)
+2026-10-03T18:21:34 8.761 INF [MODS] Start loading from: 'D:/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/../Mods'
+2026-10-03T18:21:34 8.762 INF [MODS]   Trying to load from folder: '0_TFP_Harmony'
+2026-10-03T18:21:34 8.765 INF [MODS]     Loaded assembly 0Harmony (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\0Harmony.dll)
+2026-10-03T18:21:34 8.767 INF [MODS]     Loaded assembly Mono.Cecil (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\Mono.Cecil.dll)
+2026-10-03T18:21:34 8.769 INF [MODS]     Loaded assembly Mono.Cecil.Mdb (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\Mono.Cecil.Mdb.dll)
+2026-10-03T18:21:34 8.772 INF [MODS]     Loaded assembly Mono.Cecil.Pdb (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\Mono.Cecil.Pdb.dll)
+2026-10-03T18:21:34 8.775 INF [MODS]     Loaded assembly Mono.Cecil.Rocks (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\Mono.Cecil.Rocks.dll)
+2026-10-03T18:21:34 8.777 INF [MODS]     Loaded assembly MonoMod.Backports (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\MonoMod.Backports.dll)
+2026-10-03T18:21:34 8.779 INF [MODS]     Loaded assembly MonoMod.Core (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\MonoMod.Core.dll)
+2026-10-03T18:21:34 8.781 INF [MODS]     Loaded assembly MonoMod.Iced (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\MonoMod.Iced.dll)
+2026-10-03T18:21:34 8.783 INF [MODS]     Loaded assembly MonoMod.ILHelpers (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\MonoMod.ILHelpers.dll)
+2026-10-03T18:21:34 8.786 INF [MODS]     Loaded assembly MonoMod.RuntimeDetour (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\MonoMod.RuntimeDetour.dll)
+2026-10-03T18:21:34 8.788 INF [MODS]     Loaded assembly MonoMod.Utils (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\MonoMod.Utils.dll)
+2026-10-03T18:21:34 8.790 INF [MODS]     Loaded assembly System.ValueTuple (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\System.ValueTuple.dll)
+2026-10-03T18:21:34 8.792 INF [MODS]     Loaded assembly TfpHarmony (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\TfpHarmony.dll)
+2026-10-03T18:21:34 8.793 INF [MODS]     Loaded Mod: TFP_Harmony (1.1.0.4)
+2026-10-03T18:21:34 8.794 INF [MODS]   Trying to load from folder: 'MC7DTD.Bridge'
+2026-10-03T18:21:34 8.795 WRN [MODS]     Mod with same name (MC7DTD-Bridge) already loaded, ignoring
+2026-10-03T18:21:34 8.795 INF [MODS]   Trying to load from folder: '原始mod'
+2026-10-03T18:21:34 8.796 WRN [MODS]     Folder 原始mod does not contain a ModInfo.xml, ignoring
+2026-10-03T18:21:34 8.797 INF [MODS] Initializing mod code
+2026-10-03T18:21:34 8.798 INF [MODS]   Initializing mod TFP_Harmony
+2026-10-03T18:21:34 8.812 INF [MODS]     Found ModAPI in assembly TfpHarmony (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\TfpHarmony.dll), creating instance
+2026-10-03T18:21:34 8.813 INF [MODS]       [Harmony] Init done
+Fallback handler could not load library D:/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/MonoBleedingEdge/data-000001997BA0D070.dll
+2026-10-03T18:21:35 9.019 INF [MODS]     Initialized code in mod 'TFP_Harmony' in assembly TfpHarmony (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\TfpHarmony.dll)
+2026-10-03T18:21:35 9.020 INF [MODS]   Initializing mod MC7DTD-Bridge
+2026-10-03T18:21:35 9.021 INF [MODS]     Found ModAPI in assembly MC7DTD.Bridge (in D:\wenjian\minecraft\7-M\runtime\7dtd\Mods\MC7DTD-Bridge\MC7DTD.Bridge.dll), creating instance
+2026-10-03T18:21:35 9.074 INF [MODS]     Initialized code in mod 'MC7DTD-Bridge' in assembly MC7DTD.Bridge (in D:\wenjian\minecraft\7-M\runtime\7dtd\Mods\MC7DTD-Bridge\MC7DTD.Bridge.dll)
+2026-10-03T18:21:35 9.075 INF [MODS] Loading done
+2026-10-03T18:21:35 9.085 INF Loading permissions file at 'D:\wenjian\minecraft\7-M\runtime\7dtd\Saves/serveradmin.xml'
+2026-10-03T18:21:35 9.098 INF Loading permissions file done.
+2026-10-03T18:21:35 9.117 INF Creating TransformDebug GameObject
+2026-10-03T18:21:35 9.130 INF [MC7DTD] Bridge connected
+2026-10-03T18:21:35 9.131 INF [MC7DTD] 7DTD connected
+2026-10-03T18:21:35 9.133 INF [MC7DTD] Test received from minecraft: Hello from Minecraft
+2026-10-03T18:21:35 9.140 INF GameSense server not found (no props file), disabling
+2026-10-03T18:21:35 9.147 INF [PartyQuests] Initialized
+2026-10-03T18:21:35 9.152 INF Awake done in 774 ms
+2026-10-03T18:21:35 9.252 INF [XUi] Instantiating XUi from default prefab.
+2026-10-03T18:21:35 9.329 INF [XUi] Loading XUi asynchronously
+2026-10-03T18:21:35 9.754 INF [EOS] Read cached (NewsFeatured.xml) completed: 1821 bytes
+2026-10-03T18:21:35 9.769 INF [EOS] Read cached (News.xml) completed: 4600 bytes
+2026-10-03T18:21:35 9.835 INF Reloading serveradmin.xml
+2026-10-03T18:21:35 9.836 INF Loading permissions file at 'D:\wenjian\minecraft\7-M\runtime\7dtd\Saves/serveradmin.xml'
+2026-10-03T18:21:35 9.837 INF Permissions file unchanged, skipping reloading
+2026-10-03T18:21:38 12.380 INF [XUi] Parsing all window groups completed in 2921 ms total.
+2026-10-03T18:21:38 12.415 INF Updated culture for display texts
+2026-10-03T18:21:38 12.429 WRN UIUtils: No device binding source could be found for PlayerAction GUI Apply
+2026-10-03T18:21:38 12.665 INF [EOS] Read cached (news_featured_2026_dlc_08.jpg) completed: 774214 bytes
+2026-10-03T18:21:38 12.701 INF [EOS] Read cached (news_featured_2026_dlc_07.jpg) completed: 925495 bytes
+2026-10-03T18:21:38 12.736 INF [EOS] Read cached (news_featured_2026_dlc_06.jpg) completed: 149863 bytes
+2026-10-03T18:21:38 12.758 INF [EOS] Read cached (news_featured_2026_merger.jpg) completed: 154308 bytes
+2026-10-03T18:21:38 12.772 INF [EOS] Read cached (news_featured_ytz2.1.jpg) completed: 123752 bytes
+2026-10-03T18:21:38 12.793 INF [EOS] Read cached (news_featured_tfpmerch.jpg) completed: 78916 bytes
+2026-10-03T18:21:38 12.811 INF [EOS] Read cached (news_featured_soundtrack.jpg) completed: 235045 bytes
+2026-10-03T18:21:38 12.842 INF [EOS] Read cached (news_game_3.3_exp.jpg) completed: 106006 bytes
+2026-10-03T18:21:39 12.855 INF [EOS] Read cached (news_game_3.2.0_stable.jpg) completed: 101488 bytes
+2026-10-03T18:21:39 12.870 INF [EOS] Read cached (news_game_2026_7_blank.jpg) completed: 70434 bytes
+2026-10-03T18:21:39 12.877 INF [EOS] Read cached (news_game_3.1.0_stable.jpg) completed: 585941 bytes
+2026-10-03T18:21:39 12.898 INF [EOS] Read cached (news_game_3.0.1_stable.jpg) completed: 154912 bytes
+2026-10-03T18:21:39 12.914 INF [EOS] Read cached (news_game_3.0_stable.jpg) completed: 275348 bytes
+2026-10-03T18:21:39 12.931 INF [EOS] Read cached (news_game_2026_2.6_stable.jpg) completed: 97562 bytes
+Cannot Prepare a disabled VideoPlayer
+2026-10-03T18:21:39 13.738 INF Loaded default EULA
+2026-10-03T18:21:40 14.227 INF [XUi] Initialized all window groups completed in 1686 ms total.
+Direct3D: detected that using refresh rate causes time drift. Will stop trusting refresh rate until the game window is moved.
+Direct3D: detected that vsync is broken (it does not limit frame rate properly). Delta time will now be calculated using cpu-side time stampling until the game window is moved.
+2026-10-03T18:21:40 14.467 INF LoadTextureArraysForQuality quality -1 to 0, reload False
+2026-10-03T18:21:41 14.980 INF LoadTextureArraysForQuality took 0.511
+2026-10-03T18:21:41 14.990 INF Loaded (local): events in 0.00
+2026-10-03T18:21:41 15.001 INF Loaded (local): rwgmixer in 0.01
+2026-10-03T18:21:41 15.008 INF Loaded (local): archetypes in 0.00
+2026-10-03T18:21:41 15.014 INF Loaded (local): loadingscreen in 0.00
+2026-10-03T18:21:41 15.024 INF Added 1336 subtitle data entries and 3 speaker colors
+2026-10-03T18:21:41 15.026 INF Loaded (local): subtitles in 0.00
+2026-10-03T18:21:41 15.031 INF Loaded (local): videos in 0.00
+2026-10-03T18:21:41 15.035 INF Loaded (local): sandbox_overrides in 0.00
+2026-10-03T18:21:41 15.036 INF WorldStaticData.Init() needed 5.524 s
+2026-10-03T18:21:41 15.039 INF [Steamworks.NET] Login ok.
+2026-10-03T18:21:41 15.041 INF [EOS] Login
+2026-10-03T18:21:41 15.339 INF AchievementManager: Received stats and achievements from Steam
+2026-10-03T18:21:43 17.647 INF [EOS] Login succeeded, PUID: 0002a27c262e4f8d9c40beda1e4fa220
+2026-10-03T18:21:43 17.649 INF [EOS] Getting native user for 0002a27c262e4f8d9c40beda1e4fa220
+2026-10-03T18:21:43 17.651 INF [EOS] CopyIdToken result: Success
+2026-10-03T18:21:44 18.058 INF [BACKTRACE] Attempting to get User ID from platform: EOS
+2026-10-03T18:21:44 18.065 INF [EOS] Created RFS Request: NewsFeatured.xml
+2026-10-03T18:21:44 18.067 INF [EOS] Created RFS Request: News.xml
+2026-10-03T18:21:44 18.072 INF [EOS] Created RFS Request: DLCConfiguration
+2026-10-03T18:21:44 18.073 INF [EOS] Created RFS Request: eula_schinese
+2026-10-03T18:21:44 18.076 INF [PermissionsManager] ResolvePermissions(_perms: [Multiplayer, Communication, Crossplay], _canPrompt: False)
+2026-10-03T18:21:44 18.081 INF [PermissionsManager] ResolvePermissions(_perms: [Multiplayer, Communication, Crossplay], _canPrompt: False) Fetching Title Storage Overrides...
+2026-10-03T18:21:44 18.082 INF [EOS] Created RFS Request: PlatformOverrides
+2026-10-03T18:21:44 18.085 INF [EOS] ResolvePermissions(_perms: [Multiplayer, Communication, Crossplay], _canPrompt: False)
+2026-10-03T18:21:44 18.448 WRN [EOS] [LogEOSTitleStorage - Warning] Deleting local invalid cache file. CacheFilename=[D:/wenjian/minecraft/7-M/runtime/7dtd/titlestorage/8a44365d5ccb43328b4df2f8ca199e43/__cache_registry_lock]
+2026-10-03T18:21:44 18.453 INF [EOS] Read (NewsFeatured.xml) completed: Success, received 1821 bytes
+2026-10-03T18:21:44 18.454 INF [EOS] Created RFS Request: news_featured_2026_dlc_08.jpg
+2026-10-03T18:21:44 18.456 INF [EOS] Created RFS Request: news_featured_2026_dlc_07.jpg
+2026-10-03T18:21:44 18.456 INF [EOS] Created RFS Request: news_featured_2026_dlc_06.jpg
+2026-10-03T18:21:44 18.822 INF [EOS] Read (news_featured_2026_dlc_08.jpg) completed: Success, received 774214 bytes
+2026-10-03T18:21:44 18.824 INF [EOS] Created RFS Request: news_featured_2026_merger.jpg
+2026-10-03T18:21:45 19.216 INF [EOS] Read (eula_schinese) completed: Success, received 29413 bytes
+2026-10-03T18:21:45 19.218 INF [EOS] Created RFS Request: backtraceconfig.xml
+2026-10-03T18:21:45 19.223 INF [EOS] Read (news_featured_2026_merger.jpg) completed: Success, received 154308 bytes
+2026-10-03T18:21:45 19.224 INF [EOS] Created RFS Request: news_featured_ytz2.1.jpg
+2026-10-03T18:21:45 19.242 INF [EOS] Read (DLCConfiguration) completed: Success, received 4729 bytes
+2026-10-03T18:21:45 19.244 INF [DLCTitleStorageManager] Successfully retrieved DLC configuration.
+2026-10-03T18:21:45 19.249 INF [EOS] Read (PlatformOverrides) completed: Success, received 532 bytes
+2026-10-03T18:21:45 19.250 INF [TitleStorageOverridesManager] Successfully retrieved overrides.
+2026-10-03T18:21:45 19.251 INF [PermissionsManager] ResolvePermissions(_perms: [Multiplayer, Communication, Crossplay], _canPrompt: False) Fetched Title Storage Overrides!
+2026-10-03T18:21:45 19.592 INF [EOS] Read (news_featured_ytz2.1.jpg) completed: Success, received 123752 bytes
+2026-10-03T18:21:45 19.593 INF [EOS] Created RFS Request: news_featured_tfpmerch.jpg
+2026-10-03T18:21:45 19.627 INF [EOS] Read (news_featured_2026_dlc_06.jpg) completed: Success, received 149863 bytes
+2026-10-03T18:21:45 19.628 INF [EOS] Created RFS Request: news_featured_soundtrack.jpg
+2026-10-03T18:21:45 19.663 INF [EOS] Read (news_featured_2026_dlc_07.jpg) completed: Success, received 925495 bytes
+2026-10-03T18:21:45 19.704 INF [EOS] Read (News.xml) completed: Success, received 4600 bytes
+2026-10-03T18:21:45 19.705 INF [EOS] Created RFS Request: news_game_3.3_exp.jpg
+2026-10-03T18:21:45 19.706 INF [EOS] Created RFS Request: news_game_3.2.0_stable.jpg
+2026-10-03T18:21:45 19.707 INF [EOS] Created RFS Request: news_game_2026_7_blank.jpg
+2026-10-03T18:21:45 19.708 INF [EOS] Read (backtraceconfig.xml) completed: Success, received 2615 bytes
+2026-10-03T18:21:45 19.711 INF [BACKTRACE] Bug reporting Enabled with save uploading: Disabled
+2026-10-03T18:21:45 19.711 INF [BACKTRACE] Save Attaching Feature: Disabled
+2026-10-03T18:21:45 19.712 INF [BACKTRACE] Entire World Attaching Feature: Disabled
+2026-10-03T18:21:45 19.713 INF [BACKTRACE] Disabling Error Report Message Types: fellthroughworld
+2026-10-03T18:21:45 19.714 INF [BACKTRACE] Bug reporting Disabled with save uploading: Disabled
+2026-10-03T18:21:46 20.096 INF [BACKTRACE] Platform ID set to: "EOS-0002a27c262e4f8d9c40beda1e4fa220"
+2026-10-03T18:21:46 20.097 INF [BACKTRACE] Configuration refreshed from XML: Enabled True
+2026-10-03T18:21:46 20.098 INF [BACKTRACE] Bug reporting: Disabled
+2026-10-03T18:21:46 20.099 INF [BACKTRACE] Bug reporting attach save feature: Disabled
+2026-10-03T18:21:46 20.099 INF [BACKTRACE] Bug reporting attach entire world feature: Disabled
+2026-10-03T18:21:46 20.136 INF [EOS] Read (news_featured_tfpmerch.jpg) completed: Success, received 78916 bytes
+2026-10-03T18:21:46 20.165 INF [EOS] Read (news_featured_soundtrack.jpg) completed: Success, received 235045 bytes
+2026-10-03T18:21:46 20.218 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000199DCBE72C0
+2026-10-03T18:21:46 20.230 INF [EOS] Read (BlockedPlayerList) completed: Success, received 8 bytes
+2026-10-03T18:21:46 20.478 INF [EOS] Read (news_game_3.3_exp.jpg) completed: Success, received 106006 bytes
+2026-10-03T18:21:46 20.479 INF [EOS] Created RFS Request: news_game_3.1.0_stable.jpg
+2026-10-03T18:21:46 20.495 INF [EOS] Read (news_game_2026_7_blank.jpg) completed: Success, received 70434 bytes
+2026-10-03T18:21:46 20.497 INF [EOS] Created RFS Request: news_game_3.0.1_stable.jpg
+2026-10-03T18:21:46 20.512 INF [EOS] Read (news_game_3.2.0_stable.jpg) completed: Success, received 101488 bytes
+2026-10-03T18:21:46 20.513 INF [EOS] Created RFS Request: news_game_3.0_stable.jpg
+2026-10-03T18:21:47 20.863 INF [EOS] Read (news_game_3.0.1_stable.jpg) completed: Success, received 154912 bytes
+2026-10-03T18:21:47 20.865 INF [EOS] Created RFS Request: news_game_2026_2.6_stable.jpg
+2026-10-03T18:21:47 20.896 INF [EOS] Read (news_game_3.0_stable.jpg) completed: Success, received 275348 bytes
+2026-10-03T18:21:47 20.918 INF [EOS] Read (news_game_3.1.0_stable.jpg) completed: Success, received 585941 bytes
+2026-10-03T18:21:47 21.379 INF [EOS] Read (news_game_2026_2.6_stable.jpg) completed: Success, received 97562 bytes
+2026-10-03T18:21:57 31.021 INF [TitleStorageOverridesManager] Using cached last success.
+2026-10-03T18:22:30 64.623 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:30 64.647 INF [MC7DTD] Entity state: event=spawn id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=1 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=85.19818115234375 pitch=13.499781608581543 roll=0
+2026-10-03T18:22:31 65.117 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:31 65.131 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=2 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=85.19818115234375 pitch=13.499781608581543 roll=0
+2026-10-03T18:22:34 68.114 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:34 68.116 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=3 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=85.19818115234375 pitch=13.499781608581543 roll=0
+2026-10-03T18:22:34 68.614 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:34 68.617 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=4 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.599780797958374 roll=0
+2026-10-03T18:22:35 69.300 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:35 69.313 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=5 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:35 69.678 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:35 69.680 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=6 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:36 70.215 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:36 70.217 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=7 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:36 70.760 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:36 70.762 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=8 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:37 71.266 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:37 71.267 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=9 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:37 71.811 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:37 71.813 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=10 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:38 72.315 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:38 72.318 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=11 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:38 72.816 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:38 72.818 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=12 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:39 73.316 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:39 73.317 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=13 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:40 73.860 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:40 73.861 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=14 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:40 74.365 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:40 74.366 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=15 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:41 74.865 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:41 74.866 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=16 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:41 75.416 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:41 75.418 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=17 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:42 75.958 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:42 75.959 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=18 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:42 76.460 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:42 76.461 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=19 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:43 77.011 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:43 77.012 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=20 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:43 77.511 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:43 77.513 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=21 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:44 78.014 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:44 78.018 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=22 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:44 78.564 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:44 78.566 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=23 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:45 79.065 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:45 79.066 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=24 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:45 79.615 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:45 79.616 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=25 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:46 80.116 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:46 80.117 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=26 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:46 80.659 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:46 80.660 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=27 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:47 81.209 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:47 81.211 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=28 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:47 81.710 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:47 81.711 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=29 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:48 82.260 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:48 82.261 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=30 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:48 82.763 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:48 82.764 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=31 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:49 83.309 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:49 83.310 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=32 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:49 83.816 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:49 83.818 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=33 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:50 84.363 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:50 84.364 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=34 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:51 84.865 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:51 84.867 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=35 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:51 85.408 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:51 85.409 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=36 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:52 85.916 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:52 85.917 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=37 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:52 86.465 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:52 86.467 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=38 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:53 87.010 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:53 87.012 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=39 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:53 87.515 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:53 87.516 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=40 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:54 88.064 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:54 88.066 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=41 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:54 88.611 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:54 88.613 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=42 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:55 89.113 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:55 89.114 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=43 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:55 89.661 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:55 89.662 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=44 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:56 90.163 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:56 90.164 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=45 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:22:56 90.714 INF [MC7DTD] Minecraft player: x=-45.513889705017277 y=68 z=71.325316934270276
+2026-10-03T18:22:56 90.715 INF [MC7DTD] Entity state: event=update id=0b9400a1-627c-470f-8d18-e4da51e2ca6d type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=a6c67531-c503-42ed-84fa-565dccefcfab sequence=46 x=-45.513889705017277 y=68 z=71.325316934270276 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+Direct3D: detected that using refresh rate causes time drift. Will stop trusting refresh rate until the game window is moved.
+Direct3D: detected that vsync is broken (it does not limit frame rate properly). Delta time will now be calculated using cpu-side time stampling until the game window is moved.
+2026-10-03T18:24:15 169.688 INF [TitleStorageOverridesManager] Using cached last success.
+2026-10-03T18:24:15 169.693 INF NET: Starting offline server.
+2026-10-03T18:24:15 169.695 INF StartGame
+2026-10-03T18:24:15 169.730 INF NetPackageManager Init
+2026-10-03T18:24:15 169.753 INF [XUi] Instantiating XUi from default prefab.
+2026-10-03T18:24:15 169.783 INF Persistent GamePrefs saved
+GamePref.AdminFileName = serveradmin.xml
+GamePref.AirDropFrequency = 3
+GamePref.AirDropMarker = True
+GamePref.AISmellMode = 2
+GamePref.AllowSpawnNearBackpack = True
+GamePref.AllowSpawnNearFriend = 2
+GamePref.AutopilotMode = 0
+GamePref.BedrollDeadZoneSize = 15
+GamePref.BedrollExpiryTime = 45
+GamePref.BiomeProgression = True
+GamePref.BlockDamageAI = 100
+GamePref.BlockDamageAIBM = 100
+GamePref.BlockDamagePlayer = 100
+GamePref.BloodMoonEnemyCount = 8
+GamePref.BloodMoonFrequency = 7
+GamePref.BloodMoonRange = 0
+GamePref.BloodMoonWarning = 1
+GamePref.BuildCreate = True
+GamePref.CameraRestrictionMode = 0
+GamePref.ConnectToServerIP = 26.27.164.153
+GamePref.ConnectToServerPort = 26900
+GamePref.CreateLevelDim = 4096
+GamePref.CreateLevelName = My Level
+GamePref.CreativeMenuEnabled = False
+GamePref.DayCount = 3
+GamePref.DayLightLength = 18
+GamePref.DayNightLength = 60
+GamePref.DeathPenalty = 1
+GamePref.DebugMenuEnabled = False
+GamePref.DebugMenuShowTasks = False
+GamePref.DebugPanelsEnabled = ,Ply,Ge,Sp,Fo,Pr,
+GamePref.DebugStopEnemiesMoving = False
+GamePref.DiscordAutoJoinVoiceMode = 0
+GamePref.DiscordDisabled = True
+GamePref.DiscordDmPrivacyMode = True
+GamePref.DiscordFirstTimeInfoShown = True
+GamePref.DiscordInputVolume = 1
+GamePref.DiscordLastAccountType = 2
+GamePref.DiscordMuteDmNotifications = True
+GamePref.DiscordOutputVolume = 1
+GamePref.DiscordSelectedInputDevice = 
+GamePref.DiscordSelectedOutputDevice = 
+GamePref.DiscordVoiceModePtt = False
+GamePref.DiscordVoiceVadModeAuto = True
+GamePref.DiscordVoiceVadThreshold = -60
+GamePref.DropOnDeath = 1
+GamePref.DropOnQuit = 0
+GamePref.DynamicMeshDistance = 100
+GamePref.DynamicMeshEnabled = True
+GamePref.DynamicMeshLandClaimBuffer = 1
+GamePref.DynamicMeshLandClaimOnly = True
+GamePref.DynamicMeshMaxItemCache = 1
+GamePref.DynamicMeshMaxRegionCache = 1
+GamePref.DynamicMeshUseImposters = True
+GamePref.DynamicSpawner = 
+GamePref.EACEnabled = False
+GamePref.EnableMapRendering = False
+GamePref.EnemyDifficulty = 0
+GamePref.EnemySpawnMode = True
+GamePref.EulaLatestVersion = 2
+GamePref.EulaVersionAccepted = 2
+GamePref.FavoriteServersList = 
+GamePref.FragLimit = 20
+GamePref.GameDifficulty = 1
+GamePref.GameGuidClient = 
+GamePref.GameMode = GameModeSurvival
+GamePref.GameName = MC7DTD-Phase3-3
+GamePref.GameNameClient = My Game
+GamePref.GameSaveStorageType = 0
+GamePref.GameVersion = V 3.2.0
+GamePref.GameWorld = Navezgane
+GamePref.GameWorldLocationType = 4
+GamePref.HideCommandExecutionLog = 0
+GamePref.IgnoreEOSSanctions = False
+GamePref.JarRefund = 60
+GamePref.JoiningOptions = True
+GamePref.LandClaimCount = 5
+GamePref.LandClaimDeadZone = 30
+GamePref.LandClaimDecayMode = 0
+GamePref.LandClaimExpiryTime = 7
+GamePref.LandClaimOfflineDelay = 0
+GamePref.LandClaimOfflineDurabilityModifier = 4
+GamePref.LandClaimOnlineDurabilityModifier = 4
+GamePref.LandClaimSize = 41
+GamePref.Language = 
+GamePref.LanguageBrowser = 
+GamePref.LastGameResetRevision = 13
+GamePref.LastLoadedPrefab = 
+GamePref.LastLoadingTipRead = 25
+GamePref.LootAbundance = 100
+GamePref.LootRespawnDays = 7
+GamePref.LootTimer = 
+GamePref.MatchLength = 10
+GamePref.MaxChunkAge = -1
+GamePref.MaxQueuedMeshLayers = 40
+GamePref.MaxSpawnedAnimals = 50
+GamePref.MaxSpawnedZombies = 64
+GamePref.MaxUncoveredMapChunksPerPlayer = 524288
+GamePref.NoGraphicsMode = False
+GamePref.OptionsAllowController = True
+GamePref.OptionsAmbientVolumeLevel = 0.4956012
+GamePref.OptionsAudioOcclusion = False
+GamePref.OptionsAutoPartyWithFriends = True
+GamePref.OptionsBackgroundGlobalOpacity = 0.95
+GamePref.OptionsBindingsResetRevision = 1
+GamePref.OptionsChatCommunication = True
+GamePref.OptionsControllerAimAssists = True
+GamePref.OptionsControllerCursorHoverSensitivity = 0.5
+GamePref.OptionsControllerCursorSnap = True
+GamePref.OptionsControllerIconStyle = 0
+GamePref.OptionsControllerJoystickLayout = 0
+GamePref.OptionsControllerLookAcceleration = 4
+GamePref.OptionsControllerLookAxisDeadzone = 0.1
+GamePref.OptionsControllerLookInvert = False
+GamePref.OptionsControllerMoveAxisDeadzone = 0.1
+GamePref.OptionsControllerSensitivityX = 0.35
+GamePref.OptionsControllerSensitivityY = 0.25
+GamePref.OptionsControllerTriggerEffects = False
+GamePref.OptionsControllerVehicleSensitivity = 1
+GamePref.OptionsControllerVibration = True
+GamePref.OptionsControllerVibrationStrength = 2
+GamePref.OptionsControllerWeaponAiming = False
+GamePref.OptionsControllerZoomSensitivity = 0.5
+GamePref.OptionsControlsDefaultQuickAction = 0
+GamePref.OptionsControlsResetRevision = 7
+GamePref.OptionsControlsSprintLock = 1
+GamePref.OptionsCrosshairADS = True
+GamePref.OptionsCrosshairColor = 0
+GamePref.OptionsCrosshairDot3P = True
+GamePref.OptionsCrosshairEnabled = True
+GamePref.OptionsCrosshairOpacity = 1
+GamePref.OptionsCrosshairRangedEnabled = True
+GamePref.OptionsCrosshairScale = 1
+GamePref.OptionsCrosshairThickness = 0.2
+GamePref.OptionsCrossplay = True
+GamePref.OptionsDisableChunkLODs = False
+GamePref.OptionsDisableXmlEvents = False
+GamePref.OptionsDynamicMusicDailyTime = 0.45
+GamePref.OptionsDynamicMusicEnabled = True
+GamePref.OptionsFilterProfanity = False
+GamePref.OptionsForegroundGlobalOpacity = 1
+GamePref.OptionsGfx3PCameraMode = 0
+GamePref.OptionsGfxAA = 0
+GamePref.OptionsGfxAASharpness = 0
+GamePref.OptionsGfxBloom = True
+GamePref.OptionsGfxBrightness = 1
+GamePref.OptionsGfxCameraDistance3P = 0.2463343
+GamePref.OptionsGfxDefaultFirstPersonCamera = True
+GamePref.OptionsGfxDOF = False
+GamePref.OptionsGfxDynamicMinFPS = 30
+GamePref.OptionsGfxDynamicMode = 0
+GamePref.OptionsGfxDynamicScale = 1
+GamePref.OptionsGfxFOV = 75
+GamePref.OptionsGfxFOV3P = 65
+GamePref.OptionsGfxFSRPreset = 4
+GamePref.OptionsGfxGrassDistance = 1
+GamePref.OptionsGfxLimitFpsInGame = -1
+GamePref.OptionsGfxLODDistance = 0.5
+GamePref.OptionsGfxMotionBlur = 1
+GamePref.OptionsGfxMotionBlurEnabled = True
+GamePref.OptionsGfxObjQuality = 2
+GamePref.OptionsGfxOcclusion = False
+GamePref.OptionsGfxQualityPreset = 2
+GamePref.OptionsGfxReflectQuality = 0
+GamePref.OptionsGfxReflectShadows = False
+GamePref.OptionsGfxResetRevision = 4
+GamePref.OptionsGfxResolution = 0
+GamePref.OptionsGfxShadowDistance = 0
+GamePref.OptionsGfxShadowQuality = 1
+GamePref.OptionsGfxSignQuality = 2
+GamePref.OptionsGfxSSAO = False
+GamePref.OptionsGfxSSReflections = 0
+GamePref.OptionsGfxStreamMipmaps = True
+GamePref.OptionsGfxSunShafts = True
+GamePref.OptionsGfxTerrainQuality = 2
+GamePref.OptionsGfxTexFilter = 2
+GamePref.OptionsGfxTexQuality = 0
+GamePref.OptionsGfxTreeDistance = 4
+GamePref.OptionsGfxUpscalerMode = 5
+GamePref.OptionsGfxViewDistance = 7
+GamePref.OptionsGfxVsync = 1
+GamePref.OptionsGfxWaterPtlLimiter = 0
+GamePref.OptionsGfxWaterQuality = 1
+GamePref.OptionsHudOpacity = 1
+GamePref.OptionsHudSize = 1
+GamePref.OptionsInterfaceSensitivity = 0.5
+GamePref.OptionsIntroMovieEnabled = True
+GamePref.OptionsInvertMouse = False
+GamePref.OptionsJournalPopup = True
+GamePref.OptionsLookSensitivity = 0.5
+GamePref.OptionsMenuMusicVolumeLevel = 0.1627566
+GamePref.OptionsMicVolumeLevel = 0.75
+GamePref.OptionsMumblePositionalAudioSupport = False
+GamePref.OptionsMusicVolumeLevel = 0.1715543
+GamePref.OptionsOverallAudioVolumeLevel = 0.3958944
+GamePref.OptionsPlayChanceFrequency = 3
+GamePref.OptionsPlayChanceProbability = 0.983
+GamePref.OptionsPlayerModelTexture = Player/Male/Player_male
+GamePref.OptionsPOICulling = 1
+GamePref.OptionsPoiVolumesSkipDeleteConfirmation = False
+GamePref.OptionsQuestsAutoAccept = True
+GamePref.OptionsQuestsAutoShare = True
+GamePref.OptionsScreenBoundsValue = 1
+GamePref.OptionsSelectionBoxAlphaMultiplier = 0.4
+GamePref.OptionsShowCompass = True
+GamePref.OptionsShowConsoleButton = False
+GamePref.OptionsShowCrosshair = True
+GamePref.OptionsStabSpawnBlocksOnGround = True
+GamePref.OptionsSubtitlesEnabled = True
+GamePref.OptionsTempCelsius = False
+GamePref.OptionsUiCompassUseEnglishCardinalDirections = False
+GamePref.OptionsUiFpsScaling = 1
+GamePref.OptionsVehicleLookSensitivity = 0.5
+GamePref.OptionsVoiceChatEnabled = True
+GamePref.OptionsVoiceInputDevice = {c553feff-9e5e-4e0e-9d8b-19bc1a40a879}
+GamePref.OptionsVoiceOutputDevice = {0.0.0.00000000}.{92fcbc13-e738-45c1-8c56-f448aedf9951}
+GamePref.OptionsVoiceVolumeLevel = 0.75
+GamePref.OptionsWeaponAiming = False
+GamePref.OptionsZoomAccel = 0.5
+GamePref.OptionsZoomSensitivity = 0.3
+GamePref.PartySharedKillRange = 100
+GamePref.PersistentPlayerProfiles = False
+GamePref.PlayerAutologin = False
+GamePref.PlayerKillingMode = 0
+GamePref.PlayerName = 质朴且卑微-
+GamePref.PlayerSafeZoneHours = 7
+GamePref.PlayerSafeZoneLevel = 5
+GamePref.PlaytestBiome = 3
+GamePref.QuestProgressionDailyLimit = 4
+GamePref.RebuildMap = False
+GamePref.Region = Asia
+GamePref.ResetUnprotectedChunks = 0
+GamePref.SandboxCode = AAAJABJARFBNC
+GamePref.SandboxPreset = Adventurer
+GamePref.SaveDataLimit = -1
+GamePref.SaveDataLimitType = Unlimited
+GamePref.SelectionContextMode = 0
+GamePref.SelectionOperationMode = 0
+GamePref.ServerAdminSlots = 0
+GamePref.ServerAdminSlotsPermission = 0
+GamePref.ServerAllowCrossplay = True
+GamePref.ServerDescription = 
+GamePref.ServerDisabledNetworkProtocols = 
+GamePref.ServerEACPeerToPeer = False
+GamePref.ServerEnabled = False
+GamePref.ServerIP = 
+GamePref.ServerIsPublic = True
+GamePref.ServerLoginConfirmationText = 
+GamePref.ServerMatchmakingGroup = 
+GamePref.ServerMaxAllowedViewDistance = 12
+GamePref.ServerMaxPlayerCount = 2
+GamePref.ServerMaxWorldTransferSpeedKiBs = 512
+GamePref.ServerName = Default Server
+GamePref.ServerPort = 26900
+GamePref.ServerReservedSlots = 0
+GamePref.ServerReservedSlotsPermission = 100
+GamePref.ServerVisibility = 2
+GamePref.ServerWebsiteURL = 
+GamePref.ShowFriendPlayerOnMap = True
+GamePref.SkipSpawnButton = False
+GamePref.StormFreq = 100
+GamePref.TelnetEnabled = False
+GamePref.TelnetFailedLoginLimit = 10
+GamePref.TelnetFailedLoginsBlocktime = 10
+GamePref.TelnetPort = 25003
+GamePref.TerminalWindowEnabled = True
+GamePref.TwitchBloodMoonAllowed = True
+GamePref.TwitchServerPermission = 90
+GamePref.UNUSED_ControlPanelEnabled = False
+GamePref.UNUSED_ControlPanelPort = 8080
+GamePref.UNUSED_LastLoadedPrefabSize = 
+GamePref.UNUSED_NewGameSetDefaults = 
+GamePref.UNUSED_OptionsBloom = 
+GamePref.UNUSED_OptionsDOF = 
+GamePref.UNUSED_OptionsFieldOfViewNew = 
+GamePref.UNUSED_OptionsGamma = 
+GamePref.UNUSED_OptionsGfxGameplayResolutionHeight = 
+GamePref.UNUSED_OptionsGfxGameplayResolutionWidth = 
+GamePref.UNUSED_OptionsGfxUMATexQuality = 
+GamePref.UNUSED_OptionsMotionBlur = 
+GamePref.UNUSED_OptionsObjectBlur = 
+GamePref.UNUSED_OptionsPlayerModel = playerMale
+GamePref.UNUSED_OptionsReflectionBounces = 
+GamePref.UNUSED_OptionsReflectionCullList = 
+GamePref.UNUSED_OptionsReflectionFarClip = 
+GamePref.UNUSED_OptionsReflectionRefreshMode = 
+GamePref.UNUSED_OptionsReflectionShadowDistance = 
+GamePref.UNUSED_OptionsReflectionTimeSlicingMode = 
+GamePref.UNUSED_OptionsSSAO = 
+GamePref.UNUSED_OptionsStreamingMipmapsBudget = 
+GamePref.UNUSED_OptionsSunShafts = 
+GamePref.UNUSED_PlayerId = 
+GamePref.UNUSED_SaveGameFolder = 
+GamePref.UNUSED_UserDataFolder = 
+GamePref.UserWorldStorageType = 0
+GamePref.WebDashboardEnabled = False
+GamePref.WebDashboardPort = 8080
+GamePref.WebDashboardUrl = 
+GamePref.WorldGenSeed = 
+GamePref.WorldGenSize = 8192
+GamePref.XPMultiplier = 100
+GamePref.ZombieBMMove = 3
+GamePref.ZombieFeralMove = 3
+GamePref.ZombieFeralSense = 0
+GamePref.ZombieMove = 0
+GamePref.ZombieMoveNight = 3
+GamePref.ZombiePlayers = True
+GameStat.AirDropFrequency = 0
+GameStat.AirDropMarker = True
+GameStat.AllowedViewDistance = 12
+GameStat.AnimalCount = 0
+GameStat.AutoParty = False
+GameStat.BedrollExpiryTime = 45
+GameStat.BiomeGSModifier = 100
+GameStat.BiomeLSModifier = 100
+GameStat.BiomeProgression = True
+GameStat.BlockDamageAI = 100
+GameStat.BlockDamageAIBM = 100
+GameStat.BlockDamagePlayer = 100
+GameStat.BloodMoonDay = 0
+GameStat.BloodMoonEnemyCount = 8
+GameStat.BloodMoonWarning = 8
+GameStat.CameraRestrictionMode = 0
+GameStat.ChunkStabilityEnabled = True
+GameStat.CurrentRoundIx = 0
+GameStat.DayLightLength = 18
+GameStat.DayLimitActive = False
+GameStat.DayLimitThisRound = 0
+GameStat.DayNightLength = 60
+GameStat.DeathPenalty = XPOnly
+GameStat.DropOnDeath = 1
+GameStat.DropOnQuit = 0
+GameStat.EnemyCount = 0
+GameStat.EnemyDifficulty = Normal
+GameStat.EnemySpawnMode = True
+GameStat.FragLimitActive = False
+GameStat.FragLimitThisRound = 0
+GameStat.GameDifficulty = 2
+GameStat.GameModeId = 0
+GameStat.GameState = 0
+GameStat.GlobalGSModifier = 100
+GameStat.GlobalLSModifier = 100
+GameStat.GlobalMessageToShow = 
+GameStat.IsCreativeMenuEnabled = False
+GameStat.IsFlyingEnabled = False
+GameStat.IsPlayerCollisionEnabled = True
+GameStat.IsPlayerDamageEnabled = True
+GameStat.IsResetMapOnRestart = False
+GameStat.IsSaveSupplyCrates = True
+GameStat.IsSpawnEnemies = True
+GameStat.IsSpawnNearOtherPlayer = False
+GameStat.IsTeleportEnabled = False
+GameStat.IsVersionCheckDone = False
+GameStat.JarRefund = 60
+GameStat.LandClaimCount = 5
+GameStat.LandClaimDeadZone = 30
+GameStat.LandClaimDecayMode = 0
+GameStat.LandClaimExpiryTime = 3
+GameStat.LandClaimOfflineDelay = 0
+GameStat.LandClaimOfflineDurabilityModifier = 32
+GameStat.LandClaimOnlineDurabilityModifier = 32
+GameStat.LandClaimSize = 41
+GameStat.LoadScene = 
+GameStat.LootAbundance = 100
+GameStat.LootRespawnDays = 7
+GameStat.LootTimer = 
+GameStat.OptionsPOICulling = 0
+GameStat.PartySharedKillRange = 100
+GameStat.PlayerKillingMode = KillStrangersOnly
+GameStat.QuestProgressionDailyLimit = 4
+GameStat.SandboxCode = 
+GameStat.SandboxPreset = 
+GameStat.ScoreDiedMultiplier = -5
+GameStat.ScorePlayerKillMultiplier = 1
+GameStat.ScoreZombieKillMultiplier = 1
+GameStat.ShowAllPlayersOnMap = False
+GameStat.ShowFriendPlayerOnMap = True
+GameStat.ShowSpawnWindow = False
+GameStat.ShowWindow = 
+GameStat.StormFreq = 0
+GameStat.TimeLimitActive = False
+GameStat.TimeLimitThisRound = 0
+GameStat.TimeOfDayIncPerSec = 20
+GameStat.TwitchBloodMoonAllowed = True
+GameStat.UNUSED_GameDifficultyBonus = 
+GameStat.UNUSED_ShowZombieCounter = 
+GameStat.XPMultiplier = 100
+GameStat.ZombieHordeMeter = False
+Sandbox Code: AAAJABJARFBNC
+Sandbox Options:
+*** GENERAL ***
+Option RangedDamage: 9/150% (default: 7/100%)
+Option MeleeDamage: 9/150% (default: 7/100%)
+Option IncomingDamage: 5/75% (default: 7/100%)
+*** ENTITIES ***
+Option AISmellMode: 2/慢跑 (default: 3/奔跑)
+2026-10-03T18:24:16 170.040 INF [PlatformApplication] restart required = False
+2026-10-03T18:24:16 170.044 INF StartAsServer
+2026-10-03T18:24:16 170.177 INF Loaded (local): events in 0.00
+2026-10-03T18:24:16 170.369 INF Set Microsplat diffuse: MicroSplatConfig_diff_tarray (UnityEngine.Texture2DArray)
+2026-10-03T18:24:16 170.370 INF Set Microsplat normals: MicroSplatConfig_normal_tarray (UnityEngine.Texture2DArray)
+2026-10-03T18:24:16 170.370 INF Set Microsplat smooth:  MicroSplatConfig_smoothAO_tarray (UnityEngine.Texture2DArray)
+2026-10-03T18:24:16 170.376 INF Loaded (local): materials in 0.19
+2026-10-03T18:24:16 170.392 INF Loaded (local): physicsbodies in 0.01
+2026-10-03T18:24:16 170.403 INF Loaded (local): painting in 0.00
+2026-10-03T18:24:16 170.496 INF Loaded (local): shapes in 0.01
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+Unloading 3 Unused Serialized files (Serialized files now loaded: 60)
+2026-10-03T18:24:30 184.292 INF Block IDs with mapping
+2026-10-03T18:24:30 184.301 INF Block IDs total 24810, terr 30, last 25031
+2026-10-03T18:24:30 184.310 INF Loaded (local): blocks in 13.57
+Unloading 8725 unused Assets to reduce memory usage. Loaded Objects now: 381758.
+Total: 226.160100 ms (FindLiveObjects: 19.049000 ms CreateObjectMapping: 9.987800 ms MarkObjects: 192.165600 ms  DeleteObjects: 4.957300 ms)
+
+2026-10-03T18:24:30 184.621 INF Loaded (local): progression in 0.07
+2026-10-03T18:24:30 184.811 INF Loaded (local): buffs in 0.13
+2026-10-03T18:24:30 184.846 INF Loaded (local): misc in 0.02
+2026-10-03T18:24:31 185.173 WRN Type:ItemClassWildChicken, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null is missing the UnityEngine.Scripting.Preserve attribute, this will fail on consoles
+2026-10-03T18:24:31 185.233 INF Loaded (local): items in 0.29
+2026-10-03T18:24:31 185.285 INF Item IDs with mapping
+2026-10-03T18:24:31 185.286 INF ItemIDs from Mapping
+2026-10-03T18:24:31 185.289 INF ItemClass assignLeftOverItems 67056 of 81920
+2026-10-03T18:24:31 185.340 INF Loaded (local): item_modifiers in 0.10
+2026-10-03T18:24:31 185.468 INF Loaded (local): entityclasses in 0.08
+2026-10-03T18:24:31 185.494 INF Loaded (local): qualityinfo in 0.01
+2026-10-03T18:24:31 185.586 INF Loaded (local): sounds in 0.03
+2026-10-03T18:24:31 185.629 INF Loaded (local): recipes in 0.03
+2026-10-03T18:24:31 185.651 INF Loaded (local): blockplaceholders in 0.01
+2026-10-03T18:24:31 185.714 INF Loaded (local): loot in 0.03
+2026-10-03T18:24:31 185.792 INF Loaded (local): entitygroups in 0.02
+2026-10-03T18:24:31 185.800 INF Loaded (local): utilityai in 0.00
+2026-10-03T18:24:31 185.808 INF Loaded (local): vehicles in 0.00
+2026-10-03T18:24:31 185.815 INF Loaded (local): rwgmixer in 0.00
+2026-10-03T18:24:31 185.821 INF Loaded (local): weathersurvival in 0.00
+2026-10-03T18:24:31 185.828 INF Loaded (local): archetypes in 0.00
+2026-10-03T18:24:31 185.846 INF Loaded (local): challenges in 0.01
+2026-10-03T18:24:32 185.899 INF Loaded (local): quests in 0.04
+2026-10-03T18:24:32 185.916 INF Loaded (local): traders in 0.01
+2026-10-03T18:24:32 185.934 INF Loaded (local): npc in 0.01
+2026-10-03T18:24:32 185.948 INF Loaded (local): dialogs in 0.01
+2026-10-03T18:24:32 185.970 INF Loaded (local): ui_display in 0.01
+2026-10-03T18:24:32 185.990 INF Loaded (local): nav_objects in 0.01
+2026-10-03T18:24:32 186.016 INF Loaded (local): gamestages in 0.01
+2026-10-03T18:24:32 186.212 INF Loaded (local): gameevents in 0.17
+2026-10-03T18:24:32 186.261 INF Loaded (local): twitch in 0.03
+2026-10-03T18:24:32 186.271 INF Loaded (local): twitch_events in 0.00
+2026-10-03T18:24:32 186.296 INF Loaded (local): dmscontent in 0.02
+2026-10-03T18:24:32 186.302 INF Loaded (local): XUi_Common/styles in 0.00
+2026-10-03T18:24:32 186.312 INF Loaded (local): XUi_Common/templates in 0.00
+2026-10-03T18:24:32 186.317 INF Loaded (local): XUi_InGame/styles in 0.00
+2026-10-03T18:24:32 186.330 INF Loaded (local): XUi_InGame/templates in 0.00
+2026-10-03T18:24:32 186.362 INF Loaded (local): XUi_InGame/windows in 0.00
+2026-10-03T18:24:32 186.369 INF [XUi] Loading XUi asynchronously
+2026-10-03T18:24:32 186.403 INF Loaded (local): XUi_InGame/xui in 0.04
+2026-10-03T18:24:33 186.859 INF Loaded (local): biomes in 0.21
+2026-10-03T18:24:33 187.216 INF Loaded (local): worldglobal in 0.06
+2026-10-03T18:24:33 187.499 INF Loaded (local): spawning in 0.07
+2026-10-03T18:24:34 187.887 INF Loaded (local): loadingscreen in 0.08
+2026-10-03T18:24:34 187.974 INF [XUi] Parsing all window groups completed in 1462 ms total.
+2026-10-03T18:24:34 188.104 INF Added 1336 subtitle data entries and 3 speaker colors
+2026-10-03T18:24:34 188.138 INF Loaded (local): subtitles in 0.07
+2026-10-03T18:24:34 188.454 INF Loaded (local): videos in 0.10
+2026-10-03T18:24:34 188.849 INF Loaded (local): signs in 0.12
+2026-10-03T18:24:35 189.078 INF ShapeControllers: 96
+2026-10-03T18:24:35 189.146 INF Loaded (local): sandbox_overrides in 0.05
+2026-10-03T18:24:35 189.340 INF Loading players.xml
+2026-10-03T18:24:35 189.360 INF createWorld: Navezgane, Navezgane (src: GameData, DeviceLocal), MC7DTD-Phase3-3, GameModeSurvival
+2026-10-03T18:24:35 189.361 INF Occlusion: Disabled
+2026-10-03T18:24:35 189.397 INF Started thread ChunkRegeneration
+2026-10-03T18:24:35 189.398 INF Started thread ChunkCalc
+2026-10-03T18:24:35 189.399 INF Started thread ChunkMeshBake
+2026-10-03T18:24:35 189.527 INF World.Load: Navezgane Navezgane (src: GameData, DeviceLocal)
+2026-10-03T18:24:35 189.536 WRN Next Airdrop: 4 12:00
+2026-10-03T18:24:35 189.538 INF BloodMoon SetDay: day 7, last day 0, freq 7, range 0
+2026-10-03T18:24:35 189.566 INF [XUi] Initialized all window groups completed in 1325 ms total.
+2026-10-03T18:24:35 189.571 INF Started thread WaterSimulationApplyChanges
+2026-10-03T18:24:40 194.779 INF Started thread GenerateChunks
+2026-10-03T18:24:41 195.095 INF Calculating world hashes took 314 ms (world size 193 MiB)
+2026-10-03T18:24:41 195.099 INF Initial ENABLE_FILE_BACKED_ARRAYS == False
+2026-10-03T18:24:41 195.164 INF GenWorldFromRaw load dtm took 384ms
+2026-10-03T18:24:41 195.218 INF Biomes image size w= 3072, h = 3072
+2026-10-03T18:24:41 195.685 INF GenWorldFromRaw biomes took 519ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 61)
+Unloading 22953 unused Assets to reduce memory usage. Loaded Objects now: 507738.
+Total: 574.646400 ms (FindLiveObjects: 31.366300 ms CreateObjectMapping: 15.489700 ms MarkObjects: 518.425100 ms  DeleteObjects: 9.365100 ms)
+
+2026-10-03T18:24:43 197.341 INF GenWorldFromRaw shader control textures took 498ms
+2026-10-03T18:24:43 197.638 INF Computed 506 chunk groups containing a total of 9722 chunks. Largest group contains 435 chunks.
+2026-10-03T18:24:43 197.655 INF Started thread SaveChunks D:\wenjian\minecraft\7-M\runtime\7dtd\Saves\Navezgane\MC7DTD-Phase3-3\Region
+2026-10-03T18:24:43 197.664 INF GenWorldFromRaw misc took 322ms
+2026-10-03T18:24:44 198.806 INF GenWorldFromRaw splats took 1140ms
+Unloading 0 Unused Serialized files (Serialized files now loaded: 61)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 507742.
+Total: 537.965200 ms (FindLiveObjects: 30.135900 ms CreateObjectMapping: 12.600200 ms MarkObjects: 492.476500 ms  DeleteObjects: 2.752300 ms)
+
+2026-10-03T18:24:46 200.005 INF [DECO] read 75511
+2026-10-03T18:24:46 200.042 INF Dynamic Music Initialized on Server
+2026-10-03T18:24:46 200.059 INF Dynamic Music Initialized on Client
+2026-10-03T18:24:46 200.060 INF Begin DMS Conductor Preload Routine
+2026-10-03T18:24:46 200.061 INF Preloading LayeredSection Exploration : Type: DynamicMusic.Adventure
+2026-10-03T18:24:46 200.063 INF Loading new config for Exploration...
+2026-10-03T18:24:46 200.071 INF Loading new ClipSets for Exploration...
+2026-10-03T18:24:46 200.108 INF Exploration loaded new config and clipsets
+2026-10-03T18:24:46 200.152 INF Preloading LayeredSection Suspense : Type: DynamicMusic.Adventure
+2026-10-03T18:24:46 200.153 INF Loading new config for Suspense...
+2026-10-03T18:24:46 200.155 INF Loading new ClipSets for Suspense...
+2026-10-03T18:24:46 200.163 INF Suspense loaded new config and clipsets
+2026-10-03T18:24:46 200.184 INF Preloading LayeredSection Combat : Type: DynamicMusic.Combat
+2026-10-03T18:24:46 200.185 INF Loading new config for Combat...
+2026-10-03T18:24:46 200.187 INF Loading new ClipSets for Combat...
+2026-10-03T18:24:46 200.210 INF Combat loaded new config and clipsets
+2026-10-03T18:24:46 200.245 INF Preloading LayeredSection Bloodmoon : Type: DynamicMusic.Bloodmoon
+2026-10-03T18:24:46 200.247 INF Loading new config for Bloodmoon...
+2026-10-03T18:24:46 200.356 INF [EOS] Created RFS Request: drops.xml
+2026-10-03T18:24:46 200.457 INF AstarManager Init
+2026-10-03T18:24:46 200.731 INF createWorld() done
+2026-10-03T18:24:46 200.837 INF [EOS] Read (drops.xml) completed: Success, received 783 bytes
+2026-10-03T18:24:46 200.841 INF fetching Twitch entitlements for s76561199256208852
+2026-10-03T18:24:48 202.492 WRN Failed to fetch Twitch entitlements: HTTP/1.1 404 Not Found
+The referenced script on this Behaviour (Game Object 'Camera') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object 'Camera') is missing!
+The referenced script on this Behaviour (Game Object 'Camera') is missing!
+2026-10-03T18:24:54 208.740 INF Created player with id=171
+2026-10-03T18:24:54 208.749 INF [PartyQuests] Player registered: [type=EntityPlayerLocal, name=质朴且卑微-, id=171]
+2026-10-03T18:24:54 208.809 INF Respawning: LoadedGame
+2026-10-03T18:24:54 208.813 INF Loaded player
+2026-10-03T18:24:55 208.940 INF VehicleManager D:\wenjian\minecraft\7-M\runtime\7dtd\Saves/Navezgane/MC7DTD-Phase3-3/vehicles.dat, loaded 0
+2026-10-03T18:24:55 208.942 INF DroneManager D:\wenjian\minecraft\7-M\runtime\7dtd\Saves/Navezgane/MC7DTD-Phase3-3/drones.dat, loaded 0
+2026-10-03T18:24:55 208.944 INF TurretTracker D:\wenjian\minecraft\7-M\runtime\7dtd\Saves/Navezgane/MC7DTD-Phase3-3/turrets.dat, loaded 0
+Unloading 3 Unused Serialized files (Serialized files now loaded: 68)
+Unloading 462 unused Assets to reduce memory usage. Loaded Objects now: 516890.
+Total: 597.346900 ms (FindLiveObjects: 27.541400 ms CreateObjectMapping: 13.220700 ms MarkObjects: 552.984700 ms  DeleteObjects: 3.599500 ms)
+
+2026-10-03T18:24:56 209.882 INF 60sec delta: 0,current: 1136172,desired: 1211436
+2026-10-03T18:24:56 209.884 INF [Backtrace] Updated Statistics
+2026-10-03T18:24:56 209.965 INF [MC7DTD] Player proxy Unity created: name=MC7DTD-player-proxy-0b9400a1-627c-470f-8d18-e4da51e2ca6d instance=-644716 parts=5 colliderEnabled=false
+2026-10-03T18:24:56 209.967 INF [MC7DTD] Player proxy spawned: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=85.19818115234375 pitch=13.499781608581543 roll=0
+2026-10-03T18:24:56 209.968 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=85.19818115234375 pitch=13.499781608581543 roll=0
+2026-10-03T18:24:56 209.968 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=85.19818115234375 pitch=13.499781608581543 roll=0
+2026-10-03T18:24:56 209.969 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.599780797958374 roll=0
+2026-10-03T18:24:56 209.970 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.971 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.972 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.972 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.973 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.974 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.975 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.976 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.976 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.977 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.978 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.979 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.980 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.981 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.982 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.984 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.985 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.986 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.987 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.988 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.989 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.989 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.990 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.991 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.992 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.993 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.994 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.995 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.996 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.997 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.998 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 209.998 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 210.000 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 210.000 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 210.001 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 210.003 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 210.003 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 210.005 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 210.005 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 210.006 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 210.007 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 210.008 INF [MC7DTD] Player proxy updated: id=0b9400a1-627c-470f-8d18-e4da51e2ca6d count=1 x=-45.513889705017277 y=68 z=71.325316934270276 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:24:56 210.019 INF OpenSpawnWindow
+2026-10-03T18:24:56 210.023 INF Loading dymesh settings
+2026-10-03T18:24:56 210.025 INF Dynamic Mesh Settings
+2026-10-03T18:24:56 210.026 INF Use Imposter Values: True
+2026-10-03T18:24:56 210.026 INF Only Player Areas: True
+2026-10-03T18:24:56 210.027 INF Player Area Buffer: 1
+2026-10-03T18:24:56 210.028 INF Max View Distance: 100
+2026-10-03T18:24:56 210.029 INF Regen all on new world: False
+2026-10-03T18:24:56 210.033 INF Dymesh: Prepping dynamic mesh. Resend Default: True
+2026-10-03T18:24:56 210.034 INF Dymesh: Mesh location: D:\wenjian\minecraft\7-M\runtime\7dtd\Saves/Navezgane/MC7DTD-Phase3-3/DynamicMeshes/
+2026-10-03T18:24:56 210.037 INF [Web] Webserver not started, WebDashboardEnabled set to false
+2026-10-03T18:24:56 210.038 INF StartGame done
+2026-10-03T18:24:56 210.108 INF [DECO] written 75511, in 19ms
+2026-10-03T18:24:56 210.113 INF [DECO] write thread 3ms
+2026-10-03T18:24:57 211.717 INF Respawn almost done
+2026-10-03T18:24:57 211.726 INF PlayerSpawnedInWorld (reason: LoadedGame, position: -273, 61, 449): localplayer
+2026-10-03T18:24:57 211.729 INF 222078+0 Origin Reposition (0.0, 0.0, 0.0) to (-288.0, 48.0, 448.0)
+2026-10-03T18:24:57 211.746 WRN [PROPS] ActionTarget implicitly converted to Vector3, but failed: ActionTarget
+2026-10-03T18:24:57 211.835 INF 质朴且卑微- onNewBiomeEntered +buffForest_Hazard
+2026-10-03T18:24:58 211.894 INF Dymesh: Warming dynamic mesh
+2026-10-03T18:24:58 211.895 INF Dymesh: Creating dynamic mesh manager
+2026-10-03T18:24:58 211.898 INF Dymesh: Awake
+2026-10-03T18:24:58 211.899 INF Dymesh: Mesh location: D:\wenjian\minecraft\7-M\runtime\7dtd\Saves/Navezgane/MC7DTD-Phase3-3/DynamicMeshes/
+2026-10-03T18:24:58 211.901 INF Dymesh: Loading Items: D:\wenjian\minecraft\7-M\runtime\7dtd\Saves/Navezgane/MC7DTD-Phase3-3/DynamicMeshes/
+2026-10-03T18:24:58 211.903 INF Dymesh: Loaded Items: 0
+2026-10-03T18:24:58 211.904 INF Dymesh: Loading all items took: 0.0029938 seconds.
+2026-10-03T18:24:58 211.909 INF Meshlist count is now 1
+2026-10-03T18:24:58 211.910 INF Meshlist count is now 2
+2026-10-03T18:24:58 211.911 INF Force load took 0 seconds
+2026-10-03T18:24:58 211.913 INF Clearing queues.
+2026-10-03T18:24:58 211.914 INF Cleared queues.
+2026-10-03T18:24:58 211.916 INF Dynamic thread starting
+2026-10-03T18:24:58 211.917 INF Dymesh door replacement: imposterBlock
+2026-10-03T18:24:58 212.122 WRN Unexpected case in Sign Data Manager: signRenderer is null
+2026-10-03T18:24:59 213.090 WRN Unexpected case in Sign Data Manager: signRenderer is null
+2026-10-03T18:24:59 213.121 WRN Unexpected case in Sign Data Manager: signRenderer is null
+2026-10-03T18:24:59 213.122 WRN Unexpected case in Sign Data Manager: signRenderer is null
+2026-10-03T18:24:59 213.151 WRN Unexpected case in Sign Data Manager: signRenderer is null
+2026-10-03T18:24:59 213.168 WRN [MultiBlockManager][Alignment] SetTerrainAlignmentDirty failed; no terrain-aligned block has been registered at the specified world position: -291, 59, 380
+2026-10-03T18:24:59 213.181 WRN Unexpected case in Sign Data Manager: signRenderer is null
+2026-10-03T18:24:59 213.212 WRN Unexpected case in Sign Data Manager: signRenderer is null
+2026-10-03T18:24:59 213.240 WRN Unexpected case in Sign Data Manager: signRenderer is null
+2026-10-03T18:24:59 213.351 WRN Unexpected case in Sign Data Manager: signRenderer is null
+2026-10-03T18:24:59 213.497 WRN Unexpected case in Sign Data Manager: signRenderer is null
+2026-10-03T18:24:59 213.609 WRN Unexpected case in Sign Data Manager: signRenderer is null
+2026-10-03T18:25:03 217.079 INF 质朴且卑微- WeatherStatusTick  to default
+2026-10-03T18:25:03 217.080 INF 质朴且卑微- WeatherBuffUpdate , indoors False
+2026-10-03T18:25:26 240.508 INF Time: 3.78m FPS: 259.29 Heap: 2155.3MB Max: 2155.3MB Chunks: 298 CGO: 144 Ply: 1 Zom: 0 Ent: 2 (2) Items: 0 CO: 1 RSS: 4381.6MB
+2026-10-03T18:25:56 270.503 INF 60sec delta: 1362017,current: 1362017,desired: 1362017
+2026-10-03T18:25:56 270.504 INF [Backtrace] Updated Statistics
+2026-10-03T18:25:56 270.514 INF Time: 4.28m FPS: 279.70 Heap: 2134.3MB Max: 2155.3MB Chunks: 298 CGO: 144 Ply: 1 Zom: 0 Ent: 2 (2) Items: 0 CO: 1 RSS: 4458.5MB
+2026-10-03T18:26:09 282.927 INF [MC7DTD] Bridge unavailable: The remote party closed the WebSocket connection without completing the close handshake.; retry in 3 seconds
+2026-10-03T18:26:09 282.929 INF [MC7DTD] Player proxy Unity deleted: instance=-644716 inactive=true destroyScheduled=true
+2026-10-03T18:26:09 282.930 INF [MC7DTD] Player proxy reset: count=0; fresh spawn required
+2026-10-03T18:26:12 286.004 INF [MC7DTD] Bridge connected
+2026-10-03T18:26:12 286.005 INF [MC7DTD] 7DTD connected
+2026-10-03T18:26:12 286.008 INF [MC7DTD] Test received from minecraft: Hello from Minecraft
+2026-10-03T18:26:12 286.035 INF [MC7DTD] Entity state: event=spawn id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=1 x=-278 y=61 z=449 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:26:12 286.038 INF [MC7DTD] Player proxy Unity created: name=MC7DTD-player-proxy-0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 instance=-987282 parts=5 colliderEnabled=false
+2026-10-03T18:26:12 286.039 INF [MC7DTD] Player proxy spawned: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-278 y=61 z=449 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:26:26 300.515 INF Time: 4.78m FPS: 255.31 Heap: 2092.4MB Max: 2155.3MB Chunks: 298 CGO: 144 Ply: 1 Zom: 0 Ent: 2 (2) Items: 0 CO: 1 RSS: 4516.5MB
+2026-10-03T18:26:53 327.731 INF [MC7DTD] Minecraft player: x=-278 y=61 z=449
+2026-10-03T18:26:53 327.733 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=2 x=-278 y=61 z=449 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:26:53 327.737 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-278 y=61 z=449 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:26:54 328.249 INF [MC7DTD] Minecraft player: x=-278 y=61 z=449
+2026-10-03T18:26:54 328.251 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=3 x=-278 y=61 z=449 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:26:54 328.255 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-278 y=61 z=449 thread=1 yaw=80.548179626464844 pitch=3.1497807502746582 roll=0
+2026-10-03T18:26:54 328.752 INF [MC7DTD] Minecraft player: x=-278 y=61 z=449
+2026-10-03T18:26:54 328.755 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=4 x=-278 y=61 z=449 yaw=46.498199462890625 pitch=4.799781322479248 roll=0
+2026-10-03T18:26:54 328.760 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-278 y=61 z=449 thread=1 yaw=46.498199462890625 pitch=4.799781322479248 roll=0
+2026-10-03T18:26:55 329.278 INF [MC7DTD] Minecraft player: x=-278 y=61 z=449
+2026-10-03T18:26:55 329.280 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=5 x=-278 y=61 z=449 yaw=12.148195266723633 pitch=5.9997820854187012 roll=0
+2026-10-03T18:26:55 329.284 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-278 y=61 z=449 thread=1 yaw=12.148195266723633 pitch=5.9997820854187012 roll=0
+2026-10-03T18:26:55 329.804 INF [MC7DTD] Minecraft player: x=-278 y=61 z=449
+2026-10-03T18:26:55 329.807 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=6 x=-278 y=61 z=449 yaw=8.3982000350952148 pitch=6.7497825622558594 roll=0
+2026-10-03T18:26:55 329.809 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-278 y=61 z=449 thread=1 yaw=8.3982000350952148 pitch=6.7497825622558594 roll=0
+2026-10-03T18:26:56 330.307 INF [MC7DTD] Minecraft player: x=-278 y=61 z=449
+2026-10-03T18:26:56 330.310 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=7 x=-278 y=61 z=449 yaw=357.148197889328 pitch=8.84978199005127 roll=0
+2026-10-03T18:26:56 330.313 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-278 y=61 z=449 thread=1 yaw=357.148197889328 pitch=8.84978199005127 roll=0
+2026-10-03T18:26:56 330.503 INF VehicleManager saving 0 (0 + 0)
+2026-10-03T18:26:56 330.504 INF DroneManager saving 0 (0 + 0)
+2026-10-03T18:26:56 330.506 INF TurretTracker saving 0 (0 + 0)
+2026-10-03T18:26:56 330.507 INF VehicleManager saved 9 bytes
+2026-10-03T18:26:56 330.508 INF DroneManager saved 9 bytes
+2026-10-03T18:26:56 330.510 INF TurretTracker saved 9 bytes
+2026-10-03T18:26:56 330.514 INF 60sec delta: 0,current: 1362017,desired: 1362017
+2026-10-03T18:26:56 330.515 INF [Backtrace] Updated Statistics
+2026-10-03T18:26:56 330.524 INF Time: 5.28m FPS: 219.17 Heap: 2235.3MB Max: 2235.3MB Chunks: 298 CGO: 144 Ply: 1 Zom: 0 Ent: 2 (2) Items: 0 CO: 1 RSS: 4516.6MB
+2026-10-03T18:26:56 330.848 INF [MC7DTD] Minecraft player: x=-278 y=61 z=449
+2026-10-03T18:26:56 330.850 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=8 x=-278 y=61 z=449 yaw=357.148197889328 pitch=8.84978199005127 roll=0
+2026-10-03T18:26:56 330.852 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-278 y=61 z=449 thread=1 yaw=357.148197889328 pitch=8.84978199005127 roll=0
+2026-10-03T18:26:57 331.350 INF [MC7DTD] Minecraft player: x=-278 y=61 z=449
+2026-10-03T18:26:57 331.352 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=9 x=-278 y=61 z=449 yaw=357.148197889328 pitch=8.84978199005127 roll=0
+2026-10-03T18:26:57 331.356 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-278 y=61 z=449 thread=1 yaw=357.148197889328 pitch=8.84978199005127 roll=0
+2026-10-03T18:26:57 331.850 INF [MC7DTD] Minecraft player: x=-277.96452750679578 y=61 z=450.04182381950505
+2026-10-03T18:26:57 331.852 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=10 x=-277.96452750679578 y=61 z=450.04182381950505 yaw=358.0481983423233 pitch=8.5497827529907227 roll=0
+2026-10-03T18:26:58 331.857 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.96452750679578 y=61 z=450.04182381950505 thread=1 yaw=358.0481983423233 pitch=8.5497827529907227 roll=0
+2026-10-03T18:26:58 332.398 INF [MC7DTD] Minecraft player: x=-277.9511777117699 y=61 z=450.37468305380878
+2026-10-03T18:26:58 332.400 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=11 x=-277.9511777117699 y=61 z=450.37468305380878 yaw=105.898193359375 pitch=15.749778747558594 roll=0
+2026-10-03T18:26:58 332.403 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.9511777117699 y=61 z=450.37468305380878 thread=1 yaw=105.898193359375 pitch=15.749778747558594 roll=0
+2026-10-03T18:26:59 332.898 INF [MC7DTD] Minecraft player: x=-277.9511777117699 y=61 z=450.37468305380878
+2026-10-03T18:26:59 332.901 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=12 x=-277.9511777117699 y=61 z=450.37468305380878 yaw=125.69820404052734 pitch=16.949775695800781 roll=0
+2026-10-03T18:26:59 332.905 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.9511777117699 y=61 z=450.37468305380878 thread=1 yaw=125.69820404052734 pitch=16.949775695800781 roll=0
+2026-10-03T18:26:59 333.464 INF [MC7DTD] Minecraft player: x=-277.9511777117699 y=61 z=450.37468305380878
+2026-10-03T18:26:59 333.465 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=13 x=-277.9511777117699 y=61 z=450.37468305380878 yaw=147.29818725585938 pitch=18.599771499633789 roll=0
+2026-10-03T18:26:59 333.470 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.9511777117699 y=61 z=450.37468305380878 thread=1 yaw=147.29818725585938 pitch=18.599771499633789 roll=0
+2026-10-03T18:27:00 333.997 INF [MC7DTD] Minecraft player: x=-277.9511777117699 y=61 z=450.37468305380878
+2026-10-03T18:27:00 333.998 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=14 x=-277.9511777117699 y=61 z=450.37468305380878 yaw=147.29818725585938 pitch=18.599771499633789 roll=0
+2026-10-03T18:27:00 334.001 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.9511777117699 y=61 z=450.37468305380878 thread=1 yaw=147.29818725585938 pitch=18.599771499633789 roll=0
+2026-10-03T18:27:00 334.498 INF [MC7DTD] Minecraft player: x=-277.9511777117699 y=61 z=450.37468305380878
+2026-10-03T18:27:00 334.500 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=15 x=-277.9511777117699 y=61 z=450.37468305380878 yaw=147.29818725585938 pitch=18.599771499633789 roll=0
+2026-10-03T18:27:00 334.503 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.9511777117699 y=61 z=450.37468305380878 thread=1 yaw=147.29818725585938 pitch=18.599771499633789 roll=0
+2026-10-03T18:27:01 335.045 INF [MC7DTD] Minecraft player: x=-277.9511777117699 y=61 z=450.37468305380878
+2026-10-03T18:27:01 335.047 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=16 x=-277.9511777117699 y=61 z=450.37468305380878 yaw=169.648193359375 pitch=15.749778747558594 roll=0
+2026-10-03T18:27:01 335.049 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.9511777117699 y=61 z=450.37468305380878 thread=1 yaw=169.648193359375 pitch=15.749778747558594 roll=0
+2026-10-03T18:27:01 335.549 INF [MC7DTD] Minecraft player: x=-277.9511777117699 y=61 z=450.37468305380878
+2026-10-03T18:27:01 335.551 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=17 x=-277.9511777117699 y=61 z=450.37468305380878 yaw=164.84817504882813 pitch=15.749778747558594 roll=0
+2026-10-03T18:27:01 335.556 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.9511777117699 y=61 z=450.37468305380878 thread=1 yaw=164.84817504882813 pitch=15.749778747558594 roll=0
+2026-10-03T18:27:02 336.052 INF [MC7DTD] Minecraft player: x=-277.9511777117699 y=61 z=450.37468305380878
+2026-10-03T18:27:02 336.054 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=18 x=-277.9511777117699 y=61 z=450.37468305380878 yaw=67.048187255859375 pitch=12.149785995483398 roll=0
+2026-10-03T18:27:02 336.055 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.9511777117699 y=61 z=450.37468305380878 thread=1 yaw=67.048187255859375 pitch=12.149785995483398 roll=0
+2026-10-03T18:27:02 336.599 INF [MC7DTD] Minecraft player: x=-277.9511777117699 y=61 z=450.37468305380878
+2026-10-03T18:27:02 336.601 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=19 x=-277.9511777117699 y=61 z=450.37468305380878 yaw=67.048187255859375 pitch=12.149785995483398 roll=0
+2026-10-03T18:27:02 336.606 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.9511777117699 y=61 z=450.37468305380878 thread=1 yaw=67.048187255859375 pitch=12.149785995483398 roll=0
+2026-10-03T18:27:03 337.100 INF [MC7DTD] Minecraft player: x=-277.9511777117699 y=61 z=450.37468305380878
+2026-10-03T18:27:03 337.102 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=20 x=-277.9511777117699 y=61 z=450.37468305380878 yaw=29.09819221496582 pitch=10.349790573120117 roll=0
+2026-10-03T18:27:03 337.106 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.9511777117699 y=61 z=450.37468305380878 thread=1 yaw=29.09819221496582 pitch=10.349790573120117 roll=0
+2026-10-03T18:27:03 337.645 INF [MC7DTD] Minecraft player: x=-277.9511777117699 y=61 z=450.37468305380878
+2026-10-03T18:27:03 337.647 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=21 x=-277.9511777117699 y=61 z=450.37468305380878 yaw=29.09819221496582 pitch=10.349790573120117 roll=0
+2026-10-03T18:27:03 337.651 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.9511777117699 y=61 z=450.37468305380878 thread=1 yaw=29.09819221496582 pitch=10.349790573120117 roll=0
+2026-10-03T18:27:04 338.152 INF [MC7DTD] Minecraft player: x=-277.9511777117699 y=61 z=450.37468305380878
+2026-10-03T18:27:04 338.154 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=22 x=-277.9511777117699 y=61 z=450.37468305380878 yaw=29.09819221496582 pitch=10.349790573120117 roll=0
+2026-10-03T18:27:04 338.155 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.9511777117699 y=61 z=450.37468305380878 thread=1 yaw=29.09819221496582 pitch=10.349790573120117 roll=0
+2026-10-03T18:27:04 338.700 INF [MC7DTD] Minecraft player: x=-277.9511777117699 y=61 z=450.37468305380878
+2026-10-03T18:27:04 338.701 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=23 x=-277.9511777117699 y=61 z=450.37468305380878 yaw=51.44818115234375 pitch=13.199786186218262 roll=0
+2026-10-03T18:27:04 338.705 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.9511777117699 y=61 z=450.37468305380878 thread=1 yaw=51.44818115234375 pitch=13.199786186218262 roll=0
+2026-10-03T18:27:05 339.245 INF [MC7DTD] Minecraft player: x=-277.9511777117699 y=61 z=450.37468305380878
+2026-10-03T18:27:05 339.246 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=24 x=-277.9511777117699 y=61 z=450.37468305380878 yaw=156.59823608398438 pitch=11.699792861938477 roll=0
+2026-10-03T18:27:05 339.249 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.9511777117699 y=61 z=450.37468305380878 thread=1 yaw=156.59823608398438 pitch=11.699792861938477 roll=0
+2026-10-03T18:27:05 339.746 INF [MC7DTD] Minecraft player: x=-277.97306196340122 y=61 z=450.27915776838159
+2026-10-03T18:27:05 339.747 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=25 x=-277.97306196340122 y=61 z=450.27915776838159 yaw=167.09822082519531 pitch=8.2498006820678711 roll=0
+2026-10-03T18:27:05 339.749 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.97306196340122 y=61 z=450.27915776838159 thread=1 yaw=167.09822082519531 pitch=8.2498006820678711 roll=0
+2026-10-03T18:27:06 340.252 INF [MC7DTD] Minecraft player: x=-278.09450140698436 y=61 z=449.74907167241486
+2026-10-03T18:27:06 340.256 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=26 x=-278.09450140698436 y=61 z=449.74907167241486 yaw=167.09822082519531 pitch=7.6498007774353027 roll=0
+2026-10-03T18:27:06 340.258 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-278.09450140698436 y=61 z=449.74907167241486 thread=1 yaw=167.09822082519531 pitch=7.6498007774353027 roll=0
+2026-10-03T18:27:06 340.798 INF [MC7DTD] Minecraft player: x=-278.09450140698436 y=61 z=449.74907167241486
+2026-10-03T18:27:06 340.800 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=27 x=-278.09450140698436 y=61 z=449.74907167241486 yaw=167.09822082519531 pitch=7.6498007774353027 roll=0
+2026-10-03T18:27:06 340.803 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-278.09450140698436 y=61 z=449.74907167241486 thread=1 yaw=167.09822082519531 pitch=7.6498007774353027 roll=0
+2026-10-03T18:27:07 341.347 INF [MC7DTD] Minecraft player: x=-277.87563060977834 y=61 z=449.140142600808
+2026-10-03T18:27:07 341.348 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=28 x=-277.87563060977834 y=61 z=449.140142600808 yaw=168.29817199707031 pitch=7.3498005867004395 roll=0
+2026-10-03T18:27:07 341.352 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.87563060977834 y=61 z=449.140142600808 thread=1 yaw=168.29817199707031 pitch=7.3498005867004395 roll=0
+2026-10-03T18:27:08 341.895 INF [MC7DTD] Minecraft player: x=-277.91628437560632 y=61 z=448.97468307765064
+2026-10-03T18:27:08 341.897 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=29 x=-277.91628437560632 y=61 z=448.97468307765064 yaw=170.24812316894531 pitch=6.8998003005981445 roll=0
+2026-10-03T18:27:08 341.898 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.91628437560632 y=61 z=448.97468307765064 thread=1 yaw=170.24812316894531 pitch=6.8998003005981445 roll=0
+2026-10-03T18:27:08 342.401 INF [MC7DTD] Minecraft player: x=-277.78611030690365 y=61 z=450.23738351382343
+2026-10-03T18:27:08 342.402 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=30 x=-277.78611030690365 y=61 z=450.23738351382343 yaw=177.14788818359375 pitch=2.6997976303100586 roll=0
+2026-10-03T18:27:08 342.406 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.78611030690365 y=61 z=450.23738351382343 thread=1 yaw=177.14788818359375 pitch=2.6997976303100586 roll=0
+2026-10-03T18:27:09 342.946 INF [MC7DTD] Minecraft player: x=-277.78611030690365 y=61 z=450.25608203574615
+2026-10-03T18:27:09 342.947 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=31 x=-277.78611030690365 y=61 z=450.25608203574615 yaw=177.59786987304688 pitch=2.3997974395751953 roll=0
+2026-10-03T18:27:09 342.950 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.78611030690365 y=61 z=450.25608203574615 thread=1 yaw=177.59786987304688 pitch=2.3997974395751953 roll=0
+2026-10-03T18:27:09 343.447 INF [MC7DTD] Minecraft player: x=-277.78611030690365 y=61 z=450.25608203574615
+2026-10-03T18:27:09 343.448 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=32 x=-277.78611030690365 y=61 z=450.25608203574615 yaw=177.59786987304688 pitch=2.3997974395751953 roll=0
+2026-10-03T18:27:09 343.450 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.78611030690365 y=61 z=450.25608203574615 thread=1 yaw=177.59786987304688 pitch=2.3997974395751953 roll=0
+2026-10-03T18:27:10 343.952 INF [MC7DTD] Minecraft player: x=-277.83657030363293 y=61 z=449.00193037210306
+2026-10-03T18:27:10 343.954 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=33 x=-277.83657030363293 y=61 z=449.00193037210306 yaw=177.74786376953125 pitch=5.3997983932495117 roll=0
+2026-10-03T18:27:10 343.959 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.83657030363293 y=61 z=449.00193037210306 thread=1 yaw=177.74786376953125 pitch=5.3997983932495117 roll=0
+2026-10-03T18:27:10 344.498 INF [MC7DTD] Minecraft player: x=-277.85498455128374 y=61 z=448.53431339795259
+2026-10-03T18:27:10 344.500 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=34 x=-277.85498455128374 y=61 z=448.53431339795259 yaw=187.49783325195313 pitch=10.349799156188965 roll=0
+2026-10-03T18:27:10 344.505 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.85498455128374 y=61 z=448.53431339795259 thread=1 yaw=187.49783325195313 pitch=10.349799156188965 roll=0
+2026-10-03T18:27:11 345.000 INF [MC7DTD] Minecraft player: x=-278.18611028306179 y=61 z=449.9472895730965
+2026-10-03T18:27:11 345.002 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=35 x=-278.18611028306179 y=61 z=449.9472895730965 yaw=194.39790344238281 pitch=11.999795913696289 roll=0
+2026-10-03T18:27:11 345.006 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-278.18611028306179 y=61 z=449.9472895730965 thread=1 yaw=194.39790344238281 pitch=11.999795913696289 roll=0
+2026-10-03T18:27:11 345.548 INF [MC7DTD] Minecraft player: x=-277.78611030690365 y=61 z=450.37468305380878
+2026-10-03T18:27:11 345.550 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=36 x=-277.78611030690365 y=61 z=450.37468305380878 yaw=193.19793701171875 pitch=11.999795913696289 roll=0
+2026-10-03T18:27:11 345.554 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.78611030690365 y=61 z=450.37468305380878 thread=1 yaw=193.19793701171875 pitch=11.999795913696289 roll=0
+2026-10-03T18:27:12 346.098 INF [MC7DTD] Minecraft player: x=-278.46268384430857 y=61 z=448.97468307765064
+2026-10-03T18:27:12 346.099 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=37 x=-278.46268384430857 y=61 z=448.97468307765064 yaw=269.99789428710938 pitch=16.499788284301758 roll=0
+2026-10-03T18:27:12 346.102 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-278.46268384430857 y=61 z=448.97468307765064 thread=1 yaw=269.99789428710938 pitch=16.499788284301758 roll=0
+2026-10-03T18:27:12 346.645 INF [MC7DTD] Minecraft player: x=-279.18611028306179 y=61 z=448.97468307765064
+2026-10-03T18:27:12 346.647 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=38 x=-279.18611028306179 y=61 z=448.97468307765064 yaw=274.94796752929688 pitch=14.849790573120117 roll=0
+2026-10-03T18:27:12 346.651 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-279.18611028306179 y=61 z=448.97468307765064 thread=1 yaw=274.94796752929688 pitch=14.849790573120117 roll=0
+2026-10-03T18:27:13 347.195 INF [MC7DTD] Minecraft player: x=-278.12300427024513 y=61 z=449.37468305380878
+2026-10-03T18:27:13 347.197 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=39 x=-278.12300427024513 y=61 z=449.37468305380878 yaw=267.14804077148438 pitch=16.6497859954834 roll=0
+2026-10-03T18:27:13 347.198 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-278.12300427024513 y=61 z=449.37468305380878 thread=1 yaw=267.14804077148438 pitch=16.6497859954834 roll=0
+2026-10-03T18:27:13 347.700 INF [MC7DTD] Minecraft player: x=-277.98493657765391 y=61 z=449.58600846276948
+2026-10-03T18:27:13 347.702 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=40 x=-277.98493657765391 y=61 z=449.58600846276948 yaw=216.29801940917969 pitch=10.799785614013672 roll=0
+2026-10-03T18:27:13 347.703 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.98493657765391 y=61 z=449.58600846276948 thread=1 yaw=216.29801940917969 pitch=10.799785614013672 roll=0
+2026-10-03T18:27:14 348.247 INF [MC7DTD] Minecraft player: x=-277.98493657765391 y=61 z=449.58600846276948
+2026-10-03T18:27:14 348.249 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=41 x=-277.98493657765391 y=61 z=449.58600846276948 yaw=212.54800415039063 pitch=11.549783706665039 roll=0
+2026-10-03T18:27:14 348.252 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.98493657765391 y=61 z=449.58600846276948 thread=1 yaw=212.54800415039063 pitch=11.549783706665039 roll=0
+2026-10-03T18:27:14 348.747 INF [MC7DTD] Minecraft player: x=-277.2015398261409 y=61 z=448.58608949130951
+2026-10-03T18:27:14 348.748 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=42 x=-277.2015398261409 y=61 z=448.58608949130951 yaw=222.14796447753906 pitch=20.249776840209961 roll=0
+2026-10-03T18:27:14 348.752 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.2015398261409 y=61 z=448.58608949130951 thread=1 yaw=222.14796447753906 pitch=20.249776840209961 roll=0
+2026-10-03T18:27:15 349.295 INF [MC7DTD] Minecraft player: x=-277.57977939393982 y=61 z=449.07536081415117
+2026-10-03T18:27:15 349.296 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=43 x=-277.57977939393982 y=61 z=449.07536081415117 yaw=214.04792785644531 pitch=9.1497802734375 roll=0
+2026-10-03T18:27:15 349.300 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.57977939393982 y=61 z=449.07536081415117 thread=1 yaw=214.04792785644531 pitch=9.1497802734375 roll=0
+2026-10-03T18:27:15 349.799 INF [MC7DTD] Minecraft player: x=-276.997165082594 y=61 z=448.21497309531088
+2026-10-03T18:27:15 349.800 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=44 x=-276.997165082594 y=61 z=448.21497309531088 yaw=211.34794616699219 pitch=9.59977912902832 roll=0
+2026-10-03T18:27:15 349.803 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-276.997165082594 y=61 z=448.21497309531088 thread=1 yaw=211.34794616699219 pitch=9.59977912902832 roll=0
+2026-10-03T18:27:16 350.345 INF [MC7DTD] Minecraft player: x=-276.92019199913284 y=61 z=446.50270021187595
+2026-10-03T18:27:16 350.346 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=45 x=-276.92019199913284 y=61 z=446.50270021187595 yaw=175.94805908203125 pitch=13.349774360656738 roll=0
+2026-10-03T18:27:16 350.349 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-276.92019199913284 y=61 z=446.50270021187595 thread=1 yaw=175.94805908203125 pitch=13.349774360656738 roll=0
+2026-10-03T18:27:16 350.851 INF [MC7DTD] Minecraft player: x=-277.09085617965911 y=60.921599998474122 z=444.03855429674218
+2026-10-03T18:27:16 350.853 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=46 x=-277.09085617965911 y=60.921599998474122 z=444.03855429674218 yaw=175.79806518554688 pitch=14.099772453308105 roll=0
+2026-10-03T18:27:16 350.854 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.09085617965911 y=60.921599998474122 z=444.03855429674218 thread=1 yaw=175.79806518554688 pitch=14.099772453308105 roll=0
+2026-10-03T18:27:17 351.402 INF [MC7DTD] Minecraft player: x=-277.20272081083323 y=59.535840625044557 z=441.43663997210842
+2026-10-03T18:27:17 351.405 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=47 x=-277.20272081083323 y=59.535840625044557 z=441.43663997210842 yaw=178.79798889160156 pitch=16.049781799316406 roll=0
+2026-10-03T18:27:17 351.409 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.20272081083323 y=59.535840625044557 z=441.43663997210842 thread=1 yaw=178.79798889160156 pitch=16.049781799316406 roll=0
+2026-10-03T18:27:18 351.951 INF [MC7DTD] Minecraft player: x=-277.23042988959446 y=57.535840625044557 z=440.33704861848389
+2026-10-03T18:27:18 351.953 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=48 x=-277.23042988959446 y=57.535840625044557 z=440.33704861848389 yaw=178.79798889160156 pitch=15.299783706665039 roll=0
+2026-10-03T18:27:18 351.955 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.23042988959446 y=57.535840625044557 z=440.33704861848389 thread=1 yaw=178.79798889160156 pitch=15.299783706665039 roll=0
+2026-10-03T18:27:18 352.497 INF [MC7DTD] Minecraft player: x=-277.23085754269619 y=57 z=440.32000736216668
+2026-10-03T18:27:18 352.499 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=49 x=-277.23085754269619 y=57 z=440.32000736216668 yaw=111.89796447753906 pitch=15.899781227111816 roll=0
+2026-10-03T18:27:18 352.502 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.23085754269619 y=57 z=440.32000736216668 thread=1 yaw=111.89796447753906 pitch=15.899781227111816 roll=0
+2026-10-03T18:27:19 353.001 INF [MC7DTD] Minecraft player: x=-277.24233632123423 y=57 z=440.37468305380878
+2026-10-03T18:27:19 353.003 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=50 x=-277.24233632123423 y=57 z=440.37468305380878 yaw=359.99795992672443 pitch=3.7497801780700684 roll=0
+2026-10-03T18:27:19 353.004 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.24233632123423 y=57 z=440.37468305380878 thread=1 yaw=359.99795992672443 pitch=3.7497801780700684 roll=0
+2026-10-03T18:27:19 353.549 INF [MC7DTD] Minecraft player: x=-277.10543511927756 y=58.7531999805212 z=441.13998143977403
+2026-10-03T18:27:19 353.551 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=51 x=-277.10543511927756 y=58.7531999805212 z=441.13998143977403 yaw=346.197958946228 pitch=2.99977970123291 roll=0
+2026-10-03T18:27:19 353.555 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.10543511927756 y=58.7531999805212 z=441.13998143977403 thread=1 yaw=346.197958946228 pitch=2.99977970123291 roll=0
+2026-10-03T18:27:20 354.049 INF [MC7DTD] Minecraft player: x=-277.01945646405068 y=59.7531999805212 z=442.37468305380878
+2026-10-03T18:27:20 354.050 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=52 x=-277.01945646405068 y=59.7531999805212 z=442.37468305380878 yaw=11.847959518432617 pitch=4.6497802734375 roll=0
+2026-10-03T18:27:20 354.052 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.01945646405068 y=59.7531999805212 z=442.37468305380878 thread=1 yaw=11.847959518432617 pitch=4.6497802734375 roll=0
+2026-10-03T18:27:20 354.596 INF [MC7DTD] Minecraft player: x=-277.30381475091343 y=60 z=443.64137771106971
+2026-10-03T18:27:20 354.598 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=53 x=-277.30381475091343 y=60 z=443.64137771106971 yaw=5.5479621887207031 pitch=8.249781608581543 roll=0
+2026-10-03T18:27:20 354.602 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.30381475091343 y=60 z=443.64137771106971 thread=1 yaw=5.5479621887207031 pitch=8.249781608581543 roll=0
+2026-10-03T18:27:21 355.103 INF [MC7DTD] Minecraft player: x=-277.42389760785176 y=61 z=445.36292021394479
+2026-10-03T18:27:21 355.104 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=54 x=-277.42389760785176 y=61 z=445.36292021394479 yaw=28.497966766357422 pitch=18.59977912902832 roll=0
+2026-10-03T18:27:21 355.105 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-277.42389760785176 y=61 z=445.36292021394479 thread=1 yaw=28.497966766357422 pitch=18.59977912902832 roll=0
+2026-10-03T18:27:21 355.648 INF [MC7DTD] Minecraft player: x=-276.823930851716 y=61 z=447.36249213530289
+2026-10-03T18:27:21 355.649 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=55 x=-276.823930851716 y=61 z=447.36249213530289 yaw=108.74794769287109 pitch=18.599777221679688 roll=0
+2026-10-03T18:27:21 355.651 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-276.823930851716 y=61 z=447.36249213530289 thread=1 yaw=108.74794769287109 pitch=18.599777221679688 roll=0
+2026-10-03T18:27:22 356.195 INF [MC7DTD] Minecraft player: x=-276.78611030690365 y=61 z=448.97241027336793
+2026-10-03T18:27:22 356.196 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=56 x=-276.78611030690365 y=61 z=448.97241027336793 yaw=160.94790649414063 pitch=22.799770355224609 roll=0
+2026-10-03T18:27:22 356.201 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-276.78611030690365 y=61 z=448.97241027336793 thread=1 yaw=160.94790649414063 pitch=22.799770355224609 roll=0
+2026-10-03T18:27:22 356.699 INF [MC7DTD] Minecraft player: x=-276.78611030690365 y=61 z=448.98757288255558
+2026-10-03T18:27:22 356.700 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=57 x=-276.78611030690365 y=61 z=448.98757288255558 yaw=160.0478515625 pitch=13.199787139892578 roll=0
+2026-10-03T18:27:22 356.701 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-276.78611030690365 y=61 z=448.98757288255558 thread=1 yaw=160.0478515625 pitch=13.199787139892578 roll=0
+2026-10-03T18:27:23 357.248 INF [MC7DTD] Minecraft player: x=-276.78611030690365 y=61 z=449.37468305380878
+2026-10-03T18:27:23 357.249 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=58 x=-276.78611030690365 y=61 z=449.37468305380878 yaw=153.59797668457031 pitch=8.8497953414917 roll=0
+2026-10-03T18:27:23 357.253 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-276.78611030690365 y=61 z=449.37468305380878 thread=1 yaw=153.59797668457031 pitch=8.8497953414917 roll=0
+2026-10-03T18:27:23 357.753 INF [MC7DTD] Minecraft player: x=-276.78611030690365 y=61 z=449.37468305380878
+2026-10-03T18:27:23 357.754 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=59 x=-276.78611030690365 y=61 z=449.37468305380878 yaw=112.19805145263672 pitch=15.5997953414917 roll=0
+2026-10-03T18:27:23 357.759 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-276.78611030690365 y=61 z=449.37468305380878 thread=1 yaw=112.19805145263672 pitch=15.5997953414917 roll=0
+2026-10-03T18:27:24 358.303 INF [MC7DTD] Minecraft player: x=-276.78611030690365 y=61 z=449.37468305380878
+2026-10-03T18:27:24 358.304 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=60 x=-276.78611030690365 y=61 z=449.37468305380878 yaw=76.648025512695313 pitch=12.899800300598145 roll=0
+2026-10-03T18:27:24 358.308 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-276.78611030690365 y=61 z=449.37468305380878 thread=1 yaw=76.648025512695313 pitch=12.899800300598145 roll=0
+2026-10-03T18:27:24 358.848 INF [MC7DTD] Minecraft player: x=-276.78611030690365 y=61 z=449.14412499567993
+2026-10-03T18:27:24 358.850 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=61 x=-276.78611030690365 y=61 z=449.14412499567993 yaw=142.94801330566406 pitch=14.69980525970459 roll=0
+2026-10-03T18:27:24 358.852 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-276.78611030690365 y=61 z=449.14412499567993 thread=1 yaw=142.94801330566406 pitch=14.69980525970459 roll=0
+2026-10-03T18:27:25 359.352 INF [MC7DTD] Minecraft player: x=-276.78611030690365 y=61 z=449.11634179803173
+2026-10-03T18:27:25 359.354 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=62 x=-276.78611030690365 y=61 z=449.11634179803173 yaw=160.49803161621094 pitch=5.999809741973877 roll=0
+2026-10-03T18:27:25 359.355 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-276.78611030690365 y=61 z=449.11634179803173 thread=1 yaw=160.49803161621094 pitch=5.999809741973877 roll=0
+2026-10-03T18:27:26 359.898 INF [MC7DTD] Minecraft player: x=-276.78611030690365 y=61 z=449.11634179803173
+2026-10-03T18:27:26 359.900 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=63 x=-276.78611030690365 y=61 z=449.11634179803173 yaw=92.548057556152344 pitch=18.899808883666992 roll=0
+2026-10-03T18:27:26 359.902 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-276.78611030690365 y=61 z=449.11634179803173 thread=1 yaw=92.548057556152344 pitch=18.899808883666992 roll=0
+2026-10-03T18:27:26 360.402 INF [MC7DTD] Minecraft player: x=-276.78611030690365 y=61 z=448.02513526586068
+2026-10-03T18:27:26 360.404 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=64 x=-276.78611030690365 y=61 z=448.02513526586068 yaw=48.298046112060547 pitch=19.949808120727539 roll=0
+2026-10-03T18:27:26 360.407 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-276.78611030690365 y=61 z=448.02513526586068 thread=1 yaw=48.298046112060547 pitch=19.949808120727539 roll=0
+2026-10-03T18:27:26 360.526 INF Time: 5.78m FPS: 253.99 Heap: 2179.3MB Max: 2235.3MB Chunks: 298 CGO: 144 Ply: 1 Zom: 0 Ent: 2 (2) Items: 0 CO: 1 RSS: 4523.4MB
+2026-10-03T18:27:27 360.944 INF [MC7DTD] Minecraft player: x=-276.78611030690365 y=61 z=447.97468307765064
+2026-10-03T18:27:27 360.946 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=65 x=-276.78611030690365 y=61 z=447.97468307765064 yaw=19.948051452636719 pitch=22.199808120727539 roll=0
+2026-10-03T18:27:27 360.948 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-276.78611030690365 y=61 z=447.97468307765064 thread=1 yaw=19.948051452636719 pitch=22.199808120727539 roll=0
+2026-10-03T18:27:27 361.452 INF [MC7DTD] Minecraft player: x=-276.78611030690365 y=61 z=447.97468307765064
+2026-10-03T18:27:27 361.453 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=66 x=-276.78611030690365 y=61 z=447.97468307765064 yaw=25.198049545288086 pitch=22.049808502197266 roll=0
+2026-10-03T18:27:27 361.458 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-276.78611030690365 y=61 z=447.97468307765064 thread=1 yaw=25.198049545288086 pitch=22.049808502197266 roll=0
+2026-10-03T18:27:28 361.998 INF [MC7DTD] Minecraft player: x=-276.78611030690365 y=61 z=447.97468307765064
+2026-10-03T18:27:28 361.999 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=67 x=-276.78611030690365 y=61 z=447.97468307765064 yaw=23.9980525970459 pitch=8.9998149871826172 roll=0
+2026-10-03T18:27:28 362.000 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-276.78611030690365 y=61 z=447.97468307765064 thread=1 yaw=23.9980525970459 pitch=8.9998149871826172 roll=0
+2026-10-03T18:27:28 362.498 INF [MC7DTD] Minecraft player: x=-276.78611030690365 y=61 z=447.97468307765064
+2026-10-03T18:27:28 362.500 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=68 x=-276.78611030690365 y=61 z=447.97468307765064 yaw=20.99806022644043 pitch=4.0498142242431641 roll=0
+2026-10-03T18:27:28 362.502 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-276.78611030690365 y=61 z=447.97468307765064 thread=1 yaw=20.99806022644043 pitch=4.0498142242431641 roll=0
+2026-10-03T18:27:29 363.044 INF [MC7DTD] Minecraft player: x=-276.78611030690365 y=61 z=447.97468307765064
+2026-10-03T18:27:29 363.046 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=69 x=-276.78611030690365 y=61 z=447.97468307765064 yaw=20.99806022644043 pitch=4.0498142242431641 roll=0
+2026-10-03T18:27:29 363.051 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-276.78611030690365 y=61 z=447.97468307765064 thread=1 yaw=20.99806022644043 pitch=4.0498142242431641 roll=0
+2026-10-03T18:27:29 363.544 INF [MC7DTD] Minecraft player: x=-276.78611030690365 y=61 z=447.97468307765064
+2026-10-03T18:27:29 363.546 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=70 x=-276.78611030690365 y=61 z=447.97468307765064 yaw=20.99806022644043 pitch=4.0498142242431641 roll=0
+2026-10-03T18:27:29 363.548 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-276.78611030690365 y=61 z=447.97468307765064 thread=1 yaw=20.99806022644043 pitch=4.0498142242431641 roll=0
+2026-10-03T18:27:30 364.053 INF [MC7DTD] Minecraft player: x=-276.78611030690365 y=61 z=447.97468307765064
+2026-10-03T18:27:30 364.055 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=71 x=-276.78611030690365 y=61 z=447.97468307765064 yaw=20.99806022644043 pitch=4.0498142242431641 roll=0
+2026-10-03T18:27:30 364.057 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-276.78611030690365 y=61 z=447.97468307765064 thread=1 yaw=20.99806022644043 pitch=4.0498142242431641 roll=0
+2026-10-03T18:27:30 364.596 INF [MC7DTD] Minecraft player: x=-276.78611030690365 y=61 z=447.97468307765064
+2026-10-03T18:27:30 364.598 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=72 x=-276.78611030690365 y=61 z=447.97468307765064 yaw=20.99806022644043 pitch=4.0498142242431641 roll=0
+2026-10-03T18:27:30 364.600 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-276.78611030690365 y=61 z=447.97468307765064 thread=1 yaw=20.99806022644043 pitch=4.0498142242431641 roll=0
+2026-10-03T18:27:31 365.144 INF [MC7DTD] Minecraft player: x=-276.78611030690365 y=61 z=447.97468307765064
+2026-10-03T18:27:31 365.146 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=73 x=-276.78611030690365 y=61 z=447.97468307765064 yaw=20.99806022644043 pitch=4.0498142242431641 roll=0
+2026-10-03T18:27:31 365.148 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-276.78611030690365 y=61 z=447.97468307765064 thread=1 yaw=20.99806022644043 pitch=4.0498142242431641 roll=0
+2026-10-03T18:27:31 365.652 INF [MC7DTD] Minecraft player: x=-276.78611030690365 y=61 z=447.97468307765064
+2026-10-03T18:27:31 365.653 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=74 x=-276.78611030690365 y=61 z=447.97468307765064 yaw=20.99806022644043 pitch=4.0498142242431641 roll=0
+2026-10-03T18:27:31 365.655 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-276.78611030690365 y=61 z=447.97468307765064 thread=1 yaw=20.99806022644043 pitch=4.0498142242431641 roll=0
+2026-10-03T18:27:32 366.155 INF [MC7DTD] Minecraft player: x=-276.78611030690365 y=61 z=447.97468307765064
+2026-10-03T18:27:32 366.157 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=75 x=-276.78611030690365 y=61 z=447.97468307765064 yaw=20.99806022644043 pitch=4.0498142242431641 roll=0
+2026-10-03T18:27:32 366.160 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-276.78611030690365 y=61 z=447.97468307765064 thread=1 yaw=20.99806022644043 pitch=4.0498142242431641 roll=0
+2026-10-03T18:27:32 366.701 INF [MC7DTD] Minecraft player: x=-276.78611030690365 y=61 z=447.97468307765064
+2026-10-03T18:27:32 366.703 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=76 x=-276.78611030690365 y=61 z=447.97468307765064 yaw=23.998050689697266 pitch=1.7998130321502686 roll=0
+2026-10-03T18:27:32 366.705 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-276.78611030690365 y=61 z=447.97468307765064 thread=1 yaw=23.998050689697266 pitch=1.7998130321502686 roll=0
+2026-10-03T18:27:33 367.246 INF [MC7DTD] Minecraft player: x=-276.78611030690365 y=61 z=447.97468307765064
+2026-10-03T18:27:33 367.248 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=77 x=-276.78611030690365 y=61 z=447.97468307765064 yaw=23.998050689697266 pitch=1.7998130321502686 roll=0
+2026-10-03T18:27:33 367.251 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-276.78611030690365 y=61 z=447.97468307765064 thread=1 yaw=23.998050689697266 pitch=1.7998130321502686 roll=0
+2026-10-03T18:27:33 367.746 INF [MC7DTD] Minecraft player: x=-276.78611030690365 y=61 z=447.97468307765064
+2026-10-03T18:27:33 367.748 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=78 x=-276.78611030690365 y=61 z=447.97468307765064 yaw=18.898063659667969 pitch=3.2998127937316895 roll=0
+2026-10-03T18:27:33 367.752 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-276.78611030690365 y=61 z=447.97468307765064 thread=1 yaw=18.898063659667969 pitch=3.2998127937316895 roll=0
+2026-10-03T18:27:34 368.249 INF [MC7DTD] Minecraft player: x=-276.78611030690365 y=61 z=447.97468307765064
+2026-10-03T18:27:34 368.250 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=79 x=-276.78611030690365 y=61 z=447.97468307765064 yaw=18.898063659667969 pitch=3.2998127937316895 roll=0
+2026-10-03T18:27:34 368.253 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-276.78611030690365 y=61 z=447.97468307765064 thread=1 yaw=18.898063659667969 pitch=3.2998127937316895 roll=0
+2026-10-03T18:27:34 368.796 INF [MC7DTD] Minecraft player: x=-276.78611030690365 y=61 z=447.97468307765064
+2026-10-03T18:27:34 368.797 INF [MC7DTD] Entity state: event=update id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 type=minecraft:player source=minecraft world=mc-cf4dce40-2be1-372b-b914-917f5dcc644c dimension=minecraft:overworld stream=83ce0df2-1fb2-4035-8afd-7a361a681e91 sequence=80 x=-276.78611030690365 y=61 z=447.97468307765064 yaw=18.898063659667969 pitch=3.2998127937316895 roll=0
+2026-10-03T18:27:34 368.800 INF [MC7DTD] Player proxy updated: id=0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69 count=1 x=-276.78611030690365 y=61 z=447.97468307765064 thread=1 yaw=18.898063659667969 pitch=3.2998127937316895 roll=0
+2026-10-03T18:27:56 390.513 INF 60sec delta: 0,current: 1362017,desired: 1362017
+2026-10-03T18:27:56 390.514 INF [Backtrace] Updated Statistics
+2026-10-03T18:27:56 390.527 INF Time: 6.28m FPS: 275.48 Heap: 2127.4MB Max: 2235.3MB Chunks: 298 CGO: 144 Ply: 1 Zom: 0 Ent: 2 (2) Items: 0 CO: 1 RSS: 4529.8MB
+2026-10-03T18:27:58 392.077 INF SectionType change from None to Exploration
+2026-10-03T18:27:58 392.081 INF Played Exploration
+2026-10-03T18:27:58 392.081 INF Fading in Exploration
+2026-10-03T18:27:58 392.083 INF Notified SectionSelector that music played
+2026-10-03T18:28:01 395.102 INF fadeInCo complete on Exploration
+2026-10-03T18:28:26 420.528 INF Time: 6.78m FPS: 243.70 Heap: 2076.9MB Max: 2235.3MB Chunks: 298 CGO: 144 Ply: 1 Zom: 4 Ent: 6 (6) Items: 0 CO: 1 RSS: 4556.9MB
+2026-10-03T18:28:56 450.507 INF VehicleManager saving 0 (0 + 0)
+2026-10-03T18:28:56 450.508 INF DroneManager saving 0 (0 + 0)
+2026-10-03T18:28:56 450.508 INF TurretTracker saving 0 (0 + 0)
+2026-10-03T18:28:56 450.510 INF VehicleManager saved 9 bytes
+2026-10-03T18:28:56 450.511 INF DroneManager saved 9 bytes
+2026-10-03T18:28:56 450.512 INF TurretTracker saved 9 bytes
+2026-10-03T18:28:56 450.514 INF 60sec delta: 8917,current: 1370934,desired: 1370934
+2026-10-03T18:28:56 450.515 INF [Backtrace] Updated Statistics
+2026-10-03T18:28:56 450.528 INF Time: 7.28m FPS: 268.58 Heap: 2227.4MB Max: 2235.3MB Chunks: 298 CGO: 144 Ply: 1 Zom: 4 Ent: 6 (6) Items: 0 CO: 1 RSS: 4558.6MB
+2026-10-03T18:29:26 480.528 INF Time: 7.78m FPS: 253.34 Heap: 2232.6MB Max: 2235.3MB Chunks: 298 CGO: 144 Ply: 1 Zom: 4 Ent: 6 (6) Items: 0 CO: 1 RSS: 4561.4MB
+2026-10-03T18:29:27 481.303 WRN [PROPS] ActionTarget implicitly converted to Vector3, but failed: ActionTarget
+2026-10-03T18:29:27 481.309 INF GMSG: Player '质朴且卑微-' died
+2026-10-03T18:29:27 481.312 INF Entity 质朴且卑微- 171 killed by zombieYo 176
+2026-10-03T18:29:27 481.322 INF 291219 EntityBackpack id 177, plyrId 171, (-273.0, 63.1, 449.0) (-18, 28), chunk False (0, 0, 0), items 5 drinkJarBoiledWater, foodCanChili at ((-273.00, 63.08, 449.00)) : Write
+2026-10-03T18:29:27 481.324 INF 291219 EntityBackpack id 178, plyrId 171, (0.0, 0.0, 0.0) (0, 0), chunk False (0, 0, 0), items 5 drinkJarBoiledWater, foodCanChili at ((0.00, 0.00, 0.00)) : Read
+2026-10-03T18:29:27 481.326 INF 291219 EntityBackpack id 178, plyrId 171, (-273.0, 63.1, 449.0) (-18, 28), chunk True (-18, 3, 28), items 5 drinkJarBoiledWater, foodCanChili at ((-273.00, 63.08, 449.00)) : Write
+2026-10-03T18:29:27 481.327 INF 291219 EntityBackpack id 177, plyrId 171, (-273.0, 63.1, 449.0) (-18, 28), chunk False (0, 0, 0), items 5 drinkJarBoiledWater, foodCanChili at ((-273.00, 63.08, 449.00)) : OnEntityUnload markedForUnload False, IsDead False, IsDespawned False
+2026-10-03T18:29:27 481.355 INF 291219 EntityBackpack id 178, plyrId 171, (-273.0, 63.1, 449.0) (-18, 28), chunk True (-18, 3, 28), items 5 drinkJarBoiledWater, foodCanChili at ((-273.00, 63.08, 449.00)) : Start
+2026-10-03T18:29:27 481.375 INF SectionType change from Exploration to None
+2026-10-03T18:29:27 481.376 INF Fading out Exploration
+2026-10-03T18:29:30 484.391 INF Paused Exploration
+2026-10-03T18:29:30 484.427 INF Notified SectionSelector that music stopped
+2026-10-03T18:29:37 491.279 INF Respawning: Died
+2026-10-03T18:29:38 492.629 INF 294661 EntityBackpack id 178, plyrId 171, (-274.1, 61.2, 448.8) (-18, 28), chunk True (-18, 3, 28), items 5 drinkJarBoiledWater, foodCanChili at ((-274.12, 61.25, 448.84)) : Write
+2026-10-03T18:29:40 494.277 INF OpenSpawnWindow
+2026-10-03T18:29:56 510.514 INF 60sec delta: 52562,current: 1423497,desired: 1320677
+2026-10-03T18:29:56 510.515 INF [Backtrace] Updated Statistics
+2026-10-03T18:29:56 510.527 INF Time: 8.28m FPS: 344.86 Heap: 2111.9MB Max: 2235.3MB Chunks: 298 CGO: 144 Ply: 1 Zom: 1 Ent: 4 (7) Items: 1 CO: 1 RSS: 4599.0MB

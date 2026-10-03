@@ -1,4 +1,5 @@
 using System;
+using System.Globalization;
 using System.IO;
 using System.Net.WebSockets;
 using System.Runtime.Serialization;
@@ -16,6 +17,27 @@ namespace MC7DTD
         [DataMember(Name = "port", IsRequired = true)] public int Port;
     }
     [DataContract]
+    public sealed class EntityPosition
+    {
+        [DataMember(Name = "x")] public double? X;
+        [DataMember(Name = "y")] public double? Y;
+        [DataMember(Name = "z")] public double? Z;
+        [DataMember(Name = "space")] public string Space;
+    }
+    [DataContract]
+    public sealed class EntityRotation
+    {
+        [DataMember(Name = "yaw")] public double? Yaw;
+        [DataMember(Name = "pitch")] public double? Pitch;
+        [DataMember(Name = "roll")] public double? Roll;
+    }
+    [DataContract]
+    public sealed class EntityLifecycle
+    {
+        [DataMember(Name = "event")] public string Event;
+        [DataMember(Name = "reason")] public string Reason;
+    }
+    [DataContract]
     public sealed class WireMessage
     {
         [DataMember(Name = "type")] public string Type;
@@ -23,17 +45,37 @@ namespace MC7DTD
         [DataMember(Name = "from", EmitDefaultValue = false)] public string From;
         [DataMember(Name = "text", EmitDefaultValue = false)] public string Text;
         [DataMember(Name = "code", EmitDefaultValue = false)] public string Code;
+        [DataMember(Name = "source", EmitDefaultValue = false)] public string Source;
+        [DataMember(Name = "x", EmitDefaultValue = false)] public double? X;
+        [DataMember(Name = "y", EmitDefaultValue = false)] public double? Y;
+        [DataMember(Name = "z", EmitDefaultValue = false)] public double? Z;
+        [DataMember(Name = "version", EmitDefaultValue = false)] public int Version;
+        [DataMember(Name = "stream_id", EmitDefaultValue = false)] public string StreamId;
+        [DataMember(Name = "entity_id", EmitDefaultValue = false)] public string EntityId;
+        [DataMember(Name = "entity_type", EmitDefaultValue = false)] public string EntityType;
+        [DataMember(Name = "world_id", EmitDefaultValue = false)] public string WorldId;
+        [DataMember(Name = "dimension", EmitDefaultValue = false)] public string Dimension;
+        [DataMember(Name = "sequence", EmitDefaultValue = false)] public long Sequence;
+        [DataMember(Name = "lifecycle", EmitDefaultValue = false)] public EntityLifecycle Lifecycle;
+        [DataMember(Name = "position", EmitDefaultValue = false)] public EntityPosition Position;
+        [DataMember(Name = "rotation", EmitDefaultValue = false)] public EntityRotation Rotation;
     }
     // Also exercised by tests/client-harness: no game types or game state access here.
     public sealed class BridgeClient : IDisposable
     {
         private readonly Uri uri;
         private readonly Action<string> log;
+        private readonly Action<WireMessage> entityReceived;
+        private readonly Action resetEntities;
         private readonly CancellationTokenSource stop = new CancellationTokenSource();
         private Task worker;
-        public BridgeClient(string configPath, Action<string> logger)
+        private int playerResyncRequested;
+        public void RequestPlayerResync() { Interlocked.Exchange(ref playerResyncRequested, 1); }
+        public BridgeClient(string configPath, Action<string> logger, Action<WireMessage> entityReceived = null, Action resetEntities = null)
         {
             log = logger;
+            this.entityReceived = entityReceived;
+            this.resetEntities = resetEntities;
             NetworkConfig config;
             using (var file = File.OpenRead(configPath))
                 config = (NetworkConfig)new DataContractJsonSerializer(typeof(NetworkConfig)).ReadObject(file);
@@ -61,6 +103,8 @@ namespace MC7DTD
                         bool welcomed = false;
                         while (socket.State == WebSocketState.Open && !stop.IsCancellationRequested)
                         {
+                            if (welcomed && Interlocked.Exchange(ref playerResyncRequested, 0) != 0)
+                                await Send(socket, new WireMessage { Type = "test", Text = "MC7DTD player proxy resync" }).ConfigureAwait(false);
                             WireMessage message;
                             using (var deadline = CancellationTokenSource.CreateLinkedTokenSource(stop.Token))
                             {
@@ -71,14 +115,25 @@ namespace MC7DTD
                             if (message.Type == "welcome" && message.Client == "7dtd")
                             { welcomed = true; log("Bridge connected"); log("7DTD connected"); }
                             else if (welcomed && message.Type == "peer_connected")
+                            {
+                                if (message.Client == "minecraft") resetEntities?.Invoke();
                                 await Send(socket, new WireMessage { Type = "test", Text = "Hello from 7DTD" }).ConfigureAwait(false);
+                            }
                             else if (welcomed && message.Type == "test") log("Test received from " + message.From + ": " + message.Text);
+                            else if (welcomed && message.Type == "player_position")
+                            {
+                                if (message.Source == "minecraft" && ValidCoordinate(message.X) && ValidCoordinate(message.Y) && ValidCoordinate(message.Z))
+                                    log(string.Format(CultureInfo.InvariantCulture, "Minecraft player: x={0:R} y={1:R} z={2:R}", message.X.Value, message.Y.Value, message.Z.Value));
+                                else log("Invalid player position ignored");
+                            }
+                            else if (welcomed && message.Type == "entity_state") LogEntity(message);
                             else if (message.Type == "error") log("Bridge error: " + message.Code);
                         }
                     }
                     if (!stop.IsCancellationRequested) log("Bridge disconnected; retry in 3 seconds");
                 }
                 catch (Exception ex) { if (!stop.IsCancellationRequested) log("Bridge unavailable: " + ex.Message + "; retry in 3 seconds"); }
+                finally { resetEntities?.Invoke(); }
                 try { await Task.Delay(3000, stop.Token).ConfigureAwait(false); } catch (OperationCanceledException) { break; }
             }
         }
@@ -91,6 +146,29 @@ namespace MC7DTD
                 timeout.CancelAfter(TimeSpan.FromSeconds(5));
                 await socket.SendAsync(new ArraySegment<byte>(data.ToArray()), WebSocketMessageType.Text, true, timeout.Token).ConfigureAwait(false);
             }
+        }
+        private static bool ValidCoordinate(double? value)
+        { return value.HasValue && !double.IsNaN(value.Value) && !double.IsInfinity(value.Value); }
+        private void LogEntity(WireMessage message)
+        {
+            if (message.Version != 1 || message.Source != "minecraft" || message.Lifecycle == null ||
+                string.IsNullOrEmpty(message.EntityId) || message.Sequence < 1)
+            { log("Invalid entity state ignored"); return; }
+            var action = message.Lifecycle.Event;
+            var identity = string.Format(CultureInfo.InvariantCulture,
+                "Entity state: event={0} id={1} type={2} source={3} world={4} dimension={5} stream={6} sequence={7}",
+                action, message.EntityId, message.EntityType, message.Source, message.WorldId, message.Dimension, message.StreamId, message.Sequence);
+            if (action == "despawn" && message.Position == null && message.Rotation == null)
+            { log(identity + " reason=" + message.Lifecycle.Reason); entityReceived?.Invoke(message); return; }
+            var p = message.Position; var r = message.Rotation;
+            if ((action != "spawn" && action != "update") || p == null || r == null || p.Space != "7dtd" ||
+                !ValidCoordinate(p.X) || !ValidCoordinate(p.Y) || !ValidCoordinate(p.Z) ||
+                !ValidCoordinate(r.Yaw) || !ValidCoordinate(r.Pitch) || !ValidCoordinate(r.Roll))
+            { log("Invalid entity state ignored"); return; }
+            log(identity + string.Format(CultureInfo.InvariantCulture,
+                " x={0:R} y={1:R} z={2:R} yaw={3:R} pitch={4:R} roll={5:R}",
+                p.X.Value, p.Y.Value, p.Z.Value, r.Yaw.Value, r.Pitch.Value, r.Roll.Value));
+            entityReceived?.Invoke(message);
         }
         private static async Task<WireMessage> Receive(ClientWebSocket socket, CancellationToken ct)
         {

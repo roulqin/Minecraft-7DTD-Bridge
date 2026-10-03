@@ -1,4 +1,4 @@
-plugins { id 'java' }
+plugins { id 'fabric-loom' version '1.14.10' }
 
 group = 'io.mc7dtd'
 version = '0.1.0'
@@ -8,10 +8,12 @@ repositories {
     mavenCentral()
 }
 
-// Phase 1 uses only Loader entrypoints and JDK networking, no mapped Minecraft classes.
-// Thus this is a normal Fabric-loadable JAR without Loom/remapping or Fabric API calls.
+// Game mappings are required for safe player access; existing source folders stay intact.
 dependencies {
-    compileOnly 'net.fabricmc:fabric-loader:0.18.4'
+    minecraft 'com.mojang:minecraft:1.21.11'
+    mappings 'net.fabricmc:yarn:1.21.11+build.2:v2'
+    modImplementation 'net.fabricmc:fabric-loader:0.18.4'
+    modImplementation 'net.fabricmc.fabric-api:fabric-api:0.140.2+1.21.11'
     compileOnly 'com.google.code.gson:gson:2.13.2'
     compileOnly 'org.slf4j:slf4j-api:2.0.17'
     testImplementation 'com.google.code.gson:gson:2.13.2'
@@ -22,6 +24,8 @@ tasks.processResources {
     inputs.property 'version', project.version
     filesMatching('fabric.mod.json') { expand version: project.version }
 }
+// src/test contains the process harness; executable assertions live in the C# runner.
+tasks.withType(Test).configureEach { failOnNoDiscoveredTests = false }
 tasks.register('writeTestClasspath') {
     dependsOn testClasses
     doLast { layout.buildDirectory.file('test-classpath.txt').get().asFile.text = sourceSets.test.runtimeClasspath.asPath }

@@ -17,7 +17,19 @@ public final class BridgeClient implements AutoCloseable {
     private final Consumer<String> log;
     private volatile boolean stopped;
     private volatile WebSocket socket;
+    private volatile WebSocket positionSession;
+    private volatile long entityEpoch;
+    public long entityEpoch() { return positionSession == null ? 0 : entityEpoch; }
+    // At most one pending sample: slow sockets cannot accumulate old positions.
+    private final ThreadPoolExecutor positionSender = new ThreadPoolExecutor(1, 1, 0, TimeUnit.SECONDS,
+        new ArrayBlockingQueue<>(1), task -> {
+            var thread = new Thread(task, "MC7DTD-position-send"); thread.setDaemon(true); return thread;
+        }, new ThreadPoolExecutor.DiscardOldestPolicy());
     private Thread worker;
+    private final ThreadPoolExecutor entityTestSender = new ThreadPoolExecutor(1, 1, 0, TimeUnit.SECONDS,
+        new ArrayBlockingQueue<>(8), task -> {
+            var thread = new Thread(task, "MC7DTD-entity-test-send"); thread.setDaemon(true); return thread;
+        }, new ThreadPoolExecutor.AbortPolicy());
     public BridgeClient(Path configPath, Consumer<String> logger) throws Exception {
         log = logger;
         var config = JsonParser.parseString(Files.readString(configPath)).getAsJsonObject();
@@ -55,24 +67,81 @@ public final class BridgeClient implements AutoCloseable {
                         String type = message.get("type").getAsString();
                         if (type.equals("welcome") && message.get("client").getAsString().equals("minecraft")) {
                             welcomed = true; log.accept("Bridge connected"); log.accept("Minecraft connected");
+                            entityEpoch++; positionSession = socket;
                         } else if (welcomed && type.equals("peer_connected")) {
+                            if (message.get("client").getAsString().equals("7dtd")) entityEpoch++;
                             var test = new JsonObject(); test.addProperty("type", "test"); test.addProperty("text", "Hello from Minecraft");
                             send(test.toString());
                         } else if (welcomed && type.equals("test")) {
+                            if (message.get("from").getAsString().equals("7dtd") && message.get("text").getAsString().equals("MC7DTD player proxy resync")) entityEpoch++;
                             log.accept("Test received from " + message.get("from").getAsString() + ": " + message.get("text").getAsString());
                         } else if (type.equals("error")) log.accept("Bridge error: " + message.get("code").getAsString());
                     }
                     if (!stopped) log.accept("Bridge disconnected; retry in 3 seconds");
                 } catch (Exception ex) {
                     if (!stopped) log.accept("Bridge unavailable: " + ex + "; retry in 3 seconds");
-                } finally { if (socket != null) socket.abort(); socket = null; }
+                } finally { positionSession = null; positionSender.getQueue().clear(); if (socket != null) socket.abort(); socket = null; }
                 if (!stopped) try { Thread.sleep(3000); } catch (InterruptedException ex) { break; }
             }
         } finally { http.shutdownNow(); }
     }
-    private void send(String text) throws Exception { socket.sendText(text, true).get(5, TimeUnit.SECONDS); }
+    private synchronized void send(String text) throws Exception { socket.sendText(text, true).get(5, TimeUnit.SECONDS); }
+    public void publishPlayerPosition(double x, double y, double z) {
+        var expectedSession = positionSession;
+        if (stopped || expectedSession == null || !Double.isFinite(x) || !Double.isFinite(y) || !Double.isFinite(z)) return;
+        try { positionSender.execute(() -> {
+            try {
+                synchronized (this) {
+                    if (stopped || positionSession != expectedSession || socket != expectedSession) return;
+                    var message = new JsonObject();
+                    message.addProperty("type", "player_position"); message.addProperty("source", "minecraft");
+                    message.addProperty("x", x); message.addProperty("y", y); message.addProperty("z", z);
+                    send(message.toString());
+                }
+            } catch (Exception ex) { if (!stopped) log.accept("Player position send failed: " + ex.getMessage()); }
+        }); } catch (RejectedExecutionException ex) { if (!stopped) throw ex; }
+    }
+    // Acceptance-only snapshots captured on the game thread; never block it on network I/O.
+    public boolean publishEntityTest(JsonObject message) {
+        return publishEntity(message, -1, "Entity test");
+    }
+    public boolean publishPlayerEntity(JsonObject message, long epoch) {
+        return publishEntity(message, epoch, "Player proxy");
+    }
+    private boolean publishEntity(JsonObject message, long epoch, String label) {
+        var expectedSession = positionSession;
+        if (stopped || expectedSession == null || (epoch >= 0 && entityEpoch != epoch)) return false;
+        String payload = message.toString();
+        try {
+            entityTestSender.execute(() -> {
+                try {
+                    synchronized (this) {
+                        if (stopped || positionSession != expectedSession || socket != expectedSession || (epoch >= 0 && entityEpoch != epoch)) {
+                            log.accept("Entity test skipped: connection changed"); return;
+                        }
+                        send(payload);
+                        log.accept(label + " sent: " + payload);
+                    }
+                } catch (Exception ex) {
+                    if (!stopped) log.accept(label + " send failed: " + ex.getMessage());
+                    if (epoch >= 0 && positionSession == expectedSession) expectedSession.abort();
+                }
+            });
+            return true;
+        } catch (RejectedExecutionException ex) {
+            if (epoch >= 0 && positionSession == expectedSession) expectedSession.abort();
+            return false;
+        }
+    }
     @Override public void close() {
+        // Client stopping has already queued despawn; drain it before closing the socket.
+        entityTestSender.shutdown();
+        try { entityTestSender.awaitTermination(2, TimeUnit.SECONDS); }
+        catch (InterruptedException ex) { Thread.currentThread().interrupt(); }
         stopped = true;
+        positionSession = null;
+        positionSender.shutdownNow();
+        entityTestSender.shutdownNow();
         var current = socket; if (current != null) current.abort();
         if (worker != null) worker.interrupt();
     }

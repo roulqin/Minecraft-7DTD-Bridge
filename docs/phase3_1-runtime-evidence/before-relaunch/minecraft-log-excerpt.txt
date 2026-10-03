@@ -1,0 +1,13 @@
+Minecraft runtime log excerpt (original: runtime/minecraft/logs/latest.log)
+
+[08:17:42] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.4
+[08:17:42] [main/INFO]: Loading 5 mods:
+	- fabricloader 0.18.4
+	   \-- mixinextras 0.5.0
+	- java 21
+	- mc7dtd_bridge 0.1.0
+	- minecraft 1.21.11
+[08:17:47] [MC7DTD-websocket/INFO]: Bridge connected
+[08:17:47] [MC7DTD-websocket/INFO]: Minecraft connected
+[08:18:12] [MC7DTD-websocket/INFO]: Test received from 7dtd: Hello from 7DTD
+[08:20:43] [MC7DTD-websocket/INFO]: Test received from 7dtd: Hello from 7DTD

@@ -1,0 +1,10 @@
+Bridge connected
+7DTD connected
+Entity state: event=spawn id=6b6d9c36-909c-4fbb-a537-d309f48f8231 type=minecraft:player source=minecraft world=demo-world-01 dimension=minecraft:overworld stream=55c44b7e-82c8-461d-8c2b-d4e4e4e77fd1 sequence=2 x=120 y=118 z=65 yaw=90 pitch=-10 roll=0
+Entity state: event=update id=6b6d9c36-909c-4fbb-a537-d309f48f8231 type=minecraft:player source=minecraft world=demo-world-01 dimension=minecraft:overworld stream=55c44b7e-82c8-461d-8c2b-d4e4e4e77fd1 sequence=2 x=120 y=118 z=65 yaw=90 pitch=-10 roll=0
+Entity state: event=despawn id=6b6d9c36-909c-4fbb-a537-d309f48f8231 type=minecraft:player source=minecraft world=demo-world-01 dimension=minecraft:overworld stream=55c44b7e-82c8-461d-8c2b-d4e4e4e77fd1 sequence=2 reason=world_unloaded
+Minecraft player: x=120 y=118 z=65
+Bridge unavailable: �������ڲ� WebSocket �����й���ϸ��Ϣ����μ� InnerException (�������)��; retry in 3 seconds
+Bridge connected
+7DTD connected
+Entity state: event=spawn id=6b6d9c36-909c-4fbb-a537-d309f48f8231 type=minecraft:player source=minecraft world=demo-world-01 dimension=minecraft:overworld stream=58bfae83-49b1-470e-9f52-caee26cde324 sequence=1 x=120 y=118 z=65 yaw=90 pitch=-10 roll=0

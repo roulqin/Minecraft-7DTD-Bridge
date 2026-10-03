@@ -1,0 +1,74 @@
+13:27:28 info: Microsoft.Hosting.Lifetime[14] Now listening on: http://localhost:18771
+13:27:28 info: Microsoft.Hosting.Lifetime[0] Application started. Press Ctrl+C to shut down.
+13:27:28 info: Microsoft.Hosting.Lifetime[0] Hosting environment: Production
+13:27:28 info: Microsoft.Hosting.Lifetime[0] Content root path: D:\wenjian\minecraft\7-M
+13:27:28 info: BridgeServer[0] Bridge connected ¡ª listening ws://localhost:18771/ws; config D:\wenjian\minecraft\7-M\config\network.json
+13:27:28 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:18771/ws - - -
+13:27:28 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint '/ws'
+13:27:28 info: BridgeServer[0] 7DTD connected
+13:27:30 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:18771/ws - - -
+13:27:30 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint '/ws'
+13:27:30 info: BridgeServer[0] Minecraft connected
+13:27:30 info: BridgeServer[0] Test forwarded: 7dtd -> minecraft
+13:27:30 info: BridgeServer[0] Test forwarded: minecraft -> 7dtd
+13:27:30 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:30 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:31 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:31 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:32 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:33 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:33 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:34 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:34 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:35 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:35 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:36 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:36 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:37 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:37 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:38 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:38 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:39 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:39 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:40 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:41 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:41 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:42 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:42 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:18771/health - - -
+13:27:42 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint 'HTTP: GET /health'
+13:27:42 info: Microsoft.AspNetCore.Http.Result.JsonResult[3] Writing value of type '<>f__AnonymousType0`3' as Json.
+13:27:42 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1] Executed endpoint 'HTTP: GET /health'
+13:27:42 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://localhost:18771/health - 200 - application/json;+charset=utf-8 6.4721ms
+13:27:42 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:43 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:43 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:44 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:44 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:45 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:45 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:46 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:46 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:47 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:47 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:48 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:48 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:49 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:50 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:50 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:51 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:51 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:52 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:52 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:53 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:53 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:54 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:54 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:55 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:55 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:56 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:56 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:57 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:57 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:58 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:58 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)
+13:27:59 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-34.152266280422424, 64, 37.30000001192093)

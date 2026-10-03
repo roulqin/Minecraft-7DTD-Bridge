@@ -1,0 +1,19 @@
+15:16:38 info: Microsoft.Hosting.Lifetime[14] Now listening on: http://localhost:18771
+15:16:38 info: Microsoft.Hosting.Lifetime[0] Application started. Press Ctrl+C to shut down.
+15:16:38 info: Microsoft.Hosting.Lifetime[0] Hosting environment: Production
+15:16:38 info: Microsoft.Hosting.Lifetime[0] Content root path: D:\wenjian\minecraft\7-M
+15:16:38 info: BridgeServer[0] Coordinate mapping loaded: scale=1, offsets=(0, 0, 0); config D:\wenjian\minecraft\7-M\config\coordinate.json
+15:16:38 info: BridgeServer[0] Bridge connected ¡ª listening ws://localhost:18771/ws; config D:\wenjian\minecraft\7-M\config\network.json
+15:16:41 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:18771/ws - - -
+15:16:41 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:18771/ws - - -
+15:16:41 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint '/ws'
+15:16:41 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint '/ws'
+15:16:41 info: BridgeServer[0] Minecraft connected
+15:16:41 info: BridgeServer[0] 7DTD connected
+15:16:41 info: BridgeServer[0] Test forwarded: 7dtd -> minecraft
+15:16:41 info: BridgeServer[0] Test forwarded: minecraft -> 7dtd
+15:18:08 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:18771/health - - -
+15:18:08 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint 'HTTP: GET /health'
+15:18:08 info: Microsoft.AspNetCore.Http.Result.JsonResult[3] Writing value of type '<>f__AnonymousType0`3' as Json.
+15:18:08 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1] Executed endpoint 'HTTP: GET /health'
+15:18:08 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://localhost:18771/health - 200 - application/json;+charset=utf-8 12.4377ms

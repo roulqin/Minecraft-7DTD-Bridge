@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "gameRuntimeTested": true,
+  "entityId": "03515d65-b74b-4691-8710-070d53b1135f",
+  "streamId": "5e818f99-bd9d-4a7f-9e39-f44656f19abf",
+  "unityInstanceId": -1023704,
+  "registryCounts": [
+    1,
+    0
+  ],
+  "receiverCounts": [
+    1,
+    0
+  ],
+  "despawnReason": "world_unloaded",
+  "mainThread": 1,
+  "singleObjectCreated": true,
+  "despawnSent": true,
+  "sameObjectDisabledAndDestroyScheduled": true,
+  "registryEmpty": true,
+  "bothConnectionsStillOnline": true,
+  "coordinate": {
+    "scale": 1,
+    "offsetX": 0,
+    "offsetY": 0,
+    "offsetZ": 0
+  },
+  "processes": {
+    "bridge": 29744,
+    "minecraft": 25968,
+    "7dtd": 8288
+  },
+  "artifactHashes": {
+    "minecraft-mod/build/libs/mc7dtd-bridge-0.1.0.jar": "63685c9d78882fdcf62e6034e690b57fbeeb834e414acc18b98ebf7fb8b0c7c9",
+    "runtime/minecraft/mods/mc7dtd-bridge-0.1.0.jar": "63685c9d78882fdcf62e6034e690b57fbeeb834e414acc18b98ebf7fb8b0c7c9",
+    "7dtd-mod/dist/MC7DTD-Bridge/MC7DTD.Bridge.dll": "0c82923c4273a0be50b2ca82455d78e26e0f64286585e0a6c925027537f2006f",
+    "runtime/7dtd/Mods/MC7DTD-Bridge/MC7DTD.Bridge.dll": "0c82923c4273a0be50b2ca82455d78e26e0f64286585e0a6c925027537f2006f"
+  },
+  "spawn": {
+    "type": "entity_state",
+    "version": 1,
+    "source": "minecraft",
+    "entity_type": "minecraft:player",
+    "entity_id": "03515d65-b74b-4691-8710-070d53b1135f",
+    "stream_id": "5e818f99-bd9d-4a7f-9e39-f44656f19abf",
+    "world_id": "mc-cf4dce40-2be1-372b-b914-917f5dcc644c",
+    "dimension": "minecraft:overworld",
+    "sequence": 1,
+    "lifecycle": {
+      "event": "spawn"
+    },
+    "metadata": {},
+    "position": {
+      "x": -47.30000001192093,
+      "y": 71.0,
+      "z": 72.77925174075624,
+      "space": "minecraft"
+    },
+    "rotation": {
+      "yaw": 324.45015716552734,
+      "pitch": 37.3499755859375,
+      "roll": 0
+    }
+  },
+  "despawn": {
+    "type": "entity_state",
+    "version": 1,
+    "source": "minecraft",
+    "entity_type": "minecraft:player",
+    "entity_id": "03515d65-b74b-4691-8710-070d53b1135f",
+    "stream_id": "5e818f99-bd9d-4a7f-9e39-f44656f19abf",
+    "world_id": "mc-cf4dce40-2be1-372b-b914-917f5dcc644c",
+    "dimension": "minecraft:overworld",
+    "sequence": 63,
+    "lifecycle": {
+      "event": "despawn",
+      "reason": "world_unloaded"
+    },
+    "metadata": {},
+    "position": null,
+    "rotation": null
+  }
+}

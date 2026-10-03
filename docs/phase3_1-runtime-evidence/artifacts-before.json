@@ -1,0 +1,14 @@
+[
+  {
+    "Path": "D:\\wenjian\\minecraft\\7-M\\7dtd-mod\\dist\\MC7DTD-Bridge\\MC7DTD.Bridge.dll",
+    "Hash": "416FCBCB4941C3EEDB45B958C91E5A4AA7E66A2E33BDD56401A8311999661A77"
+  },
+  {
+    "Path": "D:\\wenjian\\minecraft\\7-M\\runtime\\7dtd\\Mods\\MC7DTD-Bridge\\MC7DTD.Bridge.dll",
+    "Hash": "8AEA55B1BE1DCBFBC002C5231E17E142584A274E357F73C7C71E0FFF27D6215B"
+  },
+  {
+    "Path": "D:\\wenjian\\minecraft\\7-M\\minecraft-mod\\build\\libs\\mc7dtd-bridge-0.1.0.jar",
+    "Hash": "4BE6426407F87FBD271FE573230ED3BF6973210742F7DE4C09354FF4A5E87411"
+  }
+]

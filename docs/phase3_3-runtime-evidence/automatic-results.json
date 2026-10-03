@@ -1,0 +1,30 @@
+{
+  "passed": [
+    "socket worker does not create Unity objects",
+    "spawn creates one object on tick",
+    "non-default Bridge mapping consumed exactly once; snapshot isolated",
+    "duplicate spawn does not create another object",
+    "update moves the existing object",
+    "stream mismatch cannot move object",
+    "unknown update cannot create object",
+    "player type never creates a marker",
+    "unmapped source coordinates rejected",
+    "nonfinite and unsafe float/world coordinates rejected",
+    "despawn deletes object",
+    "repeated despawn is harmless",
+    "main menu cannot create scene objects",
+    "connection reset clears active objects",
+    "world exit clears active objects",
+    "queue overflow is bounded and resets safely",
+    "object capacity is bounded",
+    "wrong-thread tick cannot access scene",
+    "WebSocket -\u003E mapping -\u003E registry -\u003E actual receiver callback -\u003E object lifecycle",
+    "WebSocket update uses mapped position",
+    "existing player_position unchanged",
+    "existing test messages unchanged",
+    "active marker before transport loss",
+    "real receiver disconnect callback clears marker"
+  ],
+  "failure": null,
+  "gameRuntimeTested": false
+}

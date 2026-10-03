@@ -1,0 +1,158 @@
+{
+  "passed": true,
+  "gameRuntimeTested": true,
+  "checks": [
+    {
+      "event": "spawn",
+      "sequence": 1,
+      "source": {
+        "type": "entity_state",
+        "version": 1,
+        "source": "minecraft",
+        "stream_id": "fd814250-684a-43bd-b1a5-1f4c25779574",
+        "entity_id": "00000000-0000-0000-0000-000000000001",
+        "entity_type": "minecraft:player",
+        "world_id": "runtime-acceptance",
+        "dimension": "minecraft:overworld",
+        "sequence": 1,
+        "position": {
+          "x": -29.48842968439675,
+          "y": 64.0,
+          "z": 29.593251520771876,
+          "space": "minecraft"
+        },
+        "rotation": {
+          "yaw": 199.05028,
+          "pitch": 18.750008,
+          "roll": 0
+        },
+        "lifecycle": {
+          "event": "spawn"
+        },
+        "metadata": {
+          "health": 20.0,
+          "max_health": 20.0,
+          "is_alive": true
+        }
+      },
+      "expectedMappedPosition": {
+        "x": -29.48842968439675,
+        "y": 64.0,
+        "z": 29.593251520771876
+      },
+      "receivedLog": {
+        "event": "spawn",
+        "id": "00000000-0000-0000-0000-000000000001",
+        "type": "minecraft:player",
+        "source": "minecraft",
+        "world": "runtime-acceptance",
+        "dimension": "minecraft:overworld",
+        "stream": "fd814250-684a-43bd-b1a5-1f4c25779574",
+        "sequence": "1",
+        "x": "-29.488429684396749",
+        "y": "64",
+        "z": "29.593251520771876",
+        "yaw": "199.05028",
+        "pitch": "18.750008",
+        "roll": "0"
+      },
+      "passed": true
+    },
+    {
+      "event": "update",
+      "sequence": 2,
+      "source": {
+        "type": "entity_state",
+        "version": 1,
+        "source": "minecraft",
+        "stream_id": "fd814250-684a-43bd-b1a5-1f4c25779574",
+        "entity_id": "00000000-0000-0000-0000-000000000001",
+        "entity_type": "minecraft:player",
+        "world_id": "runtime-acceptance",
+        "dimension": "minecraft:overworld",
+        "sequence": 2,
+        "position": {
+          "x": -28.270701005049695,
+          "y": 64.0,
+          "z": 26.403712499538088,
+          "space": "minecraft"
+        },
+        "rotation": {
+          "yaw": 150.9001,
+          "pitch": 24.599995,
+          "roll": 0
+        },
+        "lifecycle": {
+          "event": "update"
+        },
+        "metadata": {
+          "health": 20.0,
+          "max_health": 20.0,
+          "is_alive": true
+        }
+      },
+      "expectedMappedPosition": {
+        "x": -28.270701005049695,
+        "y": 64.0,
+        "z": 26.403712499538088
+      },
+      "receivedLog": {
+        "event": "update",
+        "id": "00000000-0000-0000-0000-000000000001",
+        "type": "minecraft:player",
+        "source": "minecraft",
+        "world": "runtime-acceptance",
+        "dimension": "minecraft:overworld",
+        "stream": "fd814250-684a-43bd-b1a5-1f4c25779574",
+        "sequence": "2",
+        "x": "-28.270701005049695",
+        "y": "64",
+        "z": "26.403712499538088",
+        "yaw": "150.9001",
+        "pitch": "24.599995",
+        "roll": "0"
+      },
+      "passed": true
+    },
+    {
+      "event": "despawn",
+      "sequence": 3,
+      "source": {
+        "type": "entity_state",
+        "version": 1,
+        "source": "minecraft",
+        "stream_id": "fd814250-684a-43bd-b1a5-1f4c25779574",
+        "entity_id": "00000000-0000-0000-0000-000000000001",
+        "entity_type": "minecraft:player",
+        "world_id": "runtime-acceptance",
+        "dimension": "minecraft:overworld",
+        "sequence": 3,
+        "position": null,
+        "rotation": null,
+        "lifecycle": {
+          "event": "despawn",
+          "reason": "out_of_scope"
+        },
+        "metadata": {}
+      },
+      "expectedMappedPosition": null,
+      "receivedLog": {
+        "event": "despawn",
+        "id": "00000000-0000-0000-0000-000000000001",
+        "type": "minecraft:player",
+        "source": "minecraft",
+        "world": "runtime-acceptance",
+        "dimension": "minecraft:overworld",
+        "stream": "fd814250-684a-43bd-b1a5-1f4c25779574",
+        "sequence": "3",
+        "reason": "out_of_scope"
+      },
+      "passed": true
+    }
+  ],
+  "movementDelta": {
+    "x": 1.2177286793470543,
+    "y": 0.0,
+    "z": -3.189539021233788
+  }
+}

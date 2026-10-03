@@ -1,0 +1,591 @@
+Mono path[0] = 'D:/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/Managed'
+Mono config path = 'D:/Steam/steamapps/common/7 Days To Die/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Loading player data from D:/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/data.unity3d
+Initialize engine version: 2022.3.62f2 (7670c08855a9)
+[Subsystems] Discovering subsystems at path D:/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5060 Laptop GPU (ID=0x2d59)
+    Vendor:   NVIDIA
+    VRAM:     7899 MB
+    Driver:   32.0.16.1074
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.230 seconds
+- Finished resetting the current domain, in  0.001 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.522000 ms
+2026-10-03T08:18:02 0.003 INF [BACKTRACE] Initialize
+2026-10-03T08:18:02 0.008 INF [BACKTRACE] Root log path: C:\Users\qin_roupl\AppData\Roaming\7DaysToDie\BacktraceLogs
+2026-10-03T08:18:03 0.030 INF [BACKTRACE] Deleted old log: C:\Users\qin_roupl\AppData\Roaming\7DaysToDie\BacktraceLogs\Player-2026-09-11_09-33-11.678.log
+2026-10-03T08:18:03 0.030 INF [BACKTRACE] Using log: C:\Users\qin_roupl\AppData\Roaming\7DaysToDie\BacktraceLogs\Player-2026-09-11_09-33-55.901.log
+2026-10-03T08:18:03 0.030 INF [BACKTRACE] Using log: C:\Users\qin_roupl\AppData\Roaming\7DaysToDie\BacktraceLogs\Player-2026-09-11_09-35-51.547.log
+2026-10-03T08:18:03 0.030 INF [BACKTRACE] Using log: C:\Users\qin_roupl\AppData\Roaming\7DaysToDie\BacktraceLogs\Player-2026-09-11_09-40-58.419.log
+2026-10-03T08:18:03 0.030 INF [BACKTRACE] Player log path: C:\Users\qin_roupl\AppData\Roaming\7DaysToDie\BacktraceLogs\Player-2026-10-03_00-18-02.991.log
+2026-10-03T08:18:03 0.041 INF [BACKTRACE] Initialized
+2026-10-03T08:18:03 0.064 INF Version: V 3.2.0 (b10) Compatibility Version: V 3.2.0, Build: WindowsPlayer 64 Bit
+2026-10-03T08:18:03 0.065 INF System information:
+2026-10-03T08:18:03 0.066 INF    OS: Windows 11  (10.0.26200) 64bit
+2026-10-03T08:18:03 0.067 INF    CPU: Intel(R) Core(TM) i7-14650HX (cores: 24)
+2026-10-03T08:18:03 0.068 INF    RAM: 16107 MB
+2026-10-03T08:18:03 0.069 INF    GPU: NVIDIA GeForce RTX 5060 Laptop GPU (7899 MB)
+2026-10-03T08:18:03 0.072 INF    Graphics API: Direct3D 11.0 [level 11.1] (shader level 5.0)
+2026-10-03T08:18:03 0.085 INF Local UTC offset: 8 hours
+2026-10-03T08:18:03 0.100 INF Command line arguments: "D:\Steam\steamapps\common\7 Days To Die\7DaysToDie.exe" -UserDataFolder=D:\wenjian\minecraft\7-M\runtime\7dtd -logfile=D:\wenjian\minecraft\7-M\docs\runtime-evidence\7dtd-game.log -screen-fullscreen 0 -screen-width 960 -screen-height 600
+2026-10-03T08:18:03 0.102 WRN Command line argument 'logfile' is not a configfile property, ignoring.
+2026-10-03T08:18:03 0.104 INF Overriding default user data path to D:\wenjian\minecraft\7-M\runtime\7dtd
+2026-10-03T08:18:03 0.109 INF [Platform] Init
+2026-10-03T08:18:03 0.150 INF [Platform] Using native platform: Steam
+2026-10-03T08:18:03 0.152 INF [Platform] Using cross platform: EOS
+2026-10-03T08:18:03 0.153 INF [Platform] Using server platform: Steam
+2026-10-03T08:18:03 0.154 INF [Platform] Using server platform: XBL
+2026-10-03T08:18:03 0.154 INF [Platform] Using server platform: PSN
+2026-10-03T08:18:03 0.155 INF [Platform] Using server platform: LAN
+2026-10-03T08:18:03 0.164 INF Starting PlayerInputManager...
+2026-10-03T08:18:03 0.166 INF InControl (version 1.8.9 build 9376, native module = True, XInput = True)
+2026-10-03T08:18:03 0.169 INF InControl (version 1.8.9 build 9376)
+2026-10-03T08:18:03 0.178 INF InControl Native (version 1.0.6)
+2026-10-03T08:18:03 0.248 INF [InControl] NativeInputDeviceManager enabled.
+2026-10-03T08:18:03 0.265 INF [Platform] Initializing Steam
+2026-10-03T08:18:03 0.345 INF [Steamworks.NET] SteamAPI_Init() failed. Refer to Valve's documentation or the comment above this line for more information.
+2026-10-03T08:18:03 0.346 INF [Platform] Initializing EOS
+2026-10-03T08:18:03 0.394 INF [EOS] Initialize: Success
+2026-10-03T08:18:03 0.429 INF [EOS-Voice] Successfully initialized.
+2026-10-03T08:18:03 0.430 INF [EOS-ACC] Not started with EAC, anticheat disabled
+2026-10-03T08:18:03 0.431 INF [EAC] AntiCheatServerP2P initialized with null interface
+2026-10-03T08:18:03 0.433 INF [Platform] Initializing XBL
+2026-10-03T08:18:03 0.434 INF [Platform] Initializing PSN
+2026-10-03T08:18:03 0.434 INF [Platform] Initializing LAN
+2026-10-03T08:18:03 0.441 INF [Analytics] Failed to find current Steam Branch
+System.InvalidOperationException: Steamworks is not initialized.
+  at Steamworks.InteropHelp.TestIfAvailableClient () [0x0001d] in <27ac48d45dd1469d853ad1ece8a3ec01>:0 
+  at Steamworks.SteamApps.GetCurrentBetaName (System.String& pchName, System.Int32 cchNameBufferSize) [0x00000] in <27ac48d45dd1469d853ad1ece8a3ec01>:0 
+  at BhvrAnalyticsServices.Services.AnalyticsServiceFactory.LoadServiceConfiguration (System.Boolean isDedicatedServer) [0x00017] in <988e5121d53d4cd6b728a8d36a9b72ff>:0 
+Steamworks is not initialized.
+2026-10-03T08:18:03 0.499 INF [SaveDataUtils] InitStatic Begin
+2026-10-03T08:18:03 0.501 INF [SaveDataUtils] UserGameDataDir: D:\wenjian\minecraft\7-M\runtime\7dtd
+2026-10-03T08:18:03 0.502 INF [SaveDataUtils] SdPlayerPrefs -> Unity
+2026-10-03T08:18:03 0.503 INF [SaveDataUtils] InitStatic Complete
+2026-10-03T08:18:03 0.550 INF Last played version: V 3.2.0
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 0.907500 ms
+2026-10-03T08:18:03 0.783 INF Texture quality is set to 0
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 6637.
+Total: 6.922700 ms (FindLiveObjects: 0.189500 ms CreateObjectMapping: 0.081500 ms MarkObjects: 6.446400 ms  DeleteObjects: 0.205000 ms)
+
+The referenced script on this Behaviour (Game Object 'BlockProcessor') is missing!
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.524800 ms
+2026-10-03T08:18:11 8.560 INF Awake IsFocused: False
+2026-10-03T08:18:11 8.561 INF Awake
+2026-10-03T08:18:11 8.765 INF Occlusion: Awake
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 6970.
+Total: 7.226300 ms (FindLiveObjects: 0.204200 ms CreateObjectMapping: 0.089400 ms MarkObjects: 6.897000 ms  DeleteObjects: 0.035300 ms)
+
+2026-10-03T08:18:11 8.805 INF ApplyAllOptions streaming budget 7109.1 MB
+2026-10-03T08:18:11 8.807 INF ApplyAllOptions current screen 2560 x 1600, 240hz, window 960 x 600, mode Windowed
+2026-10-03T08:18:11 8.809 INF Texture quality is set to 0
+2026-10-03T08:18:11 8.810 INF ApplyTextureFilter 2, AF Enable
+2026-10-03T08:18:11 8.811 INF ApplyTerrainOptions 2
+2026-10-03T08:18:11 8.976 INF [MODS] Start loading from: 'D:\wenjian\minecraft\7-M\runtime\7dtd/Mods'
+2026-10-03T08:18:11 8.978 INF [MODS]   Trying to load from folder: 'MC7DTD-Bridge'
+2026-10-03T08:18:11 8.987 INF [MODS]     Loaded assembly MC7DTD.Bridge (in D:\wenjian\minecraft\7-M\runtime\7dtd\Mods\MC7DTD-Bridge\MC7DTD.Bridge.dll)
+2026-10-03T08:18:11 8.987 INF [MODS]     Loaded Mod: MC7DTD-Bridge (0.1.0)
+2026-10-03T08:18:11 8.988 INF [MODS] Start loading from: 'D:/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/../Mods'
+2026-10-03T08:18:11 8.990 INF [MODS]   Trying to load from folder: '【单补丁】V3.0.0+b252+120格大背包无负重'
+2026-10-03T08:18:11 8.992 INF [MODS]     Loaded Mod: ANAN-120BigBackpackNoWB (3.0.0.252)
+2026-10-03T08:18:11 8.992 INF [MODS]   Trying to load from folder: '【单补丁】V3.0.0+b252+僵尸动物雷达'
+2026-10-03T08:18:11 8.994 INF [MODS]     Loaded Mod: ANAN-ananZombieAnimalRadar (3.0.0.252)
+2026-10-03T08:18:11 8.995 INF [MODS]   Trying to load from folder: '【单补丁】V3.0.0+b252+僵尸尸体秒消失'
+2026-10-03T08:18:11 8.996 INF [MODS]     Loaded Mod: ANAN-ZombieCorDisIns (3.0.0.252)
+2026-10-03T08:18:11 8.997 INF [MODS]   Trying to load from folder: '【单补丁】V3.0.0+b252+显示怪物血量（美化版）（常显已包含此MOD）'
+2026-10-03T08:18:11 9.000 INF [MODS]     Loaded assembly ananBloodDisplay (in D:\Steam\steamapps\common\7 Days To Die\Mods\【单补丁】V3.0.0+b252+显示怪物血量（美化版）（常显已包含此MOD）\ANANBloodDisplay.dll)
+2026-10-03T08:18:11 9.001 INF [MODS]     Loaded Mod: ANAN-BloodDisplay (3.0.0.252)
+2026-10-03T08:18:11 9.001 INF [MODS]   Trying to load from folder: '【单补丁】V3.0.0+b252+树和草数量减2倍'
+2026-10-03T08:18:11 9.003 INF [MODS]     Loaded Mod: ANAN-NumberOfReduced (3.0.0.252)
+2026-10-03T08:18:11 9.003 INF [MODS]   Trying to load from folder: '【单补丁】V3.0.0+b252+熔炉冶炼格子+1'
+2026-10-03T08:18:11 9.005 INF [MODS]     Loaded Mod: ANAN-FurnaceMeltingLattice (3.0.0.252)
+2026-10-03T08:18:11 9.005 INF [MODS]   Trying to load from folder: '【单补丁】V3.0.0+b252+物品叠加'
+2026-10-03T08:18:11 9.007 INF [MODS]     Loaded Mod: ANAN-StackNumber (3.0.0.252)
+2026-10-03T08:18:11 9.007 INF [MODS]   Trying to load from folder: '【单补丁】V3.0.0+b252+载具储物箱扩容'
+2026-10-03T08:18:11 9.008 INF [MODS]     Loaded Mod: ANAN-VehicleStorageExpansion (1.1.0.4 )
+2026-10-03T08:18:11 9.009 INF [MODS]   Trying to load from folder: '0_TFP_Harmony'
+2026-10-03T08:18:11 9.012 INF [MODS]     Loaded assembly 0Harmony (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\0Harmony.dll)
+2026-10-03T08:18:11 9.014 INF [MODS]     Loaded assembly Mono.Cecil (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\Mono.Cecil.dll)
+2026-10-03T08:18:11 9.016 INF [MODS]     Loaded assembly Mono.Cecil.Mdb (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\Mono.Cecil.Mdb.dll)
+2026-10-03T08:18:12 9.018 INF [MODS]     Loaded assembly Mono.Cecil.Pdb (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\Mono.Cecil.Pdb.dll)
+2026-10-03T08:18:12 9.020 INF [MODS]     Loaded assembly Mono.Cecil.Rocks (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\Mono.Cecil.Rocks.dll)
+2026-10-03T08:18:12 9.022 INF [MODS]     Loaded assembly MonoMod.Backports (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\MonoMod.Backports.dll)
+2026-10-03T08:18:12 9.024 INF [MODS]     Loaded assembly MonoMod.Core (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\MonoMod.Core.dll)
+2026-10-03T08:18:12 9.026 INF [MODS]     Loaded assembly MonoMod.Iced (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\MonoMod.Iced.dll)
+2026-10-03T08:18:12 9.028 INF [MODS]     Loaded assembly MonoMod.ILHelpers (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\MonoMod.ILHelpers.dll)
+2026-10-03T08:18:12 9.030 INF [MODS]     Loaded assembly MonoMod.RuntimeDetour (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\MonoMod.RuntimeDetour.dll)
+2026-10-03T08:18:12 9.032 INF [MODS]     Loaded assembly MonoMod.Utils (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\MonoMod.Utils.dll)
+2026-10-03T08:18:12 9.034 INF [MODS]     Loaded assembly System.ValueTuple (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\System.ValueTuple.dll)
+2026-10-03T08:18:12 9.036 INF [MODS]     Loaded assembly TfpHarmony (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\TfpHarmony.dll)
+2026-10-03T08:18:12 9.037 INF [MODS]     Loaded Mod: TFP_Harmony (1.1.0.4)
+2026-10-03T08:18:12 9.037 INF [MODS]   Trying to load from folder: '新建文件夹'
+2026-10-03T08:18:12 9.038 WRN [MODS]     Folder 新建文件夹 does not contain a ModInfo.xml, ignoring
+2026-10-03T08:18:12 9.039 INF [MODS] Initializing mod code
+2026-10-03T08:18:12 9.040 INF [MODS]   Initializing mod TFP_Harmony
+2026-10-03T08:18:12 9.054 INF [MODS]     Found ModAPI in assembly TfpHarmony (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\TfpHarmony.dll), creating instance
+2026-10-03T08:18:12 9.055 INF [MODS]       [Harmony] Init done
+Fallback handler could not load library D:/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/MonoBleedingEdge/data-0000024DA872A060.dll
+2026-10-03T08:18:12 9.268 INF [MODS]     Initialized code in mod 'TFP_Harmony' in assembly TfpHarmony (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\TfpHarmony.dll)
+2026-10-03T08:18:12 9.269 INF [MODS]   Initializing mod MC7DTD-Bridge
+2026-10-03T08:18:12 9.270 INF [MODS]     Found ModAPI in assembly MC7DTD.Bridge (in D:\wenjian\minecraft\7-M\runtime\7dtd\Mods\MC7DTD-Bridge\MC7DTD.Bridge.dll), creating instance
+2026-10-03T08:18:12 9.322 INF [MODS]     Initialized code in mod 'MC7DTD-Bridge' in assembly MC7DTD.Bridge (in D:\wenjian\minecraft\7-M\runtime\7dtd\Mods\MC7DTD-Bridge\MC7DTD.Bridge.dll)
+2026-10-03T08:18:12 9.323 INF [MODS]   Initializing mod ANAN-BloodDisplay
+2026-10-03T08:18:12 9.324 INF [MODS]     Found ModAPI in assembly ananBloodDisplay (in D:\Steam\steamapps\common\7 Days To Die\Mods\【单补丁】V3.0.0+b252+显示怪物血量（美化版）（常显已包含此MOD）\ANANBloodDisplay.dll), creating instance
+[ANAN-BloodDisplay] 强制开启 实体生命值条 / 显示实体伤害 已加载
+2026-10-03T08:18:12 9.334 INF [MODS]     Initialized code in mod 'ANAN-BloodDisplay' in assembly ananBloodDisplay (in D:\Steam\steamapps\common\7 Days To Die\Mods\【单补丁】V3.0.0+b252+显示怪物血量（美化版）（常显已包含此MOD）\ANANBloodDisplay.dll)
+2026-10-03T08:18:12 9.335 INF [MODS] Loading done
+2026-10-03T08:18:12 9.368 INF Permissions file 'serveradmin.xml' not found, creating.
+2026-10-03T08:18:12 9.374 INF [MC7DTD] Bridge connected
+2026-10-03T08:18:12 9.375 INF [MC7DTD] 7DTD connected
+2026-10-03T08:18:12 9.376 INF [MC7DTD] Test received from minecraft: Hello from Minecraft
+2026-10-03T08:18:12 9.386 INF Command "automation" has no explicit permission level, but a default permission of 1000, adding to permission list
+2026-10-03T08:18:12 9.388 INF Command "ccphysics" has no explicit permission level, but a default permission of 1000, adding to permission list
+2026-10-03T08:18:12 9.389 INF Command "chunkcache" has no explicit permission level, but a default permission of 1000, adding to permission list
+2026-10-03T08:18:12 9.390 INF Command "createwebuser" has no explicit permission level, but a default permission of 1000, adding to permission list
+2026-10-03T08:18:12 9.391 INF Command "debugshot" has no explicit permission level, but a default permission of 1000, adding to permission list
+2026-10-03T08:18:12 9.392 INF Command "debugweather" has no explicit permission level, but a default permission of 1000, adding to permission list
+2026-10-03T08:18:12 9.393 INF Command "decomgr" has no explicit permission level, but a default permission of 1000, adding to permission list
+2026-10-03T08:18:12 9.394 INF Command "exportcurrentconfigs" has no explicit permission level, but a default permission of 1000, adding to permission list
+2026-10-03T08:18:12 9.395 INF Command "fallingblocks" has no explicit permission level, but a default permission of 1000, adding to permission list
+2026-10-03T08:18:12 9.396 INF Command "getgamepref" has no explicit permission level, but a default permission of 1000, adding to permission list
+2026-10-03T08:18:12 9.397 INF Command "getgamestat" has no explicit permission level, but a default permission of 1000, adding to permission list
+2026-10-03T08:18:12 9.397 INF Command "getlogpath" has no explicit permission level, but a default permission of 1000, adding to permission list
+2026-10-03T08:18:12 9.398 INF Command "getoptions" has no explicit permission level, but a default permission of 1000, adding to permission list
+2026-10-03T08:18:12 9.399 INF Command "getsandboxoptions" has no explicit permission level, but a default permission of 1000, adding to permission list
+2026-10-03T08:18:12 9.399 INF Command "gettime" has no explicit permission level, but a default permission of 1000, adding to permission list
+2026-10-03T08:18:12 9.400 INF Command "gfx" has no explicit permission level, but a default permission of 1000, adding to permission list
+2026-10-03T08:18:12 9.401 INF Command "graph" has no explicit permission level, but a default permission of 1000, adding to permission list
+2026-10-03T08:18:12 9.403 INF Command "help" has no explicit permission level, but a default permission of 1000, adding to permission list
+2026-10-03T08:18:12 9.404 INF Command "listplayerids" has no explicit permission level, but a default permission of 1000, adding to permission list
+2026-10-03T08:18:12 9.405 INF Command "listthreads" has no explicit permission level, but a default permission of 1000, adding to permission list
+2026-10-03T08:18:12 9.406 INF Command "loot" has no explicit permission level, but a default permission of 1000, adding to permission list
+2026-10-03T08:18:12 9.407 INF Command "memcl" has no explicit permission level, but a default permission of 1000, adding to permission list
+2026-10-03T08:18:12 9.408 INF Command "meshdatamanager" has no explicit permission level, but a default permission of 1000, adding to permission list
+2026-10-03T08:18:12 9.409 INF Command "performanceprofiler" has no explicit permission level, but a default permission of 1000, adding to permission list
+2026-10-03T08:18:12 9.416 INF Command "settempunit" has no explicit permission level, but a default permission of 1000, adding to permission list
+2026-10-03T08:18:12 9.418 INF Command "signeditordebug" has no explicit permission level, but a default permission of 1000, adding to permission list
+2026-10-03T08:18:12 9.419 INF Command "signtexman" has no explicit permission level, but a default permission of 1000, adding to permission list
+2026-10-03T08:18:12 9.421 INF Creating TransformDebug GameObject
+2026-10-03T08:18:12 9.423 INF Command "uioptions" has no explicit permission level, but a default permission of 1000, adding to permission list
+2026-10-03T08:18:12 9.441 INF GameSense server not found (no props file), disabling
+2026-10-03T08:18:12 9.450 INF [PartyQuests] Initialized
+2026-10-03T08:18:12 9.458 INF Awake done in 897 ms
+2026-10-03T08:18:12 9.574 INF [XUi] Instantiating XUi from default prefab.
+2026-10-03T08:18:12 9.647 INF [XUi] Loading XUi asynchronously
+2026-10-03T08:18:13 10.097 WRN Retrieving remote news file 'NewsFeatured.xml' failed: FileNotFound (File not found)
+2026-10-03T08:18:13 10.107 WRN Retrieving remote news file 'News.xml' failed: FileNotFound (File not found)
+2026-10-03T08:18:13 10.120 INF Reloading serveradmin.xml
+2026-10-03T08:18:13 10.123 INF Loading permissions file at 'D:\wenjian\minecraft\7-M\runtime\7dtd\Saves/serveradmin.xml'
+2026-10-03T08:18:13 10.130 INF Permissions file unchanged, skipping reloading
+2026-10-03T08:18:15 12.847 INF [XUi] Parsing all window groups completed in 3082 ms total.
+2026-10-03T08:18:15 12.887 INF Updated culture for display texts
+2026-10-03T08:18:15 12.900 WRN UIUtils: No device binding source could be found for PlayerAction GUI Apply
+Cannot Prepare a disabled VideoPlayer
+2026-10-03T08:18:16 13.964 INF Loaded default EULA
+2026-10-03T08:18:17 14.461 INF [XUi] Initialized all window groups completed in 1441 ms total.
+Direct3D: detected that using refresh rate causes time drift. Will stop trusting refresh rate until the game window is moved.
+Direct3D: detected that vsync is broken (it does not limit frame rate properly). Delta time will now be calculated using cpu-side time stampling until the game window is moved.
+2026-10-03T08:18:17 14.749 INF LoadTextureArraysForQuality quality -1 to 0, reload False
+2026-10-03T08:18:18 15.577 INF LoadTextureArraysForQuality took 0.826
+2026-10-03T08:18:18 15.592 INF Loaded (local): events in 0.01
+2026-10-03T08:18:18 15.606 INF Loaded (local): rwgmixer in 0.01
+2026-10-03T08:18:18 15.633 INF Loaded (local): archetypes in 0.02
+2026-10-03T08:18:18 15.642 INF Loaded (local): loadingscreen in 0.00
+2026-10-03T08:18:18 15.653 INF Added 1336 subtitle data entries and 3 speaker colors
+2026-10-03T08:18:18 15.655 INF Loaded (local): subtitles in 0.00
+2026-10-03T08:18:18 15.660 INF Loaded (local): videos in 0.00
+2026-10-03T08:18:18 15.667 INF Loaded (local): sandbox_overrides in 0.00
+2026-10-03T08:18:18 15.668 INF WorldStaticData.Init() needed 5.823 s
+2026-10-03T08:18:18 15.685 INF [Steamworks.NET] SteamAPI_Init() failed. Refer to Valve's documentation or the comment above this line for more information.
+2026-10-03T08:18:18 15.686 INF [Steamworks.NET] API could not be initialized - probably Steam not running.
+2026-10-03T08:19:40 97.460 INF Preparing quit
+2026-10-03T08:19:40 97.477 INF Persistent GamePrefs saved
+2026-10-03T08:19:40 97.478 INF Cleanup
+2026-10-03T08:19:40 97.481 INF [Discord] Saving settings with DiscordDisabled=True
+2026-10-03T08:19:40 97.489 INF Persistent GamePrefs saved
+2026-10-03T08:19:40 97.508 ERR [HResult] FAILED (0x89235208 = E_XBL_NOT_INITIALIZED) Uninitialize Xbox Live.
+2026-10-03T08:19:40 97.510 INF [HResult] SUCCEEDED (0x00000000 = S_OK) Uninitialize Gaming Runtime.
+2026-10-03T08:19:40 97.511 INF [XBL] API Destroyed.
+2026-10-03T08:19:42 99.085 INF AchievementManager.Cleanup
+2026-10-03T08:19:42 99.178 INF Terminating threads
+2026-10-03T08:19:42 99.179 INF OnApplicationQuit
+2026-10-03T08:19:42 99.182 INF Terminating threads
+2026-10-03T08:19:42 99.182 INF OnApplicationQuit
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 151437 frames, [1.0 KB-2.0 KB]: 165 frames, [2.0 KB-4.0 KB]: 53 frames, [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 4179 frames, [16.0 KB-32.0 KB]: 6 frames, [32.0 KB-64.0 KB]: 3 frames, [64.0 KB-128.0 KB]: 2 frames, [128.0 KB-256.0 KB]: 4 frames, [256.0 KB-0.5 MB]: 11 frames, [0.5 MB-1.0 MB]: 2 frames, [1.0 MB-2.0 MB]: 1 frames, [2.0 MB-4.0 MB]: 2 frames, [4.0 MB-8.0 MB]: 1 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 8.0 MB
+      Peak Allocated Bytes 8.0 MB
+      Overflow Count 25632
+    [ALLOC_TEMP_Job.Worker 18]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 0.5 MB
+      Peak Allocated Bytes 511.2 KB
+      Overflow Count 4146
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 23.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 52.0 KB
+      Peak Allocated Bytes 49.8 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 16]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 56.0 KB
+      Peak Allocated Bytes 53.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 7.8 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 14]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 17]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 11.3 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 11.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 63.0 KB
+      Overflow Count 1
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 23
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 138 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 27.1 KB
+      Overflow Count 1
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 15.8 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 31.3 KB
+      Overflow Count 1
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 49.8 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 20.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 48.0 KB
+      Peak Allocated Bytes 45.9 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 20]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 11]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 2.2 KB
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 21]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 23.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 2.2 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 13]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 12
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 40.0 KB
+      Peak Allocated Bytes 38.2 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 1
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 24.7 KB
+      Overflow Count 1
+    [ALLOC_TEMP_Job.Worker 22]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_UnityGfxDeviceWorker]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 63.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 9]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 8]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 7]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 10]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 45.9 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 15]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 12]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 19]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 128.0 KB
+      Peak Allocated Bytes 128.0 KB
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 120890
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 4 Subsections = 4096 buckets. Failed count: 334832
+        32B: 37 Subsections = 18944 buckets. Failed count: 348681
+        48B: 30 Subsections = 10240 buckets. Failed count: 74705
+        64B: 26 Subsections = 6656 buckets. Failed count: 110353
+        80B: 66 Subsections = 13516 buckets. Failed count: 94292
+        96B: 72 Subsections = 12288 buckets. Failed count: 75157
+        112B: 12 Subsections = 1755 buckets. Failed count: 11703
+        128B: 9 Subsections = 1152 buckets. Failed count: 40379
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 1791 frames, [32.0 MB-64.0 MB]: 17 frames, [64.0 MB-128.0 MB]: 154059 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 7
+      Peak Allocated memory 98.8 MB
+      Peak Large allocation bytes 39.2 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [8.0 MB-16.0 MB]: 11 frames, [16.0 MB-32.0 MB]: 153008 frames, [64.0 MB-128.0 MB]: 183 frames, [128.0 MB-256.0 MB]: 2665 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 17
+      Peak Allocated memory 230.6 MB
+      Peak Large allocation bytes 135.7 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 1
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 1
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 3
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 4 Subsections = 4096 buckets. Failed count: 334832
+        32B: 37 Subsections = 18944 buckets. Failed count: 348681
+        48B: 30 Subsections = 10240 buckets. Failed count: 74705
+        64B: 26 Subsections = 6656 buckets. Failed count: 110353
+        80B: 66 Subsections = 13516 buckets. Failed count: 94292
+        96B: 72 Subsections = 12288 buckets. Failed count: 75157
+        112B: 12 Subsections = 1755 buckets. Failed count: 11703
+        128B: 9 Subsections = 1152 buckets. Failed count: 40379
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [32.0 KB-64.0 KB]: 4 frames, [64.0 KB-128.0 KB]: 1785 frames, [128.0 KB-256.0 KB]: 2 frames, [256.0 KB-0.5 MB]: 192 frames, [0.5 MB-1.0 MB]: 66 frames, [1.0 MB-2.0 MB]: 153818 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 1.1 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 4 frames, [128.0 KB-256.0 KB]: 81 frames, [256.0 KB-0.5 MB]: 1690 frames, [2.0 MB-4.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 122 frames, [8.0 MB-16.0 MB]: 153 frames, [16.0 MB-32.0 MB]: 153816 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 2
+      Peak Allocated memory 22.1 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 110
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 4 Subsections = 4096 buckets. Failed count: 334832
+        32B: 37 Subsections = 18944 buckets. Failed count: 348681
+        48B: 30 Subsections = 10240 buckets. Failed count: 74705
+        64B: 26 Subsections = 6656 buckets. Failed count: 110353
+        80B: 66 Subsections = 13516 buckets. Failed count: 94292
+        96B: 72 Subsections = 12288 buckets. Failed count: 75157
+        112B: 12 Subsections = 1755 buckets. Failed count: 11703
+        128B: 9 Subsections = 1152 buckets. Failed count: 40379
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [4.0 MB-8.0 MB]: 1773 frames, [8.0 MB-16.0 MB]: 154094 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 5
+      Peak Allocated memory 13.7 MB
+      Peak Large allocation bytes 3.6 MB
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [64.0 KB-128.0 KB]: 3 frames, [128.0 KB-256.0 KB]: 1 frames, [16.0 MB-32.0 MB]: 1766 frames, [32.0 MB-64.0 MB]: 2 frames, [64.0 MB-128.0 MB]: 2 frames, [128.0 MB-256.0 MB]: 154084 frames, [256.0 MB-0.50 GB]: 9 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 51
+      Peak Allocated memory 320.9 MB
+      Peak Large allocation bytes 128.5 MB
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 1
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 4 Subsections = 4096 buckets. Failed count: 334832
+        32B: 37 Subsections = 18944 buckets. Failed count: 348681
+        48B: 30 Subsections = 10240 buckets. Failed count: 74705
+        64B: 26 Subsections = 6656 buckets. Failed count: 110353
+        80B: 66 Subsections = 13516 buckets. Failed count: 94292
+        96B: 72 Subsections = 12288 buckets. Failed count: 75157
+        112B: 12 Subsections = 1755 buckets. Failed count: 11703
+        128B: 9 Subsections = 1152 buckets. Failed count: 40379
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1764 frames, [8.0 KB-16.0 KB]: 154103 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 12.8 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 4 frames, [2.0 KB-4.0 KB]: 1760 frames, [256.0 KB-0.5 MB]: 2 frames, [0.5 MB-1.0 MB]: 4 frames, [2.0 MB-4.0 MB]: 3 frames, [4.0 MB-8.0 MB]: 154094 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 4
+      Peak Allocated memory 7.3 MB
+      Peak Large allocation bytes 0 B

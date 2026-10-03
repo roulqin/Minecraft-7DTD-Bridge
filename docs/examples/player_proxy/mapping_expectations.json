@@ -1,0 +1,86 @@
+{
+  "coordinate": {
+    "scale": 2,
+    "offsetX": 100,
+    "offsetY": -10,
+    "offsetZ": 25
+  },
+  "forwarded": [
+    {
+      "type": "entity_state",
+      "version": 1,
+      "source": "minecraft",
+      "stream_id": "1c9228a7-dc8d-4fc9-8df3-59101513b8f9",
+      "entity_id": "eb592bea-249d-46cb-bf21-7b40c4b68831",
+      "entity_type": "minecraft:player",
+      "world_id": "proxy-demo",
+      "dimension": "minecraft:overworld",
+      "sequence": 1,
+      "lifecycle": {
+        "event": "spawn"
+      },
+      "position": {
+        "x": 120,
+        "y": 118,
+        "z": 65,
+        "space": "7dtd"
+      },
+      "rotation": {
+        "yaw": 90,
+        "pitch": 0,
+        "roll": 0
+      },
+      "metadata": {
+        "display_name": "ProxyDemo",
+        "native_type": "minecraft:player"
+      }
+    },
+    {
+      "type": "entity_state",
+      "version": 1,
+      "source": "minecraft",
+      "stream_id": "1c9228a7-dc8d-4fc9-8df3-59101513b8f9",
+      "entity_id": "eb592bea-249d-46cb-bf21-7b40c4b68831",
+      "entity_type": "minecraft:player",
+      "world_id": "proxy-demo",
+      "dimension": "minecraft:overworld",
+      "sequence": 2,
+      "lifecycle": {
+        "event": "update"
+      },
+      "position": {
+        "x": 122,
+        "y": 118,
+        "z": 67,
+        "space": "7dtd"
+      },
+      "rotation": {
+        "yaw": 90,
+        "pitch": 0,
+        "roll": 0
+      },
+      "metadata": {
+        "display_name": "ProxyDemo",
+        "native_type": "minecraft:player"
+      }
+    },
+    {
+      "type": "entity_state",
+      "version": 1,
+      "source": "minecraft",
+      "stream_id": "1c9228a7-dc8d-4fc9-8df3-59101513b8f9",
+      "entity_id": "eb592bea-249d-46cb-bf21-7b40c4b68831",
+      "entity_type": "minecraft:player",
+      "world_id": "proxy-demo",
+      "dimension": "minecraft:overworld",
+      "sequence": 3,
+      "lifecycle": {
+        "event": "despawn",
+        "reason": "world_unloaded"
+      },
+      "position": null,
+      "rotation": null,
+      "metadata": {}
+    }
+  ]
+}

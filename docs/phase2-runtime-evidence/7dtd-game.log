@@ -1,0 +1,657 @@
+Mono path[0] = 'D:/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/Managed'
+Mono config path = 'D:/Steam/steamapps/common/7 Days To Die/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Loading player data from D:/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/data.unity3d
+Initialize engine version: 2022.3.62f2 (7670c08855a9)
+[Subsystems] Discovering subsystems at path D:/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5060 Laptop GPU (ID=0x2d59)
+    Vendor:   NVIDIA
+    VRAM:     7899 MB
+    Driver:   32.0.16.1074
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.170 seconds
+- Finished resetting the current domain, in  0.001 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 0.732700 ms
+2026-10-03T13:19:04 0.002 INF [BACKTRACE] Initialize
+2026-10-03T13:19:04 0.007 INF [BACKTRACE] Root log path: C:\Users\qin_roupl\AppData\Roaming\7DaysToDie\BacktraceLogs
+2026-10-03T13:19:04 0.026 INF [BACKTRACE] Deleted old log: C:\Users\qin_roupl\AppData\Roaming\7DaysToDie\BacktraceLogs\Player-2026-10-03_01-17-36.317.log
+2026-10-03T13:19:04 0.026 INF [BACKTRACE] Using log: C:\Users\qin_roupl\AppData\Roaming\7DaysToDie\BacktraceLogs\Player-2026-10-03_02-15-29.387.log
+2026-10-03T13:19:04 0.026 INF [BACKTRACE] Using log: C:\Users\qin_roupl\AppData\Roaming\7DaysToDie\BacktraceLogs\Player-2026-10-03_02-26-02.844.log
+2026-10-03T13:19:04 0.026 INF [BACKTRACE] Using log: C:\Users\qin_roupl\AppData\Roaming\7DaysToDie\BacktraceLogs\Player-2026-10-03_04-56-14.986.log
+2026-10-03T13:19:04 0.026 INF [BACKTRACE] Player log path: C:\Users\qin_roupl\AppData\Roaming\7DaysToDie\BacktraceLogs\Player-2026-10-03_05-19-04.595.log
+2026-10-03T13:19:04 0.037 INF [BACKTRACE] Initialized
+2026-10-03T13:19:04 0.058 INF Version: V 3.2.0 (b10) Compatibility Version: V 3.2.0, Build: WindowsPlayer 64 Bit
+2026-10-03T13:19:04 0.059 INF System information:
+2026-10-03T13:19:04 0.060 INF    OS: Windows 11  (10.0.26200) 64bit
+2026-10-03T13:19:04 0.061 INF    CPU: Intel(R) Core(TM) i7-14650HX (cores: 24)
+2026-10-03T13:19:04 0.062 INF    RAM: 16107 MB
+2026-10-03T13:19:04 0.064 INF    GPU: NVIDIA GeForce RTX 5060 Laptop GPU (7899 MB)
+2026-10-03T13:19:04 0.067 INF    Graphics API: Direct3D 11.0 [level 11.1] (shader level 5.0)
+2026-10-03T13:19:04 0.078 INF Local UTC offset: 8 hours
+2026-10-03T13:19:04 0.093 INF Command line arguments: "D:\Steam\steamapps\common\7 Days To Die\7DaysToDie.exe" -UserDataFolder=D:\wenjian\minecraft\7-M\runtime\7dtd -logfile D:\wenjian\minecraft\7-M\docs\runtime-evidence\7dtd-game.log -screen-fullscreen 0 -screen-width 960 -screen-height 600
+2026-10-03T13:19:04 0.096 INF Overriding default user data path to D:\wenjian\minecraft\7-M\runtime\7dtd
+2026-10-03T13:19:04 0.102 INF [Platform] Init
+2026-10-03T13:19:04 0.142 INF [Platform] Using native platform: Steam
+2026-10-03T13:19:04 0.144 INF [Platform] Using cross platform: EOS
+2026-10-03T13:19:04 0.146 INF [Platform] Using server platform: Steam
+2026-10-03T13:19:04 0.148 INF [Platform] Using server platform: XBL
+2026-10-03T13:19:04 0.148 INF [Platform] Using server platform: PSN
+2026-10-03T13:19:04 0.149 INF [Platform] Using server platform: LAN
+2026-10-03T13:19:04 0.159 INF Starting PlayerInputManager...
+2026-10-03T13:19:04 0.161 INF InControl (version 1.8.9 build 9376, native module = True, XInput = True)
+2026-10-03T13:19:04 0.165 INF InControl (version 1.8.9 build 9376)
+2026-10-03T13:19:04 0.171 INF InControl Native (version 1.0.6)
+2026-10-03T13:19:04 0.242 INF [InControl] NativeInputDeviceManager enabled.
+2026-10-03T13:19:04 0.259 INF [Platform] Initializing Steam
+Setting breakpad minidump AppID = 251570
+SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  76561199256208852 [API loaded no]
+2026-10-03T13:19:04 0.365 INF [Steamworks.NET] SteamAPI_Init() ok
+2026-10-03T13:19:04 0.367 INF [Steamworks.NET] Registering auth callbacks
+2026-10-03T13:19:04 0.369 INF Not running in Big Picture Mode, no on-screen keyboard available
+2026-10-03T13:19:04 0.370 INF [Platform] Initializing EOS
+2026-10-03T13:19:04 0.395 INF [EOS] Initialize: Success
+2026-10-03T13:19:05 0.419 INF [EOS-Voice] Successfully initialized.
+2026-10-03T13:19:05 0.421 INF [EOS-ACC] Not started with EAC, anticheat disabled
+2026-10-03T13:19:05 0.422 INF [EAC] AntiCheatServerP2P initialized with null interface
+2026-10-03T13:19:05 0.423 INF [Platform] Initializing XBL
+2026-10-03T13:19:05 0.424 INF [Platform] Initializing PSN
+2026-10-03T13:19:05 0.425 INF [Platform] Initializing LAN
+2026-10-03T13:19:05 0.482 INF [SaveDataUtils] InitStatic Begin
+2026-10-03T13:19:05 0.484 INF [SaveDataUtils] UserGameDataDir: D:\wenjian\minecraft\7-M\runtime\7dtd
+2026-10-03T13:19:05 0.485 INF [SaveDataUtils] SdPlayerPrefs -> Unity
+2026-10-03T13:19:05 0.486 INF [SaveDataUtils] InitStatic Complete
+2026-10-03T13:19:05 0.535 INF Last played version: V 3.2.0
+2026-10-03T13:19:05 0.729 INF Localization language from platform: schinese
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 0.986500 ms
+2026-10-03T13:19:05 0.751 INF Texture quality is set to 0
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 6637.
+Total: 7.624500 ms (FindLiveObjects: 0.202400 ms CreateObjectMapping: 0.084000 ms MarkObjects: 7.282000 ms  DeleteObjects: 0.055800 ms)
+
+The referenced script on this Behaviour (Game Object 'BlockProcessor') is missing!
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.592800 ms
+2026-10-03T13:19:12 8.274 INF Awake IsFocused: True
+2026-10-03T13:19:12 8.275 INF Awake
+2026-10-03T13:19:13 8.479 INF Occlusion: Awake
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 6970.
+Total: 8.295200 ms (FindLiveObjects: 0.216400 ms CreateObjectMapping: 0.073400 ms MarkObjects: 7.976100 ms  DeleteObjects: 0.029200 ms)
+
+2026-10-03T13:19:13 8.514 INF ApplyAllOptions streaming budget 7109.1 MB
+2026-10-03T13:19:13 8.516 INF ApplyAllOptions current screen 2560 x 1600, 240hz, window 960 x 600, mode Windowed
+2026-10-03T13:19:13 8.517 INF Texture quality is set to 0
+2026-10-03T13:19:13 8.518 INF ApplyTextureFilter 2, AF Enable
+2026-10-03T13:19:13 8.519 INF ApplyTerrainOptions 2
+2026-10-03T13:19:13 8.646 INF [MODS] Start loading from: 'D:\wenjian\minecraft\7-M\runtime\7dtd/Mods'
+2026-10-03T13:19:13 8.648 INF [MODS]   Trying to load from folder: 'MC7DTD-Bridge'
+2026-10-03T13:19:13 8.657 INF [MODS]     Loaded assembly MC7DTD.Bridge (in D:\wenjian\minecraft\7-M\runtime\7dtd\Mods\MC7DTD-Bridge\MC7DTD.Bridge.dll)
+2026-10-03T13:19:13 8.658 INF [MODS]     Loaded Mod: MC7DTD-Bridge (0.1.0)
+2026-10-03T13:19:13 8.659 INF [MODS] Start loading from: 'D:/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/../Mods'
+2026-10-03T13:19:13 8.661 INF [MODS]   Trying to load from folder: '0_TFP_Harmony'
+2026-10-03T13:19:13 8.664 INF [MODS]     Loaded assembly 0Harmony (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\0Harmony.dll)
+2026-10-03T13:19:13 8.666 INF [MODS]     Loaded assembly Mono.Cecil (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\Mono.Cecil.dll)
+2026-10-03T13:19:13 8.668 INF [MODS]     Loaded assembly Mono.Cecil.Mdb (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\Mono.Cecil.Mdb.dll)
+2026-10-03T13:19:13 8.671 INF [MODS]     Loaded assembly Mono.Cecil.Pdb (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\Mono.Cecil.Pdb.dll)
+2026-10-03T13:19:13 8.673 INF [MODS]     Loaded assembly Mono.Cecil.Rocks (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\Mono.Cecil.Rocks.dll)
+2026-10-03T13:19:13 8.675 INF [MODS]     Loaded assembly MonoMod.Backports (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\MonoMod.Backports.dll)
+2026-10-03T13:19:13 8.677 INF [MODS]     Loaded assembly MonoMod.Core (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\MonoMod.Core.dll)
+2026-10-03T13:19:13 8.679 INF [MODS]     Loaded assembly MonoMod.Iced (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\MonoMod.Iced.dll)
+2026-10-03T13:19:13 8.681 INF [MODS]     Loaded assembly MonoMod.ILHelpers (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\MonoMod.ILHelpers.dll)
+2026-10-03T13:19:13 8.684 INF [MODS]     Loaded assembly MonoMod.RuntimeDetour (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\MonoMod.RuntimeDetour.dll)
+2026-10-03T13:19:13 8.686 INF [MODS]     Loaded assembly MonoMod.Utils (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\MonoMod.Utils.dll)
+2026-10-03T13:19:13 8.688 INF [MODS]     Loaded assembly System.ValueTuple (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\System.ValueTuple.dll)
+2026-10-03T13:19:13 8.690 INF [MODS]     Loaded assembly TfpHarmony (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\TfpHarmony.dll)
+2026-10-03T13:19:13 8.691 INF [MODS]     Loaded Mod: TFP_Harmony (1.1.0.4)
+2026-10-03T13:19:13 8.691 INF [MODS]   Trying to load from folder: 'MC7DTD.Bridge'
+2026-10-03T13:19:13 8.692 WRN [MODS]     Mod with same name (MC7DTD-Bridge) already loaded, ignoring
+2026-10-03T13:19:13 8.693 INF [MODS]   Trying to load from folder: '原始mod'
+2026-10-03T13:19:13 8.694 WRN [MODS]     Folder 原始mod does not contain a ModInfo.xml, ignoring
+2026-10-03T13:19:13 8.695 INF [MODS] Initializing mod code
+2026-10-03T13:19:13 8.696 INF [MODS]   Initializing mod TFP_Harmony
+2026-10-03T13:19:13 8.710 INF [MODS]     Found ModAPI in assembly TfpHarmony (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\TfpHarmony.dll), creating instance
+2026-10-03T13:19:13 8.711 INF [MODS]       [Harmony] Init done
+Fallback handler could not load library D:/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/MonoBleedingEdge/data-00000279AB5682A0.dll
+2026-10-03T13:19:13 8.916 INF [MODS]     Initialized code in mod 'TFP_Harmony' in assembly TfpHarmony (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\TfpHarmony.dll)
+2026-10-03T13:19:13 8.917 INF [MODS]   Initializing mod MC7DTD-Bridge
+2026-10-03T13:19:13 8.918 INF [MODS]     Found ModAPI in assembly MC7DTD.Bridge (in D:\wenjian\minecraft\7-M\runtime\7dtd\Mods\MC7DTD-Bridge\MC7DTD.Bridge.dll), creating instance
+2026-10-03T13:19:13 8.972 INF [MODS]     Initialized code in mod 'MC7DTD-Bridge' in assembly MC7DTD.Bridge (in D:\wenjian\minecraft\7-M\runtime\7dtd\Mods\MC7DTD-Bridge\MC7DTD.Bridge.dll)
+2026-10-03T13:19:13 8.973 INF [MODS] Loading done
+2026-10-03T13:19:13 8.983 INF Loading permissions file at 'D:\wenjian\minecraft\7-M\runtime\7dtd\Saves/serveradmin.xml'
+2026-10-03T13:19:13 8.996 INF Loading permissions file done.
+2026-10-03T13:19:13 9.012 INF Creating TransformDebug GameObject
+2026-10-03T13:19:13 9.025 INF [MC7DTD] Bridge connected
+2026-10-03T13:19:13 9.025 INF [MC7DTD] 7DTD connected
+2026-10-03T13:19:13 9.027 INF [MC7DTD] Test received from minecraft: Hello from Minecraft
+2026-10-03T13:19:13 9.035 INF GameSense server not found (no props file), disabling
+2026-10-03T13:19:13 9.041 INF [PartyQuests] Initialized
+2026-10-03T13:19:13 9.047 INF Awake done in 773 ms
+2026-10-03T13:19:13 9.149 INF [XUi] Instantiating XUi from default prefab.
+2026-10-03T13:19:13 9.230 INF [XUi] Loading XUi asynchronously
+2026-10-03T13:19:14 9.674 WRN Retrieving remote news file 'NewsFeatured.xml' failed: FileNotFound (File not found)
+2026-10-03T13:19:14 9.683 WRN Retrieving remote news file 'News.xml' failed: FileNotFound (File not found)
+2026-10-03T13:19:14 9.731 INF Reloading serveradmin.xml
+2026-10-03T13:19:14 9.732 INF Loading permissions file at 'D:\wenjian\minecraft\7-M\runtime\7dtd\Saves/serveradmin.xml'
+2026-10-03T13:19:14 9.733 INF Permissions file unchanged, skipping reloading
+2026-10-03T13:19:17 12.436 INF [XUi] Parsing all window groups completed in 3092 ms total.
+2026-10-03T13:19:17 12.477 INF Updated culture for display texts
+2026-10-03T13:19:17 12.491 WRN UIUtils: No device binding source could be found for PlayerAction GUI Apply
+Cannot Prepare a disabled VideoPlayer
+2026-10-03T13:19:18 13.563 INF Loaded default EULA
+2026-10-03T13:19:18 14.047 INF [XUi] Initialized all window groups completed in 1443 ms total.
+Direct3D: detected that using refresh rate causes time drift. Will stop trusting refresh rate until the game window is moved.
+Direct3D: detected that vsync is broken (it does not limit frame rate properly). Delta time will now be calculated using cpu-side time stampling until the game window is moved.
+2026-10-03T13:19:18 14.281 INF LoadTextureArraysForQuality quality -1 to 0, reload False
+2026-10-03T13:19:19 14.803 INF LoadTextureArraysForQuality took 0.52
+2026-10-03T13:19:19 14.818 INF Loaded (local): events in 0.01
+2026-10-03T13:19:19 14.832 INF Loaded (local): rwgmixer in 0.01
+2026-10-03T13:19:19 14.839 INF Loaded (local): archetypes in 0.00
+2026-10-03T13:19:19 14.847 INF Loaded (local): loadingscreen in 0.00
+2026-10-03T13:19:19 14.856 INF Added 1336 subtitle data entries and 3 speaker colors
+2026-10-03T13:19:19 14.858 INF Loaded (local): subtitles in 0.00
+2026-10-03T13:19:19 14.862 INF Loaded (local): videos in 0.00
+2026-10-03T13:19:19 14.868 INF Loaded (local): sandbox_overrides in 0.00
+2026-10-03T13:19:19 14.868 INF WorldStaticData.Init() needed 5.447 s
+2026-10-03T13:19:19 14.872 INF [Steamworks.NET] Login ok.
+2026-10-03T13:19:19 14.873 INF [EOS] Login
+2026-10-03T13:19:19 15.155 INF AchievementManager: Received stats and achievements from Steam
+2026-10-03T13:19:21 16.770 INF [EOS] Login succeeded, PUID: 0002a27c262e4f8d9c40beda1e4fa220
+2026-10-03T13:19:21 16.772 INF [EOS] Getting native user for 0002a27c262e4f8d9c40beda1e4fa220
+2026-10-03T13:19:21 16.774 INF [EOS] CopyIdToken result: Success
+2026-10-03T13:19:21 17.155 INF [BACKTRACE] Attempting to get User ID from platform: EOS
+2026-10-03T13:19:21 17.157 INF [EOS] Created RFS Request: NewsFeatured.xml
+2026-10-03T13:19:21 17.158 INF [EOS] Created RFS Request: News.xml
+2026-10-03T13:19:21 17.160 WRN [RPFS] File path was not found.
+2026-10-03T13:19:21 17.161 WRN [RPFS] Byte data was empty or null.
+2026-10-03T13:19:21 17.164 INF [EOS] Created RFS Request: DLCConfiguration
+2026-10-03T13:19:21 17.165 INF [EOS] Created RFS Request: eula_schinese
+2026-10-03T13:19:21 17.169 INF [PermissionsManager] ResolvePermissions(_perms: [Multiplayer, Communication, Crossplay], _canPrompt: False)
+2026-10-03T13:19:21 17.172 INF [PermissionsManager] ResolvePermissions(_perms: [Multiplayer, Communication, Crossplay], _canPrompt: False) Fetching Title Storage Overrides...
+2026-10-03T13:19:21 17.173 INF [EOS] Created RFS Request: PlatformOverrides
+2026-10-03T13:19:21 17.176 INF [EOS] ResolvePermissions(_perms: [Multiplayer, Communication, Crossplay], _canPrompt: False)
+2026-10-03T13:19:22 17.552 WRN [EOS] [LogEOSTitleStorage - Warning] CacheRegistry: could not open registry file for reading.
+2026-10-03T13:19:22 17.555 WRN [EOS] [LogEOSTitleStorage - Warning] Deleting local invalid cache file. CacheFilename=[D:/wenjian/minecraft/7-M/runtime/7dtd/titlestorage/8a44365d5ccb43328b4df2f8ca199e43/__cache_registry_lock]
+2026-10-03T13:19:23 18.649 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 000002794B217050
+2026-10-03T13:19:23 18.657 INF [EOS] Read (NewsFeatured.xml) completed: Success, received 1821 bytes
+2026-10-03T13:19:23 18.664 INF [EOS] Created RFS Request: news_featured_2026_dlc_08.jpg
+2026-10-03T13:19:23 18.665 INF [EOS] Created RFS Request: news_featured_2026_dlc_07.jpg
+2026-10-03T13:19:23 18.666 INF [EOS] Created RFS Request: news_featured_2026_dlc_06.jpg
+2026-10-03T13:19:23 19.352 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FCB79BF0
+2026-10-03T13:19:23 19.360 INF [EOS] Read (PlatformOverrides) completed: Success, received 532 bytes
+2026-10-03T13:19:23 19.361 INF [TitleStorageOverridesManager] Successfully retrieved overrides.
+2026-10-03T13:19:23 19.363 INF [PermissionsManager] ResolvePermissions(_perms: [Multiplayer, Communication, Crossplay], _canPrompt: False) Fetched Title Storage Overrides!
+2026-10-03T13:19:23 19.389 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 000002794B217A10
+2026-10-03T13:19:23 19.393 INF [EOS] Read (News.xml) completed: Success, received 4600 bytes
+2026-10-03T13:19:23 19.394 INF [EOS] Created RFS Request: news_game_3.3_exp.jpg
+2026-10-03T13:19:23 19.395 INF [EOS] Created RFS Request: news_game_3.2.0_stable.jpg
+2026-10-03T13:19:23 19.396 INF [EOS] Created RFS Request: news_game_2026_7_blank.jpg
+2026-10-03T13:19:23 19.407 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FCCC68C0
+2026-10-03T13:19:24 19.444 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FCCC68C0
+2026-10-03T13:19:24 19.574 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FCC89ED0
+2026-10-03T13:19:24 19.592 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FCC89ED0
+2026-10-03T13:19:24 19.595 INF [EOS] Read (eula_schinese) completed: Success, received 29413 bytes
+2026-10-03T13:19:24 19.598 INF [EOS] Created RFS Request: backtraceconfig.xml
+2026-10-03T13:19:24 19.623 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FCB28F90
+2026-10-03T13:19:24 19.627 INF [EOS] Read (DLCConfiguration) completed: Success, received 4729 bytes
+2026-10-03T13:19:24 19.629 INF [DLCTitleStorageManager] Successfully retrieved DLC configuration.
+2026-10-03T13:19:24 19.636 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FCB289D0
+2026-10-03T13:19:24 19.646 INF [EOS] Read (BlockedPlayerList) completed: Success, received 8 bytes
+2026-10-03T13:19:24 19.792 WRN [EOS] [LogEOSMessaging - Warning] Connect Messaging: Lost connection to Stomp on 'wss://api.epicgames.dev/notifications/v1/c9ccbd00333f4dd6995beb7c75000942/connect' () - will attempt to reconnect after 4.6 seconds. LocalUserId=[000...220]
+2026-10-03T13:19:24 20.087 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FCE8D7F0
+2026-10-03T13:19:24 20.170 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FCB79AC0
+2026-10-03T13:19:24 20.192 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FCE8D7F0
+2026-10-03T13:19:24 20.215 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FD0BA420
+2026-10-03T13:19:24 20.219 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 000002794B217050
+2026-10-03T13:19:24 20.222 INF [EOS] Read (backtraceconfig.xml) completed: Success, received 2615 bytes
+2026-10-03T13:19:24 20.226 INF [BACKTRACE] Bug reporting Enabled with save uploading: Disabled
+2026-10-03T13:19:24 20.227 INF [BACKTRACE] Save Attaching Feature: Disabled
+2026-10-03T13:19:24 20.227 INF [BACKTRACE] Entire World Attaching Feature: Disabled
+2026-10-03T13:19:24 20.228 INF [BACKTRACE] Disabling Error Report Message Types: fellthroughworld
+2026-10-03T13:19:24 20.229 INF [BACKTRACE] Bug reporting Disabled with save uploading: Disabled
+2026-10-03T13:19:25 20.617 INF [BACKTRACE] Platform ID set to: "EOS-0002a27c262e4f8d9c40beda1e4fa220"
+2026-10-03T13:19:25 20.618 INF [BACKTRACE] Configuration refreshed from XML: Enabled True
+2026-10-03T13:19:25 20.619 INF [BACKTRACE] Bug reporting: Disabled
+2026-10-03T13:19:25 20.619 INF [BACKTRACE] Bug reporting attach save feature: Disabled
+2026-10-03T13:19:25 20.620 INF [BACKTRACE] Bug reporting attach entire world feature: Disabled
+2026-10-03T13:19:25 20.621 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 000002794B217050
+2026-10-03T13:19:25 20.622 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FCCC6300
+2026-10-03T13:19:25 20.623 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FCB79AC0
+2026-10-03T13:19:25 20.624 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FCE8D7F0
+2026-10-03T13:19:25 20.625 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FD0BA9E0
+2026-10-03T13:19:25 20.643 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FCCC6300
+2026-10-03T13:19:25 20.657 INF [EOS] Read (news_game_3.3_exp.jpg) completed: Success, received 106006 bytes
+2026-10-03T13:19:25 20.659 INF [EOS] Created RFS Request: news_game_3.1.0_stable.jpg
+2026-10-03T13:19:25 20.674 INF [EOS] Read (news_game_2026_7_blank.jpg) completed: Success, received 70434 bytes
+2026-10-03T13:19:25 20.676 INF [EOS] Created RFS Request: news_game_3.0.1_stable.jpg
+2026-10-03T13:19:25 20.682 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 000002794B217050
+2026-10-03T13:19:25 20.683 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FCCC6300
+2026-10-03T13:19:25 20.701 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 000002794B217050
+2026-10-03T13:19:25 20.705 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FCCC6300
+2026-10-03T13:19:25 20.735 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FCCC6300
+2026-10-03T13:19:25 20.739 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 000002794B217050
+2026-10-03T13:19:25 20.743 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 000002794B217050
+2026-10-03T13:19:25 20.752 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 000002794B217050
+2026-10-03T13:19:25 20.780 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FD0BA9E0
+2026-10-03T13:19:25 20.789 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FCCC6300
+2026-10-03T13:19:25 20.791 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FCCC6300
+2026-10-03T13:19:25 20.807 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FD0BA9E0
+2026-10-03T13:19:25 20.812 INF [EOS] Read (news_game_3.2.0_stable.jpg) completed: Success, received 101488 bytes
+2026-10-03T13:19:25 20.816 INF [EOS] Created RFS Request: news_game_3.0_stable.jpg
+2026-10-03T13:19:25 20.867 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 000002794B217050
+2026-10-03T13:19:25 20.905 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FCCC6300
+2026-10-03T13:19:25 20.923 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 000002794B217050
+2026-10-03T13:19:25 20.940 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 000002794B217050
+2026-10-03T13:19:25 20.949 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 000002794B217050
+2026-10-03T13:19:25 20.958 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FCCC6300
+2026-10-03T13:19:25 20.967 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 000002794B217050
+2026-10-03T13:19:25 21.009 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 000002794B217050
+2026-10-03T13:19:25 21.114 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FCCC6300
+2026-10-03T13:19:25 21.131 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 000002794B217050
+2026-10-03T13:19:25 21.135 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 000002794B217050
+2026-10-03T13:19:25 21.148 INF [EOS] Read (news_featured_2026_dlc_08.jpg) completed: Success, received 774214 bytes
+2026-10-03T13:19:25 21.150 INF [EOS] Created RFS Request: news_featured_2026_merger.jpg
+2026-10-03T13:19:25 21.181 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FCCC6300
+2026-10-03T13:19:25 21.203 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FCCC6300
+2026-10-03T13:19:25 21.213 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FCCC6300
+2026-10-03T13:19:25 21.257 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FCCC6300
+2026-10-03T13:19:25 21.262 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FCCC6300
+2026-10-03T13:19:25 21.266 WRN [EOS] [LogHttp - Warning] Payload is incomplete. Response still processing. 00000279FCCC6300
+2026-10-03T13:19:25 21.312 INF [EOS] Read (news_featured_2026_dlc_07.jpg) completed: Success, received 925495 bytes
+2026-10-03T13:19:25 21.314 INF [EOS] Created RFS Request: news_featured_ytz2.1.jpg
+2026-10-03T13:19:26 21.676 INF [EOS] Read (news_game_3.0.1_stable.jpg) completed: Success, received 154912 bytes
+2026-10-03T13:19:26 21.678 INF [EOS] Created RFS Request: news_game_2026_2.6_stable.jpg
+2026-10-03T13:19:26 22.026 INF [EOS] Read (news_game_3.1.0_stable.jpg) completed: Success, received 585941 bytes
+2026-10-03T13:19:26 22.073 INF [EOS] Read (news_featured_ytz2.1.jpg) completed: Success, received 123752 bytes
+2026-10-03T13:19:26 22.075 INF [EOS] Created RFS Request: news_featured_tfpmerch.jpg
+2026-10-03T13:19:26 22.110 INF [EOS] Read (news_game_3.0_stable.jpg) completed: Success, received 275348 bytes
+2026-10-03T13:19:26 22.142 INF [EOS] Read (news_featured_2026_merger.jpg) completed: Success, received 154308 bytes
+2026-10-03T13:19:26 22.144 INF [EOS] Created RFS Request: news_featured_soundtrack.jpg
+2026-10-03T13:19:27 22.493 INF [EOS] Read (news_game_2026_2.6_stable.jpg) completed: Success, received 97562 bytes
+2026-10-03T13:19:27 22.762 INF [EOS] Read (news_featured_tfpmerch.jpg) completed: Success, received 78916 bytes
+2026-10-03T13:19:27 23.083 INF [EOS] Read (news_featured_soundtrack.jpg) completed: Success, received 235045 bytes
+2026-10-03T13:19:29 25.024 INF [MC7DTD] Minecraft player: x=-48.327511150412406 y=64 z=52.271001783143433
+2026-10-03T13:19:30 25.531 INF [MC7DTD] Minecraft player: x=-48.327511150412406 y=64 z=52.271001783143433
+2026-10-03T13:19:32 27.463 WRN [EOS] [LogEOSMessaging - Warning] Connect Messaging: Lost connection to Stomp on 'wss://api.epicgames.dev/notifications/v1/c9ccbd00333f4dd6995beb7c75000942/connect' () - will attempt to reconnect after 4.3 seconds. LocalUserId=[000...220]
+2026-10-03T13:19:39 34.769 WRN [EOS] [LogEOSMessaging - Warning] Connect Messaging: Lost connection to Stomp on 'wss://api.epicgames.dev/notifications/v1/c9ccbd00333f4dd6995beb7c75000942/connect' () - will attempt to reconnect after 5.9 seconds. LocalUserId=[000...220]
+2026-10-03T13:19:48 43.727 WRN [EOS] [LogEOSMessaging - Warning] Connect Messaging: Lost connection to Stomp on 'wss://api.epicgames.dev/notifications/v1/c9ccbd00333f4dd6995beb7c75000942/connect' () - will attempt to reconnect after 4.2 seconds. LocalUserId=[000...220]
+2026-10-03T13:19:55 51.007 WRN [EOS] [LogEOSMessaging - Warning] Connect Messaging: Lost connection to Stomp on 'wss://api.epicgames.dev/notifications/v1/c9ccbd00333f4dd6995beb7c75000942/connect' () - will attempt to reconnect after 6.0 seconds. LocalUserId=[000...220]
+2026-10-03T13:19:56 52.148 INF [EOS] Read (news_featured_2026_dlc_06.jpg) completed: Success, received 149863 bytes
+2026-10-03T13:20:04 60.000 WRN [EOS] [LogEOSMessaging - Warning] Connect Messaging: Lost connection to Stomp on 'wss://api.epicgames.dev/notifications/v1/c9ccbd00333f4dd6995beb7c75000942/connect' () - will attempt to reconnect after 5.4 seconds. LocalUserId=[000...220]
+2026-10-03T13:20:13 68.444 WRN [EOS] [LogEOSMessaging - Warning] Connect Messaging: Lost connection to Stomp on 'wss://api.epicgames.dev/notifications/v1/c9ccbd00333f4dd6995beb7c75000942/connect' () - will attempt to reconnect after 4.9 seconds. LocalUserId=[000...220]
+2026-10-03T13:20:19 74.418 INF [MC7DTD] Minecraft player: x=-48.327511150412406 y=64 z=52.271001783143433
+2026-10-03T13:20:19 74.930 INF [MC7DTD] Minecraft player: x=-48.327511150412406 y=64 z=52.271001783143433
+2026-10-03T13:20:20 75.469 INF [MC7DTD] Minecraft player: x=-48.327511150412406 y=64 z=52.271001783143433
+2026-10-03T13:20:20 75.968 INF [MC7DTD] Minecraft player: x=-48.327511150412406 y=64 z=52.271001783143433
+2026-10-03T13:20:20 76.339 WRN [EOS] [LogEOSMessaging - Warning] Connect Messaging: Lost connection to Stomp on 'wss://api.epicgames.dev/notifications/v1/c9ccbd00333f4dd6995beb7c75000942/connect' () - will attempt to reconnect after 5.0 seconds. LocalUserId=[000...220]
+2026-10-03T13:20:21 76.472 INF [MC7DTD] Minecraft player: x=-48.327511150412406 y=64 z=52.271001783143433
+2026-10-03T13:20:21 77.022 INF [MC7DTD] Minecraft player: x=-48.327511150412406 y=64 z=52.271001783143433
+2026-10-03T13:20:22 77.563 INF [MC7DTD] Minecraft player: x=-48.327511150412406 y=64 z=52.271001783143433
+2026-10-03T13:20:22 78.112 INF [MC7DTD] Minecraft player: x=-48.327511150412406 y=64 z=52.271001783143433
+2026-10-03T13:20:23 78.618 INF [MC7DTD] Minecraft player: x=-48.327511150412406 y=64 z=52.271001783143433
+2026-10-03T13:20:25 80.871 INF [TitleStorageOverridesManager] Using cached last success.
+2026-10-03T13:20:27 82.619 INF [MC7DTD] Minecraft player: x=-48.327511150412406 y=64 z=52.271001783143433
+2026-10-03T13:20:27 83.119 INF [MC7DTD] Minecraft player: x=-48.327511150412406 y=64 z=52.271001783143433
+2026-10-03T13:20:28 83.667 INF [MC7DTD] Minecraft player: x=-48.327511150412406 y=64 z=52.271001783143433
+2026-10-03T13:20:28 84.168 INF [MC7DTD] Minecraft player: x=-48.327511150412406 y=64 z=52.271001783143433
+2026-10-03T13:20:28 84.349 WRN [EOS] [LogEOSMessaging - Warning] Connect Messaging: Lost connection to Stomp on 'wss://api.epicgames.dev/notifications/v1/c9ccbd00333f4dd6995beb7c75000942/connect' () - will attempt to reconnect after 6.1 seconds. LocalUserId=[000...220]
+2026-10-03T13:20:29 84.719 INF [MC7DTD] Minecraft player: x=-48.327511150412406 y=64 z=52.271001783143433
+2026-10-03T13:20:29 85.260 INF [MC7DTD] Minecraft player: x=-48.327511150412406 y=64 z=52.271001783143433
+2026-10-03T13:20:38 93.543 ERR [EOS] [LogEOSMessaging - Error] Connect Messaging: Failed to connect to Stomp! Connection timed out
+2026-10-03T13:20:50 105.944 WRN [EOS] [LogEOSMessaging - Warning] Connect Messaging: Lost connection to Stomp on 'wss://api.epicgames.dev/notifications/v1/c9ccbd00333f4dd6995beb7c75000942/connect' () - will attempt to reconnect after 6.1 seconds. LocalUserId=[000...220]
+2026-10-03T13:21:51 167.285 INF [MC7DTD] Minecraft player: x=-48.327511150412406 y=64 z=52.271001783143433
+2026-10-03T13:21:52 167.834 INF [MC7DTD] Minecraft player: x=-48.327511150412406 y=64 z=52.271001783143433
+2026-10-03T13:21:52 168.336 INF [MC7DTD] Minecraft player: x=-48.327511150412406 y=64 z=52.271001783143433
+2026-10-03T13:21:53 168.887 INF [MC7DTD] Minecraft player: x=-48.327511150412406 y=64 z=52.271001783143433
+2026-10-03T13:21:54 169.433 INF [MC7DTD] Minecraft player: x=-48.327511150412406 y=64 z=52.271001783143433
+2026-10-03T13:21:54 169.934 INF [MC7DTD] Minecraft player: x=-47.708952170540243 y=64 z=51.714141819635245
+2026-10-03T13:21:55 170.439 INF [MC7DTD] Minecraft player: x=-47.07568262613664 y=64 z=50.590663619117343
+2026-10-03T13:21:55 171.001 INF [MC7DTD] Minecraft player: x=-47.699797816077343 y=64 z=50.426436480505807
+2026-10-03T13:21:56 171.487 INF [MC7DTD] Minecraft player: x=-46.834368285640352 y=64 z=51.894450929536987
+2026-10-03T13:21:56 172.037 INF [MC7DTD] Minecraft player: x=-45.798665855040241 y=64 z=52.03740902816579
+2026-10-03T13:21:57 172.540 INF [MC7DTD] Minecraft player: x=-46.243627760902754 y=64 z=51.397445862052827
+2026-10-03T13:21:57 173.087 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:21:58 173.589 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:21:58 174.135 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:21:59 174.683 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:21:59 175.184 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:22:00 175.732 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:22:00 176.234 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:22:01 176.784 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:22:01 177.284 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:22:02 177.786 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:22:02 178.336 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:15 311.177 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:16 311.724 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:16 312.275 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:17 312.823 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:17 313.372 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:18 313.873 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:18 314.378 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:19 314.878 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:20 315.427 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:20 315.972 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:21 316.522 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:21 317.073 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:22 317.578 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:22 318.122 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:23 318.628 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:23 319.174 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:24 319.679 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:24 320.225 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:25 320.725 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:25 321.274 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:26 321.824 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:26 322.373 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:27 322.923 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:28 323.428 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:28 323.977 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:29 324.525 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:29 325.074 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:30 325.579 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:30 326.127 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:31 326.677 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:31 327.230 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:32 327.775 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:32 328.322 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:33 328.829 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:33 329.378 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:34 329.929 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:35 330.476 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:35 331.026 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:36 331.529 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:36 332.079 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:37 332.624 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:37 333.126 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:38 333.627 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:38 334.127 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:39 334.676 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:39 335.225 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:40 335.775 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:40 336.323 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:41 336.826 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:41 337.329 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:42 337.879 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:42 338.379 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:43 338.926 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:44 339.476 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:44 340.025 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:45 340.572 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:45 341.123 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:46 341.628 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:46 342.129 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:47 342.679 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:47 343.222 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:48 343.771 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:48 344.274 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:49 344.822 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:49 345.374 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:50 345.876 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:51 346.425 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:51 346.931 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:52 347.478 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:52 348.024 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:53 348.577 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:53 349.125 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:54 349.627 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:54 350.178 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:55 350.725 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:55 351.273 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:56 351.777 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:56 352.328 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:57 352.876 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:58 353.422 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:58 353.926 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:59 354.473 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:24:59 355.021 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:00 355.573 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:00 356.124 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:01 356.672 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:01 357.173 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:02 357.724 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:02 358.271 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:03 358.777 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:03 359.325 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:04 359.874 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:04 360.376 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:05 360.876 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:06 361.426 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:06 361.927 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:07 362.477 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:07 363.021 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:08 363.528 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:08 364.029 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:09 364.576 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:09 365.076 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:10 365.625 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:10 366.176 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:11 366.678 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:11 367.228 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:12 367.777 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:12 368.327 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:13 368.827 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:13 369.374 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:14 369.877 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:15 370.423 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:15 370.925 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:16 371.475 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:16 371.979 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:17 372.526 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:17 373.027 INF [MC7DTD] Minecraft player: x=-45.8863832475238 y=64 z=50.427594568511793
+2026-10-03T13:25:18 373.575 INF [MC7DTD] Minecraft player: x=-45.484878284267509 y=64 z=49.46558835370287
+2026-10-03T13:25:18 374.081 INF [MC7DTD] Minecraft player: x=-44.656113716937227 y=64 z=47.479867783976751
+2026-10-03T13:25:19 374.695 INF [MC7DTD] Minecraft player: x=-43.741571716364312 y=64 z=45.288624415228355
+2026-10-03T13:25:19 375.179 INF [MC7DTD] Minecraft player: x=-42.82702349398479 y=64 z=43.09736613902632
+2026-10-03T13:25:20 375.728 INF [MC7DTD] Minecraft player: x=-41.912475263606268 y=64 z=41.300000011920929
+2026-10-03T13:25:20 376.230 INF [MC7DTD] Minecraft player: x=-41.081067781434605 y=64 z=40.141670203990934
+2026-10-03T13:25:21 376.775 INF [MC7DTD] Minecraft player: x=-40.166519551045752 y=64 z=37.953873118481873
+2026-10-03T13:25:21 377.277 INF [MC7DTD] Minecraft player: x=-38.71080461537214 y=64 z=38.280795782163487
+2026-10-03T13:25:22 377.827 INF [MC7DTD] Minecraft player: x=-36.638762212190073 y=64 z=38.2546055031296
+2026-10-03T13:25:22 378.379 INF [MC7DTD] Minecraft player: x=-35.681183339533575 y=64 z=37.300000011920929
+2026-10-03T13:25:23 378.930 INF [MC7DTD] Minecraft player: x=-34.208108679938583 y=64 z=37.300000011920929
+2026-10-03T13:25:24 379.430 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:24 379.974 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:25 380.475 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:25 380.979 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:26 381.480 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:26 382.023 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:27 382.573 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:27 383.079 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:28 383.639 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:28 384.175 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:29 384.679 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:29 385.179 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:30 385.725 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:30 386.276 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:31 386.825 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:31 387.374 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:32 387.874 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:32 388.377 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:33 388.924 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:34 389.428 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:34 389.978 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:35 390.527 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:35 391.074 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:36 391.574 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:36 392.079 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:37 392.628 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:37 393.128 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:38 393.630 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:38 394.174 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:39 394.726 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:39 395.227 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:40 395.727 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:40 396.276 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:41 396.823 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:41 397.324 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:42 397.824 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:42 398.327 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:43 398.875 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:43 399.379 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:44 399.929 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:45 400.479 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:45 401.024 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:46 401.525 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:46 402.025 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:47 402.573 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:47 403.073 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:48 403.579 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:48 404.124 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:49 404.674 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:49 405.180 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:50 405.728 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:50 406.276 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:51 406.778 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:51 407.278 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:52 407.825 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:52 408.326 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:53 408.876 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:53 409.378 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:54 409.928 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:55 410.476 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:55 411.024 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:56 411.574 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:56 412.122 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:57 412.630 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:57 413.180 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:58 413.724 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:58 414.275 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:59 414.777 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:25:59 415.325 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:00 415.875 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:00 416.378 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:01 416.923 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:02 417.427 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:02 417.928 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:03 418.475 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:03 419.026 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:04 419.577 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:04 420.129 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:05 420.674 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:05 421.174 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:06 421.679 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:06 422.228 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:07 422.778 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:07 423.326 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:08 423.828 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:08 424.378 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:09 424.925 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:10 425.474 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:10 425.974 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:49 465.237 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:50 465.785 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:50 466.288 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:51 466.838 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:51 467.387 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:52 467.887 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:53 468.437 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:53 468.939 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:54 469.482 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:54 470.032 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:55 470.539 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:55 471.087 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:56 471.636 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:56 472.186 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:57 472.687 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:57 473.237 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:58 473.739 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:58 474.239 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:59 474.782 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:26:59 475.282 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:00 475.787 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:00 476.339 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:01 476.882 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:01 477.389 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:02 477.937 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:03 478.438 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:03 478.986 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:04 479.532 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:04 480.082 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:05 480.589 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:05 481.136 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:06 481.682 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:06 482.233 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:07 482.736 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:07 483.237 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:08 483.788 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:08 484.288 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:09 484.831 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:09 485.336 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:10 485.883 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:11 486.433 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:11 486.934 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:12 487.434 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:12 487.934 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:13 488.485 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:13 489.034 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:14 489.535 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:14 490.037 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:15 490.477 INF [MC7DTD] Bridge unavailable: The remote party closed the WebSocket connection without completing the close handshake.; retry in 3 seconds
+2026-10-03T13:27:22 497.585 INF [MC7DTD] Bridge unavailable: Unable to connect to the remote server; retry in 3 seconds
+2026-10-03T13:27:28 504.280 INF [MC7DTD] Bridge connected
+2026-10-03T13:27:28 504.281 INF [MC7DTD] 7DTD connected
+2026-10-03T13:27:30 505.489 INF [MC7DTD] Test received from minecraft: Hello from Minecraft
+2026-10-03T13:27:30 505.835 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:30 506.339 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:31 506.883 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:31 507.385 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:32 507.935 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:33 508.483 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:33 509.034 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:34 509.584 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:34 510.134 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:35 510.637 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:35 511.182 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:36 511.683 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:36 512.185 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:37 512.688 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:37 513.235 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:38 513.735 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:38 514.286 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:39 514.834 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:39 515.383 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:40 515.888 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:41 516.439 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:41 516.987 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:42 517.538 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:42 518.083 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:43 518.585 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:43 519.133 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:44 519.683 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:44 520.185 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:45 520.689 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:45 521.233 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:46 521.736 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:46 522.285 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:47 522.785 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:47 523.333 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:48 523.835 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:48 524.335 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:49 524.882 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:50 525.415 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:50 525.949 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:51 526.453 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:51 526.987 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:52 527.490 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:52 527.993 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:53 528.495 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:53 528.996 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:54 529.498 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:54 530.001 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:55 530.502 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:55 531.003 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:56 531.505 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:56 532.006 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:57 532.508 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:57 533.008 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:58 533.510 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:58 534.014 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929
+2026-10-03T13:27:59 534.548 INF [MC7DTD] Minecraft player: x=-34.152266280422424 y=64 z=37.300000011920929

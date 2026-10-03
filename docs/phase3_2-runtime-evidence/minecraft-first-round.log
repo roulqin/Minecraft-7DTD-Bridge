@@ -1,0 +1,238 @@
+[14:10:34] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.4
+[14:10:34] [main/INFO]: Loading 49 mods:
+	- fabric-api 0.140.2+1.21.11
+	   |-- fabric-api-base 1.0.5+4ebb5c083e
+	   |-- fabric-api-lookup-api-v1 1.6.113+1fb1cde93e
+	   |-- fabric-biome-api-v1 17.1.1+4fc5413f3e
+	   |-- fabric-block-api-v1 1.1.10+4ebb5c083e
+	   |-- fabric-block-view-api-v2 1.0.39+4ebb5c083e
+	   |-- fabric-command-api-v2 2.4.7+6b42a6003e
+	   |-- fabric-content-registries-v0 10.2.14+4fc5413f3e
+	   |-- fabric-convention-tags-v1 2.1.55+7f945d5b3e
+	   |-- fabric-convention-tags-v2 2.17.3+8ef948ba3e
+	   |-- fabric-crash-report-info-v1 0.3.23+4ebb5c083e
+	   |-- fabric-data-attachment-api-v1 1.8.44+1fb1cde93e
+	   |-- fabric-data-generation-api-v1 23.4.0+69974c4e3e
+	   |-- fabric-dimensions-v1 4.0.28+4fc5413f3e
+	   |-- fabric-entity-events-v1 3.0.5+4ebb5c083e
+	   |-- fabric-events-interaction-v0 4.0.44+1fb1cde93e
+	   |-- fabric-game-rule-api-v1 2.0.3+4fc5413f3e
+	   |-- fabric-item-api-v1 11.5.20+d0c46b9e3e
+	   |-- fabric-item-group-api-v1 4.2.36+4fc5413f3e
+	   |-- fabric-key-binding-api-v1 1.1.7+4fc5413f3e
+	   |-- fabric-lifecycle-events-v1 2.6.15+4ebb5c083e
+	   |-- fabric-loot-api-v2 3.0.73+3f89f5a53e
+	   |-- fabric-loot-api-v3 2.0.20+78c8b4663e
+	   |-- fabric-message-api-v1 6.1.12+4ebb5c083e
+	   |-- fabric-model-loading-api-v1 6.0.13+4fc5413f3e
+	   |-- fabric-networking-api-v1 5.1.5+ae1e07683e
+	   |-- fabric-object-builder-api-v1 21.1.39+4fc5413f3e
+	   |-- fabric-particles-v1 4.2.11+4fc5413f3e
+	   |-- fabric-recipe-api-v1 8.2.3+4ebb5c083e
+	   |-- fabric-registry-sync-v0 6.2.5+1718722b3e
+	   |-- fabric-renderer-api-v1 8.0.1+f4ffd2e53e
+	   |-- fabric-renderer-indigo 5.0.1+f4ffd2e53e
+	   |-- fabric-rendering-fluids-v1 3.1.43+4ebb5c083e
+	   |-- fabric-rendering-v1 16.2.8+f4ffd2e53e
+	   |-- fabric-resource-conditions-api-v1 5.0.35+4fc5413f3e
+	   |-- fabric-resource-loader-v0 3.3.4+4fc5413f3e
+	   |-- fabric-resource-loader-v1 1.0.10+78c8b4663e
+	   |-- fabric-screen-api-v1 3.1.7+4ebb5c083e
+	   |-- fabric-screen-handler-api-v1 1.3.161+4fc5413f3e
+	   |-- fabric-serialization-api-v1 1.0.5+4ebb5c083e
+	   |-- fabric-sound-api-v1 1.0.51+4fc5413f3e
+	   |-- fabric-tag-api-v1 1.2.20+4fc5413f3e
+	   |-- fabric-transfer-api-v1 6.0.24+4fc5413f3e
+	   \-- fabric-transitive-access-wideners-v1 7.1.0+014c8cec3e
+	- fabricloader 0.18.4
+	   \-- mixinextras 0.5.0
+	- java 21
+	- mc7dtd_bridge 0.1.0
+	- minecraft 1.21.11
+[14:10:34] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/D:/wenjian/minecraft/.minecraft/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[14:10:34] [main/INFO]: Compatibility level set to JAVA_21
+[14:10:35] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[14:10:36] [Datafixer Bootstrap/INFO]: 287 Datafixer optimizations took 483 milliseconds
+[14:10:41] [main/INFO]: Completely ignored arguments: []
+[14:10:41] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[14:10:41] [Render thread/INFO]: Setting user: MC7DTD-Test
+[14:10:41] [Render thread/INFO]: [Indigo] Registering Indigo renderer!
+[14:10:41] [Render thread/INFO]: Manual entity acceptance commands enabled; no automatic lifecycle tracking
+[14:10:42] [MC7DTD-websocket/INFO]: Bridge connected
+[14:10:42] [MC7DTD-websocket/INFO]: Minecraft connected
+[14:10:42] [Render thread/INFO]: Backend library: LWJGL version 3.3.3-snapshot
+[14:10:42] [Render thread/INFO]: Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access, GL_EXT_texture_filter_anisotropic
+[14:10:43] [Download-2/ERROR]: Failed to fetch user properties
+com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+	at knot//com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:59)
+	at knot//com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:150)
+	at knot//net.minecraft.class_310.method_55608(class_310.java:457)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at knot//com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:103)
+	at knot//com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56)
+	at knot//com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:121)
+	... 5 more
+[14:10:43] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-resource-loader-v1, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-serialization-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader
+[14:10:43] [Worker-Main-15/INFO]: Found unifont_pua-17.0.01.hex, loading
+[14:10:43] [Worker-Main-4/INFO]: Found unifont_all_no_pua-17.0.01.hex, loading
+[14:10:43] [Worker-Main-12/INFO]: Found unifont_jp_patch-17.0.01.hex, loading
+[14:10:44] [MC7DTD-websocket/INFO]: Test received from 7dtd: Hello from 7DTD
+[14:10:44] [Download-2/INFO]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[14:10:44] [Download-2/ERROR]: Failed to fetch Realms feature flags
+net.minecraft.class_4355: Realms authentication error with message 'java.lang.RuntimeException: Failed to parse into SignedJWT: 0'
+	at knot//net.minecraft.class_4341.method_20998(class_4341.java:526)
+	at knot//net.minecraft.class_4341.method_68466(class_4341.java:186)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[14:10:44] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on 扬声器 (Realtek(R) Audio)
+[14:10:44] [Render thread/INFO]: Sound engine started
+[14:10:44] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[14:10:44] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[14:10:44] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[14:10:44] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[14:10:44] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[14:10:44] [Render thread/INFO]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[14:10:44] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/chest.png-atlas
+[14:10:44] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/celestials.png-atlas
+[14:10:44] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[14:10:44] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/beds.png-atlas
+[14:10:44] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/items.png-atlas
+[14:10:45] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[14:10:45] [Render thread/INFO]: Created: 128x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[14:10:45] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/signs.png-atlas
+[14:10:45] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[14:10:45] [IO-Worker-1/INFO]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[14:10:45] [IO-Worker-1/ERROR]: Couldn't connect to realms
+net.minecraft.class_4355: Realms authentication error with message 'java.lang.RuntimeException: Failed to parse into SignedJWT: 0'
+	at knot//net.minecraft.class_4341.method_20998(class_4341.java:526)
+	at knot//net.minecraft.class_4341.method_21027(class_4341.java:307)
+	at knot//net.minecraft.class_8647.method_52627(class_8647.java:48)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[14:11:21] [Render thread/INFO]: Loaded 1470 recipes
+[14:11:21] [Render thread/INFO]: Loaded 1584 advancements
+[14:11:21] [Render thread/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 926.5 μs
+[14:11:21] [Server thread/INFO]: Starting integrated minecraft server version 1.21.11
+[14:11:21] [Server thread/INFO]: Generating keypair
+[14:11:22] [Server thread/INFO]: Loading 0 persistent chunks...
+[14:11:22] [Server thread/INFO]: Loading 49 chunks for player spawn...
+[14:11:22] [Server thread/INFO]: 准备生成区域中：16%
+[14:11:22] [Server thread/INFO]: 准备生成区域中：16%
+[14:11:23] [Server thread/INFO]: Time elapsed: 898 ms
+[14:11:23] [Server thread/INFO]: MC7DTD-Test[local:E:ab3bbadc] logged in with entity id 60 at (-29.48842968439675, 64.0, 29.593251520771876)
+[14:11:23] [Server thread/INFO]: MC7DTD-Test加入了游戏
+[14:11:23] [Server thread/INFO]: Changing view distance to 16, from 10
+[14:11:23] [Server thread/INFO]: Changing simulation distance to 12, from 0
+[14:11:23] [Render thread/INFO]: Loaded 5 advancements
+[14:11:23] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[14:11:23] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[14:11:23] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[14:11:24] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[14:11:24] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 8 reached during a single frame. New capacity will be 32.
+[14:11:24] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
+[14:11:24] [Server thread/INFO]: Saving and pausing game...
+[14:11:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Demo World]'/minecraft:overworld
+[14:11:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_end
+[14:11:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_nether
+[14:11:24] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
+[14:11:24] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
+[14:11:45] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
+[14:11:45] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 512 reached during a single frame. New capacity will be 1024.
+[14:12:29] [Server thread/INFO]: Saving and pausing game...
+[14:12:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Demo World]'/minecraft:overworld
+[14:12:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_end
+[14:12:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_nether
+[14:12:42] [Server thread/INFO]: Saving and pausing game...
+[14:12:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Demo World]'/minecraft:overworld
+[14:12:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_end
+[14:12:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_nether
+[14:12:53] [MC7DTD-entity-test-send/INFO]: Entity test sent: {"type":"entity_state","version":1,"source":"minecraft","stream_id":"fd814250-684a-43bd-b1a5-1f4c25779574","entity_id":"00000000-0000-0000-0000-000000000001","entity_type":"minecraft:player","world_id":"runtime-acceptance","dimension":"minecraft:overworld","sequence":1,"position":{"x":-29.48842968439675,"y":64.0,"z":29.593251520771876,"space":"minecraft"},"rotation":{"yaw":199.05028,"pitch":18.750008,"roll":0},"lifecycle":{"event":"spawn"},"metadata":{"health":20.0,"max_health":20.0,"is_alive":true}}
+[14:12:53] [Render thread/INFO]: [System] [CHAT] Entity test queued: spawn (check Bridge and 7DTD logs)
+[14:13:12] [MC7DTD-entity-test-send/INFO]: Entity test sent: {"type":"entity_state","version":1,"source":"minecraft","stream_id":"fd814250-684a-43bd-b1a5-1f4c25779574","entity_id":"00000000-0000-0000-0000-000000000001","entity_type":"minecraft:player","world_id":"runtime-acceptance","dimension":"minecraft:overworld","sequence":2,"position":{"x":-28.270701005049695,"y":64.0,"z":26.403712499538088,"space":"minecraft"},"rotation":{"yaw":150.9001,"pitch":24.599995,"roll":0},"lifecycle":{"event":"update"},"metadata":{"health":20.0,"max_health":20.0,"is_alive":true}}
+[14:13:12] [Render thread/INFO]: [System] [CHAT] Entity test queued: update (check Bridge and 7DTD logs)
+[14:13:26] [Render thread/INFO]: [System] [CHAT] Entity test queued: despawn (check Bridge and 7DTD logs)
+[14:13:26] [MC7DTD-entity-test-send/INFO]: Entity test sent: {"type":"entity_state","version":1,"source":"minecraft","stream_id":"fd814250-684a-43bd-b1a5-1f4c25779574","entity_id":"00000000-0000-0000-0000-000000000001","entity_type":"minecraft:player","world_id":"runtime-acceptance","dimension":"minecraft:overworld","sequence":3,"position":null,"rotation":null,"lifecycle":{"event":"despawn","reason":"out_of_scope"},"metadata":{}}
+[14:17:15] [Render thread/INFO]: [System] [CHAT] 未知或不完整的命令。错误见下
+[14:17:15] [Render thread/INFO]: [System] [CHAT] <--[此处]
+[14:19:28] [Server thread/INFO]: Saving and pausing game...
+[14:19:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Demo World]'/minecraft:overworld
+[14:19:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_end
+[14:19:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_nether
+[14:23:12] [MC7DTD-websocket/INFO]: Bridge disconnected; retry in 3 seconds
+[14:23:15] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:23:18] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:23:21] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:23:24] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:23:27] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:23:30] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:23:33] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:23:36] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:23:39] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:23:42] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:23:45] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:23:48] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:23:51] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:23:54] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:23:57] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:24:00] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:24:03] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:24:06] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:24:09] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:24:12] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:24:15] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:24:18] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:24:21] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:24:24] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:24:27] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:24:30] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:24:33] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:24:36] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:24:39] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:24:42] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:24:45] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:24:48] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:24:51] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:24:54] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:24:57] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:25:00] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:25:03] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:25:06] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:25:09] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:25:12] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:25:15] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:25:18] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:25:21] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:25:24] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:25:27] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:25:30] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:25:33] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:25:36] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:25:39] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:25:42] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:25:45] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:25:48] [MC7DTD-websocket/INFO]: Bridge unavailable: java.util.concurrent.ExecutionException: java.net.ConnectException; retry in 3 seconds
+[14:25:51] [MC7DTD-websocket/INFO]: Bridge connected
+[14:25:51] [MC7DTD-websocket/INFO]: Minecraft connected
+[14:25:51] [MC7DTD-websocket/INFO]: Test received from 7dtd: Hello from 7DTD
+[14:31:00] [MC7DTD-entity-test-send/INFO]: Entity test sent: {"type":"entity_state","version":1,"source":"minecraft","stream_id":"fd814250-684a-43bd-b1a5-1f4c25779574","entity_id":"00000000-0000-0000-0000-000000000001","entity_type":"minecraft:player","world_id":"runtime-acceptance","dimension":"minecraft:overworld","sequence":4,"position":{"x":-19.031462534993487,"y":64.0,"z":26.53326177638475,"space":"minecraft"},"rotation":{"yaw":274.05008,"pitch":21.9,"roll":0},"lifecycle":{"event":"spawn"},"metadata":{"health":20.0,"max_health":20.0,"is_alive":true}}
+[14:31:00] [Render thread/INFO]: [System] [CHAT] Entity test queued: spawn (check Bridge and 7DTD logs)
+[14:31:33] [Render thread/INFO]: [System] [CHAT] Entity test queued: spawn (check Bridge and 7DTD logs)
+[14:31:33] [MC7DTD-entity-test-send/INFO]: Entity test sent: {"type":"entity_state","version":1,"source":"minecraft","stream_id":"fd814250-684a-43bd-b1a5-1f4c25779574","entity_id":"00000000-0000-0000-0000-000000000001","entity_type":"minecraft:player","world_id":"runtime-acceptance","dimension":"minecraft:overworld","sequence":5,"position":{"x":-14.941492787923456,"y":63.0,"z":23.00341758111106,"space":"minecraft"},"rotation":{"yaw":59.399475,"pitch":25.049963,"roll":0},"lifecycle":{"event":"spawn"},"metadata":{"health":20.0,"max_health":20.0,"is_alive":true}}
+[14:31:43] [Render thread/INFO]: [System] [CHAT] Entity test queued: update (check Bridge and 7DTD logs)
+[14:31:43] [MC7DTD-entity-test-send/INFO]: Entity test sent: {"type":"entity_state","version":1,"source":"minecraft","stream_id":"fd814250-684a-43bd-b1a5-1f4c25779574","entity_id":"00000000-0000-0000-0000-000000000001","entity_type":"minecraft:player","world_id":"runtime-acceptance","dimension":"minecraft:overworld","sequence":6,"position":{"x":-14.941492787923456,"y":63.0,"z":23.00341758111106,"space":"minecraft"},"rotation":{"yaw":59.399475,"pitch":25.049963,"roll":0},"lifecycle":{"event":"update"},"metadata":{"health":20.0,"max_health":20.0,"is_alive":true}}
+[14:32:02] [MC7DTD-entity-test-send/INFO]: Entity test sent: {"type":"entity_state","version":1,"source":"minecraft","stream_id":"fd814250-684a-43bd-b1a5-1f4c25779574","entity_id":"00000000-0000-0000-0000-000000000001","entity_type":"minecraft:player","world_id":"runtime-acceptance","dimension":"minecraft:overworld","sequence":7,"position":null,"rotation":null,"lifecycle":{"event":"despawn","reason":"out_of_scope"},"metadata":{}}
+[14:32:02] [Render thread/INFO]: [System] [CHAT] Entity test queued: despawn (check Bridge and 7DTD logs)
+[14:32:11] [MC7DTD-entity-test-send/INFO]: Entity test sent: {"type":"entity_state","version":1,"source":"minecraft","stream_id":"fd814250-684a-43bd-b1a5-1f4c25779574","entity_id":"00000000-0000-0000-0000-000000000001","entity_type":"minecraft:player","world_id":"runtime-acceptance","dimension":"minecraft:overworld","sequence":8,"position":{"x":-12.811586817858418,"y":63.0,"z":23.391419418248603,"space":"minecraft"},"rotation":{"yaw":99.750275,"pitch":46.049976,"roll":0},"lifecycle":{"event":"spawn"},"metadata":{"health":20.0,"max_health":20.0,"is_alive":true}}
+[14:32:11] [Render thread/INFO]: [System] [CHAT] Entity test queued: spawn (check Bridge and 7DTD logs)
+[14:32:19] [Server thread/INFO]: Saving and pausing game...
+[14:32:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Demo World]'/minecraft:overworld
+[14:32:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_end
+[14:32:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_nether

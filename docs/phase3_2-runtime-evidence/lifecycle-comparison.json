@@ -1,0 +1,358 @@
+{
+  "passed": true,
+  "gameRuntimeTested": true,
+  "registryTransitions": [
+    {
+      "transition": "spawned",
+      "id": "00000000-0000-0000-0000-000000000001",
+      "count": 1
+    },
+    {
+      "transition": "duplicate_spawn",
+      "id": "00000000-0000-0000-0000-000000000001",
+      "count": 1
+    },
+    {
+      "transition": "updated",
+      "id": "00000000-0000-0000-0000-000000000001",
+      "count": 1
+    },
+    {
+      "transition": "despawned",
+      "id": "00000000-0000-0000-0000-000000000001",
+      "count": 0
+    },
+    {
+      "transition": "spawned",
+      "id": "00000000-0000-0000-0000-000000000001",
+      "count": 1
+    },
+    {
+      "transition": "entity_not_found",
+      "id": "00000000-0000-0000-0000-000000000001",
+      "count": 0
+    },
+    {
+      "transition": "spawned",
+      "id": "00000000-0000-0000-0000-000000000001",
+      "count": 1
+    },
+    {
+      "transition": "despawned",
+      "id": "00000000-0000-0000-0000-000000000001",
+      "count": 0
+    }
+  ],
+  "sent": [
+    {
+      "type": "entity_state",
+      "version": 1,
+      "source": "minecraft",
+      "stream_id": "fd814250-684a-43bd-b1a5-1f4c25779574",
+      "entity_id": "00000000-0000-0000-0000-000000000001",
+      "entity_type": "minecraft:player",
+      "world_id": "runtime-acceptance",
+      "dimension": "minecraft:overworld",
+      "sequence": 4,
+      "position": {
+        "x": -19.031462534993487,
+        "y": 64.0,
+        "z": 26.53326177638475,
+        "space": "minecraft"
+      },
+      "rotation": {
+        "yaw": 274.05008,
+        "pitch": 21.9,
+        "roll": 0
+      },
+      "lifecycle": {
+        "event": "spawn"
+      },
+      "metadata": {
+        "health": 20.0,
+        "max_health": 20.0,
+        "is_alive": true
+      }
+    },
+    {
+      "type": "entity_state",
+      "version": 1,
+      "source": "minecraft",
+      "stream_id": "fd814250-684a-43bd-b1a5-1f4c25779574",
+      "entity_id": "00000000-0000-0000-0000-000000000001",
+      "entity_type": "minecraft:player",
+      "world_id": "runtime-acceptance",
+      "dimension": "minecraft:overworld",
+      "sequence": 5,
+      "position": {
+        "x": -14.941492787923456,
+        "y": 63.0,
+        "z": 23.00341758111106,
+        "space": "minecraft"
+      },
+      "rotation": {
+        "yaw": 59.399475,
+        "pitch": 25.049963,
+        "roll": 0
+      },
+      "lifecycle": {
+        "event": "spawn"
+      },
+      "metadata": {
+        "health": 20.0,
+        "max_health": 20.0,
+        "is_alive": true
+      }
+    },
+    {
+      "type": "entity_state",
+      "version": 1,
+      "source": "minecraft",
+      "stream_id": "fd814250-684a-43bd-b1a5-1f4c25779574",
+      "entity_id": "00000000-0000-0000-0000-000000000001",
+      "entity_type": "minecraft:player",
+      "world_id": "runtime-acceptance",
+      "dimension": "minecraft:overworld",
+      "sequence": 6,
+      "position": {
+        "x": -14.941492787923456,
+        "y": 63.0,
+        "z": 23.00341758111106,
+        "space": "minecraft"
+      },
+      "rotation": {
+        "yaw": 59.399475,
+        "pitch": 25.049963,
+        "roll": 0
+      },
+      "lifecycle": {
+        "event": "update"
+      },
+      "metadata": {
+        "health": 20.0,
+        "max_health": 20.0,
+        "is_alive": true
+      }
+    },
+    {
+      "type": "entity_state",
+      "version": 1,
+      "source": "minecraft",
+      "stream_id": "fd814250-684a-43bd-b1a5-1f4c25779574",
+      "entity_id": "00000000-0000-0000-0000-000000000001",
+      "entity_type": "minecraft:player",
+      "world_id": "runtime-acceptance",
+      "dimension": "minecraft:overworld",
+      "sequence": 7,
+      "position": null,
+      "rotation": null,
+      "lifecycle": {
+        "event": "despawn",
+        "reason": "out_of_scope"
+      },
+      "metadata": {}
+    },
+    {
+      "type": "entity_state",
+      "version": 1,
+      "source": "minecraft",
+      "stream_id": "fd814250-684a-43bd-b1a5-1f4c25779574",
+      "entity_id": "00000000-0000-0000-0000-000000000001",
+      "entity_type": "minecraft:player",
+      "world_id": "runtime-acceptance",
+      "dimension": "minecraft:overworld",
+      "sequence": 8,
+      "position": {
+        "x": -12.811586817858418,
+        "y": 63.0,
+        "z": 23.391419418248603,
+        "space": "minecraft"
+      },
+      "rotation": {
+        "yaw": 99.750275,
+        "pitch": 46.049976,
+        "roll": 0
+      },
+      "lifecycle": {
+        "event": "spawn"
+      },
+      "metadata": {
+        "health": 20.0,
+        "max_health": 20.0,
+        "is_alive": true
+      }
+    },
+    {
+      "type": "entity_state",
+      "version": 1,
+      "source": "minecraft",
+      "stream_id": "fd814250-684a-43bd-b1a5-1f4c25779574",
+      "entity_id": "00000000-0000-0000-0000-000000000001",
+      "entity_type": "minecraft:player",
+      "world_id": "runtime-acceptance",
+      "dimension": "minecraft:overworld",
+      "sequence": 9,
+      "position": {
+        "x": -12.811586817858418,
+        "y": 63.0,
+        "z": 23.391419418248603,
+        "space": "minecraft"
+      },
+      "rotation": {
+        "yaw": 99.750275,
+        "pitch": 46.049976,
+        "roll": 0
+      },
+      "lifecycle": {
+        "event": "update"
+      },
+      "metadata": {
+        "health": 20.0,
+        "max_health": 20.0,
+        "is_alive": true
+      }
+    },
+    {
+      "type": "entity_state",
+      "version": 1,
+      "source": "minecraft",
+      "stream_id": "fd814250-684a-43bd-b1a5-1f4c25779574",
+      "entity_id": "00000000-0000-0000-0000-000000000001",
+      "entity_type": "minecraft:player",
+      "world_id": "runtime-acceptance",
+      "dimension": "minecraft:overworld",
+      "sequence": 10,
+      "position": {
+        "x": -12.811586817858418,
+        "y": 63.0,
+        "z": 23.391419418248603,
+        "space": "minecraft"
+      },
+      "rotation": {
+        "yaw": 99.750275,
+        "pitch": 46.049976,
+        "roll": 0
+      },
+      "lifecycle": {
+        "event": "spawn"
+      },
+      "metadata": {
+        "health": 20.0,
+        "max_health": 20.0,
+        "is_alive": true
+      }
+    },
+    {
+      "type": "entity_state",
+      "version": 1,
+      "source": "minecraft",
+      "stream_id": "fd814250-684a-43bd-b1a5-1f4c25779574",
+      "entity_id": "00000000-0000-0000-0000-000000000001",
+      "entity_type": "minecraft:player",
+      "world_id": "runtime-acceptance",
+      "dimension": "minecraft:overworld",
+      "sequence": 11,
+      "position": null,
+      "rotation": null,
+      "lifecycle": {
+        "event": "despawn",
+        "reason": "out_of_scope"
+      },
+      "metadata": {}
+    }
+  ],
+  "received": [
+    {
+      "event": "spawn",
+      "id": "00000000-0000-0000-0000-000000000001",
+      "type": "minecraft:player",
+      "source": "minecraft",
+      "world": "runtime-acceptance",
+      "dimension": "minecraft:overworld",
+      "stream": "fd814250-684a-43bd-b1a5-1f4c25779574",
+      "sequence": "4",
+      "x": "-19.031462534993487",
+      "y": "64",
+      "z": "26.533261776384752",
+      "yaw": "274.05008",
+      "pitch": "21.9",
+      "roll": "0"
+    },
+    {
+      "event": "update",
+      "id": "00000000-0000-0000-0000-000000000001",
+      "type": "minecraft:player",
+      "source": "minecraft",
+      "world": "runtime-acceptance",
+      "dimension": "minecraft:overworld",
+      "stream": "fd814250-684a-43bd-b1a5-1f4c25779574",
+      "sequence": "6",
+      "x": "-14.941492787923456",
+      "y": "63",
+      "z": "23.003417581111059",
+      "yaw": "59.399475",
+      "pitch": "25.049963",
+      "roll": "0"
+    },
+    {
+      "event": "despawn",
+      "id": "00000000-0000-0000-0000-000000000001",
+      "type": "minecraft:player",
+      "source": "minecraft",
+      "world": "runtime-acceptance",
+      "dimension": "minecraft:overworld",
+      "stream": "fd814250-684a-43bd-b1a5-1f4c25779574",
+      "sequence": "7",
+      "reason": "out_of_scope"
+    },
+    {
+      "event": "spawn",
+      "id": "00000000-0000-0000-0000-000000000001",
+      "type": "minecraft:player",
+      "source": "minecraft",
+      "world": "runtime-acceptance",
+      "dimension": "minecraft:overworld",
+      "stream": "fd814250-684a-43bd-b1a5-1f4c25779574",
+      "sequence": "8",
+      "x": "-12.811586817858418",
+      "y": "63",
+      "z": "23.391419418248603",
+      "yaw": "99.750275",
+      "pitch": "46.049976",
+      "roll": "0"
+    },
+    {
+      "event": "spawn",
+      "id": "00000000-0000-0000-0000-000000000001",
+      "type": "minecraft:player",
+      "source": "minecraft",
+      "world": "runtime-acceptance",
+      "dimension": "minecraft:overworld",
+      "stream": "fd814250-684a-43bd-b1a5-1f4c25779574",
+      "sequence": "10",
+      "x": "-12.811586817858418",
+      "y": "63",
+      "z": "23.391419418248603",
+      "yaw": "99.750275",
+      "pitch": "46.049976",
+      "roll": "0"
+    },
+    {
+      "event": "despawn",
+      "id": "00000000-0000-0000-0000-000000000001",
+      "type": "minecraft:player",
+      "source": "minecraft",
+      "world": "runtime-acceptance",
+      "dimension": "minecraft:overworld",
+      "stream": "fd814250-684a-43bd-b1a5-1f4c25779574",
+      "sequence": "11",
+      "reason": "out_of_scope"
+    }
+  ],
+  "oldBridgePid": 4256,
+  "newBridgePid": 25812,
+  "sameIdentityAfterRestart": true,
+  "oldUpdateRejected": true,
+  "duplicateSpawnNotForwarded": true,
+  "finalRegistryCount": 0
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "types": [
+    {
+      "entity_type": "minecraft:marker",
+      "enabled": true,
+      "target_mapping": {
+        "game": "7dtd",
+        "entity_type": "7dtd:marker",
+        "adapter": "marker"
+      },
+      "capabilities": {
+        "spawn": true,
+        "update_position": true,
+        "despawn": true,
+        "update_rotation": false,
+        "health": false,
+        "collision": false,
+        "ai": false,
+        "combat": false,
+        "persistence": false
+      }
+    },
+    {
+      "entity_type": "minecraft:player",
+      "enabled": true,
+      "target_mapping": {
+        "game": "7dtd",
+        "entity_type": "7dtd:player_proxy",
+        "adapter": "player_proxy"
+      },
+      "capabilities": {
+        "spawn": true,
+        "update_position": true,
+        "despawn": true,
+        "update_rotation": true,
+        "health": false,
+        "collision": false,
+        "ai": false,
+        "combat": false,
+        "persistence": false
+      }
+    }
+  ]
+}

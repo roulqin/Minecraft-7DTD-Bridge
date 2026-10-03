@@ -13,6 +13,12 @@ public final class MinecraftBridgeMod implements ClientModInitializer {
             client = new BridgeClient(Path.of(root, "config", "network.json"), log::info);
             Runtime.getRuntime().addShutdownHook(new Thread(client::close, "MC7DTD-shutdown"));
             client.start();
+            PlayerPositionSampler.register(client);
+            PlayerProxySampler.register(client);
+            if ("1".equals(System.getenv("MC7DTD_ENTITY_TEST"))) {
+                EntityTestCommands.register(client);
+                log.info("Manual entity acceptance commands enabled; no automatic lifecycle tracking");
+            }
         } catch (Exception ex) { log.error("MC7DTD initialization failed", ex); }
     }
 }

@@ -1,0 +1,1649 @@
+Mono path[0] = 'D:/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/Managed'
+Mono config path = 'D:/Steam/steamapps/common/7 Days To Die/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Loading player data from D:/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/data.unity3d
+Initialize engine version: 2022.3.62f2 (7670c08855a9)
+[Subsystems] Discovering subsystems at path D:/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5060 Laptop GPU (ID=0x2d59)
+    Vendor:   NVIDIA
+    VRAM:     7899 MB
+    Driver:   32.0.16.1074
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.177 seconds
+- Finished resetting the current domain, in  0.001 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 0.911000 ms
+2026-10-03T15:08:25 0.003 INF [BACKTRACE] Initialize
+2026-10-03T15:08:25 0.008 INF [BACKTRACE] Root log path: C:\Users\qin_roupl\AppData\Roaming\7DaysToDie\BacktraceLogs
+2026-10-03T15:08:25 0.030 INF [BACKTRACE] Deleted old log: C:\Users\qin_roupl\AppData\Roaming\7DaysToDie\BacktraceLogs\Player-2026-10-03_04-56-14.986.log
+2026-10-03T15:08:25 0.030 INF [BACKTRACE] Using log: C:\Users\qin_roupl\AppData\Roaming\7DaysToDie\BacktraceLogs\Player-2026-10-03_05-19-04.595.log
+2026-10-03T15:08:25 0.030 INF [BACKTRACE] Using log: C:\Users\qin_roupl\AppData\Roaming\7DaysToDie\BacktraceLogs\Player-2026-10-03_06-10-34.562.log
+2026-10-03T15:08:25 0.030 INF [BACKTRACE] Using log: C:\Users\qin_roupl\AppData\Roaming\7DaysToDie\BacktraceLogs\Player-2026-10-03_06-51-13.780.log
+2026-10-03T15:08:25 0.031 INF [BACKTRACE] Player log path: C:\Users\qin_roupl\AppData\Roaming\7DaysToDie\BacktraceLogs\Player-2026-10-03_07-08-25.578.log
+2026-10-03T15:08:25 0.047 INF [BACKTRACE] Initialized
+2026-10-03T15:08:25 0.070 INF Version: V 3.2.0 (b10) Compatibility Version: V 3.2.0, Build: WindowsPlayer 64 Bit
+2026-10-03T15:08:25 0.071 INF System information:
+2026-10-03T15:08:25 0.072 INF    OS: Windows 11  (10.0.26200) 64bit
+2026-10-03T15:08:25 0.073 INF    CPU: Intel(R) Core(TM) i7-14650HX (cores: 24)
+2026-10-03T15:08:25 0.074 INF    RAM: 16107 MB
+2026-10-03T15:08:25 0.075 INF    GPU: NVIDIA GeForce RTX 5060 Laptop GPU (7899 MB)
+2026-10-03T15:08:25 0.078 INF    Graphics API: Direct3D 11.0 [level 11.1] (shader level 5.0)
+2026-10-03T15:08:25 0.091 INF Local UTC offset: 8 hours
+2026-10-03T15:08:25 0.108 INF Command line arguments: "D:\Steam\steamapps\common\7 Days To Die\7DaysToDie.exe" -UserDataFolder=D:\wenjian\minecraft\7-M\runtime\7dtd -logfile D:\wenjian\minecraft\7-M\docs\runtime-evidence\7dtd-game.log -screen-fullscreen 0 -screen-width 960 -screen-height 600
+2026-10-03T15:08:25 0.111 INF Overriding default user data path to D:\wenjian\minecraft\7-M\runtime\7dtd
+2026-10-03T15:08:25 0.117 INF [Platform] Init
+2026-10-03T15:08:25 0.165 INF [Platform] Using native platform: Steam
+2026-10-03T15:08:25 0.167 INF [Platform] Using cross platform: EOS
+2026-10-03T15:08:25 0.169 INF [Platform] Using server platform: Steam
+2026-10-03T15:08:25 0.169 INF [Platform] Using server platform: XBL
+2026-10-03T15:08:25 0.170 INF [Platform] Using server platform: PSN
+2026-10-03T15:08:25 0.171 INF [Platform] Using server platform: LAN
+2026-10-03T15:08:25 0.181 INF Starting PlayerInputManager...
+2026-10-03T15:08:25 0.184 INF InControl (version 1.8.9 build 9376, native module = True, XInput = True)
+2026-10-03T15:08:25 0.187 INF InControl (version 1.8.9 build 9376)
+2026-10-03T15:08:25 0.194 INF InControl Native (version 1.0.6)
+2026-10-03T15:08:25 0.266 INF [InControl] NativeInputDeviceManager enabled.
+2026-10-03T15:08:25 0.283 INF [Platform] Initializing Steam
+Setting breakpad minidump AppID = 251570
+SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  76561199256208852 [API loaded no]
+2026-10-03T15:08:25 0.403 INF [Steamworks.NET] SteamAPI_Init() ok
+2026-10-03T15:08:25 0.404 INF [Steamworks.NET] Registering auth callbacks
+2026-10-03T15:08:25 0.407 INF Not running in Big Picture Mode, no on-screen keyboard available
+2026-10-03T15:08:25 0.408 INF [Platform] Initializing EOS
+2026-10-03T15:08:26 0.442 INF [EOS] Initialize: Success
+2026-10-03T15:08:26 0.471 INF [EOS-Voice] Successfully initialized.
+2026-10-03T15:08:26 0.472 INF [EOS-ACC] Not started with EAC, anticheat disabled
+2026-10-03T15:08:26 0.473 INF [EAC] AntiCheatServerP2P initialized with null interface
+2026-10-03T15:08:26 0.476 INF [Platform] Initializing XBL
+2026-10-03T15:08:26 0.477 INF [Platform] Initializing PSN
+2026-10-03T15:08:26 0.478 INF [Platform] Initializing LAN
+2026-10-03T15:08:26 0.544 INF [SaveDataUtils] InitStatic Begin
+2026-10-03T15:08:26 0.547 INF [SaveDataUtils] UserGameDataDir: D:\wenjian\minecraft\7-M\runtime\7dtd
+2026-10-03T15:08:26 0.549 INF [SaveDataUtils] SdPlayerPrefs -> Unity
+2026-10-03T15:08:26 0.550 INF [SaveDataUtils] InitStatic Complete
+2026-10-03T15:08:26 0.611 INF Last played version: V 3.2.0
+2026-10-03T15:08:26 0.821 INF Localization language from platform: schinese
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.806500 ms
+2026-10-03T15:08:26 0.867 INF Texture quality is set to 0
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 6637.
+Total: 8.747800 ms (FindLiveObjects: 0.226400 ms CreateObjectMapping: 0.175400 ms MarkObjects: 8.272900 ms  DeleteObjects: 0.072300 ms)
+
+The referenced script on this Behaviour (Game Object 'BlockProcessor') is missing!
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.718300 ms
+2026-10-03T15:08:34 8.674 INF Awake IsFocused: True
+2026-10-03T15:08:34 8.675 INF Awake
+2026-10-03T15:08:34 8.877 INF Occlusion: Awake
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 6970.
+Total: 7.422800 ms (FindLiveObjects: 0.246600 ms CreateObjectMapping: 0.152200 ms MarkObjects: 6.995400 ms  DeleteObjects: 0.028200 ms)
+
+2026-10-03T15:08:34 8.917 INF ApplyAllOptions streaming budget 7109.1 MB
+2026-10-03T15:08:34 8.918 INF ApplyAllOptions current screen 2560 x 1600, 240hz, window 960 x 600, mode Windowed
+2026-10-03T15:08:34 8.920 INF Texture quality is set to 0
+2026-10-03T15:08:34 8.921 INF ApplyTextureFilter 2, AF Enable
+2026-10-03T15:08:34 8.922 INF ApplyTerrainOptions 2
+2026-10-03T15:08:34 9.081 INF [MODS] Start loading from: 'D:\wenjian\minecraft\7-M\runtime\7dtd/Mods'
+2026-10-03T15:08:34 9.083 INF [MODS]   Trying to load from folder: 'MC7DTD-Bridge'
+2026-10-03T15:08:34 9.092 INF [MODS]     Loaded assembly MC7DTD.Bridge (in D:\wenjian\minecraft\7-M\runtime\7dtd\Mods\MC7DTD-Bridge\MC7DTD.Bridge.dll)
+2026-10-03T15:08:34 9.093 INF [MODS]     Loaded Mod: MC7DTD-Bridge (0.1.0)
+2026-10-03T15:08:34 9.094 INF [MODS] Start loading from: 'D:/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/../Mods'
+2026-10-03T15:08:34 9.096 INF [MODS]   Trying to load from folder: '0_TFP_Harmony'
+2026-10-03T15:08:34 9.099 INF [MODS]     Loaded assembly 0Harmony (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\0Harmony.dll)
+2026-10-03T15:08:34 9.101 INF [MODS]     Loaded assembly Mono.Cecil (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\Mono.Cecil.dll)
+2026-10-03T15:08:34 9.104 INF [MODS]     Loaded assembly Mono.Cecil.Mdb (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\Mono.Cecil.Mdb.dll)
+2026-10-03T15:08:34 9.106 INF [MODS]     Loaded assembly Mono.Cecil.Pdb (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\Mono.Cecil.Pdb.dll)
+2026-10-03T15:08:34 9.108 INF [MODS]     Loaded assembly Mono.Cecil.Rocks (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\Mono.Cecil.Rocks.dll)
+2026-10-03T15:08:34 9.111 INF [MODS]     Loaded assembly MonoMod.Backports (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\MonoMod.Backports.dll)
+2026-10-03T15:08:34 9.113 INF [MODS]     Loaded assembly MonoMod.Core (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\MonoMod.Core.dll)
+2026-10-03T15:08:34 9.115 INF [MODS]     Loaded assembly MonoMod.Iced (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\MonoMod.Iced.dll)
+2026-10-03T15:08:34 9.117 INF [MODS]     Loaded assembly MonoMod.ILHelpers (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\MonoMod.ILHelpers.dll)
+2026-10-03T15:08:34 9.119 INF [MODS]     Loaded assembly MonoMod.RuntimeDetour (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\MonoMod.RuntimeDetour.dll)
+2026-10-03T15:08:34 9.121 INF [MODS]     Loaded assembly MonoMod.Utils (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\MonoMod.Utils.dll)
+2026-10-03T15:08:34 9.124 INF [MODS]     Loaded assembly System.ValueTuple (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\System.ValueTuple.dll)
+2026-10-03T15:08:34 9.126 INF [MODS]     Loaded assembly TfpHarmony (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\TfpHarmony.dll)
+2026-10-03T15:08:34 9.127 INF [MODS]     Loaded Mod: TFP_Harmony (1.1.0.4)
+2026-10-03T15:08:34 9.128 INF [MODS]   Trying to load from folder: 'MC7DTD.Bridge'
+2026-10-03T15:08:34 9.130 WRN [MODS]     Mod with same name (MC7DTD-Bridge) already loaded, ignoring
+2026-10-03T15:08:34 9.130 INF [MODS]   Trying to load from folder: '原始mod'
+2026-10-03T15:08:34 9.131 WRN [MODS]     Folder 原始mod does not contain a ModInfo.xml, ignoring
+2026-10-03T15:08:34 9.132 INF [MODS] Initializing mod code
+2026-10-03T15:08:34 9.133 INF [MODS]   Initializing mod TFP_Harmony
+2026-10-03T15:08:34 9.146 INF [MODS]     Found ModAPI in assembly TfpHarmony (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\TfpHarmony.dll), creating instance
+2026-10-03T15:08:34 9.147 INF [MODS]       [Harmony] Init done
+Fallback handler could not load library D:/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/MonoBleedingEdge/data-000001C0F112E890.dll
+2026-10-03T15:08:34 9.350 INF [MODS]     Initialized code in mod 'TFP_Harmony' in assembly TfpHarmony (in D:\Steam\steamapps\common\7 Days To Die\Mods\0_TFP_Harmony\TfpHarmony.dll)
+2026-10-03T15:08:34 9.351 INF [MODS]   Initializing mod MC7DTD-Bridge
+2026-10-03T15:08:34 9.352 INF [MODS]     Found ModAPI in assembly MC7DTD.Bridge (in D:\wenjian\minecraft\7-M\runtime\7dtd\Mods\MC7DTD-Bridge\MC7DTD.Bridge.dll), creating instance
+2026-10-03T15:08:34 9.405 INF [MODS]     Initialized code in mod 'MC7DTD-Bridge' in assembly MC7DTD.Bridge (in D:\wenjian\minecraft\7-M\runtime\7dtd\Mods\MC7DTD-Bridge\MC7DTD.Bridge.dll)
+2026-10-03T15:08:34 9.406 INF [MODS] Loading done
+2026-10-03T15:08:34 9.416 INF Loading permissions file at 'D:\wenjian\minecraft\7-M\runtime\7dtd\Saves/serveradmin.xml'
+2026-10-03T15:08:34 9.428 INF Loading permissions file done.
+2026-10-03T15:08:35 9.445 INF Creating TransformDebug GameObject
+2026-10-03T15:08:35 9.459 INF [MC7DTD] Bridge connected
+2026-10-03T15:08:35 9.460 INF [MC7DTD] 7DTD connected
+2026-10-03T15:08:35 9.462 INF [MC7DTD] Test received from minecraft: Hello from Minecraft
+2026-10-03T15:08:35 9.467 INF GameSense server not found (no props file), disabling
+2026-10-03T15:08:35 9.473 INF [PartyQuests] Initialized
+2026-10-03T15:08:35 9.480 INF Awake done in 805 ms
+2026-10-03T15:08:35 9.510 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:35 9.582 INF [XUi] Instantiating XUi from default prefab.
+2026-10-03T15:08:35 9.654 INF [XUi] Loading XUi asynchronously
+2026-10-03T15:08:35 10.005 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:35 10.086 INF [EOS] Read cached (NewsFeatured.xml) completed: 1821 bytes
+2026-10-03T15:08:35 10.102 INF [EOS] Read cached (News.xml) completed: 4600 bytes
+2026-10-03T15:08:35 10.166 INF Reloading serveradmin.xml
+2026-10-03T15:08:35 10.167 INF Loading permissions file at 'D:\wenjian\minecraft\7-M\runtime\7dtd\Saves/serveradmin.xml'
+2026-10-03T15:08:35 10.170 INF Permissions file unchanged, skipping reloading
+2026-10-03T15:08:36 10.505 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:36 11.006 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:37 11.507 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:37 12.009 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:38 12.510 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:38 12.755 INF [XUi] Parsing all window groups completed in 2987 ms total.
+2026-10-03T15:08:38 12.794 INF Updated culture for display texts
+2026-10-03T15:08:38 12.807 WRN UIUtils: No device binding source could be found for PlayerAction GUI Apply
+2026-10-03T15:08:38 13.011 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:38 13.104 INF [EOS] Read cached (news_featured_2026_dlc_08.jpg) completed: 774214 bytes
+2026-10-03T15:08:38 13.139 INF [EOS] Read cached (news_featured_2026_dlc_07.jpg) completed: 925495 bytes
+2026-10-03T15:08:38 13.174 INF [EOS] Read cached (news_featured_2026_dlc_06.jpg) completed: 149863 bytes
+2026-10-03T15:08:38 13.198 INF [EOS] Read cached (news_featured_2026_merger.jpg) completed: 154308 bytes
+2026-10-03T15:08:38 13.210 INF [EOS] Read cached (news_featured_ytz2.1.jpg) completed: 123752 bytes
+2026-10-03T15:08:38 13.231 INF [EOS] Read cached (news_featured_tfpmerch.jpg) completed: 78916 bytes
+2026-10-03T15:08:38 13.248 INF [EOS] Read cached (news_featured_soundtrack.jpg) completed: 235045 bytes
+2026-10-03T15:08:38 13.279 INF [EOS] Read cached (news_game_3.3_exp.jpg) completed: 106006 bytes
+2026-10-03T15:08:38 13.293 INF [EOS] Read cached (news_game_3.2.0_stable.jpg) completed: 101488 bytes
+2026-10-03T15:08:38 13.307 INF [EOS] Read cached (news_game_2026_7_blank.jpg) completed: 70434 bytes
+2026-10-03T15:08:38 13.314 INF [EOS] Read cached (news_game_3.1.0_stable.jpg) completed: 585941 bytes
+2026-10-03T15:08:38 13.334 INF [EOS] Read cached (news_game_3.0.1_stable.jpg) completed: 154912 bytes
+2026-10-03T15:08:38 13.350 INF [EOS] Read cached (news_game_3.0_stable.jpg) completed: 275348 bytes
+2026-10-03T15:08:38 13.368 INF [EOS] Read cached (news_game_2026_2.6_stable.jpg) completed: 97562 bytes
+2026-10-03T15:08:39 13.512 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+Cannot Prepare a disabled VideoPlayer
+2026-10-03T15:08:39 14.013 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:39 14.172 INF Loaded default EULA
+2026-10-03T15:08:40 14.514 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:40 14.661 INF [XUi] Initialized all window groups completed in 1745 ms total.
+Direct3D: detected that using refresh rate causes time drift. Will stop trusting refresh rate until the game window is moved.
+Direct3D: detected that vsync is broken (it does not limit frame rate properly). Delta time will now be calculated using cpu-side time stampling until the game window is moved.
+2026-10-03T15:08:40 14.948 INF LoadTextureArraysForQuality quality -1 to 0, reload False
+2026-10-03T15:08:40 15.017 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:41 15.521 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:41 15.780 INF LoadTextureArraysForQuality took 0.83
+2026-10-03T15:08:41 15.792 INF Loaded (local): events in 0.00
+2026-10-03T15:08:41 15.805 INF Loaded (local): rwgmixer in 0.01
+2026-10-03T15:08:41 15.812 INF Loaded (local): archetypes in 0.00
+2026-10-03T15:08:41 15.819 INF Loaded (local): loadingscreen in 0.00
+2026-10-03T15:08:41 15.830 INF Added 1336 subtitle data entries and 3 speaker colors
+2026-10-03T15:08:41 15.832 INF Loaded (local): subtitles in 0.00
+2026-10-03T15:08:41 15.837 INF Loaded (local): videos in 0.00
+2026-10-03T15:08:41 15.842 INF Loaded (local): sandbox_overrides in 0.00
+2026-10-03T15:08:41 15.843 INF WorldStaticData.Init() needed 5.997 s
+2026-10-03T15:08:41 15.847 INF [Steamworks.NET] Login ok.
+2026-10-03T15:08:41 15.849 INF [EOS] Login
+2026-10-03T15:08:41 16.054 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:41 16.063 INF AchievementManager: Received stats and achievements from Steam
+2026-10-03T15:08:42 16.556 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:42 17.059 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:43 17.560 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:43 18.062 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:44 18.563 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:44 19.065 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:44 19.141 INF [EOS] Login succeeded, PUID: 0002a27c262e4f8d9c40beda1e4fa220
+2026-10-03T15:08:44 19.143 INF [EOS] Getting native user for 0002a27c262e4f8d9c40beda1e4fa220
+2026-10-03T15:08:44 19.145 INF [EOS] CopyIdToken result: Success
+2026-10-03T15:08:45 19.530 INF [BACKTRACE] Attempting to get User ID from platform: EOS
+2026-10-03T15:08:45 19.537 INF [EOS] Created RFS Request: NewsFeatured.xml
+2026-10-03T15:08:45 19.538 INF [EOS] Created RFS Request: News.xml
+2026-10-03T15:08:45 19.543 INF [EOS] Created RFS Request: DLCConfiguration
+2026-10-03T15:08:45 19.544 INF [EOS] Created RFS Request: eula_schinese
+2026-10-03T15:08:45 19.547 INF [PermissionsManager] ResolvePermissions(_perms: [Multiplayer, Communication, Crossplay], _canPrompt: False)
+2026-10-03T15:08:45 19.551 INF [PermissionsManager] ResolvePermissions(_perms: [Multiplayer, Communication, Crossplay], _canPrompt: False) Fetching Title Storage Overrides...
+2026-10-03T15:08:45 19.552 INF [EOS] Created RFS Request: PlatformOverrides
+2026-10-03T15:08:45 19.554 INF [EOS] ResolvePermissions(_perms: [Multiplayer, Communication, Crossplay], _canPrompt: False)
+2026-10-03T15:08:45 19.566 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:45 19.932 WRN [EOS] [LogEOSTitleStorage - Warning] Deleting local invalid cache file. CacheFilename=[D:/wenjian/minecraft/7-M/runtime/7dtd/titlestorage/8a44365d5ccb43328b4df2f8ca199e43/__cache_registry_lock]
+2026-10-03T15:08:45 19.936 INF [EOS] Read (NewsFeatured.xml) completed: Success, received 1821 bytes
+2026-10-03T15:08:45 19.938 INF [EOS] Created RFS Request: news_featured_2026_dlc_08.jpg
+2026-10-03T15:08:45 19.939 INF [EOS] Created RFS Request: news_featured_2026_dlc_07.jpg
+2026-10-03T15:08:45 19.940 INF [EOS] Created RFS Request: news_featured_2026_dlc_06.jpg
+2026-10-03T15:08:45 20.070 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:45 20.317 INF [EOS] Read (news_featured_2026_dlc_08.jpg) completed: Success, received 774214 bytes
+2026-10-03T15:08:45 20.319 INF [EOS] Created RFS Request: news_featured_2026_merger.jpg
+2026-10-03T15:08:46 20.570 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:46 20.702 INF [EOS] Read (News.xml) completed: Success, received 4600 bytes
+2026-10-03T15:08:46 20.703 INF [EOS] Created RFS Request: news_game_3.3_exp.jpg
+2026-10-03T15:08:46 20.704 INF [EOS] Created RFS Request: news_game_3.2.0_stable.jpg
+2026-10-03T15:08:46 20.705 INF [EOS] Created RFS Request: news_game_2026_7_blank.jpg
+2026-10-03T15:08:46 20.721 INF [EOS] Read (BlockedPlayerList) completed: Success, received 8 bytes
+2026-10-03T15:08:46 20.729 INF [EOS] Read (news_featured_2026_merger.jpg) completed: Success, received 154308 bytes
+2026-10-03T15:08:46 20.730 INF [EOS] Created RFS Request: news_featured_ytz2.1.jpg
+2026-10-03T15:08:46 20.786 INF [EOS] Read (PlatformOverrides) completed: Success, received 532 bytes
+2026-10-03T15:08:46 20.788 INF [TitleStorageOverridesManager] Successfully retrieved overrides.
+2026-10-03T15:08:46 20.790 INF [PermissionsManager] ResolvePermissions(_perms: [Multiplayer, Communication, Crossplay], _canPrompt: False) Fetched Title Storage Overrides!
+2026-10-03T15:08:46 20.810 INF [EOS] Read (eula_schinese) completed: Success, received 29413 bytes
+2026-10-03T15:08:46 20.812 INF [EOS] Created RFS Request: backtraceconfig.xml
+2026-10-03T15:08:46 21.052 INF [EOS] Read (news_game_3.3_exp.jpg) completed: Success, received 106006 bytes
+2026-10-03T15:08:46 21.054 INF [EOS] Created RFS Request: news_game_3.1.0_stable.jpg
+2026-10-03T15:08:46 21.071 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:46 21.112 INF [EOS] Read (news_featured_ytz2.1.jpg) completed: Success, received 123752 bytes
+2026-10-03T15:08:46 21.113 INF [EOS] Created RFS Request: news_featured_tfpmerch.jpg
+2026-10-03T15:08:46 21.165 INF [EOS] Read (backtraceconfig.xml) completed: Success, received 2615 bytes
+2026-10-03T15:08:46 21.168 INF [BACKTRACE] Bug reporting Enabled with save uploading: Disabled
+2026-10-03T15:08:46 21.169 INF [BACKTRACE] Save Attaching Feature: Disabled
+2026-10-03T15:08:46 21.170 INF [BACKTRACE] Entire World Attaching Feature: Disabled
+2026-10-03T15:08:46 21.170 INF [BACKTRACE] Disabling Error Report Message Types: fellthroughworld
+2026-10-03T15:08:46 21.171 INF [BACKTRACE] Bug reporting Disabled with save uploading: Disabled
+2026-10-03T15:08:47 21.607 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:47 21.608 INF [BACKTRACE] Platform ID set to: "EOS-0002a27c262e4f8d9c40beda1e4fa220"
+2026-10-03T15:08:47 21.609 INF [BACKTRACE] Configuration refreshed from XML: Enabled True
+2026-10-03T15:08:47 21.610 INF [BACKTRACE] Bug reporting: Disabled
+2026-10-03T15:08:47 21.610 INF [BACKTRACE] Bug reporting attach save feature: Disabled
+2026-10-03T15:08:47 21.611 INF [BACKTRACE] Bug reporting attach entire world feature: Disabled
+2026-10-03T15:08:47 21.641 INF [EOS] Read (DLCConfiguration) completed: Success, received 4729 bytes
+2026-10-03T15:08:47 21.644 INF [DLCTitleStorageManager] Successfully retrieved DLC configuration.
+2026-10-03T15:08:47 21.652 INF [EOS] Read (news_featured_2026_dlc_06.jpg) completed: Success, received 149863 bytes
+2026-10-03T15:08:47 21.654 INF [EOS] Created RFS Request: news_featured_soundtrack.jpg
+2026-10-03T15:08:47 21.916 INF [EOS] Read (news_featured_tfpmerch.jpg) completed: Success, received 78916 bytes
+2026-10-03T15:08:47 21.962 INF [EOS] Read (news_game_2026_7_blank.jpg) completed: Success, received 70434 bytes
+2026-10-03T15:08:47 21.963 INF [EOS] Created RFS Request: news_game_3.0.1_stable.jpg
+2026-10-03T15:08:47 22.046 INF [EOS] Read (news_featured_soundtrack.jpg) completed: Success, received 235045 bytes
+2026-10-03T15:08:47 22.108 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:47 22.184 INF [EOS] Read (news_game_3.1.0_stable.jpg) completed: Success, received 585941 bytes
+2026-10-03T15:08:47 22.186 INF [EOS] Created RFS Request: news_game_3.0_stable.jpg
+2026-10-03T15:08:47 22.332 INF [EOS] Read (news_featured_2026_dlc_07.jpg) completed: Success, received 925495 bytes
+2026-10-03T15:08:47 22.377 INF [EOS] Read (news_game_3.0.1_stable.jpg) completed: Success, received 154912 bytes
+2026-10-03T15:08:47 22.378 INF [EOS] Created RFS Request: news_game_2026_2.6_stable.jpg
+2026-10-03T15:08:48 22.507 INF [EOS] Read (news_game_3.2.0_stable.jpg) completed: Success, received 101488 bytes
+2026-10-03T15:08:48 22.565 INF [EOS] Read (news_game_3.0_stable.jpg) completed: Success, received 275348 bytes
+2026-10-03T15:08:48 22.608 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:48 22.772 INF [EOS] Read (news_game_2026_2.6_stable.jpg) completed: Success, received 97562 bytes
+2026-10-03T15:08:48 23.111 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:49 23.615 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:49 24.117 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:50 24.617 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:50 25.120 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:51 25.621 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:51 26.156 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:52 26.658 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:52 27.159 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:53 27.663 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:53 28.163 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:54 28.665 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:54 29.169 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:55 29.670 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:55 30.171 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:56 30.705 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:56 31.208 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:57 31.709 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:57 32.210 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:58 32.714 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:58 33.214 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:59 33.715 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:08:59 34.217 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:00 34.718 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:00 35.219 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:01 35.722 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:01 36.221 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:02 36.757 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:02 37.258 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:03 37.760 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:03 38.261 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:04 38.762 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:04 39.264 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:05 39.767 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:05 40.268 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:06 40.770 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:06 41.272 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:07 41.807 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:07 42.309 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:08 42.781 INF [TitleStorageOverridesManager] Using cached last success.
+2026-10-03T15:09:08 42.813 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:08 43.313 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:09 43.815 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:09 44.315 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:10 44.818 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:10 45.321 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:11 45.857 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:11 46.360 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:12 46.861 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:12 47.362 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:13 47.862 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:13 48.363 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:14 48.865 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:14 49.372 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:15 49.871 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:15 50.408 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:16 50.908 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:16 51.410 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:17 51.912 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:17 52.412 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:18 52.912 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:18 53.414 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:19 53.916 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:19 54.417 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:20 54.918 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:20 55.419 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:21 55.921 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:21 56.422 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:22 56.958 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:23 57.437 INF [TitleStorageOverridesManager] Using cached last success.
+2026-10-03T15:09:23 57.441 INF NET: Starting offline server.
+2026-10-03T15:09:23 57.443 INF StartGame
+2026-10-03T15:09:23 57.459 INF NetPackageManager Init
+2026-10-03T15:09:23 57.460 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:23 57.481 INF [XUi] Instantiating XUi from default prefab.
+2026-10-03T15:09:23 57.509 INF Persistent GamePrefs saved
+GamePref.AdminFileName = serveradmin.xml
+GamePref.AirDropFrequency = 3
+GamePref.AirDropMarker = True
+GamePref.AISmellMode = 2
+GamePref.AllowSpawnNearBackpack = True
+GamePref.AllowSpawnNearFriend = 2
+GamePref.AutopilotMode = 0
+GamePref.BedrollDeadZoneSize = 15
+GamePref.BedrollExpiryTime = 45
+GamePref.BiomeProgression = True
+GamePref.BlockDamageAI = 100
+GamePref.BlockDamageAIBM = 100
+GamePref.BlockDamagePlayer = 100
+GamePref.BloodMoonEnemyCount = 8
+GamePref.BloodMoonFrequency = 7
+GamePref.BloodMoonRange = 0
+GamePref.BloodMoonWarning = 1
+GamePref.BuildCreate = True
+GamePref.CameraRestrictionMode = 0
+GamePref.ConnectToServerIP = 26.27.164.153
+GamePref.ConnectToServerPort = 26900
+GamePref.CreateLevelDim = 4096
+GamePref.CreateLevelName = My Level
+GamePref.CreativeMenuEnabled = False
+GamePref.DayCount = 3
+GamePref.DayLightLength = 18
+GamePref.DayNightLength = 60
+GamePref.DeathPenalty = 1
+GamePref.DebugMenuEnabled = False
+GamePref.DebugMenuShowTasks = False
+GamePref.DebugPanelsEnabled = ,Ply,Ge,Sp,Fo,Pr,
+GamePref.DebugStopEnemiesMoving = False
+GamePref.DiscordAutoJoinVoiceMode = 0
+GamePref.DiscordDisabled = True
+GamePref.DiscordDmPrivacyMode = True
+GamePref.DiscordFirstTimeInfoShown = True
+GamePref.DiscordInputVolume = 1
+GamePref.DiscordLastAccountType = 2
+GamePref.DiscordMuteDmNotifications = True
+GamePref.DiscordOutputVolume = 1
+GamePref.DiscordSelectedInputDevice = 
+GamePref.DiscordSelectedOutputDevice = 
+GamePref.DiscordVoiceModePtt = False
+GamePref.DiscordVoiceVadModeAuto = True
+GamePref.DiscordVoiceVadThreshold = -60
+GamePref.DropOnDeath = 1
+GamePref.DropOnQuit = 0
+GamePref.DynamicMeshDistance = 100
+GamePref.DynamicMeshEnabled = True
+GamePref.DynamicMeshLandClaimBuffer = 1
+GamePref.DynamicMeshLandClaimOnly = True
+GamePref.DynamicMeshMaxItemCache = 1
+GamePref.DynamicMeshMaxRegionCache = 1
+GamePref.DynamicMeshUseImposters = True
+GamePref.DynamicSpawner = 
+GamePref.EACEnabled = False
+GamePref.EnableMapRendering = False
+GamePref.EnemyDifficulty = 0
+GamePref.EnemySpawnMode = True
+GamePref.EulaLatestVersion = 2
+GamePref.EulaVersionAccepted = 2
+GamePref.FavoriteServersList = 
+GamePref.FragLimit = 20
+GamePref.GameDifficulty = 1
+GamePref.GameGuidClient = 
+GamePref.GameMode = GameModeSurvival
+GamePref.GameName = MC7DTD-Phase3-3
+GamePref.GameNameClient = My Game
+GamePref.GameSaveStorageType = 0
+GamePref.GameVersion = V 3.2.0
+GamePref.GameWorld = Navezgane
+GamePref.GameWorldLocationType = 4
+GamePref.HideCommandExecutionLog = 0
+GamePref.IgnoreEOSSanctions = False
+GamePref.JarRefund = 60
+GamePref.JoiningOptions = True
+GamePref.LandClaimCount = 5
+GamePref.LandClaimDeadZone = 30
+GamePref.LandClaimDecayMode = 0
+GamePref.LandClaimExpiryTime = 7
+GamePref.LandClaimOfflineDelay = 0
+GamePref.LandClaimOfflineDurabilityModifier = 4
+GamePref.LandClaimOnlineDurabilityModifier = 4
+GamePref.LandClaimSize = 41
+GamePref.Language = 
+GamePref.LanguageBrowser = 
+GamePref.LastGameResetRevision = 13
+GamePref.LastLoadedPrefab = 
+GamePref.LastLoadingTipRead = 24
+GamePref.LootAbundance = 100
+GamePref.LootRespawnDays = 7
+GamePref.LootTimer = 
+GamePref.MatchLength = 10
+GamePref.MaxChunkAge = -1
+GamePref.MaxQueuedMeshLayers = 40
+GamePref.MaxSpawnedAnimals = 50
+GamePref.MaxSpawnedZombies = 64
+GamePref.MaxUncoveredMapChunksPerPlayer = 524288
+GamePref.NoGraphicsMode = False
+GamePref.OptionsAllowController = True
+GamePref.OptionsAmbientVolumeLevel = 0.4956012
+GamePref.OptionsAudioOcclusion = False
+GamePref.OptionsAutoPartyWithFriends = True
+GamePref.OptionsBackgroundGlobalOpacity = 0.95
+GamePref.OptionsBindingsResetRevision = 1
+GamePref.OptionsChatCommunication = True
+GamePref.OptionsControllerAimAssists = True
+GamePref.OptionsControllerCursorHoverSensitivity = 0.5
+GamePref.OptionsControllerCursorSnap = True
+GamePref.OptionsControllerIconStyle = 0
+GamePref.OptionsControllerJoystickLayout = 0
+GamePref.OptionsControllerLookAcceleration = 4
+GamePref.OptionsControllerLookAxisDeadzone = 0.1
+GamePref.OptionsControllerLookInvert = False
+GamePref.OptionsControllerMoveAxisDeadzone = 0.1
+GamePref.OptionsControllerSensitivityX = 0.35
+GamePref.OptionsControllerSensitivityY = 0.25
+GamePref.OptionsControllerTriggerEffects = False
+GamePref.OptionsControllerVehicleSensitivity = 1
+GamePref.OptionsControllerVibration = True
+GamePref.OptionsControllerVibrationStrength = 2
+GamePref.OptionsControllerWeaponAiming = False
+GamePref.OptionsControllerZoomSensitivity = 0.5
+GamePref.OptionsControlsDefaultQuickAction = 0
+GamePref.OptionsControlsResetRevision = 7
+GamePref.OptionsControlsSprintLock = 1
+GamePref.OptionsCrosshairADS = True
+GamePref.OptionsCrosshairColor = 0
+GamePref.OptionsCrosshairDot3P = True
+GamePref.OptionsCrosshairEnabled = True
+GamePref.OptionsCrosshairOpacity = 1
+GamePref.OptionsCrosshairRangedEnabled = True
+GamePref.OptionsCrosshairScale = 1
+GamePref.OptionsCrosshairThickness = 0.2
+GamePref.OptionsCrossplay = True
+GamePref.OptionsDisableChunkLODs = False
+GamePref.OptionsDisableXmlEvents = False
+GamePref.OptionsDynamicMusicDailyTime = 0.45
+GamePref.OptionsDynamicMusicEnabled = True
+GamePref.OptionsFilterProfanity = False
+GamePref.OptionsForegroundGlobalOpacity = 1
+GamePref.OptionsGfx3PCameraMode = 0
+GamePref.OptionsGfxAA = 0
+GamePref.OptionsGfxAASharpness = 0
+GamePref.OptionsGfxBloom = True
+GamePref.OptionsGfxBrightness = 1
+GamePref.OptionsGfxCameraDistance3P = 0.2463343
+GamePref.OptionsGfxDefaultFirstPersonCamera = True
+GamePref.OptionsGfxDOF = False
+GamePref.OptionsGfxDynamicMinFPS = 30
+GamePref.OptionsGfxDynamicMode = 0
+GamePref.OptionsGfxDynamicScale = 1
+GamePref.OptionsGfxFOV = 75
+GamePref.OptionsGfxFOV3P = 65
+GamePref.OptionsGfxFSRPreset = 4
+GamePref.OptionsGfxGrassDistance = 1
+GamePref.OptionsGfxLimitFpsInGame = -1
+GamePref.OptionsGfxLODDistance = 0.5
+GamePref.OptionsGfxMotionBlur = 1
+GamePref.OptionsGfxMotionBlurEnabled = True
+GamePref.OptionsGfxObjQuality = 2
+GamePref.OptionsGfxOcclusion = False
+GamePref.OptionsGfxQualityPreset = 2
+GamePref.OptionsGfxReflectQuality = 0
+GamePref.OptionsGfxReflectShadows = False
+GamePref.OptionsGfxResetRevision = 4
+GamePref.OptionsGfxResolution = 0
+GamePref.OptionsGfxShadowDistance = 0
+GamePref.OptionsGfxShadowQuality = 1
+GamePref.OptionsGfxSignQuality = 2
+GamePref.OptionsGfxSSAO = False
+GamePref.OptionsGfxSSReflections = 0
+GamePref.OptionsGfxStreamMipmaps = True
+GamePref.OptionsGfxSunShafts = True
+GamePref.OptionsGfxTerrainQuality = 2
+GamePref.OptionsGfxTexFilter = 2
+GamePref.OptionsGfxTexQuality = 0
+GamePref.OptionsGfxTreeDistance = 4
+GamePref.OptionsGfxUpscalerMode = 5
+GamePref.OptionsGfxViewDistance = 7
+GamePref.OptionsGfxVsync = 1
+GamePref.OptionsGfxWaterPtlLimiter = 0
+GamePref.OptionsGfxWaterQuality = 1
+GamePref.OptionsHudOpacity = 1
+GamePref.OptionsHudSize = 1
+GamePref.OptionsInterfaceSensitivity = 0.5
+GamePref.OptionsIntroMovieEnabled = True
+GamePref.OptionsInvertMouse = False
+GamePref.OptionsJournalPopup = True
+GamePref.OptionsLookSensitivity = 0.5
+GamePref.OptionsMenuMusicVolumeLevel = 0.1627566
+GamePref.OptionsMicVolumeLevel = 0.75
+GamePref.OptionsMumblePositionalAudioSupport = False
+GamePref.OptionsMusicVolumeLevel = 0.1715543
+GamePref.OptionsOverallAudioVolumeLevel = 0.3958944
+GamePref.OptionsPlayChanceFrequency = 3
+GamePref.OptionsPlayChanceProbability = 0.983
+GamePref.OptionsPlayerModelTexture = Player/Male/Player_male
+GamePref.OptionsPOICulling = 1
+GamePref.OptionsPoiVolumesSkipDeleteConfirmation = False
+GamePref.OptionsQuestsAutoAccept = True
+GamePref.OptionsQuestsAutoShare = True
+GamePref.OptionsScreenBoundsValue = 1
+GamePref.OptionsSelectionBoxAlphaMultiplier = 0.4
+GamePref.OptionsShowCompass = True
+GamePref.OptionsShowConsoleButton = False
+GamePref.OptionsShowCrosshair = True
+GamePref.OptionsStabSpawnBlocksOnGround = True
+GamePref.OptionsSubtitlesEnabled = True
+GamePref.OptionsTempCelsius = False
+GamePref.OptionsUiCompassUseEnglishCardinalDirections = False
+GamePref.OptionsUiFpsScaling = 1
+GamePref.OptionsVehicleLookSensitivity = 0.5
+GamePref.OptionsVoiceChatEnabled = True
+GamePref.OptionsVoiceInputDevice = {c553feff-9e5e-4e0e-9d8b-19bc1a40a879}
+GamePref.OptionsVoiceOutputDevice = {0.0.0.00000000}.{92fcbc13-e738-45c1-8c56-f448aedf9951}
+GamePref.OptionsVoiceVolumeLevel = 0.75
+GamePref.OptionsWeaponAiming = False
+GamePref.OptionsZoomAccel = 0.5
+GamePref.OptionsZoomSensitivity = 0.3
+GamePref.PartySharedKillRange = 100
+GamePref.PersistentPlayerProfiles = False
+GamePref.PlayerAutologin = False
+GamePref.PlayerKillingMode = 0
+GamePref.PlayerName = 质朴且卑微-
+GamePref.PlayerSafeZoneHours = 7
+GamePref.PlayerSafeZoneLevel = 5
+GamePref.PlaytestBiome = 3
+GamePref.QuestProgressionDailyLimit = 4
+GamePref.RebuildMap = False
+GamePref.Region = Asia
+GamePref.ResetUnprotectedChunks = 0
+GamePref.SandboxCode = AAAJABJARFBNC
+GamePref.SandboxPreset = Adventurer
+GamePref.SaveDataLimit = -1
+GamePref.SaveDataLimitType = Unlimited
+GamePref.SelectionContextMode = 0
+GamePref.SelectionOperationMode = 0
+GamePref.ServerAdminSlots = 0
+GamePref.ServerAdminSlotsPermission = 0
+GamePref.ServerAllowCrossplay = True
+GamePref.ServerDescription = 
+GamePref.ServerDisabledNetworkProtocols = 
+GamePref.ServerEACPeerToPeer = False
+GamePref.ServerEnabled = False
+GamePref.ServerIP = 
+GamePref.ServerIsPublic = True
+GamePref.ServerLoginConfirmationText = 
+GamePref.ServerMatchmakingGroup = 
+GamePref.ServerMaxAllowedViewDistance = 12
+GamePref.ServerMaxPlayerCount = 2
+GamePref.ServerMaxWorldTransferSpeedKiBs = 512
+GamePref.ServerName = Default Server
+GamePref.ServerPort = 26900
+GamePref.ServerReservedSlots = 0
+GamePref.ServerReservedSlotsPermission = 100
+GamePref.ServerVisibility = 2
+GamePref.ServerWebsiteURL = 
+GamePref.ShowFriendPlayerOnMap = True
+GamePref.SkipSpawnButton = False
+GamePref.StormFreq = 100
+GamePref.TelnetEnabled = False
+GamePref.TelnetFailedLoginLimit = 10
+GamePref.TelnetFailedLoginsBlocktime = 10
+GamePref.TelnetPort = 25003
+GamePref.TerminalWindowEnabled = True
+GamePref.TwitchBloodMoonAllowed = True
+GamePref.TwitchServerPermission = 90
+GamePref.UNUSED_ControlPanelEnabled = False
+GamePref.UNUSED_ControlPanelPort = 8080
+GamePref.UNUSED_LastLoadedPrefabSize = 
+GamePref.UNUSED_NewGameSetDefaults = 
+GamePref.UNUSED_OptionsBloom = 
+GamePref.UNUSED_OptionsDOF = 
+GamePref.UNUSED_OptionsFieldOfViewNew = 
+GamePref.UNUSED_OptionsGamma = 
+GamePref.UNUSED_OptionsGfxGameplayResolutionHeight = 
+GamePref.UNUSED_OptionsGfxGameplayResolutionWidth = 
+GamePref.UNUSED_OptionsGfxUMATexQuality = 
+GamePref.UNUSED_OptionsMotionBlur = 
+GamePref.UNUSED_OptionsObjectBlur = 
+GamePref.UNUSED_OptionsPlayerModel = playerMale
+GamePref.UNUSED_OptionsReflectionBounces = 
+GamePref.UNUSED_OptionsReflectionCullList = 
+GamePref.UNUSED_OptionsReflectionFarClip = 
+GamePref.UNUSED_OptionsReflectionRefreshMode = 
+GamePref.UNUSED_OptionsReflectionShadowDistance = 
+GamePref.UNUSED_OptionsReflectionTimeSlicingMode = 
+GamePref.UNUSED_OptionsSSAO = 
+GamePref.UNUSED_OptionsStreamingMipmapsBudget = 
+GamePref.UNUSED_OptionsSunShafts = 
+GamePref.UNUSED_PlayerId = 
+GamePref.UNUSED_SaveGameFolder = 
+GamePref.UNUSED_UserDataFolder = 
+GamePref.UserWorldStorageType = 0
+GamePref.WebDashboardEnabled = False
+GamePref.WebDashboardPort = 8080
+GamePref.WebDashboardUrl = 
+GamePref.WorldGenSeed = 
+GamePref.WorldGenSize = 8192
+GamePref.XPMultiplier = 100
+GamePref.ZombieBMMove = 3
+GamePref.ZombieFeralMove = 3
+GamePref.ZombieFeralSense = 0
+GamePref.ZombieMove = 0
+GamePref.ZombieMoveNight = 3
+GamePref.ZombiePlayers = True
+GameStat.AirDropFrequency = 0
+GameStat.AirDropMarker = True
+GameStat.AllowedViewDistance = 12
+GameStat.AnimalCount = 0
+GameStat.AutoParty = False
+GameStat.BedrollExpiryTime = 45
+GameStat.BiomeGSModifier = 100
+GameStat.BiomeLSModifier = 100
+GameStat.BiomeProgression = True
+GameStat.BlockDamageAI = 100
+GameStat.BlockDamageAIBM = 100
+GameStat.BlockDamagePlayer = 100
+GameStat.BloodMoonDay = 0
+GameStat.BloodMoonEnemyCount = 8
+GameStat.BloodMoonWarning = 8
+GameStat.CameraRestrictionMode = 0
+GameStat.ChunkStabilityEnabled = True
+GameStat.CurrentRoundIx = 0
+GameStat.DayLightLength = 18
+GameStat.DayLimitActive = False
+GameStat.DayLimitThisRound = 0
+GameStat.DayNightLength = 60
+GameStat.DeathPenalty = XPOnly
+GameStat.DropOnDeath = 1
+GameStat.DropOnQuit = 0
+GameStat.EnemyCount = 0
+GameStat.EnemyDifficulty = Normal
+GameStat.EnemySpawnMode = True
+GameStat.FragLimitActive = False
+GameStat.FragLimitThisRound = 0
+GameStat.GameDifficulty = 2
+GameStat.GameModeId = 0
+GameStat.GameState = 0
+GameStat.GlobalGSModifier = 100
+GameStat.GlobalLSModifier = 100
+GameStat.GlobalMessageToShow = 
+GameStat.IsCreativeMenuEnabled = False
+GameStat.IsFlyingEnabled = False
+GameStat.IsPlayerCollisionEnabled = True
+GameStat.IsPlayerDamageEnabled = True
+GameStat.IsResetMapOnRestart = False
+GameStat.IsSaveSupplyCrates = True
+GameStat.IsSpawnEnemies = True
+GameStat.IsSpawnNearOtherPlayer = False
+GameStat.IsTeleportEnabled = False
+GameStat.IsVersionCheckDone = False
+GameStat.JarRefund = 60
+GameStat.LandClaimCount = 5
+GameStat.LandClaimDeadZone = 30
+GameStat.LandClaimDecayMode = 0
+GameStat.LandClaimExpiryTime = 3
+GameStat.LandClaimOfflineDelay = 0
+GameStat.LandClaimOfflineDurabilityModifier = 32
+GameStat.LandClaimOnlineDurabilityModifier = 32
+GameStat.LandClaimSize = 41
+GameStat.LoadScene = 
+GameStat.LootAbundance = 100
+GameStat.LootRespawnDays = 7
+GameStat.LootTimer = 
+GameStat.OptionsPOICulling = 0
+GameStat.PartySharedKillRange = 100
+GameStat.PlayerKillingMode = KillStrangersOnly
+GameStat.QuestProgressionDailyLimit = 4
+GameStat.SandboxCode = 
+GameStat.SandboxPreset = 
+GameStat.ScoreDiedMultiplier = -5
+GameStat.ScorePlayerKillMultiplier = 1
+GameStat.ScoreZombieKillMultiplier = 1
+GameStat.ShowAllPlayersOnMap = False
+GameStat.ShowFriendPlayerOnMap = True
+GameStat.ShowSpawnWindow = False
+GameStat.ShowWindow = 
+GameStat.StormFreq = 0
+GameStat.TimeLimitActive = False
+GameStat.TimeLimitThisRound = 0
+GameStat.TimeOfDayIncPerSec = 20
+GameStat.TwitchBloodMoonAllowed = True
+GameStat.UNUSED_GameDifficultyBonus = 
+GameStat.UNUSED_ShowZombieCounter = 
+GameStat.XPMultiplier = 100
+GameStat.ZombieHordeMeter = False
+Sandbox Code: AAAJABJARFBNC
+Sandbox Options:
+*** GENERAL ***
+Option RangedDamage: 9/150% (default: 7/100%)
+Option MeleeDamage: 9/150% (default: 7/100%)
+Option IncomingDamage: 5/75% (default: 7/100%)
+*** ENTITIES ***
+Option AISmellMode: 2/慢跑 (default: 3/奔跑)
+2026-10-03T15:09:23 57.776 INF [PlatformApplication] restart required = False
+2026-10-03T15:09:23 57.781 INF StartAsServer
+2026-10-03T15:09:23 57.889 INF Loaded (local): events in 0.00
+2026-10-03T15:09:23 57.962 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:23 58.082 INF Set Microsplat diffuse: MicroSplatConfig_diff_tarray (UnityEngine.Texture2DArray)
+2026-10-03T15:09:23 58.083 INF Set Microsplat normals: MicroSplatConfig_normal_tarray (UnityEngine.Texture2DArray)
+2026-10-03T15:09:23 58.084 INF Set Microsplat smooth:  MicroSplatConfig_smoothAO_tarray (UnityEngine.Texture2DArray)
+2026-10-03T15:09:23 58.089 INF Loaded (local): materials in 0.19
+2026-10-03T15:09:23 58.108 INF Loaded (local): physicsbodies in 0.01
+2026-10-03T15:09:23 58.117 INF Loaded (local): painting in 0.00
+2026-10-03T15:09:23 58.185 INF Loaded (local): shapes in 0.01
+2026-10-03T15:09:24 58.464 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:24 58.967 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:25 59.470 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:25 59.971 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:26 60.507 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:26 61.008 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:27 61.510 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:27 62.045 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:28 62.547 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:28 63.050 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:29 63.551 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:29 64.054 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:30 64.555 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:30 65.055 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:31 65.557 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+2026-10-03T15:09:31 66.058 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:32 66.558 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:32 67.059 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:33 67.561 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:33 68.062 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:34 68.565 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:34 69.072 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:35 69.603 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:35 70.104 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:36 70.603 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:36 71.105 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:37 71.607 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+Unloading 3 Unused Serialized files (Serialized files now loaded: 60)
+2026-10-03T15:09:37 71.866 INF Block IDs with mapping
+2026-10-03T15:09:37 71.874 INF Block IDs total 24810, terr 30, last 25031
+2026-10-03T15:09:37 71.884 INF Loaded (local): blocks in 13.42
+Unloading 26268 unused Assets to reduce memory usage. Loaded Objects now: 364215.
+Total: 220.386600 ms (FindLiveObjects: 19.342600 ms CreateObjectMapping: 9.666300 ms MarkObjects: 182.129200 ms  DeleteObjects: 9.248000 ms)
+
+2026-10-03T15:09:37 72.112 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:37 72.192 INF Loaded (local): progression in 0.07
+2026-10-03T15:09:37 72.334 INF Loaded (local): buffs in 0.10
+2026-10-03T15:09:37 72.345 INF Loaded (local): misc in 0.01
+2026-10-03T15:09:38 72.615 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:38 72.734 WRN Type:ItemClassWildChicken, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null is missing the UnityEngine.Scripting.Preserve attribute, this will fail on consoles
+2026-10-03T15:09:38 72.795 INF Loaded (local): items in 0.35
+2026-10-03T15:09:38 72.845 INF Item IDs with mapping
+2026-10-03T15:09:38 72.846 INF ItemIDs from Mapping
+2026-10-03T15:09:38 72.850 INF ItemClass assignLeftOverItems 67056 of 81920
+2026-10-03T15:09:38 72.896 INF Loaded (local): item_modifiers in 0.09
+2026-10-03T15:09:38 72.985 INF Loaded (local): entityclasses in 0.07
+2026-10-03T15:09:38 72.992 INF Loaded (local): qualityinfo in 0.00
+2026-10-03T15:09:38 73.082 INF Loaded (local): sounds in 0.03
+2026-10-03T15:09:38 73.118 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:38 73.123 INF Loaded (local): recipes in 0.03
+2026-10-03T15:09:38 73.144 INF Loaded (local): blockplaceholders in 0.01
+2026-10-03T15:09:38 73.203 INF Loaded (local): loot in 0.03
+2026-10-03T15:09:38 73.283 INF Loaded (local): entitygroups in 0.02
+2026-10-03T15:09:38 73.293 INF Loaded (local): utilityai in 0.00
+2026-10-03T15:09:38 73.301 INF Loaded (local): vehicles in 0.00
+2026-10-03T15:09:38 73.308 INF Loaded (local): rwgmixer in 0.00
+2026-10-03T15:09:38 73.314 INF Loaded (local): weathersurvival in 0.00
+2026-10-03T15:09:38 73.320 INF Loaded (local): archetypes in 0.00
+2026-10-03T15:09:38 73.339 INF Loaded (local): challenges in 0.01
+2026-10-03T15:09:38 73.392 INF Loaded (local): quests in 0.04
+2026-10-03T15:09:38 73.407 INF Loaded (local): traders in 0.01
+2026-10-03T15:09:38 73.428 INF Loaded (local): npc in 0.02
+2026-10-03T15:09:39 73.443 INF Loaded (local): dialogs in 0.01
+2026-10-03T15:09:39 73.464 INF Loaded (local): ui_display in 0.01
+2026-10-03T15:09:39 73.482 INF Loaded (local): nav_objects in 0.01
+2026-10-03T15:09:39 73.509 INF Loaded (local): gamestages in 0.01
+2026-10-03T15:09:39 73.619 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:39 73.709 INF Loaded (local): gameevents in 0.17
+2026-10-03T15:09:39 73.762 INF Loaded (local): twitch in 0.03
+2026-10-03T15:09:39 73.772 INF Loaded (local): twitch_events in 0.00
+2026-10-03T15:09:39 73.797 INF Loaded (local): dmscontent in 0.02
+2026-10-03T15:09:39 73.804 INF Loaded (local): XUi_Common/styles in 0.00
+2026-10-03T15:09:39 73.816 INF Loaded (local): XUi_Common/templates in 0.00
+2026-10-03T15:09:39 73.822 INF Loaded (local): XUi_InGame/styles in 0.00
+2026-10-03T15:09:39 73.834 INF Loaded (local): XUi_InGame/templates in 0.00
+2026-10-03T15:09:39 73.865 INF Loaded (local): XUi_InGame/windows in 0.00
+2026-10-03T15:09:39 73.872 INF [XUi] Loading XUi asynchronously
+2026-10-03T15:09:39 73.908 INF Loaded (local): XUi_InGame/xui in 0.04
+2026-10-03T15:09:39 74.120 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:39 74.220 INF Loaded (local): biomes in 0.14
+2026-10-03T15:09:40 74.654 INF Loaded (local): worldglobal in 0.07
+2026-10-03T15:09:40 74.658 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:40 75.105 INF Loaded (local): spawning in 0.09
+2026-10-03T15:09:40 75.159 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:41 75.430 INF Loaded (local): loadingscreen in 0.07
+2026-10-03T15:09:41 75.533 INF [XUi] Parsing all window groups completed in 1481 ms total.
+2026-10-03T15:09:41 75.659 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:41 75.665 INF Added 1336 subtitle data entries and 3 speaker colors
+2026-10-03T15:09:41 75.702 INF Loaded (local): subtitles in 0.06
+2026-10-03T15:09:41 76.070 INF Loaded (local): videos in 0.12
+2026-10-03T15:09:41 76.161 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:42 76.498 INF ShapeControllers: 96
+2026-10-03T15:09:42 76.514 INF Loaded (local): signs in 0.16
+2026-10-03T15:09:42 76.662 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:42 76.799 INF Loaded (local): sandbox_overrides in 0.07
+2026-10-03T15:09:42 76.884 INF Loading players.xml
+2026-10-03T15:09:42 76.906 INF createWorld: Navezgane, Navezgane (src: GameData, DeviceLocal), MC7DTD-Phase3-3, GameModeSurvival
+2026-10-03T15:09:42 76.907 INF Occlusion: Disabled
+2026-10-03T15:09:42 76.918 INF [XUi] Initialized all window groups completed in 1221 ms total.
+2026-10-03T15:09:42 76.925 INF Started thread ChunkRegeneration
+2026-10-03T15:09:42 76.926 INF Started thread ChunkCalc
+2026-10-03T15:09:42 76.927 INF Started thread ChunkMeshBake
+2026-10-03T15:09:42 76.955 INF World.Load: Navezgane Navezgane (src: GameData, DeviceLocal)
+2026-10-03T15:09:42 76.964 WRN Next Airdrop: 4 12:00
+2026-10-03T15:09:42 76.965 INF BloodMoon SetDay: day 7, last day 0, freq 7, range 0
+2026-10-03T15:09:42 76.975 INF Started thread WaterSimulationApplyChanges
+2026-10-03T15:09:42 77.165 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:43 77.665 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:43 78.167 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:44 78.668 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:44 79.168 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:45 79.671 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:45 80.171 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:46 80.706 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:46 81.208 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:47 81.711 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:47 81.803 INF Started thread GenerateChunks
+2026-10-03T15:09:47 82.098 INF Calculating world hashes took 291 ms (world size 193 MiB)
+2026-10-03T15:09:47 82.102 INF Initial ENABLE_FILE_BACKED_ARRAYS == False
+2026-10-03T15:09:47 82.201 INF GenWorldFromRaw load dtm took 395ms
+2026-10-03T15:09:47 82.212 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:47 82.253 INF Biomes image size w= 3072, h = 3072
+2026-10-03T15:09:48 82.711 INF GenWorldFromRaw biomes took 509ms
+2026-10-03T15:09:48 82.713 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+Unloading 2 Unused Serialized files (Serialized files now loaded: 61)
+2026-10-03T15:09:48 83.265 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+Unloading 5474 unused Assets to reduce memory usage. Loaded Objects now: 507738.
+Total: 557.745600 ms (FindLiveObjects: 26.748700 ms CreateObjectMapping: 14.154400 ms MarkObjects: 513.254600 ms  DeleteObjects: 3.587700 ms)
+
+2026-10-03T15:09:49 83.731 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:49 84.218 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:49 84.227 INF GenWorldFromRaw shader control textures took 493ms
+2026-10-03T15:09:50 84.526 INF Computed 506 chunk groups containing a total of 9722 chunks. Largest group contains 435 chunks.
+2026-10-03T15:09:50 84.543 INF Started thread SaveChunks D:\wenjian\minecraft\7-M\runtime\7dtd\Saves\Navezgane\MC7DTD-Phase3-3\Region
+2026-10-03T15:09:50 84.552 INF GenWorldFromRaw misc took 323ms
+2026-10-03T15:09:50 84.752 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:50 85.254 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:51 85.675 INF GenWorldFromRaw splats took 1122ms
+Unloading 0 Unused Serialized files (Serialized files now loaded: 61)
+2026-10-03T15:09:51 86.274 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 507742.
+Total: 601.114900 ms (FindLiveObjects: 35.298900 ms CreateObjectMapping: 12.850100 ms MarkObjects: 550.460000 ms  DeleteObjects: 2.505200 ms)
+
+2026-10-03T15:09:52 86.553 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:52 86.796 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:52 86.926 INF [DECO] read 75511
+2026-10-03T15:09:52 86.960 INF Dynamic Music Initialized on Server
+2026-10-03T15:09:52 86.976 INF Dynamic Music Initialized on Client
+2026-10-03T15:09:52 86.977 INF Begin DMS Conductor Preload Routine
+2026-10-03T15:09:52 86.978 INF Preloading LayeredSection Exploration : Type: DynamicMusic.Adventure
+2026-10-03T15:09:52 86.980 INF Loading new config for Exploration...
+2026-10-03T15:09:52 86.987 INF Loading new ClipSets for Exploration...
+2026-10-03T15:09:52 87.003 INF Exploration loaded new config and clipsets
+2026-10-03T15:09:52 87.026 INF Preloading LayeredSection Suspense : Type: DynamicMusic.Adventure
+2026-10-03T15:09:52 87.027 INF Loading new config for Suspense...
+2026-10-03T15:09:52 87.029 INF Loading new ClipSets for Suspense...
+2026-10-03T15:09:52 87.038 INF Suspense loaded new config and clipsets
+2026-10-03T15:09:52 87.057 INF Preloading LayeredSection Combat : Type: DynamicMusic.Combat
+2026-10-03T15:09:52 87.058 INF Loading new config for Combat...
+2026-10-03T15:09:52 87.060 INF Loading new ClipSets for Combat...
+2026-10-03T15:09:52 87.084 INF Combat loaded new config and clipsets
+2026-10-03T15:09:52 87.119 INF Preloading LayeredSection Bloodmoon : Type: DynamicMusic.Bloodmoon
+2026-10-03T15:09:52 87.120 INF Loading new config for Bloodmoon...
+2026-10-03T15:09:52 87.232 INF [EOS] Created RFS Request: drops.xml
+2026-10-03T15:09:52 87.298 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:52 87.336 INF AstarManager Init
+2026-10-03T15:09:53 87.600 INF createWorld() done
+2026-10-03T15:09:53 87.729 INF [EOS] Read (drops.xml) completed: Success, received 783 bytes
+2026-10-03T15:09:53 87.733 INF fetching Twitch entitlements for s76561199256208852
+2026-10-03T15:09:53 87.800 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:53 88.300 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:54 88.803 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:54 89.305 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:55 89.768 WRN Failed to fetch Twitch entitlements: HTTP/1.1 404 Not Found
+2026-10-03T15:09:55 89.808 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:55 90.311 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:56 90.812 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:56 91.315 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:57 91.816 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:57 92.316 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:58 92.819 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:58 93.320 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:59 93.855 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:09:59 94.360 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:00 94.861 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:00 95.363 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:01 95.864 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:01 96.367 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:02 96.868 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:02 97.371 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:03 97.908 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:03 98.409 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:04 98.910 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:04 99.412 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:05 99.916 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:05 100.419 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:06 100.920 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:07 101.455 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:07 101.958 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:08 102.459 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:08 102.961 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:09 103.461 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:09 103.964 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:10 104.465 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:10 104.967 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:11 105.468 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:11 105.969 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:12 106.472 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:12 107.006 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:13 107.508 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:13 108.009 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:14 108.510 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:14 109.012 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:15 109.514 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:15 110.015 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:16 110.517 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:16 111.019 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:17 111.520 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:17 112.021 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:18 112.556 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:18 113.057 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:19 113.558 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:19 114.058 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:20 114.560 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:20 115.062 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:21 115.562 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:21 116.064 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:22 116.567 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:22 117.069 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:23 117.570 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:23 118.071 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:24 118.571 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:24 119.106 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:25 119.609 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:25 120.113 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:26 120.613 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:26 121.115 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:27 121.620 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:27 122.120 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:28 122.655 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:28 123.156 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:29 123.658 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:29 124.159 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:30 124.661 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:30 125.163 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:31 125.665 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:31 126.168 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:32 126.668 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:32 127.170 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:33 127.671 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:33 128.207 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:34 128.709 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:34 129.210 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:35 129.713 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:35 130.216 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:36 130.719 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:36 131.220 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:37 131.722 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:37 132.258 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:38 132.760 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:38 133.260 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:39 133.764 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:39 134.267 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:40 134.768 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:40 135.269 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:41 135.770 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:41 136.271 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:42 136.808 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:42 137.310 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:43 137.811 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:43 138.311 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:44 138.812 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:44 139.314 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:45 139.815 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:45 140.316 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:46 140.818 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:46 141.318 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:47 141.820 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:47 142.356 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:48 142.857 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:48 143.359 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:49 143.859 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:49 144.363 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:50 144.866 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:50 145.370 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:51 145.906 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:51 146.407 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:52 146.908 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:52 147.408 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:53 147.910 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:53 148.411 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:54 148.911 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:54 149.412 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:55 149.914 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:55 150.415 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:56 150.917 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:56 151.421 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:57 151.921 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:58 152.456 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+The referenced script on this Behaviour (Game Object 'Camera') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object 'Camera') is missing!
+The referenced script on this Behaviour (Game Object 'Camera') is missing!
+2026-10-03T15:10:58 152.958 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:58 153.199 INF Created player with id=171
+2026-10-03T15:10:58 153.209 INF [PartyQuests] Player registered: [type=EntityPlayerLocal, name=质朴且卑微-, id=171]
+2026-10-03T15:10:58 153.266 INF Respawning: LoadedGame
+2026-10-03T15:10:58 153.270 INF Loaded player
+2026-10-03T15:10:58 153.395 INF VehicleManager D:\wenjian\minecraft\7-M\runtime\7dtd\Saves/Navezgane/MC7DTD-Phase3-3/vehicles.dat, loaded 0
+2026-10-03T15:10:58 153.397 INF DroneManager D:\wenjian\minecraft\7-M\runtime\7dtd\Saves/Navezgane/MC7DTD-Phase3-3/drones.dat, loaded 0
+2026-10-03T15:10:58 153.398 INF TurretTracker D:\wenjian\minecraft\7-M\runtime\7dtd\Saves/Navezgane/MC7DTD-Phase3-3/turrets.dat, loaded 0
+Unloading 3 Unused Serialized files (Serialized files now loaded: 68)
+2026-10-03T15:10:59 153.459 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+Unloading 537 unused Assets to reduce memory usage. Loaded Objects now: 516815.
+Total: 370.000800 ms (FindLiveObjects: 27.090200 ms CreateObjectMapping: 10.855100 ms MarkObjects: 328.498300 ms  DeleteObjects: 3.556800 ms)
+
+2026-10-03T15:10:59 154.113 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:10:59 154.130 INF 60sec delta: 0,current: 1136172,desired: 1211436
+2026-10-03T15:10:59 154.132 INF [Backtrace] Updated Statistics
+2026-10-03T15:10:59 154.223 INF OpenSpawnWindow
+2026-10-03T15:10:59 154.228 INF Loading dymesh settings
+2026-10-03T15:10:59 154.229 INF Dynamic Mesh Settings
+2026-10-03T15:10:59 154.230 INF Use Imposter Values: True
+2026-10-03T15:10:59 154.231 INF Only Player Areas: True
+2026-10-03T15:10:59 154.231 INF Player Area Buffer: 1
+2026-10-03T15:10:59 154.232 INF Max View Distance: 100
+2026-10-03T15:10:59 154.233 INF Regen all on new world: False
+2026-10-03T15:10:59 154.236 INF Dymesh: Prepping dynamic mesh. Resend Default: True
+2026-10-03T15:10:59 154.237 INF Dymesh: Mesh location: D:\wenjian\minecraft\7-M\runtime\7dtd\Saves/Navezgane/MC7DTD-Phase3-3/DynamicMeshes/
+2026-10-03T15:10:59 154.239 INF [Web] Webserver not started, WebDashboardEnabled set to false
+2026-10-03T15:10:59 154.240 INF StartGame done
+2026-10-03T15:10:59 154.295 INF [DECO] written 75511, in 17ms
+2026-10-03T15:10:59 154.300 INF [DECO] write thread 2ms
+2026-10-03T15:11:00 154.464 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:00 154.997 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:01 155.498 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:01 155.908 INF Respawn almost done
+2026-10-03T15:11:01 155.915 INF PlayerSpawnedInWorld (reason: LoadedGame, position: -273, 61, 449): localplayer
+2026-10-03T15:11:01 155.918 INF 133436+0 Origin Reposition (0.0, 0.0, 0.0) to (-288.0, 48.0, 448.0)
+2026-10-03T15:11:01 155.935 WRN [PROPS] ActionTarget implicitly converted to Vector3, but failed: ActionTarget
+2026-10-03T15:11:01 155.998 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:01 156.019 INF 质朴且卑微- onNewBiomeEntered +buffForest_Hazard
+2026-10-03T15:11:01 156.075 INF Dymesh: Warming dynamic mesh
+2026-10-03T15:11:01 156.076 INF Dymesh: Creating dynamic mesh manager
+2026-10-03T15:11:01 156.078 INF Dymesh: Awake
+2026-10-03T15:11:01 156.080 INF Dymesh: Mesh location: D:\wenjian\minecraft\7-M\runtime\7dtd\Saves/Navezgane/MC7DTD-Phase3-3/DynamicMeshes/
+2026-10-03T15:11:01 156.082 INF Dymesh: Loading Items: D:\wenjian\minecraft\7-M\runtime\7dtd\Saves/Navezgane/MC7DTD-Phase3-3/DynamicMeshes/
+2026-10-03T15:11:01 156.083 INF Dymesh: Loaded Items: 0
+2026-10-03T15:11:01 156.085 INF Dymesh: Loading all items took: 0.0030135 seconds.
+2026-10-03T15:11:01 156.089 INF Meshlist count is now 1
+2026-10-03T15:11:01 156.090 INF Meshlist count is now 2
+2026-10-03T15:11:01 156.091 INF Force load took 0 seconds
+2026-10-03T15:11:01 156.093 INF Clearing queues.
+2026-10-03T15:11:01 156.094 INF Cleared queues.
+2026-10-03T15:11:01 156.095 INF Dynamic thread starting
+2026-10-03T15:11:01 156.096 INF Dymesh door replacement: imposterBlock
+2026-10-03T15:11:02 156.499 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:02 157.001 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:02 157.087 WRN [MultiBlockManager][Alignment] SetTerrainAlignmentDirty failed; no terrain-aligned block has been registered at the specified world position: -291, 59, 380
+2026-10-03T15:11:02 157.249 WRN Unexpected case in Sign Data Manager: signRenderer is null
+2026-10-03T15:11:02 157.338 WRN Unexpected case in Sign Data Manager: signRenderer is null
+2026-10-03T15:11:02 157.412 WRN Unexpected case in Sign Data Manager: signRenderer is null
+2026-10-03T15:11:03 157.503 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:03 158.006 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:04 158.508 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:04 159.010 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:05 159.511 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:05 160.012 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:06 160.512 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:06 161.013 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:06 161.225 INF 质朴且卑微- WeatherStatusTick  to default
+2026-10-03T15:11:06 161.226 INF 质朴且卑微- WeatherBuffUpdate , indoors False
+2026-10-03T15:11:07 161.515 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:07 162.017 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:08 162.518 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:08 163.018 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:09 163.520 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:09 164.022 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:10 164.555 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:10 165.058 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:11 165.591 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:11 166.092 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:12 166.594 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:12 167.096 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:13 167.598 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:13 168.099 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:14 168.600 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:14 169.101 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:15 169.603 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:15 170.170 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:16 170.670 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:16 171.207 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:17 171.708 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:17 172.209 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:18 172.711 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:18 173.213 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:19 173.717 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:19 174.215 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:20 174.716 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:20 175.217 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:21 175.718 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:21 176.219 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:22 176.719 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:22 177.220 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:23 177.722 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:23 178.258 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:24 178.759 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:24 179.260 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:25 179.761 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:25 180.262 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:26 180.763 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:26 181.264 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:27 181.767 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:27 182.271 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:28 182.807 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:28 183.307 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:29 183.811 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:29 184.311 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:30 184.749 INF Time: 2.85m FPS: 272.39 Heap: 2258.3MB Max: 2258.3MB Chunks: 298 CGO: 144 Ply: 1 Zom: 0 Ent: 2 (2) Items: 0 CO: 1 RSS: 4442.6MB
+2026-10-03T15:11:30 184.816 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:30 185.349 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:31 185.870 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:31 186.352 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:32 186.855 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:32 187.355 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:33 187.857 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:33 188.357 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:34 188.858 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:34 189.359 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:35 189.862 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:35 190.362 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:36 190.863 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:36 191.396 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:37 191.897 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:37 192.397 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:38 192.897 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:38 193.399 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:39 193.901 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:39 194.404 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:40 194.906 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:40 195.407 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:41 195.940 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:42 196.441 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:42 196.941 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:43 197.443 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:43 197.945 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:44 198.445 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:44 198.945 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:45 199.447 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:45 199.947 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:46 200.449 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:46 200.949 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:47 201.452 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:47 201.953 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:48 202.455 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:48 202.958 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:49 203.458 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:49 203.960 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:50 204.462 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:50 204.962 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:51 205.462 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:51 205.964 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:52 206.466 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:52 206.967 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:53 207.469 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:53 207.969 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:54 208.470 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:54 209.005 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:55 209.507 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:55 210.008 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:56 210.509 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:56 211.009 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:57 211.511 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:57 212.012 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:58 212.515 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:58 213.018 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:59 213.551 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:11:59 214.055 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:00 214.557 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:00 214.745 INF 60sec delta: 1362017,current: 1362017,desired: 1362017
+2026-10-03T15:12:00 214.746 INF [Backtrace] Updated Statistics
+2026-10-03T15:12:00 214.755 INF Time: 3.35m FPS: 275.36 Heap: 2259.0MB Max: 2259.0MB Chunks: 298 CGO: 144 Ply: 1 Zom: 0 Ent: 2 (2) Items: 0 CO: 1 RSS: 4447.5MB
+2026-10-03T15:12:00 215.060 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:01 215.561 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:01 216.063 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:02 216.564 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:02 217.065 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:03 217.566 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:03 218.068 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:04 218.601 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:04 219.104 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:05 219.606 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:05 220.109 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:06 220.610 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:06 221.111 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:07 221.612 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:07 222.114 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:08 222.615 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:08 223.118 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:09 223.618 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:09 224.121 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:10 224.656 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:10 225.157 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:11 225.660 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:11 226.160 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:12 226.661 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:12 227.162 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:13 227.663 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:13 228.167 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:14 228.701 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:14 229.201 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:15 229.702 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:15 230.204 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:16 230.705 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:16 231.207 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:17 231.709 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:17 232.209 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:18 232.710 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:18 233.212 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:19 233.712 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:19 234.215 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:20 234.715 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:20 235.217 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:21 235.719 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:21 236.221 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:22 236.722 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:22 237.256 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:23 237.757 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:23 238.261 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:24 238.762 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:24 239.264 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:25 239.764 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:25 240.264 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:26 240.764 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:26 241.265 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:27 241.768 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:27 242.270 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:28 242.806 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:28 243.307 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:29 243.809 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:29 244.311 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:30 244.756 INF Time: 3.85m FPS: 276.21 Heap: 2246.7MB Max: 2259.0MB Chunks: 298 CGO: 144 Ply: 1 Zom: 0 Ent: 2 (2) Items: 0 CO: 1 RSS: 4463.3MB
+2026-10-03T15:12:30 244.812 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:30 245.314 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:31 245.815 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:31 246.346 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:32 246.894 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:32 247.396 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:33 247.943 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:34 248.492 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:34 248.996 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:35 249.544 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:35 250.090 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:36 250.596 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:36 251.144 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:37 251.694 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:37 252.240 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:38 252.746 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:38 253.293 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:39 253.839 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:39 254.344 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:40 254.846 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:40 255.392 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:41 255.669 INF [MC7DTD] Entity state: event=spawn id=f017a595-0a5c-43ad-a66e-5877ca9bc7fd type=minecraft:marker source=minecraft world=runtime-acceptance dimension=minecraft:overworld stream=2d98c3b1-74b2-4110-b9e6-26a828f3d8d2 sequence=4 x=-281.28638366974491 y=63 z=445.40058918629217 yaw=270.44995 pitch=4.049992 roll=0
+2026-10-03T15:12:41 255.674 INF [MC7DTD] Marker Unity created: instance=-987132 name=MC7DTD-marker-f017a595-0a5c-43ad-a66e-5877ca9bc7fd active=True renderer=True colliderEnabled=False world=(-281.28638366974491,63,445.40058918629217) origin=(-288.00, 48.00, 448.00)
+2026-10-03T15:12:41 255.676 INF [MC7DTD] Marker spawned: id=f017a595-0a5c-43ad-a66e-5877ca9bc7fd count=1 x=-281.28638366974491 y=63 z=445.40058918629217 thread=1
+2026-10-03T15:12:41 255.896 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:42 256.444 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:42 256.993 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:43 257.540 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:43 258.044 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:44 258.546 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:44 259.095 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:45 259.640 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:45 260.140 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:46 260.645 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:46 261.194 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:47 261.695 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:47 262.244 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:48 262.794 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:48 263.342 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:49 263.891 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:49 264.396 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:50 264.943 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:51 265.492 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:51 266.042 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:52 266.591 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:52 267.139 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:53 267.646 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:53 268.195 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:54 268.745 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:54 269.294 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:55 269.843 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:55 270.345 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:56 270.893 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:56 271.396 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:57 271.945 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:58 272.489 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:58 272.994 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:59 273.544 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:12:59 274.045 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:00 274.546 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:00 274.746 INF VehicleManager saving 0 (0 + 0)
+2026-10-03T15:13:00 274.747 INF DroneManager saving 0 (0 + 0)
+2026-10-03T15:13:00 274.748 INF TurretTracker saving 0 (0 + 0)
+2026-10-03T15:13:00 274.749 INF VehicleManager saved 9 bytes
+2026-10-03T15:13:00 274.751 INF DroneManager saved 9 bytes
+2026-10-03T15:13:00 274.751 INF 60sec delta: 0,current: 1362017,desired: 1362017
+2026-10-03T15:13:00 274.752 INF TurretTracker saved 9 bytes
+2026-10-03T15:13:00 274.753 INF [Backtrace] Updated Statistics
+2026-10-03T15:13:00 274.761 INF Time: 4.35m FPS: 271.65 Heap: 2231.9MB Max: 2259.0MB Chunks: 298 CGO: 144 Ply: 1 Zom: 0 Ent: 2 (2) Items: 0 CO: 1 RSS: 4465.6MB
+2026-10-03T15:13:00 275.093 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:01 275.641 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:01 276.196 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:02 276.745 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:02 277.246 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:03 277.796 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:03 278.343 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:04 278.892 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:04 279.027 INF SectionType change from None to Exploration
+2026-10-03T15:13:04 279.030 INF Played Exploration
+2026-10-03T15:13:04 279.031 INF Fading in Exploration
+2026-10-03T15:13:04 279.032 INF Notified SectionSelector that music played
+2026-10-03T15:13:05 279.440 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:05 279.945 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:06 280.494 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:06 280.995 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:07 281.545 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:07 282.031 INF fadeInCo complete on Exploration
+2026-10-03T15:13:07 282.045 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:08 282.596 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:08 283.142 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:09 283.692 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:09 284.241 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:10 284.791 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:10 285.291 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:11 285.791 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:11 286.340 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:12 286.889 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:13 287.439 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:13 287.945 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:14 288.496 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:14 288.687 INF [MC7DTD] Entity state: event=update id=f017a595-0a5c-43ad-a66e-5877ca9bc7fd type=minecraft:marker source=minecraft world=runtime-acceptance dimension=minecraft:overworld stream=2d98c3b1-74b2-4110-b9e6-26a828f3d8d2 sequence=5 x=-281.28638366974491 y=63 z=445.40058918629217 yaw=270.44995 pitch=4.049992 roll=0
+2026-10-03T15:13:14 288.692 INF [MC7DTD] Marker updated: id=f017a595-0a5c-43ad-a66e-5877ca9bc7fd count=1 x=-281.28638366974491 y=63 z=445.40058918629217 thread=1
+2026-10-03T15:13:14 289.043 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:15 289.545 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:30 304.763 INF Time: 4.85m FPS: 261.50 Heap: 2214.6MB Max: 2259.0MB Chunks: 298 CGO: 144 Ply: 1 Zom: 0 Ent: 2 (2) Items: 0 CO: 1 RSS: 4467.4MB
+2026-10-03T15:13:54 328.926 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:55 329.472 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:55 330.022 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:56 330.572 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:56 331.121 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:57 331.670 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:57 332.220 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:58 332.770 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:58 333.270 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:59 333.820 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:13:59 334.370 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:14:00 334.749 INF 60sec delta: 0,current: 1362017,desired: 1362017
+2026-10-03T15:14:00 334.750 INF [Backtrace] Updated Statistics
+2026-10-03T15:14:00 334.765 INF Time: 5.35m FPS: 267.04 Heap: 2202.5MB Max: 2259.0MB Chunks: 298 CGO: 144 Ply: 1 Zom: 0 Ent: 2 (2) Items: 0 CO: 1 RSS: 4467.3MB
+2026-10-03T15:14:00 334.871 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:14:00 335.422 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:14:01 335.923 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:14:02 336.473 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:14:02 336.973 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:14:03 337.522 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:14:03 338.025 INF [MC7DTD] Minecraft player: x=-281.28638366974491 y=63 z=445.40058918629217
+2026-10-03T15:14:04 338.526 INF [MC7DTD] Minecraft player: x=-281.11919992501367 y=63 z=446.19999998807907
+2026-10-03T15:14:04 339.071 INF [MC7DTD] Minecraft player: x=-281.1097505158848 y=63 z=446.19999998807907
+2026-10-03T15:14:05 339.619 INF [MC7DTD] Minecraft player: x=-281.1097505158848 y=63 z=446.19999998807907
+2026-10-03T15:14:05 340.123 INF [MC7DTD] Minecraft player: x=-281.1097505158848 y=63 z=446.19999998807907
+2026-10-03T15:14:06 340.624 INF [MC7DTD] Minecraft player: x=-281.1097505158848 y=63 z=446.19999998807907
+2026-10-03T15:14:06 341.173 INF [MC7DTD] Minecraft player: x=-280.96398966622354 y=63.275163279008723 z=446.19999998807907
+2026-10-03T15:14:07 341.674 INF [MC7DTD] Minecraft player: x=-280.460827482934 y=63 z=446.19999998807907
+2026-10-03T15:14:07 342.176 INF [MC7DTD] Minecraft player: x=-280.45047818224697 y=63 z=446.19999998807907
+2026-10-03T15:14:08 342.718 INF [MC7DTD] Minecraft player: x=-280.45047818224697 y=63 z=446.19999998807907
+2026-10-03T15:14:08 343.227 INF [MC7DTD] Minecraft player: x=-280.45047818224697 y=63 z=446.19999998807907
+2026-10-03T15:14:09 343.771 INF [MC7DTD] Minecraft player: x=-280.45047818224697 y=63 z=446.19999998807907
+2026-10-03T15:14:09 344.272 INF [MC7DTD] Minecraft player: x=-280.24320852285041 y=63.603912238195107 z=446.19999998807907
+2026-10-03T15:14:10 344.772 INF [MC7DTD] Minecraft player: x=-280.02710790420088 y=62 z=446.19999998807907
+2026-10-03T15:14:10 345.276 INF [MC7DTD] Minecraft player: x=-280.02710790420088 y=62 z=446.19999998807907
+2026-10-03T15:14:11 345.821 INF [MC7DTD] Minecraft player: x=-280.02710790420088 y=62 z=446.19999998807907
+2026-10-03T15:14:11 346.371 INF [MC7DTD] Minecraft player: x=-280.02710790420088 y=62 z=446.19999998807907
+2026-10-03T15:14:12 346.921 INF [MC7DTD] Minecraft player: x=-280.02710790420088 y=62 z=446.19999998807907
+2026-10-03T15:14:13 347.469 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:13 347.971 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:14 348.475 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:14 349.024 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:15 349.573 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:15 350.121 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62.466423296159718 z=446.19999998807907
+2026-10-03T15:14:16 350.672 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:16 351.221 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:17 351.769 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:17 352.277 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:18 352.823 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:18 353.324 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62.425492614232567 z=446.19999998807907
+2026-10-03T15:14:19 353.871 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:19 354.375 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:20 354.926 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:21 355.470 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:21 355.977 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:22 356.519 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:22 357.021 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:23 357.570 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:23 358.121 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:24 358.670 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:24 359.220 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:25 359.725 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:25 360.274 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:26 360.819 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:26 361.320 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:27 361.870 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:27 362.370 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:28 362.919 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:28 363.424 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:29 363.973 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:30 364.522 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:30 364.769 INF Time: 5.85m FPS: 269.55 Heap: 2190.6MB Max: 2259.0MB Chunks: 298 CGO: 144 Ply: 1 Zom: 0 Ent: 2 (2) Items: 0 CO: 1 RSS: 4469.2MB
+2026-10-03T15:14:30 365.071 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:31 365.575 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:31 366.077 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:32 366.625 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:32 367.168 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:33 367.675 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:33 368.175 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:34 368.720 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:34 369.225 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:35 369.772 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:35 370.321 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:36 370.871 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:36 371.420 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:37 371.926 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:38 372.475 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:38 373.021 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:39 373.568 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:39 374.069 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:40 374.576 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:40 375.122 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:41 375.670 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:41 376.220 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:42 376.721 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:42 377.270 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:43 377.820 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:43 378.320 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:44 378.872 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:44 379.375 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:45 379.922 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:46 380.472 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:46 381.021 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:47 381.569 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:47 382.075 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:48 382.619 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:48 383.169 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:49 383.675 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:49 384.223 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:50 384.771 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:50 385.275 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:51 385.821 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:51 386.324 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:52 386.874 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:52 387.422 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:53 387.970 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:54 388.474 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:54 388.977 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:55 389.523 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:55 390.071 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:56 390.618 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:56 391.120 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:57 391.621 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:57 392.122 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:58 392.670 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:58 393.174 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:59 393.721 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:14:59 394.225 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:15:00 394.748 INF VehicleManager saving 0 (0 + 0)
+2026-10-03T15:15:00 394.749 INF DroneManager saving 0 (0 + 0)
+2026-10-03T15:15:00 394.750 INF TurretTracker saving 0 (0 + 0)
+2026-10-03T15:15:00 394.752 INF 60sec delta: 0,current: 1362017,desired: 1362017
+2026-10-03T15:15:00 394.752 INF VehicleManager saved 9 bytes
+2026-10-03T15:15:00 394.753 INF DroneManager saved 9 bytes
+2026-10-03T15:15:00 394.754 INF [Backtrace] Updated Statistics
+2026-10-03T15:15:00 394.754 INF TurretTracker saved 9 bytes
+2026-10-03T15:15:00 394.770 INF Time: 6.35m FPS: 273.87 Heap: 2183.6MB Max: 2259.0MB Chunks: 298 CGO: 144 Ply: 1 Zom: 0 Ent: 2 (2) Items: 0 CO: 1 RSS: 4473.2MB
+2026-10-03T15:15:00 394.774 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:15:00 395.324 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:15:01 395.873 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:15:01 396.420 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:15:02 396.920 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:15:02 397.426 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:15:03 397.975 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:15:04 398.525 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:15:04 399.072 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:15:05 399.619 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:15:05 400.120 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:15:06 400.623 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:15:06 401.124 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:15:07 401.672 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:15:07 402.222 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:15:08 402.726 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:15:08 403.274 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:15:09 403.820 INF [MC7DTD] Minecraft player: x=-280.19999998807907 y=62 z=446.19999998807907
+2026-10-03T15:15:09 404.335 INF [MC7DTD] Minecraft player: x=-270 y=63 z=461
+2026-10-03T15:15:10 404.835 INF [MC7DTD] Minecraft player: x=-270 y=63 z=461
+2026-10-03T15:15:23 417.870 INF [MC7DTD] Minecraft player: x=-270 y=63 z=461
+2026-10-03T15:15:23 418.372 INF [MC7DTD] Minecraft player: x=-270 y=63 z=461
+2026-10-03T15:15:30 424.771 INF Time: 6.85m FPS: 266.62 Heap: 2152.6MB Max: 2259.0MB Chunks: 298 CGO: 144 Ply: 1 Zom: 0 Ent: 2 (2) Items: 0 CO: 1 RSS: 4474.2MB
+2026-10-03T15:15:35 429.941 INF Saving 55 of chunks took 80ms
+2026-10-03T15:15:35 429.944 INF Paused Exploration
+2026-10-03T15:15:47 441.446 INF Disconnect
+2026-10-03T15:15:47 441.456 INF [NET] ServerShutdown
+2026-10-03T15:15:47 441.457 INF NET: Stopping server protocols
+2026-10-03T15:15:47 441.460 INF SaveAndCleanupWorld
+2026-10-03T15:15:47 441.461 INF [MC7DTD] Marker Unity deleted: instance=-987132 inactive=true destroyScheduled=true
+2026-10-03T15:15:47 441.462 INF [MC7DTD] Marker reset: count=0; fresh spawn required
+2026-10-03T15:15:47 441.556 INF Saving 55 of chunks took 82ms
+2026-10-03T15:15:47 441.563 INF [Steamworks.NET] Exiting Lobby
+2026-10-03T15:15:47 441.565 INF [Steamworks.NET] Stopping server
+2026-10-03T15:15:47 441.566 INF [PlayerInteractions] Shutdown, record disconnect for all currently connected players
+2026-10-03T15:15:47 441.567 INF [PartyQuests] Player unregistered
+2026-10-03T15:15:47 442.059 INF [EOS] Created RFS Request: NewsFeatured.xml
+2026-10-03T15:15:47 442.060 INF [EOS] Created RFS Request: News.xml
+2026-10-03T15:15:47 442.062 INF [EOS] Created RFS Request: eula_schinese
+2026-10-03T15:15:47 442.064 INF [EOS] Created RFS Request: PlatformOverrides
+2026-10-03T15:15:47 442.066 INF AstarManager Cleanup
+2026-10-03T15:15:47 442.331 INF Clearing queues.
+2026-10-03T15:15:47 442.332 INF Cleared queues.
+2026-10-03T15:15:48 443.075 INF Clearing queues.
+2026-10-03T15:15:48 443.076 INF Cleared queues.
+2026-10-03T15:15:48 443.082 INF World.Unload
+2026-10-03T15:15:48 443.090 INF Exited thread GenerateChunks
+2026-10-03T15:15:48 443.156 INF Exited thread SaveChunks D:\wenjian\minecraft\7-M\runtime\7dtd\Saves\Navezgane\MC7DTD-Phase3-3\Region
+2026-10-03T15:15:48 443.200 INF World.Cleanup
+2026-10-03T15:15:48 443.204 INF Exited thread ChunkRegeneration
+2026-10-03T15:15:48 443.211 INF Exited thread ChunkCalc
+2026-10-03T15:15:48 443.213 INF Exited thread ChunkMeshBake
+2026-10-03T15:15:48 443.228 INF Exited thread WaterSimulationApplyChanges
+2026-10-03T15:15:48 443.233 INF VehicleManager saving 0 (0 + 0)
+2026-10-03T15:15:48 443.235 INF VehicleManager saved 9 bytes
+2026-10-03T15:15:48 443.236 INF DroneManager saving 0 (0 + 0)
+2026-10-03T15:15:48 443.238 INF DroneManager saved 9 bytes
+2026-10-03T15:15:48 443.239 INF TurretTracker saving 0 (0 + 0)
+2026-10-03T15:15:48 443.241 INF TurretTracker saved 9 bytes
+2026-10-03T15:15:48 443.269 INF Persistent GamePrefs saved
+2026-10-03T15:15:49 443.726 INF [EOS] Read (News.xml) completed: Success, received 4600 bytes
+2026-10-03T15:15:49 443.728 INF [EOS] Created RFS Request: news_game_3.3_exp.jpg
+2026-10-03T15:15:49 443.729 INF [EOS] Created RFS Request: news_game_3.2.0_stable.jpg
+2026-10-03T15:15:49 443.729 INF [EOS] Created RFS Request: news_game_2026_7_blank.jpg
+2026-10-03T15:15:49 443.830 INF [EOS] Read (NewsFeatured.xml) completed: Success, received 1821 bytes
+2026-10-03T15:15:49 443.832 INF [EOS] Created RFS Request: news_featured_2026_dlc_08.jpg
+2026-10-03T15:15:49 443.833 INF [EOS] Created RFS Request: news_featured_2026_dlc_07.jpg
+2026-10-03T15:15:49 443.834 INF [EOS] Created RFS Request: news_featured_2026_dlc_06.jpg
+2026-10-03T15:15:49 443.993 INF [EOS] Read (PlatformOverrides) completed: Success, received 532 bytes
+2026-10-03T15:15:49 443.994 INF [TitleStorageOverridesManager] Successfully retrieved overrides.
+2026-10-03T15:15:49 444.027 INF [EOS] Read (eula_schinese) completed: Success, received 29413 bytes
+2026-10-03T15:15:49 444.029 INF [EOS] Created RFS Request: backtraceconfig.xml
+2026-10-03T15:15:49 444.209 INF [EOS] Read (news_game_3.3_exp.jpg) completed: Success, received 106006 bytes
+2026-10-03T15:15:49 444.211 INF [EOS] Created RFS Request: news_game_3.1.0_stable.jpg
+2026-10-03T15:15:49 444.232 INF [EOS] Read (news_featured_2026_dlc_08.jpg) completed: Success, received 774214 bytes
+2026-10-03T15:15:49 444.234 INF [EOS] Created RFS Request: news_featured_2026_merger.jpg
+2026-10-03T15:15:49 444.403 INF [EOS] Read (news_game_3.2.0_stable.jpg) completed: Success, received 101488 bytes
+2026-10-03T15:15:49 444.404 INF [EOS] Created RFS Request: news_game_3.0.1_stable.jpg
+2026-10-03T15:15:49 444.424 INF [EOS] Read (backtraceconfig.xml) completed: Success, received 2615 bytes
+2026-10-03T15:15:49 444.426 INF [BACKTRACE] Bug reporting Enabled with save uploading: Disabled
+2026-10-03T15:15:49 444.426 INF [BACKTRACE] Save Attaching Feature: Disabled
+2026-10-03T15:15:49 444.427 INF [BACKTRACE] Entire World Attaching Feature: Disabled
+2026-10-03T15:15:49 444.428 INF [BACKTRACE] Disabling Error Report Message Types: fellthroughworld
+2026-10-03T15:15:49 444.429 INF [BACKTRACE] Bug reporting Disabled with save uploading: Disabled
+2026-10-03T15:15:50 444.430 INF [BACKTRACE] Platform ID set to: "EOS-0002a27c262e4f8d9c40beda1e4fa220"
+2026-10-03T15:15:50 444.431 INF [BACKTRACE] Configuration refreshed from XML: Enabled True
+2026-10-03T15:15:50 444.432 INF [BACKTRACE] Bug reporting: Disabled
+2026-10-03T15:15:50 444.433 INF [BACKTRACE] Bug reporting attach save feature: Disabled
+2026-10-03T15:15:50 444.433 INF [BACKTRACE] Bug reporting attach entire world feature: Disabled
+2026-10-03T15:15:50 444.526 INF [EOS] Read (news_game_2026_7_blank.jpg) completed: Success, received 70434 bytes
+2026-10-03T15:15:50 444.527 INF [EOS] Created RFS Request: news_game_3.0_stable.jpg
+2026-10-03T15:15:50 444.554 INF [EOS] Read (BlockedPlayerList) completed: Success, received 8 bytes
+2026-10-03T15:15:50 444.564 INF [EOS] Read (news_featured_2026_dlc_07.jpg) completed: Success, received 925495 bytes
+2026-10-03T15:15:50 444.566 INF [EOS] Created RFS Request: news_featured_ytz2.1.jpg
+2026-10-03T15:15:50 444.620 INF [EOS] Read (news_game_3.1.0_stable.jpg) completed: Success, received 585941 bytes
+2026-10-03T15:15:50 444.622 INF [EOS] Created RFS Request: news_game_2026_2.6_stable.jpg
+2026-10-03T15:15:50 444.650 INF [EOS] Read (news_featured_2026_merger.jpg) completed: Success, received 154308 bytes
+2026-10-03T15:15:50 444.651 INF [EOS] Created RFS Request: news_featured_tfpmerch.jpg
+2026-10-03T15:15:50 444.790 INF [EOS] Read (news_game_3.0.1_stable.jpg) completed: Success, received 154912 bytes
+2026-10-03T15:15:50 444.959 INF [EOS] Read (news_featured_ytz2.1.jpg) completed: Success, received 123752 bytes
+2026-10-03T15:15:50 444.961 INF [EOS] Created RFS Request: news_featured_soundtrack.jpg
+2026-10-03T15:15:50 445.011 INF [EOS] Read (news_game_2026_2.6_stable.jpg) completed: Success, received 97562 bytes
+2026-10-03T15:15:50 445.051 INF [EOS] Read (news_featured_tfpmerch.jpg) completed: Success, received 78916 bytes
+2026-10-03T15:15:50 445.154 INF [EOS] Read (news_featured_2026_dlc_06.jpg) completed: Success, received 149863 bytes
+2026-10-03T15:15:50 445.348 INF [EOS] Read (news_featured_soundtrack.jpg) completed: Success, received 235045 bytes
+2026-10-03T15:15:51 445.460 INF [EOS] Read (news_game_3.0_stable.jpg) completed: Success, received 275348 bytes
+2026-10-03T15:16:13 468.245 INF 60sec delta: -121739,current: 1240278,desired: 1004628
+2026-10-03T15:16:13 468.245 INF [Backtrace] Updated Statistics

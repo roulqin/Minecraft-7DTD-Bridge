@@ -1,0 +1,140 @@
+14:25:23 info: Microsoft.Hosting.Lifetime[14] Now listening on: http://localhost:49216
+14:25:23 info: Microsoft.Hosting.Lifetime[0] Application started. Press Ctrl+C to shut down.
+14:25:23 info: Microsoft.Hosting.Lifetime[0] Hosting environment: Production
+14:25:23 info: Microsoft.Hosting.Lifetime[0] Content root path: D:\wenjian\minecraft\7-M
+14:25:23 info: BridgeServer[0] Coordinate mapping loaded: scale=2, offsets=(100, -10, 25); config D:\wenjian\minecraft\7-M\work\phase3_2-test\coordinate.json
+14:25:23 info: BridgeServer[0] Bridge connected �� listening ws://localhost:49216/ws; config D:\wenjian\minecraft\7-M\work\phase3_2-test\network.json
+14:25:23 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:49216/health - - -
+14:25:23 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint 'HTTP: GET /health'
+14:25:23 info: Microsoft.AspNetCore.Http.Result.JsonResult[3] Writing value of type '<>f__AnonymousType0`3' as Json.
+14:25:23 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1] Executed endpoint 'HTTP: GET /health'
+14:25:23 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://localhost:49216/health - 200 - application/json;+charset=utf-8 54.1040ms
+14:25:23 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:49216/ws - - -
+14:25:23 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint '/ws'
+14:25:23 info: BridgeServer[0] Minecraft connected
+14:25:23 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:49216/ws - - -
+14:25:23 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint '/ws'
+14:25:23 info: BridgeServer[0] 7DTD connected
+14:25:23 info: BridgeServer[0] Entity registry: spawned, id=6b6d9c36-909c-4fbb-a537-d309f48f8231, count=1
+14:25:23 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (spawn, 6b6d9c36-909c-4fbb-a537-d309f48f8231)
+14:25:23 info: BridgeServer[0] Entity registry: updated, id=6b6d9c36-909c-4fbb-a537-d309f48f8231, count=1
+14:25:23 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 6b6d9c36-909c-4fbb-a537-d309f48f8231)
+14:25:23 info: BridgeServer[0] Entity registry: despawned, id=6b6d9c36-909c-4fbb-a537-d309f48f8231, count=0
+14:25:23 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (despawn, 6b6d9c36-909c-4fbb-a537-d309f48f8231)
+14:25:23 info: BridgeServer[0] Entity registry: spawned, id=6b6d9c36-909c-4fbb-a537-d309f48f8231, count=1
+14:25:23 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (spawn, 6b6d9c36-909c-4fbb-a537-d309f48f8231)
+14:25:23 info: BridgeServer[0] Entity registry: despawned, id=6b6d9c36-909c-4fbb-a537-d309f48f8231, count=0
+14:25:23 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (despawn, 6b6d9c36-909c-4fbb-a537-d309f48f8231)
+14:25:23 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (120, 118, 65)
+14:25:23 info: BridgeServer[0] Test forwarded: minecraft -> 7dtd
+14:25:23 info: BridgeServer[0] Test forwarded: 7dtd -> minecraft
+14:25:23 warn: BridgeServer[0] Protocol rejected: invalid_entity_version
+14:25:23 info: BridgeServer[0] Entity registry reset: disconnected minecraft, removed=0; fresh spawn required
+14:25:23 info: BridgeServer[0] Disconnected: minecraft
+14:25:23 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1] Executed endpoint '/ws'
+14:25:23 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://localhost:49216/ws - 101 - - 47.2240ms
+14:25:23 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:49216/health - - -
+14:25:23 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint 'HTTP: GET /health'
+14:25:23 info: Microsoft.AspNetCore.Server.Kestrel.Connections[34] Connection id "0HNP12SDMCDOJ", Request id "0HNP12SDMCDOJ:00000001": the application aborted the connection.
+14:25:23 info: Microsoft.AspNetCore.Http.Result.JsonResult[3] Writing value of type '<>f__AnonymousType0`3' as Json.
+14:25:23 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1] Executed endpoint 'HTTP: GET /health'
+14:25:23 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://localhost:49216/health - 200 - application/json;+charset=utf-8 1.0587ms
+14:25:23 info: BridgeServer[0] Connection ended (7dtd): OperationCanceledException
+14:25:23 info: BridgeServer[0] Entity registry reset: disconnected 7dtd, removed=0; fresh spawn required
+14:25:23 info: BridgeServer[0] Disconnected: 7dtd
+14:25:23 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1] Executed endpoint '/ws'
+14:25:23 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://localhost:49216/ws - 101 - - 26.2084ms
+14:25:24 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:49216/health - - -
+14:25:24 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint 'HTTP: GET /health'
+14:25:24 info: Microsoft.AspNetCore.Http.Result.JsonResult[3] Writing value of type '<>f__AnonymousType0`3' as Json.
+14:25:24 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1] Executed endpoint 'HTTP: GET /health'
+14:25:24 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://localhost:49216/health - 200 - application/json;+charset=utf-8 0.1948ms
+14:25:24 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:49216/ws - - -
+14:25:24 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint '/ws'
+14:25:24 info: BridgeServer[0] Minecraft connected
+14:25:24 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:49216/ws - - -
+14:25:24 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint '/ws'
+14:25:24 info: BridgeServer[0] 7DTD connected
+14:25:24 info: BridgeServer[0] Entity registry: spawned, id=6b6d9c36-909c-4fbb-a537-d309f48f8231, count=1
+14:25:24 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (spawn, 6b6d9c36-909c-4fbb-a537-d309f48f8231)
+14:25:24 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:49216/ws - - -
+14:25:24 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint '/ws'
+14:25:24 warn: BridgeServer[0] Protocol rejected: duplicate_client
+14:25:24 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1] Executed endpoint '/ws'
+14:25:24 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://localhost:49216/ws - 101 - - 0.5647ms
+14:25:24 info: BridgeServer[0] Entity registry: duplicate_spawn, id=6b6d9c36-909c-4fbb-a537-d309f48f8231, count=1
+14:25:24 info: BridgeServer[0] Test forwarded: minecraft -> 7dtd
+14:25:24 info: BridgeServer[0] Entity registry: updated, id=6b6d9c36-909c-4fbb-a537-d309f48f8231, count=1
+14:25:24 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 6b6d9c36-909c-4fbb-a537-d309f48f8231)
+14:25:24 info: BridgeServer[0] Entity registry: despawned, id=6b6d9c36-909c-4fbb-a537-d309f48f8231, count=0
+14:25:24 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (despawn, 6b6d9c36-909c-4fbb-a537-d309f48f8231)
+14:25:24 info: BridgeServer[0] Entity registry: unknown_despawn, id=6b6d9c36-909c-4fbb-a537-d309f48f8231, count=0
+14:25:24 info: BridgeServer[0] Test forwarded: minecraft -> 7dtd
+14:25:24 info: BridgeServer[0] Entity registry: entity_not_found, id=6b6d9c36-909c-4fbb-a537-d309f48f8231, count=0
+14:25:24 info: BridgeServer[0] Entity registry: spawned, id=6b6d9c36-909c-4fbb-a537-d309f48f8231, count=1
+14:25:24 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (spawn, 6b6d9c36-909c-4fbb-a537-d309f48f8231)
+14:25:24 info: BridgeServer[0] Connection ended (7dtd): WebSocketException
+14:25:24 info: BridgeServer[0] Entity registry reset: disconnected 7dtd, removed=1; fresh spawn required
+14:25:24 info: BridgeServer[0] Disconnected: 7dtd
+14:25:24 info: Microsoft.AspNetCore.Server.Kestrel.Connections[34] Connection id "0HNP12SDMCDOL", Request id "0HNP12SDMCDOL:00000001": the application aborted the connection.
+14:25:24 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1] Executed endpoint '/ws'
+14:25:24 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://localhost:49216/ws - 101 - - 6.3165ms
+14:25:24 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:49216/health - - -
+14:25:24 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint 'HTTP: GET /health'
+14:25:24 info: Microsoft.AspNetCore.Http.Result.JsonResult[3] Writing value of type '<>f__AnonymousType0`3' as Json.
+14:25:24 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1] Executed endpoint 'HTTP: GET /health'
+14:25:24 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://localhost:49216/health - 200 - application/json;+charset=utf-8 0.1246ms
+14:25:24 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:49216/ws - - -
+14:25:24 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint '/ws'
+14:25:24 info: BridgeServer[0] 7DTD connected
+14:25:24 info: BridgeServer[0] Entity registry: entity_not_found, id=6b6d9c36-909c-4fbb-a537-d309f48f8231, count=0
+14:25:24 info: BridgeServer[0] Entity registry: spawned, id=6b6d9c36-909c-4fbb-a537-d309f48f8231, count=1
+14:25:24 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (spawn, 6b6d9c36-909c-4fbb-a537-d309f48f8231)
+14:25:24 info: BridgeServer[0] Connection ended (minecraft): WebSocketException
+14:25:24 info: BridgeServer[0] Entity registry reset: disconnected minecraft, removed=1; fresh spawn required
+14:25:24 info: BridgeServer[0] Disconnected: minecraft
+14:25:24 info: Microsoft.AspNetCore.Server.Kestrel.Connections[34] Connection id "0HNP12SDMCDOK", Request id "0HNP12SDMCDOK:00000001": the application aborted the connection.
+14:25:24 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1] Executed endpoint '/ws'
+14:25:24 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://localhost:49216/ws - 101 - - 14.4058ms
+14:25:24 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:49216/health - - -
+14:25:24 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint 'HTTP: GET /health'
+14:25:24 info: Microsoft.AspNetCore.Http.Result.JsonResult[3] Writing value of type '<>f__AnonymousType0`3' as Json.
+14:25:24 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1] Executed endpoint 'HTTP: GET /health'
+14:25:24 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://localhost:49216/health - 200 - application/json;+charset=utf-8 0.2908ms
+14:25:24 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:49216/ws - - -
+14:25:24 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint '/ws'
+14:25:24 info: BridgeServer[0] Minecraft connected
+14:25:24 info: BridgeServer[0] Entity registry: entity_not_found, id=6b6d9c36-909c-4fbb-a537-d309f48f8231, count=0
+14:25:24 info: BridgeServer[0] Entity registry: spawned, id=6b6d9c36-909c-4fbb-a537-d309f48f8231, count=1
+14:25:24 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (spawn, 6b6d9c36-909c-4fbb-a537-d309f48f8231)
+14:25:24 info: BridgeServer[0] Connection ended (minecraft): WebSocketException
+14:25:24 info: BridgeServer[0] Entity registry reset: disconnected minecraft, removed=1; fresh spawn required
+14:25:24 info: BridgeServer[0] Disconnected: minecraft
+14:25:24 info: Microsoft.AspNetCore.Server.Kestrel.Connections[34] Connection id "0HNP12SDMCDOO", Request id "0HNP12SDMCDOO:00000001": the application aborted the connection.
+14:25:24 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1] Executed endpoint '/ws'
+14:25:24 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://localhost:49216/ws - 101 - - 1.6933ms
+14:25:24 info: BridgeServer[0] Connection ended (7dtd): WebSocketException
+14:25:24 info: BridgeServer[0] Entity registry reset: disconnected 7dtd, removed=0; fresh spawn required
+14:25:24 info: BridgeServer[0] Disconnected: 7dtd
+14:25:24 info: Microsoft.AspNetCore.Server.Kestrel.Connections[34] Connection id "0HNP12SDMCDON", Request id "0HNP12SDMCDON:00000001": the application aborted the connection.
+14:25:24 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1] Executed endpoint '/ws'
+14:25:24 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://localhost:49216/ws - 101 - - 5.5774ms
+14:25:24 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:49216/health - - -
+14:25:24 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint 'HTTP: GET /health'
+14:25:24 info: Microsoft.AspNetCore.Http.Result.JsonResult[3] Writing value of type '<>f__AnonymousType0`3' as Json.
+14:25:24 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1] Executed endpoint 'HTTP: GET /health'
+14:25:24 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://localhost:49216/health - 200 - application/json;+charset=utf-8 0.1495ms
+14:25:24 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:49216/ws - - -
+14:25:24 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint '/ws'
+14:25:24 info: BridgeServer[0] 7DTD connected
+14:25:24 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:49216/ws - - -
+14:25:24 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint '/ws'
+14:25:24 info: BridgeServer[0] Minecraft connected
+14:25:24 info: BridgeServer[0] Test forwarded: 7dtd -> minecraft
+14:25:24 info: BridgeServer[0] Entity registry: spawned, id=6b6d9c36-909c-4fbb-a537-d309f48f8231, count=1
+14:25:24 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (spawn, 6b6d9c36-909c-4fbb-a537-d309f48f8231)
+14:25:24 info: BridgeServer[0] Entity registry: updated, id=6b6d9c36-909c-4fbb-a537-d309f48f8231, count=1
+14:25:24 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 6b6d9c36-909c-4fbb-a537-d309f48f8231)
+14:25:24 info: BridgeServer[0] Entity registry: despawned, id=6b6d9c36-909c-4fbb-a537-d309f48f8231, count=0
+14:25:24 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (despawn, 6b6d9c36-909c-4fbb-a537-d309f48f8231)
+14:25:24 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (120, 118, 65)

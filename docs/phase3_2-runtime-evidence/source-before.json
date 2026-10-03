@@ -1,0 +1,154 @@
+[
+  {
+    "File": "config\\network.json",
+    "Hash": "F2CB34CA08E0EC2585AD0CACB889AAB9CE6DF7074A2A581DEA4A4571CE2C2DA3"
+  },
+  {
+    "File": "config\\coordinate.json",
+    "Hash": "87ABC6886340C9AFAF561D985DCFC7440C535DB98966F6332B1B82A57B1B7C78"
+  },
+  {
+    "File": "tests\\run-phase3_2.ps1",
+    "Hash": "6B790480627A65743D938C2B3366E82048E7C0DD21DE3A666AFB924A5A1B04BC"
+  },
+  {
+    "File": "tests\\run-phase3_1.ps1",
+    "Hash": "313F518D2F15B9071DBD18071003AAC2614640762379936B70B183E22B388641"
+  },
+  {
+    "File": "tests\\run-phase2_1.ps1",
+    "Hash": "7FF5E295127FBA3F3211C5035A05FE2729F2263687741EC7A35080DE368E7A72"
+  },
+  {
+    "File": "tests\\run-phase2.ps1",
+    "Hash": "E61819738719A748D2DDD77DCBDA86ECC6EB7247F7B41EAE8B60438E9DFF81C0"
+  },
+  {
+    "File": "tests\\run-phase1.ps1",
+    "Hash": "39B0BBA91FFEE96856486FAD12DB977309A59AAD596281A62256F68EF7029F37"
+  },
+  {
+    "File": "tests\\prepare-runtime.ps1",
+    "Hash": "81532AF97211216140E127003E950430710C345922C12E3F95185170129F6276"
+  },
+  {
+    "File": "bridge-server\\Program.cs",
+    "Hash": "26893AB7C09F2210D664D97CF737B24144F7BD843646B9F318B214F998041F3E"
+  },
+  {
+    "File": "bridge-server\\EntityTransport.cs",
+    "Hash": "E5EC9C26989848E03DF16346C7ABB7EE38C0CBD9CB418954B7CB948AD93312BC"
+  },
+  {
+    "File": "bridge-server\\EntityRegistry.cs",
+    "Hash": "20EFA3696AD4F6B5058CEA006784281269FE1561768079E79B281299063FD763"
+  },
+  {
+    "File": "bridge-server\\CoordinateMapper.cs",
+    "Hash": "41849D27B61CB646ECD7D167C7CAE3858B40A2409924DD8E2BC90F7C466D065B"
+  },
+  {
+    "File": "bridge-server\\BridgeServer.csproj",
+    "Hash": "7D23D42D600042397B7C5F2C049070FD60E7DA88644323CC065ECBFAF3CD92F2"
+  },
+  {
+    "File": "tests\\phase1-runner\\Program.cs",
+    "Hash": "10167861F73F80EC6BDD8083604810F8FADA6C499104BA928D2E3F914EF22B61"
+  },
+  {
+    "File": "tests\\phase1-runner\\Phase1Runner.csproj",
+    "Hash": "38E201F047792DF530DB8C7D157C2B6B19D1ED2E4134DBA5DA5C59E97D3B0DA2"
+  },
+  {
+    "File": "tests\\launch-runtime.py",
+    "Hash": "0C4D13DDFAE8CF6D258B7DF689DFE99BAA5346355F2EE9BCD841D1DFB66CDA02"
+  },
+  {
+    "File": "7dtd-mod\\src\\BridgeMod.cs",
+    "Hash": "D475DAF2907AC5D8A16B15EE76BF47194E9BC4B7A36FFB20E4DDC2A9346B538F"
+  },
+  {
+    "File": "7dtd-mod\\src\\BridgeClient.cs",
+    "Hash": "EA6177793E4CB4E22E28731CF4081157139513521AB35567EB782305A1F854B7"
+  },
+  {
+    "File": "7dtd-mod\\ModInfo.xml",
+    "Hash": "B90F402DF5AE7112BE244B9D39DCAAD25FD8675270314D45630A492AA48C7CFB"
+  },
+  {
+    "File": "7dtd-mod\\MC7DTD.Mod.csproj",
+    "Hash": "5C4E1699ACBE662253A6180B75DD48312ED0904747AADA10F4E7ED61177B4CD0"
+  },
+  {
+    "File": "tests\\entity-runner\\Program.cs",
+    "Hash": "06D08F7BC506BB3078DCF9EC8E7C161FEDAE27091F6844F3D2E18C1715A48147"
+  },
+  {
+    "File": "tests\\entity-runner\\EntityRunner.csproj",
+    "Hash": "4FAC76E23F9C4D6845EF888035F7A8C374ACCECDEF6C58052BB5293ACCB37BEB"
+  },
+  {
+    "File": "tests\\client-harness\\Program.cs",
+    "Hash": "88ABDAEEC688730041DEAD34D9303C67D3F9703C54320F0F83EBEDA7D03FD75B"
+  },
+  {
+    "File": "tests\\client-harness\\ClientHarness.csproj",
+    "Hash": "4A57E40575729A25399E6E3A762749058BDEF0A15A7503B8CEBE2C9EEAEB20C1"
+  },
+  {
+    "File": "minecraft-mod\\bootstrap-gradle.ps1",
+    "Hash": "357252EB44E1EC152BE7458FE6FA79C70BDEAD639A10D2C6E2FC2B32B663535C"
+  },
+  {
+    "File": "minecraft-mod\\build.gradle",
+    "Hash": "38C754B3DA7E6062AEB1BB692D2BA0E628B97ACC785EF1440695B59C4766BD6D"
+  },
+  {
+    "File": "minecraft-mod\\settings.gradle",
+    "Hash": "1C04B30D982B882F560B23E747A6E9870DC8AD67303DA281CA9163D68F558CD7"
+  },
+  {
+    "File": "minecraft-mod\\gradle.properties",
+    "Hash": "4E58CD55581F33133835DBCA3C0308A456FB5E590E1D3D527F957A517CCC9C78"
+  },
+  {
+    "File": "tests\\coordinate-runner\\Program.cs",
+    "Hash": "5773EEF09AEC1A0565E49711984D24DCBCFE7ED3A184C9CDFD7E825EB9E1215B"
+  },
+  {
+    "File": "tests\\coordinate-runner\\CoordinateRunner.csproj",
+    "Hash": "2A7777234EE70A4E76068F24F88491D8E32B6112C5FF9C7296916F1E0D770E5C"
+  },
+  {
+    "File": "minecraft-mod\\gradle\\wrapper\\gradle-wrapper.properties",
+    "Hash": "10CDA1C66B56C0D5A1EBA55A67CE2806BED2D900150BF5E3CA3207A8FF6D708B"
+  },
+  {
+    "File": "minecraft-mod\\src\\main\\resources\\fabric.mod.json",
+    "Hash": "CCEA650C94E9612B08035B41B6AD31D1638E9DF677054111CD9411FB2BE5215A"
+  },
+  {
+    "File": "minecraft-mod\\src\\test\\java\\io\\mc7dtd\\ClientHarness.java",
+    "Hash": "852B7FDC1A2AB59C8FC6ACBE160ACE3F4F393F805D1F92B4D1CE4F5D9EA9006E"
+  },
+  {
+    "File": "minecraft-mod\\src\\main\\java\\io\\mc7dtd\\PlayerPositionSampler.java",
+    "Hash": "F34FF8D1F03C6807A35C80B0E00E1C1CCCFEBA351F3704E7789A290D711C06BB"
+  },
+  {
+    "File": "minecraft-mod\\src\\main\\java\\io\\mc7dtd\\MinecraftBridgeMod.java",
+    "Hash": "9F438CB5EB70E540C2463BFEC520691D6C77AEDED64E445A86BEF431EFBEFB91"
+  },
+  {
+    "File": "minecraft-mod\\src\\main\\java\\io\\mc7dtd\\EntityTestCommands.java",
+    "Hash": "77225F26AA8EE82A6952F605AA240970695CC00E26AD7C3C81D83D5E0AB50469"
+  },
+  {
+    "File": "minecraft-mod\\src\\main\\java\\io\\mc7dtd\\BridgeClient.java",
+    "Hash": "ADE560DE590D07671CDA7D7031D0DE1C4495CC2F46E8045831E6239E6B58FE01"
+  },
+  {
+    "File": "docs/entity_sync_protocol.md",
+    "Hash": "CA8209971BFEEA7020DCD9158A1532D202B88F773BC801EDF4B01474F98D069B"
+  }
+]

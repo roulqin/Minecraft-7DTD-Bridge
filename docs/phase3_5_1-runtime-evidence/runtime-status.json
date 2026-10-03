@@ -1,0 +1,61 @@
+{
+  "status": "partial",
+  "entityId": "0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69",
+  "spawn": {
+    "type": "entity_state",
+    "version": 1,
+    "source": "minecraft",
+    "entity_type": "minecraft:player",
+    "entity_id": "0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69",
+    "stream_id": "83ce0df2-1fb2-4035-8afd-7a361a681e91",
+    "world_id": "mc-cf4dce40-2be1-372b-b914-917f5dcc644c",
+    "dimension": "minecraft:overworld",
+    "sequence": 1,
+    "lifecycle": {
+      "event": "spawn"
+    },
+    "metadata": {},
+    "position": {
+      "x": -45.51388970501728,
+      "y": 68.0,
+      "z": 71.32531693427028,
+      "space": "minecraft"
+    },
+    "rotation": {
+      "yaw": 80.54817962646484,
+      "pitch": 3.149780750274658,
+      "roll": 0
+    }
+  },
+  "lastUpdate": {
+    "type": "entity_state",
+    "version": 1,
+    "source": "minecraft",
+    "entity_type": "minecraft:player",
+    "entity_id": "0822a4cf-94a6-4b2f-aaa8-b1d2989aaa69",
+    "stream_id": "83ce0df2-1fb2-4035-8afd-7a361a681e91",
+    "world_id": "mc-cf4dce40-2be1-372b-b914-917f5dcc644c",
+    "dimension": "minecraft:overworld",
+    "sequence": 80,
+    "lifecycle": {
+      "event": "update"
+    },
+    "metadata": {},
+    "position": {
+      "x": -44.30000001192093,
+      "y": 68.0,
+      "z": 70.30000001192093,
+      "space": "minecraft"
+    },
+    "rotation": {
+      "yaw": 18.89806365966797,
+      "pitch": 3.2998127937316895,
+      "roll": 0
+    }
+  },
+  "positionChanged": true,
+  "rotationChanged": true,
+  "despawnVerified": false,
+  "interruption": "Physical Escape stopped Computer Use",
+  "coordinateRestored": true
+}

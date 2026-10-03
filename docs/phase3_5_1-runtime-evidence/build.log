@@ -1,0 +1,53 @@
+  正在确定要还原的项目…
+  所有项目均是最新的，无法还原。
+  BridgeServer -> D:\wenjian\minecraft\7-M\bridge-server\bin\Release\net10.0\BridgeServer.dll
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.12
+  正在确定要还原的项目…
+  所有项目均是最新的，无法还原。
+  MC7DTD.Mod -> D:\wenjian\minecraft\7-M\7dtd-mod\bin\Release\net48\MC7DTD.Bridge.dll
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.94
+  正在确定要还原的项目…
+  所有项目均是最新的，无法还原。
+  ClientHarness -> D:\wenjian\minecraft\7-M\tests\client-harness\bin\Release\net48\ClientHarness.exe
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.86
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :
+Fabric Loom: 1.14.10
+
+> Task :compileJava
+> Task :processResources UP-TO-DATE
+> Task :classes
+> Task :jar
+> Task :processIncludeJars UP-TO-DATE
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+> Task :test
+> Task :validateAccessWidener NO-SOURCE
+> Task :check
+> Task :remapJar
+> Task :writeTestClasspath
+> Task :remapSourcesJar SKIPPED
+> Task :assemble
+> Task :build
+
+BUILD SUCCESSFUL in 15s
+8 actionable tasks: 6 executed, 2 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.2.1/userguide/configuration_cache_enabling.html

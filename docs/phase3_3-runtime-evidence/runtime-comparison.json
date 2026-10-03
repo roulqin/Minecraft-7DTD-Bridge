@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "gameRuntimeTested": true,
+  "entityId": "f017a595-0a5c-43ad-a66e-5877ca9bc7fd",
+  "unityInstanceId": "-991736",
+  "positions": [
+    {
+      "x": -276.0,
+      "y": 61.0,
+      "z": 447.0
+    },
+    {
+      "x": -281.2863836697449,
+      "y": 63.0,
+      "z": 445.40058918629217
+    }
+  ],
+  "mapping": {
+    "scale": 1,
+    "offsetX": -218.5,
+    "offsetY": -5,
+    "offsetZ": 386.5
+  },
+  "registryCounts": [
+    1,
+    1,
+    0
+  ],
+  "receiverCounts": [
+    1,
+    1,
+    0
+  ],
+  "singleObjectCreated": true,
+  "mainThread": 1,
+  "despawnInactiveAndDestroyScheduled": true,
+  "screenshots": [
+    "marker-spawn.jpg",
+    "marker-update.jpg",
+    "marker-despawn.jpg"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "entity_state",
+  "version": 1,
+  "source": "minecraft",
+  "stream_id": "1c9228a7-dc8d-4fc9-8df3-59101513b8f9",
+  "entity_id": "eb592bea-249d-46cb-bf21-7b40c4b68831",
+  "entity_type": "minecraft:player",
+  "world_id": "proxy-demo",
+  "dimension": "minecraft:overworld",
+  "sequence": 3,
+  "lifecycle": {
+    "event": "despawn",
+    "reason": "world_unloaded"
+  },
+  "position": null,
+  "rotation": null,
+  "metadata": {}
+}

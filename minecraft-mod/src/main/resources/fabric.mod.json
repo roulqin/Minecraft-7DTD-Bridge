@@ -2,12 +2,13 @@
   "schemaVersion": 1,
   "id": "mc7dtd_bridge",
   "version": "${version}",
-  "name": "MC7DTD Bridge Phase 1",
-  "description": "Local WebSocket test messages only",
+  "name": "MC7DTD Bridge",
+  "description": "Local WebSocket tests and Minecraft player position reporting",
   "environment": "client",
   "entrypoints": { "client": ["io.mc7dtd.MinecraftBridgeMod"] },
   "depends": {
     "fabricloader": ">=0.18.4",
+    "fabric-api": ">=0.140.2",
     "minecraft": "1.21.11",
     "java": ">=21"
   }
