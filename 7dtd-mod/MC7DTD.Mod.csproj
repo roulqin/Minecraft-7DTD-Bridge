@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>MC7DTD.Bridge</AssemblyName>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    
+    <GameDir Condition="'$(GameDir)' == ''">D:\Steam\steamapps\common\7 Days To Die</GameDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="src\*.cs" />
+    <Reference Include="Assembly-CSharp"><HintPath>$(GameDir)\7DaysToDie_Data\Managed\Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="LogLibrary"><HintPath>$(GameDir)\7DaysToDie_Data\Managed\LogLibrary.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="System.Runtime.Serialization" />
+  </ItemGroup>
+  <Target Name="PackageMod" AfterTargets="Build">
+    <MakeDir Directories="$(MSBuildProjectDirectory)\dist\MC7DTD-Bridge" />
+    <Copy SourceFiles="$(TargetPath);$(MSBuildProjectDirectory)\ModInfo.xml" DestinationFolder="$(MSBuildProjectDirectory)\dist\MC7DTD-Bridge" />
+  </Target>
+</Project>
+

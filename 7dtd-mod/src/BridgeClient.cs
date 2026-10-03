@@ -1,0 +1,115 @@
+using System;
+using System.IO;
+using System.Net.WebSockets;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Json;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace MC7DTD
+{
+    [DataContract]
+    public sealed class NetworkConfig
+    {
+        [DataMember(Name = "host", IsRequired = true)] public string Host;
+        [DataMember(Name = "port", IsRequired = true)] public int Port;
+    }
+    [DataContract]
+    public sealed class WireMessage
+    {
+        [DataMember(Name = "type")] public string Type;
+        [DataMember(Name = "client", EmitDefaultValue = false)] public string Client;
+        [DataMember(Name = "from", EmitDefaultValue = false)] public string From;
+        [DataMember(Name = "text", EmitDefaultValue = false)] public string Text;
+        [DataMember(Name = "code", EmitDefaultValue = false)] public string Code;
+    }
+    // Also exercised by tests/client-harness: no game types or game state access here.
+    public sealed class BridgeClient : IDisposable
+    {
+        private readonly Uri uri;
+        private readonly Action<string> log;
+        private readonly CancellationTokenSource stop = new CancellationTokenSource();
+        private Task worker;
+        public BridgeClient(string configPath, Action<string> logger)
+        {
+            log = logger;
+            NetworkConfig config;
+            using (var file = File.OpenRead(configPath))
+                config = (NetworkConfig)new DataContractJsonSerializer(typeof(NetworkConfig)).ReadObject(file);
+            if (config.Host != "localhost" || config.Port < 1024 || config.Port > 65535)
+                throw new InvalidDataException("network.json requires localhost and port 1024..65535");
+            uri = new Uri("ws://localhost:" + config.Port + "/ws");
+        }
+        public void Start() { if (worker != null) return; worker = Task.Run(Run); }
+        private async Task Run()
+        {
+            while (!stop.IsCancellationRequested)
+            {
+                try
+                {
+                    using (var socket = new ClientWebSocket())
+                    {
+                        socket.Options.Proxy = null;
+                        socket.Options.KeepAliveInterval = TimeSpan.FromSeconds(20);
+                        using (var timeout = CancellationTokenSource.CreateLinkedTokenSource(stop.Token))
+                        {
+                            timeout.CancelAfter(TimeSpan.FromSeconds(5));
+                            await socket.ConnectAsync(uri, timeout.Token).ConfigureAwait(false);
+                        }
+                        await Send(socket, new WireMessage { Type = "7dtd_connect", Client = "7dtd" }).ConfigureAwait(false);
+                        bool welcomed = false;
+                        while (socket.State == WebSocketState.Open && !stop.IsCancellationRequested)
+                        {
+                            WireMessage message;
+                            using (var deadline = CancellationTokenSource.CreateLinkedTokenSource(stop.Token))
+                            {
+                                if (!welcomed) deadline.CancelAfter(TimeSpan.FromSeconds(10));
+                                message = await Receive(socket, deadline.Token).ConfigureAwait(false);
+                            }
+                            if (message == null) break;
+                            if (message.Type == "welcome" && message.Client == "7dtd")
+                            { welcomed = true; log("Bridge connected"); log("7DTD connected"); }
+                            else if (welcomed && message.Type == "peer_connected")
+                                await Send(socket, new WireMessage { Type = "test", Text = "Hello from 7DTD" }).ConfigureAwait(false);
+                            else if (welcomed && message.Type == "test") log("Test received from " + message.From + ": " + message.Text);
+                            else if (message.Type == "error") log("Bridge error: " + message.Code);
+                        }
+                    }
+                    if (!stop.IsCancellationRequested) log("Bridge disconnected; retry in 3 seconds");
+                }
+                catch (Exception ex) { if (!stop.IsCancellationRequested) log("Bridge unavailable: " + ex.Message + "; retry in 3 seconds"); }
+                try { await Task.Delay(3000, stop.Token).ConfigureAwait(false); } catch (OperationCanceledException) { break; }
+            }
+        }
+        private async Task Send(ClientWebSocket socket, WireMessage message)
+        {
+            using (var data = new MemoryStream())
+            using (var timeout = CancellationTokenSource.CreateLinkedTokenSource(stop.Token))
+            {
+                new DataContractJsonSerializer(typeof(WireMessage)).WriteObject(data, message);
+                timeout.CancelAfter(TimeSpan.FromSeconds(5));
+                await socket.SendAsync(new ArraySegment<byte>(data.ToArray()), WebSocketMessageType.Text, true, timeout.Token).ConfigureAwait(false);
+            }
+        }
+        private static async Task<WireMessage> Receive(ClientWebSocket socket, CancellationToken ct)
+        {
+            using (var data = new MemoryStream())
+            {
+                var buffer = new byte[2048];
+                WebSocketReceiveResult frame;
+                do
+                {
+                    frame = await socket.ReceiveAsync(new ArraySegment<byte>(buffer), ct).ConfigureAwait(false);
+                    if (frame.MessageType == WebSocketMessageType.Close) return null;
+                    if (frame.MessageType != WebSocketMessageType.Text || data.Length + frame.Count > 8192)
+                        throw new InvalidDataException("Invalid bridge frame");
+                    data.Write(buffer, 0, frame.Count);
+                } while (!frame.EndOfMessage);
+                data.Position = 0;
+                return (WireMessage)new DataContractJsonSerializer(typeof(WireMessage)).ReadObject(data);
+            }
+        }
+        public void Dispose() { stop.Cancel(); /* Never block the Unity game thread. */ }
+    }
+}

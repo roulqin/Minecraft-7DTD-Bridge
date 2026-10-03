@@ -1,0 +1,7 @@
+**/bin/
+**/obj/
+**/build/
+**/.gradle/
+work/
+runtime/
+7dtd-mod/dist/

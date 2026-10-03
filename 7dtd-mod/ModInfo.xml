@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <Name value="MC7DTD-Bridge" />
+  <DisplayName value="MC7DTD Bridge Phase 1" />
+  <Description value="Local JSON WebSocket test messages only" />
+  <Author value="MC7DTD-Bridge" />
+  <Version value="0.1.0" />
+  <SkipWithAntiCheat value="true" />
+</xml>

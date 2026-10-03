@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "mc7dtd_bridge",
+  "version": "${version}",
+  "name": "MC7DTD Bridge Phase 1",
+  "description": "Local WebSocket test messages only",
+  "environment": "client",
+  "entrypoints": { "client": ["io.mc7dtd.MinecraftBridgeMod"] },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}

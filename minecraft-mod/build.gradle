@@ -1,0 +1,28 @@
+plugins { id 'java' }
+
+group = 'io.mc7dtd'
+version = '0.1.0'
+
+repositories {
+    maven { url = 'https://maven.fabricmc.net/' }
+    mavenCentral()
+}
+
+// Phase 1 uses only Loader entrypoints and JDK networking, no mapped Minecraft classes.
+// Thus this is a normal Fabric-loadable JAR without Loom/remapping or Fabric API calls.
+dependencies {
+    compileOnly 'net.fabricmc:fabric-loader:0.18.4'
+    compileOnly 'com.google.code.gson:gson:2.13.2'
+    compileOnly 'org.slf4j:slf4j-api:2.0.17'
+    testImplementation 'com.google.code.gson:gson:2.13.2'
+}
+java { toolchain { languageVersion = JavaLanguageVersion.of(21) } }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8'; options.release = 21 }
+tasks.processResources {
+    inputs.property 'version', project.version
+    filesMatching('fabric.mod.json') { expand version: project.version }
+}
+tasks.register('writeTestClasspath') {
+    dependsOn testClasses
+    doLast { layout.buildDirectory.file('test-classpath.txt').get().asFile.text = sourceSets.test.runtimeClasspath.asPath }
+}

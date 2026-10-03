@@ -1,0 +1,88 @@
+08:17:34 info: Microsoft.Hosting.Lifetime[14] Now listening on: http://localhost:18771
+08:17:34 info: Microsoft.Hosting.Lifetime[0] Application started. Press Ctrl+C to shut down.
+08:17:34 info: Microsoft.Hosting.Lifetime[0] Hosting environment: Production
+08:17:34 info: Microsoft.Hosting.Lifetime[0] Content root path: D:\wenjian\minecraft\7-M
+08:17:34 info: BridgeServer[0] Bridge connected ¡ª listening ws://localhost:18771/ws; config D:\wenjian\minecraft\7-M\config\network.json
+08:17:35 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:18771/health - - -
+08:17:35 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint 'HTTP: GET /health'
+08:17:35 info: Microsoft.AspNetCore.Http.Result.JsonResult[3] Writing value of type '<>f__AnonymousType0`3' as Json.
+08:17:35 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1] Executed endpoint 'HTTP: GET /health'
+08:17:35 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://localhost:18771/health - 200 - application/json;+charset=utf-8 70.4575ms
+08:17:47 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:18771/ws - - -
+08:17:47 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint '/ws'
+08:17:47 info: BridgeServer[0] Minecraft connected
+08:17:49 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:18771/health - - -
+08:17:49 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint 'HTTP: GET /health'
+08:17:49 info: Microsoft.AspNetCore.Http.Result.JsonResult[3] Writing value of type '<>f__AnonymousType0`3' as Json.
+08:17:49 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1] Executed endpoint 'HTTP: GET /health'
+08:17:49 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://localhost:18771/health - 200 - application/json;+charset=utf-8 1.6748ms
+08:18:12 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:18771/ws - - -
+08:18:12 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint '/ws'
+08:18:12 info: BridgeServer[0] 7DTD connected
+08:18:12 info: BridgeServer[0] Test forwarded: minecraft -> 7dtd
+08:18:12 info: BridgeServer[0] Test forwarded: 7dtd -> minecraft
+08:18:30 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:18771/health - - -
+08:18:30 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint 'HTTP: GET /health'
+08:18:30 info: Microsoft.AspNetCore.Http.Result.JsonResult[3] Writing value of type '<>f__AnonymousType0`3' as Json.
+08:18:30 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1] Executed endpoint 'HTTP: GET /health'
+08:18:30 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://localhost:18771/health - 200 - application/json;+charset=utf-8 0.6199ms
+08:19:40 info: Microsoft.AspNetCore.Server.Kestrel.Connections[34] Connection id "0HNP0SESMGU38", Request id "0HNP0SESMGU38:00000001": the application aborted the connection.
+08:19:40 info: BridgeServer[0] Connection ended (7dtd): OperationCanceledException
+08:19:40 info: BridgeServer[0] Disconnected: 7dtd
+08:19:40 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1] Executed endpoint '/ws'
+08:19:40 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://localhost:18771/ws - 101 - - 88141.7702ms
+08:20:43 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:18771/ws - - -
+08:20:43 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint '/ws'
+08:20:43 info: BridgeServer[0] 7DTD connected
+08:20:43 info: BridgeServer[0] Test forwarded: minecraft -> 7dtd
+08:20:43 info: BridgeServer[0] Test forwarded: 7dtd -> minecraft
+08:21:02 info: Microsoft.AspNetCore.Server.Kestrel.Connections[34] Connection id "0HNP0SESMGU3A", Request id "0HNP0SESMGU3A:00000001": the application aborted the connection.
+08:21:02 info: BridgeServer[0] Connection ended (7dtd): OperationCanceledException
+08:21:02 info: BridgeServer[0] Disconnected: 7dtd
+08:21:02 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1] Executed endpoint '/ws'
+08:21:02 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://localhost:18771/ws - 101 - - 19966.1217ms
+08:22:13 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:18771/ws - - -
+08:22:13 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint '/ws'
+08:22:13 info: BridgeServer[0] 7DTD connected
+08:22:13 info: BridgeServer[0] Test forwarded: minecraft -> 7dtd
+08:22:13 info: BridgeServer[0] Test forwarded: 7dtd -> minecraft
+08:22:23 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:18771/health - - -
+08:22:23 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint 'HTTP: GET /health'
+08:22:23 info: Microsoft.AspNetCore.Http.Result.JsonResult[3] Writing value of type '<>f__AnonymousType0`3' as Json.
+08:22:23 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1] Executed endpoint 'HTTP: GET /health'
+08:22:23 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://localhost:18771/health - 200 - application/json;+charset=utf-8 0.3587ms
+08:22:50 info: Microsoft.AspNetCore.Server.Kestrel.Connections[34] Connection id "0HNP0SESMGU3B", Request id "0HNP0SESMGU3B:00000001": the application aborted the connection.
+08:22:50 info: BridgeServer[0] Connection ended (7dtd): WebSocketException
+08:22:50 info: BridgeServer[0] Disconnected: 7dtd
+08:22:50 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1] Executed endpoint '/ws'
+08:22:50 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://localhost:18771/ws - 101 - - 36940.5611ms
+08:23:03 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:18771/ws - - -
+08:23:03 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint '/ws'
+08:23:03 info: BridgeServer[0] 7DTD connected
+08:23:03 info: BridgeServer[0] Test forwarded: minecraft -> 7dtd
+08:23:03 info: BridgeServer[0] Test forwarded: 7dtd -> minecraft
+08:25:36 info: Microsoft.AspNetCore.Server.Kestrel.Connections[34] Connection id "0HNP0SESMGU36", Request id "0HNP0SESMGU36:00000001": the application aborted the connection.
+08:25:36 info: BridgeServer[0] Connection ended (minecraft): WebSocketException
+08:25:36 info: BridgeServer[0] Disconnected: minecraft
+08:25:36 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1] Executed endpoint '/ws'
+08:25:36 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://localhost:18771/ws - 101 - - 469465.3087ms
+08:25:38 info: BridgeServer[0] Connection ended (7dtd): WebSocketException
+08:25:38 info: BridgeServer[0] Disconnected: 7dtd
+08:25:38 info: Microsoft.AspNetCore.Server.Kestrel.Connections[34] Connection id "0HNP0SESMGU3D", Request id "0HNP0SESMGU3D:00000001": the application aborted the connection.
+08:25:38 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1] Executed endpoint '/ws'
+08:25:38 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://localhost:18771/ws - 101 - - 155184.1472ms
+09:22:37 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://127.0.0.1:18771/ - - -
+09:22:37 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://127.0.0.1:18771/ - 404 0 - 2.6951ms
+09:22:37 info: Microsoft.AspNetCore.Hosting.Diagnostics[16] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://127.0.0.1:18771/, Response status code: 404
+09:22:40 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://127.0.0.1:18771/ - - -
+09:22:40 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://127.0.0.1:18771/ - 404 0 - 0.4496ms
+09:22:40 info: Microsoft.AspNetCore.Hosting.Diagnostics[16] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://127.0.0.1:18771/, Response status code: 404
+09:22:40 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://127.0.0.1:18771/ - - -
+09:22:40 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://127.0.0.1:18771/ - 404 0 - 0.1270ms
+09:22:40 info: Microsoft.AspNetCore.Hosting.Diagnostics[16] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://127.0.0.1:18771/, Response status code: 404
+09:22:40 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://127.0.0.1:18771/ - - -
+09:22:40 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://127.0.0.1:18771/ - 404 0 - 0.0881ms
+09:22:40 info: Microsoft.AspNetCore.Hosting.Diagnostics[16] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://127.0.0.1:18771/, Response status code: 404
+09:22:40 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://127.0.0.1:18771/ - - -
+09:22:40 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://127.0.0.1:18771/ - 404 0 - 0.0958ms
+09:22:40 info: Microsoft.AspNetCore.Hosting.Diagnostics[16] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://127.0.0.1:18771/, Response status code: 404
