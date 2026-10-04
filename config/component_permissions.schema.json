@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Health observation permissions (separate from target gameplay capabilities)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "types"
+  ],
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "types": {
+      "type": "array",
+      "maxItems": 128,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "entity_type",
+          "source",
+          "target",
+          "components"
+        ],
+        "properties": {
+          "entity_type": {
+            "type": "string",
+            "maxLength": 128,
+            "pattern": "^7dtd:[a-z0-9_./-]+$"
+          },
+          "source": {
+            "const": "7dtd"
+          },
+          "target": {
+            "const": "minecraft"
+          },
+          "components": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "health": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "publish": {
+                    "type": "boolean"
+                  },
+                  "store": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "name": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "publish": {
+                    "type": "boolean"
+                  },
+                  "store": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "custom_metadata": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "publish": {
+                    "type": "boolean"
+                  },
+                  "store": {
+                    "type": "boolean"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

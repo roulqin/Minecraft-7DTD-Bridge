@@ -4,4 +4,5 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+  <ItemGroup><Compile Include="../components/debug/DebugConfig.cs" Link="DebugConfig.cs" /></ItemGroup>
 </Project>

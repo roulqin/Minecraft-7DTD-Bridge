@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "interpolation_delay": 0.55,
+  "teleport_distance": 12,
+  "recovery_gap": 2,
+  "head_sharpness": 12,
+  "body_sharpness": 6,
+  "body_threshold": 35,
+  "max_head_yaw": 75,
+  "ground_alignment": true,
+  "ground_probe_height": 16,
+  "ground_probe_distance": 128,
+  "ground_sharpness": 10
+}

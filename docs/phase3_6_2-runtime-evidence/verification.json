@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "date": "2026-10-03",
+  "timezone": "Asia/Shanghai",
+  "entityId": "1d96b662-c615-4729-a431-d3c5806bac72",
+  "streamId": "87f4fae0-b0b2-408f-bcab-c03d8733070c",
+  "displayCreate": "[19:37:17] [Render thread/INFO]: 7DTD proxy display created: id=1d96b662-c615-4729-a431-d3c5806bac72 body=-1000000 nose=-1000001 thread=Render thread",
+  "displayDelete": "[19:41:08] [Render thread/INFO]: 7DTD proxy display deleted: body=-1000000 nose=-1000001 removed=true thread=Render thread",
+  "sourceDespawnLine": 3134,
+  "minecraftDespawnLine": 1321,
+  "despawn": {
+    "authority": "7dtd",
+    "dimension": "7dtd:main",
+    "entity_id": "1d96b662-c615-4729-a431-d3c5806bac72",
+    "entity_type": "7dtd:player",
+    "lifecycle": {
+      "event": "despawn",
+      "reason": "world_unloaded"
+    },
+    "metadata": {},
+    "origin": {
+      "dimension": "7dtd:main",
+      "entity_id": "1d96b662-c615-4729-a431-d3c5806bac72",
+      "game": "7dtd",
+      "world_id": "td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f"
+    },
+    "position": null,
+    "rotation": null,
+    "sequence": 460,
+    "source": "7dtd",
+    "stream_id": "87f4fae0-b0b2-408f-bcab-c03d8733070c",
+    "type": "entity_state",
+    "version": 2,
+    "world_id": "td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f"
+  },
+  "sourceEvents": 460,
+  "receivedEvents": 460,
+  "checks": {
+    "spawnOneLocalProxy": true,
+    "sameDisplayHandlesRemoved": true,
+    "explicitDespawnReceived": true,
+    "proxyCountZero": true,
+    "bridgeActiveCountZero": true,
+    "noConnectionCleanup": true,
+    "bothClientsOnline": true,
+    "allSourceEventsReceived": true,
+    "mappedCoordinatesAndRotation": true,
+    "updateAppliedOnGameThread": true,
+    "noV2Echo": true,
+    "sourceSchemaAndRegistryPreserved": true
+  },
+  "rawLogNullBytesRemovedInReadableCopy": 0,
+  "coordinate": {
+    "scale": 1,
+    "offsetX": -228.25407713651657,
+    "offsetY": -9.920001983642578,
+    "offsetZ": 373.039901091275
+  }
+}

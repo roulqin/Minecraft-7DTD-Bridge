@@ -1,0 +1,45 @@
+ManifestFileVersion: 0
+CRC: 1026781540
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b05c6649a98a3c3b98baca0a9570ae88
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 19137a83ee7605f8aab77155238c2aa9
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: b05c6649a98a3c3b98baca0a9570ae88
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 1773428102
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Avatar/Generated/HeldWalk.anim
+- Assets/Avatar/Generated/MinecraftAvatarPrefab.prefab
+- Assets/Avatar/Generated/HeldRun.anim
+- Assets/Avatar/Generated/MinecraftAvatarHumanoid.asset
+Dependencies: []

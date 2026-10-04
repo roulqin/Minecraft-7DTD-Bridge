@@ -19,6 +19,12 @@
         "ai": false,
         "combat": false,
         "persistence": false
+      },
+      "presentation_default": {
+        "renderer": "marker",
+        "model": "default",
+        "variant": "default",
+        "scale": 1.0
       }
     },
     {
@@ -39,6 +45,38 @@
         "ai": false,
         "combat": false,
         "persistence": false
+      },
+      "presentation_default": {
+        "renderer": "humanoid",
+        "model": "player",
+        "variant": "default",
+        "scale": 1.0
+      }
+    },
+    {
+      "entity_type": "7dtd:player",
+      "enabled": true,
+      "target_mapping": {
+        "game": "minecraft",
+        "entity_type": "minecraft:player_proxy",
+        "adapter": "block_display_proxy"
+      },
+      "capabilities": {
+        "spawn": true,
+        "update_position": true,
+        "despawn": true,
+        "update_rotation": true,
+        "health": false,
+        "collision": false,
+        "ai": false,
+        "combat": false,
+        "persistence": false
+      },
+      "presentation_default": {
+        "renderer": "humanoid",
+        "model": "survivor",
+        "variant": "default",
+        "scale": 1.0
       }
     }
   ]

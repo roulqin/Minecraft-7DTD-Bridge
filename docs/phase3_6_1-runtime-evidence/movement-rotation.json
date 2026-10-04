@@ -1,0 +1,214 @@
+{
+  "baseline": {
+    "authority": "7dtd",
+    "dimension": "7dtd:main",
+    "entity_id": "d8e7c437-fca2-4ccd-82e9-ad13fdaf1690",
+    "entity_type": "7dtd:player",
+    "lifecycle": {
+      "event": "update"
+    },
+    "metadata": {},
+    "origin": {
+      "dimension": "7dtd:main",
+      "entity_id": "d8e7c437-fca2-4ccd-82e9-ad13fdaf1690",
+      "game": "7dtd",
+      "world_id": "td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f"
+    },
+    "position": {
+      "space": "7dtd",
+      "x": -273.1612243652344,
+      "y": 61.07999801635742,
+      "z": 448.5651550292969
+    },
+    "rotation": {
+      "pitch": 0,
+      "roll": 0,
+      "yaw": 106.17741394042969
+    },
+    "sequence": 60,
+    "source": "7dtd",
+    "stream_id": "5cf26971-f748-4142-b4cd-04d762e18d59",
+    "type": "entity_state",
+    "version": 2,
+    "world_id": "td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f"
+  },
+  "last": {
+    "authority": "7dtd",
+    "dimension": "7dtd:main",
+    "entity_id": "d8e7c437-fca2-4ccd-82e9-ad13fdaf1690",
+    "entity_type": "7dtd:player",
+    "lifecycle": {
+      "event": "update"
+    },
+    "metadata": {},
+    "origin": {
+      "dimension": "7dtd:main",
+      "entity_id": "d8e7c437-fca2-4ccd-82e9-ad13fdaf1690",
+      "game": "7dtd",
+      "world_id": "td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f"
+    },
+    "position": {
+      "space": "7dtd",
+      "x": -273.5540771484375,
+      "y": 61.07999801635742,
+      "z": 448.81915283203125
+    },
+    "rotation": {
+      "pitch": -3.125,
+      "roll": 0,
+      "yaw": 109.17742919921875
+    },
+    "sequence": 200,
+    "source": "7dtd",
+    "stream_id": "5cf26971-f748-4142-b4cd-04d762e18d59",
+    "type": "entity_state",
+    "version": 2,
+    "world_id": "td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f"
+  },
+  "movement": {
+    "authority": "7dtd",
+    "dimension": "7dtd:main",
+    "entity_id": "d8e7c437-fca2-4ccd-82e9-ad13fdaf1690",
+    "entity_type": "7dtd:player",
+    "lifecycle": {
+      "event": "update"
+    },
+    "metadata": {},
+    "origin": {
+      "dimension": "7dtd:main",
+      "entity_id": "d8e7c437-fca2-4ccd-82e9-ad13fdaf1690",
+      "game": "7dtd",
+      "world_id": "td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f"
+    },
+    "position": {
+      "space": "7dtd",
+      "x": -273.5540771484375,
+      "y": 61.07999801635742,
+      "z": 448.81915283203125
+    },
+    "rotation": {
+      "pitch": -3.125,
+      "roll": 0,
+      "yaw": 109.17742919921875
+    },
+    "sequence": 200,
+    "source": "7dtd",
+    "stream_id": "5cf26971-f748-4142-b4cd-04d762e18d59",
+    "type": "entity_state",
+    "version": 2,
+    "world_id": "td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f"
+  },
+  "rotation": {
+    "authority": "7dtd",
+    "dimension": "7dtd:main",
+    "entity_id": "d8e7c437-fca2-4ccd-82e9-ad13fdaf1690",
+    "entity_type": "7dtd:player",
+    "lifecycle": {
+      "event": "update"
+    },
+    "metadata": {},
+    "origin": {
+      "dimension": "7dtd:main",
+      "entity_id": "d8e7c437-fca2-4ccd-82e9-ad13fdaf1690",
+      "game": "7dtd",
+      "world_id": "td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f"
+    },
+    "position": {
+      "space": "7dtd",
+      "x": -273.5540771484375,
+      "y": 61.07999801635742,
+      "z": 448.81915283203125
+    },
+    "rotation": {
+      "pitch": -3.125,
+      "roll": 0,
+      "yaw": 109.17742919921875
+    },
+    "sequence": 200,
+    "source": "7dtd",
+    "stream_id": "5cf26971-f748-4142-b4cd-04d762e18d59",
+    "type": "entity_state",
+    "version": 2,
+    "world_id": "td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f"
+  },
+  "movement_received": {
+    "authority": "7dtd",
+    "dimension": "7dtd:main",
+    "entity_id": "d8e7c437-fca2-4ccd-82e9-ad13fdaf1690",
+    "entity_type": "7dtd:player",
+    "lifecycle": {
+      "event": "update"
+    },
+    "metadata": {},
+    "origin": {
+      "dimension": "7dtd:main",
+      "entity_id": "d8e7c437-fca2-4ccd-82e9-ad13fdaf1690",
+      "game": "7dtd",
+      "world_id": "td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f"
+    },
+    "position": {
+      "x": -273.5540771484375,
+      "y": 61.07999801635742,
+      "z": 448.81915283203125,
+      "space": "minecraft"
+    },
+    "rotation": {
+      "pitch": -3.125,
+      "roll": 0,
+      "yaw": 109.17742919921875
+    },
+    "sequence": 200,
+    "source": "7dtd",
+    "stream_id": "5cf26971-f748-4142-b4cd-04d762e18d59",
+    "type": "entity_state",
+    "version": 2,
+    "world_id": "td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f"
+  },
+  "rotation_received": {
+    "authority": "7dtd",
+    "dimension": "7dtd:main",
+    "entity_id": "d8e7c437-fca2-4ccd-82e9-ad13fdaf1690",
+    "entity_type": "7dtd:player",
+    "lifecycle": {
+      "event": "update"
+    },
+    "metadata": {},
+    "origin": {
+      "dimension": "7dtd:main",
+      "entity_id": "d8e7c437-fca2-4ccd-82e9-ad13fdaf1690",
+      "game": "7dtd",
+      "world_id": "td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f"
+    },
+    "position": {
+      "x": -273.5540771484375,
+      "y": 61.07999801635742,
+      "z": 448.81915283203125,
+      "space": "minecraft"
+    },
+    "rotation": {
+      "pitch": -3.125,
+      "roll": 0,
+      "yaw": 109.17742919921875
+    },
+    "sequence": 200,
+    "source": "7dtd",
+    "stream_id": "5cf26971-f748-4142-b4cd-04d762e18d59",
+    "type": "entity_state",
+    "version": 2,
+    "world_id": "td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f"
+  },
+  "rotation_ranges": {
+    "yaw": [
+      53.67742919921875,
+      153.80242919921875
+    ],
+    "pitch": [
+      -8.625,
+      0
+    ],
+    "roll": [
+      0,
+      0
+    ]
+  }
+}

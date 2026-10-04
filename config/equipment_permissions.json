@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "types": [
+    { "entity_type": "7dtd:player", "source": "7dtd", "target": "minecraft",
+      "equipment": { "publish": true, "store": true } }
+  ]
+}

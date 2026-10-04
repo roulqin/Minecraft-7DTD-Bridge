@@ -120,7 +120,7 @@ try {
     var probe=new TcpListener(IPAddress.Loopback,0);probe.Start();var port=((IPEndPoint)probe.LocalEndpoint).Port;probe.Stop();
     var config=Path.Combine(output,"network.json");File.WriteAllText(config,JsonSerializer.Serialize(new{host="localhost",port}));
     File.WriteAllText(Path.Combine(output,"coordinate.json"),"{\"scale\":2,\"offsetX\":100,\"offsetY\":-10,\"offsetZ\":25}");
-    Child Server()=>Start("dotnet",Path.Combine(root,"bridge-server/bin/Release/net10.0/BridgeServer.dll"),config);
+    Child Server()=>Start("dotnet",Environment.GetEnvironmentVariable("MC7DTD_TEST_BRIDGE") ?? Path.Combine(root,"bridge-server/bin/Release/net10.0/BridgeServer.dll"),config);
     var server=Server();
     using var http=new HttpClient(new HttpClientHandler{UseProxy=false}){Timeout=TimeSpan.FromSeconds(1)};
     async Task Ready()=>await Wait(async()=> (await http.GetAsync($"http://localhost:{port}/health")).IsSuccessStatusCode,"server ready");
@@ -196,7 +196,7 @@ try {
         await ClientCount(0);
         Check(server.Count("Entity registry reset:") >= 2, "disconnect cleanup recorded in server logs");
     }
-    var csharp=Start(Path.Combine(root,"tests/client-harness/bin/Release/net48/ClientHarness.exe"),config,"120");
+    var csharp=Start(Environment.GetEnvironmentVariable("MC7DTD_TEST_CLIENT") ?? Path.Combine(root,"tests/client-harness/bin/Release/net48/ClientHarness.exe"),config,"120");
     await Wait(()=>Task.FromResult(csharp.Count("7DTD connected")>=1),"actual C# receiver");
     using(var mc=await Connect("minecraft")) {
         await Receive(mc);await Receive(mc); // peer_connected and the real C# client's test.

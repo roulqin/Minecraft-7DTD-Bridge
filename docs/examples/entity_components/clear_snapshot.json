@@ -1,0 +1,23 @@
+{
+  "source": "7dtd",
+  "authority": "7dtd",
+  "origin": {
+    "game": "7dtd",
+    "world_id": "td-demo",
+    "dimension": "7dtd:main",
+    "entity_id": "cd787d90-736c-4428-9c35-3b8b6c0fe4f8"
+  },
+  "entity_id": "cd787d90-736c-4428-9c35-3b8b6c0fe4f8",
+  "world_id": "td-demo",
+  "dimension": "7dtd:main",
+  "entity_type": "7dtd:player",
+  "stream_id": "e1396731-e7fa-412f-98ab-0b5d04d41f4d",
+  "type": "entity_components",
+  "version": 1,
+  "entity_state_version": 2,
+  "entity_sequence": 1,
+  "revision": 6,
+  "base_revision": 0,
+  "mode": "snapshot",
+  "components": {}
+}

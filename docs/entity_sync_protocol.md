@@ -1,5 +1,7 @@
 # Phase 3.0：跨游戏实体状态协议设计
 
+后续设计入口：[Phase 3.6.0 双向 entity_state v2 草案](phase3_6_0_bidirectional_protocol.md)。v2 新增 authority/origin；[Phase 3.6.1](phase3_6_1_7dtd_entity_transport.md) 已接入 7DTD → Bridge → Minecraft 日志通道。下文保留 v1 历史设计，Minecraft 发出的实体事件仍使用 v1；当前不支持 Minecraft 发布 v2；[Phase 3.6.2](phase3_6_2_minecraft_proxy.md) 已在 Minecraft 客户端增加七日杀来源的静态显示代理。
+
 日期：2026-10-03（Asia/Shanghai）
 工程：MC7DTD-Bridge，D:\wenjian\minecraft\7-M。
 协议名称：entity_state，版本：1。本文主体为 Phase 3.0 设计基线；Phase 3.1 已实现的传输子集和事件名称以文末附录为准，完整生命周期应用尚未实现。

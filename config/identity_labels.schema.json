@@ -1,0 +1,9 @@
+{
+ "$schema":"https://json-schema.org/draft/2020-12/schema",
+ "type":"object","additionalProperties":false,"required":["enabled","display_name","tags"],
+ "properties": {
+  "enabled":{"type":"boolean"},
+  "display_name":{"type":["string","null"],"minLength":1,"maxLength":128},
+  "tags":{"type":"object","maxProperties":32,"propertyNames":{"maxLength":64,"pattern":"^tag\\.[a-zA-Z0-9_.-]+$"},"additionalProperties":{"type":"string","minLength":1,"maxLength":256}}
+ }
+}

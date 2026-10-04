@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Minecraft local proxy appearance config",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["enabled", "mapping"],
+  "properties": {
+    "enabled": { "type": "boolean" },
+    "mapping": {
+      "type": "object",
+      "maxProperties": 256,
+      "propertyNames": { "type": "string", "maxLength": 128, "pattern": "^7dtd:[A-Za-z0-9_.-]+$" },
+      "additionalProperties": { "enum": ["club", "torch", "axe", "helmet"] }
+    }
+  }
+}

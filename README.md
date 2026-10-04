@@ -3,12 +3,8 @@
 Minecraft Fabric ↔ JSON/WebSocket Bridge ↔ 7 Days to Die Mod，Windows 11 本地通信项目。
 工程根目录：D:\wenjian\minecraft\7-M。
 
-Phase 2.0 已完成实机验收：Minecraft 每约 500ms 发送玩家坐标，七日杀接收并写日志。
-当前 Phase 2.1 在 Bridge 增加坐标映射：输出坐标 = 输入坐标 × scale + 对应轴偏移，默认保持原坐标。
-Phase 3.1 增加 entity_state 的 spawn/update/despawn 正向传输，七日杀只打印日志；Minecraft Mod 仍只采集 player_position。
-实机验收经用户授权新增默认关闭的手动实体测试命令，只有 MC7DTD_ENTITY_TEST=1 时启用；不自动采集实体或应用生命周期。
-Phase 3.2 在 Bridge 管理基础实体生命周期：防重复spawn、更新已有记录、despawn删除，断线清空并要求重新spawn；两个Mod仍不生成对象。
-本阶段不实现方块、实体或战斗同步。
+当前为 Phase 3.6.2：Minecraft 从 entity_types.json 读取已启用的 7dtd:player 映射，接收 v2 spawn/update/despawn，在客户端世界显示青色静态代理和金色朝向标记。
+既有 Minecraft → 七日杀 v1 marker/玩家代理、player_position 和 test 消息继续保留。不实现 AI、战斗、动画、玩家控制或方块同步。
 
 ## 编译与运行
 
@@ -47,6 +43,9 @@ Bridge 另读取与 network.json 同目录的 coordinate.json，支持 scale、o
 - [Phase 3.5.1 玩家代理实现](docs/phase3_5_1_player_proxy.md)：自动生命周期采集、主线程代理、位置与旋转。
 - [Phase 3.5.1 最终实机验收](docs/phase3_5_1_final_acceptance.md)：最终 JAR 的退出 despawn、同对象删除与 Registry 清空通过。
 - [Phase 3.5.1 首轮历史记录](docs/phase3_5_1_runtime_acceptance.md)：创建、位置/朝向更新及当时的 Esc 中断现场。
+- [Phase 3.6.0 双向实体协议设计](docs/phase3_6_0_bidirectional_protocol.md)：v2 草案、所有权、冲突规则、六个 JSON 示例与离线验证。
+- [Phase 3.6.1 七日杀实体发送](docs/phase3_6_1_7dtd_entity_transport.md)：v2 接入、v1 兼容、构建、自动测试与实机复验步骤。
+- [Phase 3.6.2 Minecraft 代理接收](docs/phase3_6_2_minecraft_proxy.md)：类型配置、主线程显示、测试、实机验收与限制。
 - [Phase 0 历史环境快照](docs/environment_report.md)：保留原始检测结果。
 
 ## 目录与边界
@@ -57,4 +56,4 @@ work：工具、依赖缓存和测试日志；runtime：准备脚本生成的工
 所有项目文件均保存在工程根目录内；不修改其他项目或原游戏安装。
 
 不使用 DLL 注入、内存修改、Cheat Engine、破解或进程 Hook。七日杀 DLL 通过标准 IModApi 加载，不使用 Harmony 补丁。
-每阶段结束等待确认后继续；当前为 Phase 3.5.1。已实现本地静态玩家代理，自动测试及核心生命周期实机验收通过。类型目录不支持通用运行时分发或热加载；不实现 AI、输入控制、动画、装备、战斗或方块同步。
+每阶段结束等待确认后继续；Phase 3.6.2 自动测试、编译和真实双游戏代理显示验收已完成。当前反向仅自动采集七日杀本地原生玩家；类型配置需重启 Minecraft 后读取，无通用实体类型生成或热加载。

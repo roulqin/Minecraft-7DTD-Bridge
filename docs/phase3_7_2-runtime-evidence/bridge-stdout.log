@@ -1,0 +1,1273 @@
+20:42:29 info: Microsoft.Hosting.Lifetime[14] Now listening on: http://localhost:18771
+20:42:29 info: Microsoft.Hosting.Lifetime[0] Application started. Press Ctrl+C to shut down.
+20:42:29 info: Microsoft.Hosting.Lifetime[0] Hosting environment: Production
+20:42:29 info: Microsoft.Hosting.Lifetime[0] Content root path: D:\wenjian\minecraft\7-M
+20:42:29 info: BridgeServer[0] Coordinate mapping loaded: scale=1, offsets=(-228.25407713651657, -9.920001983642578, 373.039901091275); config D:\wenjian\minecraft\7-M\docs\phase3_7_2-runtime-evidence\coordinate.json
+20:42:29 info: BridgeServer[0] Bridge connected ¡ª listening ws://localhost:18771/ws; config D:\wenjian\minecraft\7-M\docs\phase3_7_2-runtime-evidence\network.json
+20:42:38 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:18771/ws - - -
+20:42:38 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint '/ws'
+20:42:38 info: BridgeServer[0] Minecraft connected
+20:42:40 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:18771/ws - - -
+20:42:40 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint '/ws'
+20:42:40 info: BridgeServer[0] 7DTD connected
+20:42:40 info: BridgeServer[0] Test forwarded: minecraft -> 7dtd
+20:42:40 info: BridgeServer[0] Test forwarded: 7dtd -> minecraft
+20:43:35 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:35 info: BridgeServer[0] Entity registry: spawned, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:35 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (spawn, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:36 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:36 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:36 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:40 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:40 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:40 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:40 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:40 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:40 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:41 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:41 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:41 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:41 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:41 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:41 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:42 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:42 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:42 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:42 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:42 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:42 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:43 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:43 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:43 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:43 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:43 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:43 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:44 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:44 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:44 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:44 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:44 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:44 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:45 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:45 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:45 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:46 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:46 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:46 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:46 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:46 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:46 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:47 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:47 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:47 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:47 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:47 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:47 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:48 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:48 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:48 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:48 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:48 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:48 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:49 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:49 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:49 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:49 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:49 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:49 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:50 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:50 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:50 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:50 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:50 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:50 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:51 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:51 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:51 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:51 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:51 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:51 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:52 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:52 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:52 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:52 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:52 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:52 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:53 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:53 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:53 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:53 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:53 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:53 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:54 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:54 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:54 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:54 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:54 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:54 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:55 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:55 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:55 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:55 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:55 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:55 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:56 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:56 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:56 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:56 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:56 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:56 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:57 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:57 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:57 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:58 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:58 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:58 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:58 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:58 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:58 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:59 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:59 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:59 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:43:59 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:43:59 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:43:59 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:00 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:00 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:00 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:00 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:00 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:00 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:01 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:01 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:01 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:01 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:01 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:01 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:02 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:02 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:02 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:02 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:02 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:02 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:03 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:03 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:03 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:03 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:03 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:03 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:04 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:04 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:04 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:04 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:04 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:04 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:05 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:05 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:05 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:05 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:05 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:05 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:06 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:06 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:06 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:06 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:06 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:06 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:07 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:07 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:07 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:08 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:08 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:08 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:08 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:08 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:08 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:09 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:09 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:09 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:09 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:09 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:09 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:10 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:10 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:10 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:10 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:10 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:10 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:11 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:11 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:11 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:11 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:11 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:11 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:12 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:12 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:12 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:12 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:12 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:12 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:13 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:13 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:13 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:13 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:13 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:13 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:14 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:14 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:14 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:14 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:14 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:14 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:15 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:15 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:15 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:15 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:15 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:15 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:16 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:16 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:16 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:16 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:16 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:16 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:17 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:17 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:17 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:18 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:18 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:18 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:18 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:18 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:18 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:19 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:19 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:19 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:19 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:19 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:19 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:20 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:20 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:20 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:20 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:20 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:20 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:21 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:21 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:21 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:21 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:21 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:21 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:22 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:22 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:22 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:22 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:22 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:22 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:23 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:23 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:23 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:23 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:23 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:23 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:24 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:24 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:24 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:24 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:24 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:24 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:25 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:25 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:25 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:25 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:25 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:25 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:26 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:26 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:26 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:27 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:27 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:27 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:27 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:27 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:27 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:28 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:28 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:28 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:28 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:28 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:28 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:29 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:29 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:29 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:29 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:29 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:29 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:30 info: BridgeServer[0] Player position forwarded: minecraft -> 7dtd (-275.8369352881506, 61.07999801635742, 446.003968659405)
+20:44:30 info: BridgeServer[0] Entity registry: updated, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=1
+20:44:30 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (update, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:32 info: BridgeServer[0] Test forwarded: 7dtd -> minecraft
+20:44:32 info: BridgeServer[0] Entity registry: despawned, id=101b6984-591e-4869-b850-beafd8d6bc5e, count=0
+20:44:32 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (despawn, 101b6984-591e-4869-b850-beafd8d6bc5e)
+20:44:32 info: BridgeServer[0] Entity registry: spawned, id=d0b3fb2d-1e03-4a67-a40a-b79c2b700234, count=1
+20:44:32 info: BridgeServer[0] Entity state forwarded: minecraft -> 7dtd (spawn, d0b3fb2d-1e03-4a67-a40a-b79c2b700234)
+20:44:32 info: BridgeServer[0] Entity registry: spawned, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:32 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (spawn, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:32 info: BridgeServer[0] Components: identity_applied, id=5379c3ed-876b-4702-8420-365330557e73, revision=1; 7dtd -> minecraft
+20:44:32 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:32 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:34 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:34 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:34 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:34 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:35 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:35 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:35 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:35 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:36 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:36 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:36 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:36 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:37 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:37 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:37 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:37 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:38 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:38 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:38 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:38 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:39 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:39 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:39 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:39 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:40 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:40 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:40 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:40 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:41 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:41 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:41 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:41 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:42 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:42 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:42 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:42 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:43 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:43 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:43 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:43 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:44 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:44 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:44 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:44 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:45 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:45 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:45 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:45 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:46 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:46 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:46 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:46 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:47 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:47 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:47 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:47 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:48 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:48 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:48 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:48 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:49 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:49 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:49 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:49 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:50 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:50 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:50 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:50 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:51 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:51 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:51 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:51 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:52 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:52 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:52 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:52 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:53 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:53 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:53 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:53 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:54 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:54 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:54 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:54 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:55 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:55 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:55 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:55 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:56 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:56 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:56 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:56 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:57 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:57 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:57 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:57 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:58 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:58 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:58 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:58 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:59 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:59 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:44:59 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:44:59 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:00 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:00 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:00 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:00 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:01 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:01 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:01 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:01 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:02 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:02 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:02 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:02 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:03 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:03 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:03 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:03 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:03 info: BridgeServer[0] Components: health_updated, id=5379c3ed-876b-4702-8420-365330557e73, revision=2; 7dtd -> minecraft
+20:45:04 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:04 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:04 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:04 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:05 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:05 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:05 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:05 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:06 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:06 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:06 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:06 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:07 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:07 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:07 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:07 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:08 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:08 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:08 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:08 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:09 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:09 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:09 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:09 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:10 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:10 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:10 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:10 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:11 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:11 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:11 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:11 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:12 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:12 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:12 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:12 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:13 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:13 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:13 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:13 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:14 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:14 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:14 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:14 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:15 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:15 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:15 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:15 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:16 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:16 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:16 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:16 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:17 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:17 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:17 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:17 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:18 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:18 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:18 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:18 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:19 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:19 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:19 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:19 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:20 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:20 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:20 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:20 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:21 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:21 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:21 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:21 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:22 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:22 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:22 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:22 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:23 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:23 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:23 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:23 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:24 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:24 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:24 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:24 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:25 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:25 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:25 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:25 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:26 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:26 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:26 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:26 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:27 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:27 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:27 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:27 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:28 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:28 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:28 info: BridgeServer[0] Components: identity_applied, id=5379c3ed-876b-4702-8420-365330557e73, revision=3; 7dtd -> minecraft
+20:45:28 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:28 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:29 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:29 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:29 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:29 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:30 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:30 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:30 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:30 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:31 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:31 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:31 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:31 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:32 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:32 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:32 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:32 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:33 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:33 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:33 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:33 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:34 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:34 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:34 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:34 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:35 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:35 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:35 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:35 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:36 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:36 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:36 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:36 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:37 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:37 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:37 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:37 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:38 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:38 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:38 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:38 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:39 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:39 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:39 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:39 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:40 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:40 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:40 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:40 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:41 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:41 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:41 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:41 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:42 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:42 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:42 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:42 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:43 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:43 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:43 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:43 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:44 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:44 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:44 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:44 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:45 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:45 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:45 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:45 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:46 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:46 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:46 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:46 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:47 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:47 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:47 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:47 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:48 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:48 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:48 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:48 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:49 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:49 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:49 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:49 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:50 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:50 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:50 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:50 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:51 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:51 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:51 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:51 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:52 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:52 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:52 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:52 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:53 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:53 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:53 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:53 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:53 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:18771/health - - -
+20:45:53 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint 'HTTP: GET /health'
+20:45:53 info: Microsoft.AspNetCore.Http.Result.JsonResult[3] Writing value of type '<>f__AnonymousType0`3' as Json.
+20:45:53 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1] Executed endpoint 'HTTP: GET /health'
+20:45:53 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://localhost:18771/health - 200 - application/json;+charset=utf-8 13.9475ms
+20:45:54 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:54 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:54 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:54 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:55 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:55 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:55 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:55 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:56 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:56 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:56 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:56 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:57 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:57 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:57 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:57 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:58 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:58 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:58 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:58 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:59 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:59 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:45:59 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:45:59 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:00 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:00 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:00 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:00 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:01 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:01 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:01 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:01 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:01 info: BridgeServer[0] Components: health_updated, id=5379c3ed-876b-4702-8420-365330557e73, revision=4; 7dtd -> minecraft
+20:46:02 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:02 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:02 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:02 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:03 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:03 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:03 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:03 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:04 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:04 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:04 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:04 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:05 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:05 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:05 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:05 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:06 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:06 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:06 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:06 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:07 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:07 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:08 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:08 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:08 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:08 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:09 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:09 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:09 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:09 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:10 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:10 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:10 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:10 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:11 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:11 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:11 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:11 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:12 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:12 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:12 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:12 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:13 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:13 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:13 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:13 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:14 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:14 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:14 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:14 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:15 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:15 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:15 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:15 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:16 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:16 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:16 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:16 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:17 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:17 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:17 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:17 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:18 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:18 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:18 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:18 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:19 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:19 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:19 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:19 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:20 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:20 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:20 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:20 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:21 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:21 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:21 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:21 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:22 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:22 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:22 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:22 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:23 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:23 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:23 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:23 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:24 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:24 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:24 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:24 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:25 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:25 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:25 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:25 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:26 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:26 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:26 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:26 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:27 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:27 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:27 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:27 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:28 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:28 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:28 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:28 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:29 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:29 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:29 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:29 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:30 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:30 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:30 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:30 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:31 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:31 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:31 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:31 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:32 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:32 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:32 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:32 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:33 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:33 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:33 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:33 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:34 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:34 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:34 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:34 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:35 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:35 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:35 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:35 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:36 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:36 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:36 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:36 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:37 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:37 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:37 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:37 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:38 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:38 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:38 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:38 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:39 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:39 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:39 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:39 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:40 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:40 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:40 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:40 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:41 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:41 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:41 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:41 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:42 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:42 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:42 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:42 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:43 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:43 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:43 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:43 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:44 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:44 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:44 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:44 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:45 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:45 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:45 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:45 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:46 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:46 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:46 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:46 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:47 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:47 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:47 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:47 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:48 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:48 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:48 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:48 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:49 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:49 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:49 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:49 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:50 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:50 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:50 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:50 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:51 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:51 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:51 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:51 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:52 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:52 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:52 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:52 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:53 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:53 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:53 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:53 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:54 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:54 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:54 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:54 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:55 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:55 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:55 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:55 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:56 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:56 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:56 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:56 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:57 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:57 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:57 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:57 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:58 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:58 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:58 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:58 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:59 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:59 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:46:59 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:46:59 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:00 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:00 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:00 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:00 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:01 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:01 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:01 info: BridgeServer[0] Components: health_updated, id=5379c3ed-876b-4702-8420-365330557e73, revision=5; 7dtd -> minecraft
+20:47:01 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:01 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:02 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:02 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:02 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:02 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:03 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:03 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:03 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:03 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:04 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:04 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:04 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:04 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:05 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:05 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:05 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:05 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:06 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:06 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:06 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:06 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:07 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:07 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:07 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:07 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:08 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:08 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:08 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:08 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:09 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:09 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:09 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:09 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:10 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:10 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:10 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:10 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:11 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:11 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:11 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:11 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:12 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:12 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:12 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:12 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:13 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:13 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:13 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:13 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:14 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:14 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:14 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:14 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:15 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:15 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:15 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:15 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:16 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:16 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:16 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:16 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:17 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:17 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:17 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:17 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:17 info: BridgeServer[0] Components: identity_applied, id=5379c3ed-876b-4702-8420-365330557e73, revision=6; 7dtd -> minecraft
+20:47:18 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:18771/health - - -
+20:47:18 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint 'HTTP: GET /health'
+20:47:18 info: Microsoft.AspNetCore.Http.Result.JsonResult[3] Writing value of type '<>f__AnonymousType0`3' as Json.
+20:47:18 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1] Executed endpoint 'HTTP: GET /health'
+20:47:18 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://localhost:18771/health - 200 - application/json;+charset=utf-8 1.8566ms
+20:47:18 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:18 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:18 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:18 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:19 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:19 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:19 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:19 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:20 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:20 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:20 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:20 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:21 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:21 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:21 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:21 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:22 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:22 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:22 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:22 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:23 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:23 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:23 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:23 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:24 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:24 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:24 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:24 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:25 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:25 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:25 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:25 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:26 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:26 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:26 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:26 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:27 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:27 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:27 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:27 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:28 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:28 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:28 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:28 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:29 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:29 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:29 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:29 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:30 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:30 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:30 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:30 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:31 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:31 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:31 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:31 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:32 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:32 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:32 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:32 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:33 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:33 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:33 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:33 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:34 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:34 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:34 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:34 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:35 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:35 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:35 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:35 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:36 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:36 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:36 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:36 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:36 info: BridgeServer[0] Components: identity_applied, id=5379c3ed-876b-4702-8420-365330557e73, revision=7; 7dtd -> minecraft
+20:47:37 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:37 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:37 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:37 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:38 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:38 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:38 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:38 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:39 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:39 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:39 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:39 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:40 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:40 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:40 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:40 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:41 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:41 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:41 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:41 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:42 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:42 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:42 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:42 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:43 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:43 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:43 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:43 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:44 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:44 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:44 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:44 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:45 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:45 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:45 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:45 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:46 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:46 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:46 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:46 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:47 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:47 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:47 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:47 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:48 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:48 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:48 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:48 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:49 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:49 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:49 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:49 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:50 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:50 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:50 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:50 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:51 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:51 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:51 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:51 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:52 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:52 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:52 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:52 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:53 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:53 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:53 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:53 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:54 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:54 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:54 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:54 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:55 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:55 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:55 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:55 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:56 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:56 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:56 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:56 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:57 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:57 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:57 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:57 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:58 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:58 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:58 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:58 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:59 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:59 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:47:59 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:47:59 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:00 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:00 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:00 info: BridgeServer[0] Components: health_updated, id=5379c3ed-876b-4702-8420-365330557e73, revision=8; 7dtd -> minecraft
+20:48:00 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:00 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:01 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:01 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:01 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:01 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:02 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:02 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:02 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:02 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:03 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:03 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:03 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:03 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:04 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:04 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:04 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:04 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:05 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:05 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:05 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:05 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:06 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:06 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:06 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:06 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:07 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:07 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:07 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:07 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:08 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:08 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:08 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:08 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:09 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:09 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:09 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:09 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:10 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:10 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:10 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:10 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:11 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:11 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:11 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:11 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:12 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:12 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:13 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:13 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:13 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:13 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:14 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:14 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:14 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:14 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:15 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:15 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:15 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:15 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:16 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:16 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:16 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:16 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:17 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:17 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:17 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:17 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:18 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:18 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:18 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:18 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:19 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:19 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:19 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:19 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:20 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:20 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:20 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:20 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:21 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:21 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:21 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:21 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:22 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:22 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:22 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:22 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:23 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:23 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:23 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:23 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:24 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:24 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:24 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:24 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:25 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:25 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:25 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:25 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:26 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:26 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:26 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:26 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:27 info: BridgeServer[0] Entity registry: updated, id=5379c3ed-876b-4702-8420-365330557e73, count=1
+20:48:27 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (update, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:27 info: BridgeServer[0] Components: identity_applied, id=5379c3ed-876b-4702-8420-365330557e73, revision=9; 7dtd -> minecraft
+20:48:27 info: BridgeServer[0] Entity registry: despawned, id=5379c3ed-876b-4702-8420-365330557e73, count=0
+20:48:27 info: BridgeServer[0] Entity state forwarded: 7dtd -> minecraft (despawn, 5379c3ed-876b-4702-8420-365330557e73)
+20:48:29 info: Microsoft.AspNetCore.Hosting.Diagnostics[1] Request starting HTTP/1.1 GET http://localhost:18771/health - - -
+20:48:29 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0] Executing endpoint 'HTTP: GET /health'
+20:48:29 info: Microsoft.AspNetCore.Http.Result.JsonResult[3] Writing value of type '<>f__AnonymousType0`3' as Json.
+20:48:29 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1] Executed endpoint 'HTTP: GET /health'
+20:48:29 info: Microsoft.AspNetCore.Hosting.Diagnostics[2] Request finished HTTP/1.1 GET http://localhost:18771/health - 200 - application/json;+charset=utf-8 0.3567ms

@@ -28,11 +28,12 @@ namespace MC7DTD
         private readonly Action<string> log;
         private readonly string entityType;
         private readonly string label;
+        private readonly EntityDebugLog debug;
         private bool reset;
         private int ownerThread;
         public int Count => markers.Count; // Game thread only.
-        public MarkerController(IMarkerScene scene, Action<string> log, string entityType = MarkerType, string label = "Marker")
-        { this.scene = scene; this.log = message => log(label == "Marker" ? message : message.Replace("Marker", label)); this.entityType = entityType; this.label = label; }
+        public MarkerController(IMarkerScene scene, Action<string> log, string entityType = MarkerType, string label = "Marker", EntityDebugLog debug = null)
+        { this.debug = debug; this.scene = scene; this.log = message => log(label == "Marker" ? message : message.Replace("Marker", label)); this.entityType = entityType; this.label = label; }
 
         public void Enqueue(WireMessage message)
         {
@@ -84,25 +85,33 @@ namespace MC7DTD
                 if (markers.Count >= Capacity) { log("Marker capacity reached; spawn ignored"); return; }
                 var handle = scene.Create("MC7DTD-" + label.Replace(" ", "-").ToLowerInvariant() + "-" + state.Id, state.X, state.Y, state.Z);
                 try { Rotate(handle, state); } catch { scene.Delete(handle); throw; }
-                markers.Add(state.Key, new Marker { Handle = handle, State = state });
-                Report("spawned", state); return;
+                var appearance = PresentationComponent.Default().Merge(state.Presentation ?? PresentationComponent.Default());
+                markers.Add(state.Key, new Marker { Handle = handle, State = state, Presentation = appearance });
+                log("Spawn proxy: entity="+state.Id+" "+appearance);
+                Report("spawned", state); debug?.Observe(state.Key,state.Id,entityType,"spawn",appearance); return;
             }
             if (!markers.TryGetValue(state.Key, out marker)) { log("Marker unknown " + state.Event + " ignored: " + state.Id); return; }
             if (marker.State.Stream != state.Stream) { log("Marker stream mismatch ignored: " + state.Id); return; }
             if (state.Event == "update")
             {
                 scene.Move(marker.Handle, state.X, state.Y, state.Z); Rotate(marker.Handle, state); marker.State = state;
-                Report("updated", state);
+                if (state.HasPresentation)
+                {
+                    marker.Presentation = state.Presentation == null ? null : (marker.Presentation ?? PresentationComponent.Default()).Merge(state.Presentation);
+                    log("[Presentation] entity="+state.Id+" "+(marker.Presentation ?? PresentationComponent.Default())+" removed="+(state.Presentation == null));
+                }
+                Report("updated", state); debug?.Observe(state.Key,state.Id,entityType,"update",marker.Presentation);
             }
             else
             {
-                scene.Delete(marker.Handle); markers.Remove(state.Key); Report("despawned", state);
+                scene.Delete(marker.Handle); markers.Remove(state.Key); Report("despawned", state); debug?.Observe(state.Key,state.Id,entityType,"despawn",null);
             }
         }
         private void Rotate(object handle, Snapshot state)
         { if (scene is IRotatingProxyScene rotating) rotating.Rotate(handle, state.Yaw, state.Pitch, state.Roll); }
         private void Clear()
         {
+            debug?.Clear();
             if (markers.Count == 0) return;
             foreach (var marker in markers.Values) scene.Delete(marker.Handle);
             markers.Clear(); log("Marker reset: count=0; fresh spawn required");
@@ -113,10 +122,12 @@ namespace MC7DTD
                 "Marker {0}: id={1} count={2} x={3:R} y={4:R} z={5:R} thread={6} yaw={7:R} pitch={8:R} roll={9:R}",
                 action, state.Id, Count, state.X, state.Y, state.Z, Thread.CurrentThread.ManagedThreadId, state.Yaw, state.Pitch, state.Roll));
         }
-        private sealed class Marker { public object Handle; public Snapshot State; }
+        private sealed class Marker { public object Handle; public Snapshot State; public PresentationComponent Presentation; }
         private sealed class Snapshot
         {
             public readonly string Key, Id, Stream, Event;
+            public readonly bool HasPresentation;
+            public readonly PresentationComponent Presentation;
             public readonly double X, Y, Z;
             public readonly double Yaw, Pitch, Roll;
             public Snapshot(WireMessage message)
@@ -127,6 +138,7 @@ namespace MC7DTD
                 Event = message.Lifecycle?.Event;
                 if (Event != "spawn" && Event != "update" && Event != "despawn") throw new ArgumentException();
                 Id = message.EntityId; Stream = message.StreamId;
+                HasPresentation = message.Components != null; Presentation = message.Components?.Presentation?.Copy();
                 Key = message.Source + "\n" + message.WorldId + "\n" + message.Dimension + "\n" + Id;
                 if (Event == "despawn")
                 { if (message.Position != null || message.Rotation != null) throw new ArgumentException(); return; }

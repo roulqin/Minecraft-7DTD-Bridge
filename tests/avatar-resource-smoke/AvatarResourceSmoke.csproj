@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><TargetFramework>net48</TargetFramework><LangVersion>latest</LangVersion><AssemblyName>MC7DTD.AvatarResourceSmoke</AssemblyName><GameManaged>D:\Steam\steamapps\common\7 Days To Die\7DaysToDie_Data\Managed</GameManaged></PropertyGroup>
+ <ItemGroup>
+  <Reference Include="Assembly-CSharp"><HintPath>$(GameManaged)/Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="LogLibrary"><HintPath>$(GameManaged)/LogLibrary.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="UnityEngine.CoreModule"><HintPath>$(GameManaged)/UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="UnityEngine.AnimationModule"><HintPath>$(GameManaged)/UnityEngine.AnimationModule.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="UnityEngine.AssetBundleModule"><HintPath>$(GameManaged)/UnityEngine.AssetBundleModule.dll</HintPath><Private>false</Private></Reference>
+ </ItemGroup>
+</Project>

@@ -1,0 +1,763 @@
+{
+  "name": "Land",
+  "duration": 0.18,
+  "loop": false,
+  "curves": [
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_shoulder_left/rig_arm_left_upper",
+      "property": "localEulerAnglesRaw.x",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_shoulder_left/rig_arm_left_upper",
+      "property": "localEulerAnglesRaw.z",
+      "keys": [
+        [
+          0,
+          90
+        ],
+        [
+          0.18,
+          90
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_leg_left_upper",
+      "property": "localEulerAnglesRaw.x",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_shoulder_right/rig_arm_right_upper",
+      "property": "localEulerAnglesRaw.x",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_shoulder_right/rig_arm_right_upper",
+      "property": "localEulerAnglesRaw.z",
+      "keys": [
+        [
+          0,
+          -90
+        ],
+        [
+          0.18,
+          -90
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_leg_right_upper",
+      "property": "localEulerAnglesRaw.x",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips",
+      "property": "localEulerAnglesRaw.x",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips",
+      "property": "localEulerAnglesRaw.y",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips",
+      "property": "localEulerAnglesRaw.z",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine",
+      "property": "localEulerAnglesRaw.x",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine",
+      "property": "localEulerAnglesRaw.y",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine",
+      "property": "localEulerAnglesRaw.z",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest",
+      "property": "localEulerAnglesRaw.x",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest",
+      "property": "localEulerAnglesRaw.y",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest",
+      "property": "localEulerAnglesRaw.z",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_neck",
+      "property": "localEulerAnglesRaw.x",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_neck",
+      "property": "localEulerAnglesRaw.y",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_neck",
+      "property": "localEulerAnglesRaw.z",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_shoulder_left",
+      "property": "localEulerAnglesRaw.x",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_shoulder_left",
+      "property": "localEulerAnglesRaw.y",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_shoulder_left",
+      "property": "localEulerAnglesRaw.z",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_shoulder_left/rig_arm_left_upper",
+      "property": "localEulerAnglesRaw.y",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_shoulder_left/rig_arm_left_upper/rig_arm_left_lower",
+      "property": "localEulerAnglesRaw.x",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_shoulder_left/rig_arm_left_upper/rig_arm_left_lower",
+      "property": "localEulerAnglesRaw.y",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_shoulder_left/rig_arm_left_upper/rig_arm_left_lower",
+      "property": "localEulerAnglesRaw.z",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_shoulder_left/rig_arm_left_upper/rig_arm_left_lower/rig_hand_left",
+      "property": "localEulerAnglesRaw.x",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_shoulder_left/rig_arm_left_upper/rig_arm_left_lower/rig_hand_left",
+      "property": "localEulerAnglesRaw.y",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_shoulder_left/rig_arm_left_upper/rig_arm_left_lower/rig_hand_left",
+      "property": "localEulerAnglesRaw.z",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_leg_left_upper",
+      "property": "localEulerAnglesRaw.y",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_leg_left_upper",
+      "property": "localEulerAnglesRaw.z",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_leg_left_upper/rig_leg_left_lower",
+      "property": "localEulerAnglesRaw.x",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_leg_left_upper/rig_leg_left_lower",
+      "property": "localEulerAnglesRaw.y",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_leg_left_upper/rig_leg_left_lower",
+      "property": "localEulerAnglesRaw.z",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_leg_left_upper/rig_leg_left_lower/rig_foot_left",
+      "property": "localEulerAnglesRaw.x",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_leg_left_upper/rig_leg_left_lower/rig_foot_left",
+      "property": "localEulerAnglesRaw.y",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_leg_left_upper/rig_leg_left_lower/rig_foot_left",
+      "property": "localEulerAnglesRaw.z",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_shoulder_right",
+      "property": "localEulerAnglesRaw.x",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_shoulder_right",
+      "property": "localEulerAnglesRaw.y",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_shoulder_right",
+      "property": "localEulerAnglesRaw.z",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_shoulder_right/rig_arm_right_upper",
+      "property": "localEulerAnglesRaw.y",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_shoulder_right/rig_arm_right_upper/rig_arm_right_lower",
+      "property": "localEulerAnglesRaw.x",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_shoulder_right/rig_arm_right_upper/rig_arm_right_lower",
+      "property": "localEulerAnglesRaw.y",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_shoulder_right/rig_arm_right_upper/rig_arm_right_lower",
+      "property": "localEulerAnglesRaw.z",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_shoulder_right/rig_arm_right_upper/rig_arm_right_lower/rig_hand_right",
+      "property": "localEulerAnglesRaw.x",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_shoulder_right/rig_arm_right_upper/rig_arm_right_lower/rig_hand_right",
+      "property": "localEulerAnglesRaw.y",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_shoulder_right/rig_arm_right_upper/rig_arm_right_lower/rig_hand_right",
+      "property": "localEulerAnglesRaw.z",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_leg_right_upper",
+      "property": "localEulerAnglesRaw.y",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_leg_right_upper",
+      "property": "localEulerAnglesRaw.z",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_leg_right_upper/rig_leg_right_lower",
+      "property": "localEulerAnglesRaw.x",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_leg_right_upper/rig_leg_right_lower",
+      "property": "localEulerAnglesRaw.y",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_leg_right_upper/rig_leg_right_lower",
+      "property": "localEulerAnglesRaw.z",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_leg_right_upper/rig_leg_right_lower/rig_foot_right",
+      "property": "localEulerAnglesRaw.x",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_leg_right_upper/rig_leg_right_lower/rig_foot_right",
+      "property": "localEulerAnglesRaw.y",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_leg_right_upper/rig_leg_right_lower/rig_foot_right",
+      "property": "localEulerAnglesRaw.z",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.18,
+          0
+        ]
+      ]
+    }
+  ]
+}

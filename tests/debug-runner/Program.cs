@@ -1,0 +1,78 @@
+using System.Collections.Concurrent;
+using System.Diagnostics;
+using System.Net;
+using System.Net.Sockets;
+using System.Net.Http.Json;
+using System.Text;
+using System.Text.Json;
+using System.Text.Json.Nodes;
+using MC7DTD;
+using MC7DTD.Bridge;
+using Presentation=MC7DTD.Bridge.PresentationComponent;
+
+var root=Path.GetFullPath(args[0]);var output=Path.Combine(root,"work/phase3_7_4-test");Directory.CreateDirectory(output);
+var checks=new List<string>();void Check(bool ok,string label){if(!ok)throw new Exception(label);checks.Add(label);Console.WriteLine("PASS "+label);}
+JsonObject Load(string path)=>JsonNode.Parse(File.ReadAllText(Path.Combine(root,path))).AsObject();
+var legacy=new EntityRegistry();var native=new NativeEntityRegistry();var health=new HealthComponents();var presentation=new Presentation(Path.Combine(root,"config/entity_types.json"));var inspector=new EntityInspector(legacy,native,health,presentation);
+var entity=Load("docs/examples/presentation/spawn.json");
+EntityTransition Apply(JsonObject e){using var d=JsonDocument.Parse(e.ToJsonString());var ready=presentation.Resolve(Presentation.Prepare(d.RootElement,"7dtd",new CoordinateMapper(1,0,0,0)));var t=native.Apply(ready);if(t.Forward){presentation.Commit(ready);inspector.ObserveAccepted(ready);}return t;}
+JsonObject Change(JsonObject e,string action,long sequence){var m=e.DeepClone().AsObject();m["sequence"]=sequence;m["lifecycle"]=new JsonObject{["event"]=action};m.Remove("components");if(action=="despawn"){m["position"]=null;m["rotation"]=null;m["metadata"]=new JsonObject();m["lifecycle"]["reason"]="world_unloaded";}return m;}
+JsonObject Components(JsonObject e){var m=Load("docs/examples/entity_components/7dtd_snapshot.json");foreach(var n in new[]{"source","authority","origin","entity_id","entity_type","world_id","dimension","stream_id"})m[n]=e[n].DeepClone();m["entity_sequence"]=e["sequence"].DeepClone();m["components"]=new JsonObject{["health"]=new JsonObject{["current"]=20,["max"]=20},["name"]=new JsonObject{["text"]="Steve",["display_name"]="Steve Display"},["custom_metadata"]=new JsonObject{["tag.role"]="test"}};return m;}
+Apply(entity);var snapshot=Components(entity);using(var d=JsonDocument.Parse(snapshot.ToJsonString()))health.Apply(d.RootElement,"7dtd",native,ComponentPermissions.Load(Path.Combine(root,"config")));
+var id=entity["entity_id"].GetValue<string>();var key=new EntityKey("7dtd",entity["world_id"].GetValue<string>(),entity["dimension"].GetValue<string>(),id);
+var view=inspector.Find(id).Single();
+Check(view["components"]["identity"]["name"].GetValue<string>()=="Steve" && view["components"]["health"]["current"].GetValue<double>()==20 && view["components"]["presentation"]["model"].GetValue<string>()=="survivor" && view["components"]["authority"]["owner"].GetValue<string>()=="7dtd","Entity Inspector");
+var baseline=view.ToJsonString();view["components"]["health"]["current"]=0;view["components"]["presentation"]["model"]="tampered";
+Check(inspector.Find(id).Single().ToJsonString()==baseline && health.Get(key).Current==20 && presentation.Get(key)["model"].GetValue<string>()=="survivor","Inspector snapshots cannot mutate source state");
+var removed=Change(entity,"update",2);removed["components"]=new JsonObject{["presentation"]=null};Apply(removed);
+Check(inspector.Find(id).Single()["components"]["presentation"].AsObject().Count==0 && EntityInspector.Format(inspector.Find(id).Single()).Contains("Steve"),"Missing Component");
+Check(health.Get(key).Current==20 && native.Count==1,"read operations preserve registry and health");
+var second=entity.DeepClone().AsObject();second["entity_id"]=Guid.NewGuid().ToString();second["origin"]["entity_id"]=second["entity_id"].DeepClone();Apply(second);
+Check(inspector.List().Count==2,"Entity List");
+var collided=entity.DeepClone().AsObject();collided["world_id"]="another-world";collided["origin"]["world_id"]="another-world";Apply(collided);
+Check(inspector.Find(id).Count==2 && inspector.Find(id,world:key.World).Count==1,"ambiguous ID source/world isolation");
+var forged=Change(entity,"update",3);forged["authority"]="minecraft";bool rejected=false;try{Apply(forged);}catch(InvalidDataException){rejected=true;}
+Check(rejected && inspector.Find(id,world:key.World).Single()["sequence"].GetValue<long>()==2,"rejected owner never enters Inspector");
+Apply(Change(second,"despawn",2));Check(inspector.List().Count==2,"despawn omitted from Inspector list");native.Clear();Check(inspector.List().Count==0,"registry reset filters stale Inspector mirror");inspector.Clear();
+var configFile=Path.Combine(output,"unit-debug.json");File.WriteAllText(configFile,"{\"debug_name_tag\":false,\"debug_logging\":false}");var disabled=DebugConfig.Load(configFile);Check(!disabled.NameTag && !disabled.Logging,"Debug Config");
+File.WriteAllText(configFile,"{\"debug_name_tag\":true,\"debug_logging\":true,\"debug_navigation\":true}");var navigationCompatible=DebugConfig.Load(configFile);Check(navigationCompatible.NameTag && navigationCompatible.Logging,"Minecraft navigation field preserves C# debug flags");
+File.WriteAllText(configFile,"{\"debug_name_tag\":true,\"debug_logging\":true,\"debug_navigation\":\"true\"}");var invalidNavigation=DebugConfig.Load(configFile);Check(!invalidNavigation.NameTag && !invalidNavigation.Logging,"Malformed navigation field fails closed in C#");
+foreach(var invalid in new[]{"null","{}","{\"debug_name_tag\":\"true\",\"debug_logging\":true}","{\"debug_name_tag\":true,\"debug_logging\":true,\"extra\":true}","{\"debug_name_tag\":true,\"debug_name_tag\":false,\"debug_logging\":true}"}){File.WriteAllText(configFile,invalid);var c=DebugConfig.Load(configFile);Check(!c.NameTag&&!c.Logging,"invalid debug config fails closed");}
+var logs=new List<string>();var debug=new EntityDebugLog(new DebugConfig{Logging=true},logs.Add);debug.Observe("k","player001","minecraft:player","spawn",new MC7DTD.PresentationComponent{Model="survivor",Renderer="humanoid",Scale=1});debug.Observe("k","player001","minecraft:player","update",new MC7DTD.PresentationComponent{Model="survivor",Renderer="humanoid",Scale=1.5});
+Check(logs.Any(l=>l.Contains("Spawn Proxy")&&l.Contains("model=survivor")) && logs.Any(l=>l.Contains("1 -> 1.5")),"7DTD spawn and scale transition debug log");
+var silent=new EntityDebugLog(disabled,logs.Add);int before=logs.Count;silent.Observe("k","i","t","spawn",null);silent.Observe("k","i","t","update",null);Check(logs.Count==before,"disabled new debug logging produces no output");
+var scene=new FakeScene();var proxy=new MarkerController(scene,logs.Add,debug:new EntityDebugLog(new DebugConfig{Logging=true},logs.Add));var wire=new WireMessage{Type="entity_state",Version=1,Source="minecraft",StreamId="s",EntityId="i",EntityType="minecraft:marker",WorldId="w",Dimension="d",Lifecycle=new EntityLifecycle{Event="spawn"},Position=new EntityPosition{X=1,Y=2,Z=3,Space="7dtd"},Rotation=new EntityRotation{Yaw=0,Pitch=0,Roll=0},Components=new PresentationComponents{Presentation=new MC7DTD.PresentationComponent{Model="survivor",Renderer="humanoid",Scale=1}}};
+proxy.Enqueue(wire);proxy.Tick(true);wire.Lifecycle.Event="update";wire.Components.Presentation.Scale=1.5;proxy.Enqueue(wire);proxy.Tick(true);Check(scene.Count==1 && logs.Any(l=>l.Contains("Presentation Update entity=i scale: 1 -> 1.5")),"debug hook runs on accepted main-thread proxy events");proxy.Reset();proxy.Tick(true);Check(scene.Count==0,"debug hook preserves cleanup");
+
+var children=new List<Process>();var bridgeLogs=new ConcurrentQueue<string>();var javaLogs=new ConcurrentQueue<string>();var tdLogs=new ConcurrentQueue<string>();
+Process Start(string exe,ConcurrentQueue<string> target,params string[] argv){var pinfo=new ProcessStartInfo(exe){WorkingDirectory=root,UseShellExecute=false,RedirectStandardOutput=true,RedirectStandardError=true,CreateNoWindow=true};pinfo.Environment["TEMP"]=Path.Combine(root,"work");pinfo.Environment["TMP"]=Path.Combine(root,"work");foreach(var a in argv)pinfo.ArgumentList.Add(a);var p=Process.Start(pinfo);children.Add(p);p.OutputDataReceived+=(_,e)=>{if(e.Data!=null)target.Enqueue(e.Data);};p.ErrorDataReceived+=(_,e)=>{if(e.Data!=null)target.Enqueue(e.Data);};p.BeginOutputReadLine();p.BeginErrorReadLine();return p;}
+async Task Wait(Func<bool> condition,string label){for(int i=0;i<150;i++){if(condition())return;await Task.Delay(100);}throw new Exception("Timeout "+label);}
+NativeEntityMessage Native(JsonObject m){using var stream=new MemoryStream(Encoding.UTF8.GetBytes(m.ToJsonString()));return (NativeEntityMessage)new System.Runtime.Serialization.Json.DataContractJsonSerializer(typeof(NativeEntityMessage),new System.Runtime.Serialization.Json.DataContractJsonSerializerSettings{UseSimpleDictionaryFormat=true}).ReadObject(stream);}
+ComponentMessage Message(JsonObject m){var n=Native(entity);return new ComponentMessage{Envelope=new HealthComponentMessage{Type="entity_components",Version=1,EntityStateVersion=2,Source="7dtd",Authority="7dtd",Origin=n.Origin,EntityId=n.EntityId,WorldId=n.WorldId,Dimension=n.Dimension,EntityType=n.EntityType,StreamId=n.StreamId,EntitySequence=m["entity_sequence"].GetValue<long>(),Revision=m["revision"].GetValue<long>(),BaseRevision=m["base_revision"].GetValue<long>(),Mode=m["mode"].GetValue<string>()},Values=m["components"].AsObject().ToDictionary(p=>p.Key,p=>p.Value?.ToJsonString())};}
+try{
+var tcp=new TcpListener(IPAddress.Loopback,0);tcp.Start();var port=((IPEndPoint)tcp.LocalEndpoint).Port;tcp.Stop();var network=Path.Combine(output,"network.json");File.WriteAllText(network,JsonSerializer.Serialize(new{host="localhost",port}));File.WriteAllText(Path.Combine(output,"coordinate.json"),"{\"scale\":1,\"offsetX\":0,\"offsetY\":0,\"offsetZ\":0}");File.WriteAllText(Path.Combine(output,"debug.json"),"{\"debug_name_tag\":false,\"debug_logging\":false}");
+Start("dotnet",bridgeLogs,Environment.GetEnvironmentVariable("MC7DTD_TEST_BRIDGE") ?? Path.Combine(root,"bridge-server/bin/Phase374/net10.0/BridgeServer.dll"),network);await Wait(()=>bridgeLogs.Any(l=>l.Contains("listening")),"Bridge ready");
+using var http=new HttpClient{BaseAddress=new Uri($"http://localhost:{port}"),Timeout=TimeSpan.FromSeconds(10)};
+var empty=JsonNode.Parse(await http.GetStringAsync("/debug/entities"));Check(empty["entities"].AsArray().Count==0,"empty entity list HTTP");
+var gson=Directory.GetFiles(Path.Combine(root,"work/gradle-home/caches"),"gson-2.13.2.jar",SearchOption.AllDirectories).First();var cp=Path.Combine(root,"minecraft-mod/build/classes/java/test")+";"+Path.Combine(root,"minecraft-mod/build/classes/java/main")+";"+gson;
+var java=Start("C:/Program Files/Java/jdk-21.0.12/bin/java.exe",javaLogs,"-cp",cp,"io.mc7dtd.EntityDebugHarness",network,"listen");using var td=new BridgeClient(network,tdLogs.Enqueue);td.Start();await Wait(()=>javaLogs.Any(l=>l.Contains("Test received from 7dtd")),"actual clients connected");
+td.PublishNative(Native(entity),td.NativeEpoch);td.PublishComponents(Message(snapshot),td.NativeEpoch);await Wait(()=>javaLogs.Any(l=>l.StartsWith("DEBUG SNAPSHOT")&&l.Contains("Steve Display")&&l.Contains("survivor")),"Java full Inspector snapshot");
+var response=await http.PostAsJsonAsync("/debug/inspect_entity",new{type="inspect_entity",entity_id=id});var live=JsonNode.Parse(await response.Content.ReadAsStringAsync()).AsObject();
+Check(response.StatusCode==HttpStatusCode.OK && live["components"]["health"]["current"].GetValue<double>()==20 && live["components"]["identity"]["name"].GetValue<string>()=="Steve" && live["components"]["presentation"]["model"].GetValue<string>()=="survivor","Debug Command");
+Check(javaLogs.Any(l=>l.StartsWith("DEBUG SNAPSHOT")&&l.Contains("\"owner\":\"7dtd\"")),"actual C# -> Bridge -> Java Inspector authority");
+var first=live.ToJsonString();for(int i=0;i<10;i++){using var r=await http.PostAsJsonAsync("/debug/inspect_entity",new{type="inspect_entity",entity_id=id});Check(JsonNode.Parse(await r.Content.ReadAsStringAsync()).ToJsonString()==first,"HTTP inspection stays read-only "+i);}
+var bad=await http.PostAsJsonAsync("/debug/inspect_entity",new{type="inspect_entity",entity_id=id,authority="minecraft"});Check(bad.StatusCode==HttpStatusCode.BadRequest,"debug input cannot inject authority");
+using(var request=new HttpRequestMessage(HttpMethod.Get,"/debug/entities")){request.Headers.Add("Origin","http://example.test");using var denied=await http.SendAsync(request);Check(denied.StatusCode==HttpStatusCode.Forbidden,"Inspector remains local non-browser endpoint");}
+var missing=await http.PostAsJsonAsync("/debug/inspect_entity",new{type="inspect_entity",entity_id="does-not-exist"});Check(missing.StatusCode==HttpStatusCode.NotFound,"unknown entity returns 404");
+var other=entity.DeepClone().AsObject();other["world_id"]="debug-other-world";other["origin"]["world_id"]="debug-other-world";td.PublishNative(Native(other),td.NativeEpoch);await Wait(()=>javaLogs.Any(l=>l.StartsWith("DEBUG SNAPSHOT")&&l.Contains("debug-other-world")),"other world spawn");
+var collision=await http.PostAsJsonAsync("/debug/inspect_entity",new{type="inspect_entity",entity_id=id});Check(collision.StatusCode==HttpStatusCode.Conflict,"ambiguous ID returns 409");
+var scoped=await http.PostAsJsonAsync("/debug/inspect_entity",new{type="inspect_entity",entity_id=id,world_id="td-demo",source="7dtd"});Check(scoped.StatusCode==HttpStatusCode.OK,"qualified inspect resolves collision");
+var listing=JsonNode.Parse(await http.GetStringAsync("/debug/entities"));Check(listing["entities"].AsArray().Count==2,"multiple entities HTTP list");
+td.PublishNative(Native(removed),td.NativeEpoch);await Wait(()=>javaLogs.Any(l=>l.StartsWith("DEBUG SNAPSHOT")&&l.Contains("\"presentation\":{}")&&l.Contains("Steve Display")),"missing presentation Java safe");
+using var afterRemove=await http.PostAsJsonAsync("/debug/inspect_entity",new{type="inspect_entity",entity_id=id,world_id="td-demo"});var removedView=JsonNode.Parse(await afterRemove.Content.ReadAsStringAsync());Check(removedView["components"]["presentation"].AsObject().Count==0 && removedView["components"]["health"]["current"].GetValue<double>()==20,"HTTP missing component preserves health");
+td.PublishNative(Native(Change(other,"despawn",2)),td.NativeEpoch);td.PublishNative(Native(Change(entity,"despawn",3)),td.NativeEpoch);await Wait(()=>javaLogs.Count(l=>l=="DEBUG SNAPSHOT empty")>=2,"Java despawn cleanup");
+var finalList=JsonNode.Parse(await http.GetStringAsync("/debug/entities"));Check(finalList["entities"].AsArray().Count==0,"HTTP lifecycle cleanup");
+Check(!bridgeLogs.Any(l=>l.Contains("======== Entity Inspector")),"disabled automatic Inspector logging");Check(!tdLogs.Any(l=>l.Contains("Bridge error"))&&!javaLogs.Any(l=>l.Contains("Bridge error")),"debug keeps existing WebSocket transport compatible");
+File.WriteAllText(Path.Combine(output,"inspector-snapshot.json"),live.ToJsonString(new(){WriteIndented=true}));File.WriteAllText(Path.Combine(output,"results.json"),JsonSerializer.Serialize(new{passed=checks.Count,checks},new JsonSerializerOptions{WriteIndented=true}));Console.WriteLine("TOTAL "+checks.Count+" passed");
+}finally{foreach(var p in children){try{if(!p.HasExited)p.Kill(true);p.WaitForExit();p.Dispose();}catch{}}File.WriteAllLines(Path.Combine(output,"bridge.log"),bridgeLogs);File.WriteAllLines(Path.Combine(output,"minecraft.log"),javaLogs);File.WriteAllLines(Path.Combine(output,"7dtd-client.log"),tdLogs);}
+sealed class FakeScene:IMarkerScene{public int Count;public object Create(string name,double x,double y,double z){Count++;return new object();}public void Move(object handle,double x,double y,double z){}public void Delete(object handle){Count--;}}

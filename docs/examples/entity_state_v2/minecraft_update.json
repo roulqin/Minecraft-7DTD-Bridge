@@ -1,0 +1,33 @@
+{
+  "type": "entity_state",
+  "version": 2,
+  "source": "minecraft",
+  "authority": "minecraft",
+  "origin": {
+    "game": "minecraft",
+    "world_id": "mc-demo",
+    "dimension": "minecraft:overworld",
+    "entity_id": "53779af5-0e40-49c3-99bb-445ac3df7ca1"
+  },
+  "stream_id": "9e4e16d2-a9a7-46e3-ae65-bcfead7fa3b8",
+  "entity_id": "53779af5-0e40-49c3-99bb-445ac3df7ca1",
+  "entity_type": "minecraft:player",
+  "world_id": "mc-demo",
+  "dimension": "minecraft:overworld",
+  "sequence": 2,
+  "lifecycle": {
+    "event": "update"
+  },
+  "position": {
+    "x": 12,
+    "y": 64,
+    "z": 20,
+    "space": "minecraft"
+  },
+  "rotation": {
+    "yaw": 90,
+    "pitch": 0,
+    "roll": 0
+  },
+  "metadata": {}
+}

@@ -1,0 +1,35 @@
+{
+  "authority": "7dtd",
+  "base_revision": 0,
+  "components": {
+    "health": {
+      "current": 100,
+      "max": 100
+    },
+    "name": {
+      "display_name": "初始",
+      "text": "native"
+    },
+    "custom_metadata": {
+      "tag.label": "one"
+    }
+  },
+  "dimension": "7dtd:main",
+  "entity_id": "b9ff9dbd-7fe4-4090-ac8b-7eaf1dd11922",
+  "entity_sequence": 1,
+  "entity_state_version": 2,
+  "entity_type": "7dtd:player",
+  "mode": "snapshot",
+  "origin": {
+    "dimension": "7dtd:main",
+    "entity_id": "b9ff9dbd-7fe4-4090-ac8b-7eaf1dd11922",
+    "game": "7dtd",
+    "world_id": "td-identity"
+  },
+  "revision": 1,
+  "source": "7dtd",
+  "stream_id": "ea37e75b-0f87-41c1-9cf1-f285c1a9945e",
+  "type": "entity_components",
+  "version": 1,
+  "world_id": "td-identity"
+}

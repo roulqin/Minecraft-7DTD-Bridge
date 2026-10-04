@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object", "additionalProperties": false, "required": ["version", "types"],
+  "properties": {
+    "version": {"const": 1},
+    "types": {"type": "array", "maxItems": 1, "items": {
+      "type": "object", "additionalProperties": false,
+      "required": ["entity_type", "source", "target", "equipment"],
+      "properties": {
+        "entity_type": {"const": "7dtd:player"}, "source": {"const": "7dtd"}, "target": {"const": "minecraft"},
+        "equipment": {"type": "object", "additionalProperties": false, "required": ["publish", "store"],
+          "properties": {"publish": {"type": "boolean"}, "store": {"type": "boolean"}}}
+      }
+    }}
+  }
+}

@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>disable</Nullable></PropertyGroup>
+ <ItemGroup>
+  <ProjectReference Include="../../bridge-server/BridgeServer.csproj" />
+  <Compile Include="../../7dtd-mod/src/BridgeClient.cs" Link="BridgeClient.cs" />
+  <Compile Include="../../7dtd-mod/src/IdentitySample.cs" Link="IdentitySample.cs" />
+  <Compile Include="../../7dtd-mod/src/MarkerController.cs" Link="MarkerController.cs" />
+  <Compile Include="../../components/presentation/PresentationComponent.cs" Link="PresentationComponent.cs" />
+  <Compile Include="../../7dtd-mod/src/EntityDebugLog.cs" Link="EntityDebugLog.cs" />
+ </ItemGroup>
+</Project>

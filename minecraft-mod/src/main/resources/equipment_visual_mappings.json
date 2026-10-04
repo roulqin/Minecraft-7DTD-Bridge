@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "source_type": "7dtd:player",
+  "target_game": "minecraft",
+  "rules": [
+    {
+      "slot": "body",
+      "item_id": "7dtd:armorPrimitiveOutfit",
+      "compatible_base": { "renderer": "humanoid", "model": "survivor" },
+      "modifier": { "kind": "armor_overlay", "binding_id": "mc7dtd:primitive_outfit", "anchor": "body" }
+    },
+    {
+      "slot": "held_item",
+      "item_id": "7dtd:meleeWpnClubT0WoodenClub",
+      "compatible_base": { "renderer": "humanoid", "model": "survivor" },
+      "modifier": { "kind": "held_attachment", "binding_id": "mc7dtd:wooden_club", "anchor": "held_item" }
+    },
+    {
+      "slot": "held_item",
+      "item_id": "7dtd:meleeToolTorch",
+      "compatible_base": { "renderer": "humanoid", "model": "survivor" },
+      "modifier": { "kind": "held_attachment", "binding_id": "mc7dtd:torch", "anchor": "held_item" }
+    }
+  ]
+}

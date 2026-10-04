@@ -1,0 +1,20 @@
+{
+  "shader": "MC7DTD/AvatarSkin",
+  "base": {
+    "alpha_cutoff": 0.5,
+    "queue": 2450
+  },
+  "layer2": {
+    "alpha_cutoff": 0.5,
+    "queue": 2451
+  },
+  "blend": "off",
+  "depth_write": true,
+  "filter": "point",
+  "mipmaps": false,
+  "wrap": "clamp",
+  "skin_size": [
+    64,
+    64
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "display_name": "MC7DTD Identity Updated",
+  "tags": {
+    "tag.source": "7dtd",
+    "tag.kind": "player",
+    "tag.label": "runtime-update"
+  }
+}

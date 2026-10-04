@@ -3,48 +3,151 @@
   "title": "MC7DTD entity type catalog (design contract)",
   "type": "object",
   "additionalProperties": false,
-  "required": ["version", "types"],
+  "required": [
+    "version",
+    "types"
+  ],
   "properties": {
-    "version": {"type": "integer", "const": 1},
+    "version": {
+      "type": "integer",
+      "const": 1
+    },
     "types": {
-      "type": "array", "minItems": 1, "maxItems": 128,
-      "items": {"$ref": "#/$defs/entityType"}
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 128,
+      "items": {
+        "$ref": "#/$defs/entityType"
+      }
     }
   },
   "$defs": {
     "namespacedType": {
-      "type": "string", "maxLength": 128,
+      "type": "string",
+      "maxLength": 128,
       "pattern": "^[a-z0-9_.-]+:[a-z0-9_./-]+$",
-      "not": {"pattern": "\\s"}
+      "not": {
+        "pattern": "\\s"
+      }
     },
     "entityType": {
-      "type": "object", "additionalProperties": false,
-      "required": ["entity_type", "enabled", "target_mapping", "capabilities"],
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "entity_type",
+        "enabled",
+        "target_mapping",
+        "capabilities"
+      ],
       "properties": {
-        "entity_type": {"$ref": "#/$defs/namespacedType"},
-        "enabled": {"type": "boolean"},
+        "entity_type": {
+          "$ref": "#/$defs/namespacedType"
+        },
+        "enabled": {
+          "type": "boolean"
+        },
         "target_mapping": {
-          "type": "object", "additionalProperties": false,
-          "required": ["game", "entity_type", "adapter"],
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "game",
+            "entity_type",
+            "adapter"
+          ],
           "properties": {
-            "game": {"enum": ["minecraft", "7dtd"]},
-            "entity_type": {"$ref": "#/$defs/namespacedType"},
-            "adapter": {"type": "string", "maxLength": 64, "pattern": "^[a-z][a-z0-9_]*$", "not": {"pattern": "\\s"}}
+            "game": {
+              "enum": [
+                "minecraft",
+                "7dtd"
+              ]
+            },
+            "entity_type": {
+              "$ref": "#/$defs/namespacedType"
+            },
+            "adapter": {
+              "type": "string",
+              "maxLength": 64,
+              "pattern": "^[a-z][a-z0-9_]*$",
+              "not": {
+                "pattern": "\\s"
+              }
+            }
           }
         },
         "capabilities": {
-          "type": "object", "additionalProperties": false,
-          "required": ["spawn", "update_position", "despawn", "update_rotation", "health", "collision", "ai", "combat", "persistence"],
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "spawn",
+            "update_position",
+            "despawn",
+            "update_rotation",
+            "health",
+            "collision",
+            "ai",
+            "combat",
+            "persistence"
+          ],
           "properties": {
-            "spawn": {"type": "boolean"},
-            "update_position": {"type": "boolean"},
-            "despawn": {"type": "boolean"},
-            "update_rotation": {"type": "boolean"},
-            "health": {"type": "boolean"},
-            "collision": {"type": "boolean"},
-            "ai": {"type": "boolean"},
-            "combat": {"type": "boolean"},
-            "persistence": {"type": "boolean"}
+            "spawn": {
+              "type": "boolean"
+            },
+            "update_position": {
+              "type": "boolean"
+            },
+            "despawn": {
+              "type": "boolean"
+            },
+            "update_rotation": {
+              "type": "boolean"
+            },
+            "health": {
+              "type": "boolean"
+            },
+            "collision": {
+              "type": "boolean"
+            },
+            "ai": {
+              "type": "boolean"
+            },
+            "combat": {
+              "type": "boolean"
+            },
+            "persistence": {
+              "type": "boolean"
+            }
+          }
+        },
+        "presentation_default": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "renderer": {
+              "type": "string",
+              "pattern": "^[a-z0-9_.:-]{1,64}$",
+              "not": {
+                "pattern": "\\s"
+              }
+            },
+            "model": {
+              "type": "string",
+              "pattern": "^[a-z0-9_.:-]{1,64}$",
+              "not": {
+                "pattern": "\\s"
+              }
+            },
+            "variant": {
+              "type": "string",
+              "pattern": "^[a-z0-9_.:-]{1,64}$",
+              "not": {
+                "pattern": "\\s"
+              }
+            },
+            "scale": {
+              "type": "number",
+              "exclusiveMinimum": 0,
+              "maximum": 16
+            }
           }
         }
       }

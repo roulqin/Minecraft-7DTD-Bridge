@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "types": [
+    {
+      "entity_type": "7dtd:player",
+      "source": "7dtd",
+      "target": "minecraft",
+      "components": {
+        "health": {
+          "publish": true,
+          "store": true
+        },
+        "name": {
+          "publish": true,
+          "store": true
+        },
+        "custom_metadata": {
+          "publish": true,
+          "store": true
+        },
+        "equipment": {
+          "publish": true,
+          "store": true
+        }
+      }
+    }
+  ]
+}

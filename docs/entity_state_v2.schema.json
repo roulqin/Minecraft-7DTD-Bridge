@@ -1,0 +1,462 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "type",
+    "version",
+    "source",
+    "authority",
+    "origin",
+    "stream_id",
+    "entity_id",
+    "entity_type",
+    "world_id",
+    "dimension",
+    "sequence",
+    "lifecycle",
+    "position",
+    "rotation",
+    "metadata"
+  ],
+  "properties": {
+    "type": {
+      "const": "entity_state"
+    },
+    "version": {
+      "type": "integer",
+      "const": 2
+    },
+    "source": {
+      "enum": [
+        "minecraft",
+        "7dtd"
+      ]
+    },
+    "authority": {
+      "enum": [
+        "minecraft",
+        "7dtd"
+      ]
+    },
+    "origin": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "game",
+        "world_id",
+        "dimension",
+        "entity_id"
+      ],
+      "properties": {
+        "game": {
+          "enum": [
+            "minecraft",
+            "7dtd"
+          ]
+        },
+        "world_id": {
+          "$ref": "#/$defs/world"
+        },
+        "dimension": {
+          "$ref": "#/$defs/name"
+        },
+        "entity_id": {
+          "$ref": "#/$defs/uuid"
+        }
+      }
+    },
+    "stream_id": {
+      "$ref": "#/$defs/uuid"
+    },
+    "entity_id": {
+      "$ref": "#/$defs/uuid"
+    },
+    "entity_type": {
+      "$ref": "#/$defs/name"
+    },
+    "world_id": {
+      "$ref": "#/$defs/world"
+    },
+    "dimension": {
+      "$ref": "#/$defs/name"
+    },
+    "sequence": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 9007199254740991
+    },
+    "lifecycle": {
+      "type": "object"
+    },
+    "position": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "x",
+            "y",
+            "z",
+            "space"
+          ],
+          "properties": {
+            "x": {
+              "type": "number"
+            },
+            "y": {
+              "type": "number"
+            },
+            "z": {
+              "type": "number"
+            },
+            "space": {
+              "enum": [
+                "minecraft",
+                "7dtd"
+              ]
+            }
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "rotation": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "yaw",
+            "pitch",
+            "roll"
+          ],
+          "properties": {
+            "yaw": {
+              "type": "number",
+              "minimum": 0,
+              "exclusiveMaximum": 360
+            },
+            "pitch": {
+              "type": "number",
+              "minimum": -90,
+              "maximum": 90
+            },
+            "roll": {
+              "type": "number",
+              "minimum": -180,
+              "exclusiveMaximum": 180
+            }
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "metadata": {
+      "type": "object",
+      "maxProperties": 32,
+      "propertyNames": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 64,
+        "pattern": "^[a-zA-Z][a-zA-Z0-9_.-]*$",
+        "not": {
+          "pattern": "\\s"
+        }
+      },
+      "additionalProperties": {
+        "type": [
+          "string",
+          "number",
+          "boolean",
+          "null"
+        ],
+        "maxLength": 256
+      },
+      "properties": {
+        "health": {
+          "type": "number",
+          "minimum": 0
+        },
+        "max_health": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "display_name": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "native_type": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "is_alive": {
+          "type": "boolean"
+        }
+      }
+    },
+    "components": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "presentation"
+      ],
+      "properties": {
+        "presentation": {
+          "anyOf": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "renderer": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9_.:-]{1,64}$",
+                  "not": {
+                    "pattern": "\\s"
+                  }
+                },
+                "model": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9_.:-]{1,64}$",
+                  "not": {
+                    "pattern": "\\s"
+                  }
+                },
+                "variant": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9_.:-]{1,64}$",
+                  "not": {
+                    "pattern": "\\s"
+                  }
+                },
+                "scale": {
+                  "type": "number",
+                  "exclusiveMinimum": 0,
+                  "maximum": 16
+                }
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MC7DTD entity_state v2 offline design draft",
+  "$defs": {
+    "uuid": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
+      "minLength": 36,
+      "maxLength": 36
+    },
+    "name": {
+      "type": "string",
+      "maxLength": 128,
+      "pattern": "^[a-z0-9_.-]+:[a-z0-9_./-]+$",
+      "not": {
+        "pattern": "\\s"
+      }
+    },
+    "world": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^[a-zA-Z0-9_.-]+$",
+      "not": {
+        "pattern": "\\s"
+      }
+    }
+  },
+  "oneOf": [
+    {
+      "properties": {
+        "lifecycle": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "event"
+          ],
+          "properties": {
+            "event": {
+              "enum": [
+                "spawn",
+                "update"
+              ]
+            }
+          }
+        },
+        "position": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "x",
+            "y",
+            "z",
+            "space"
+          ],
+          "properties": {
+            "x": {
+              "type": "number"
+            },
+            "y": {
+              "type": "number"
+            },
+            "z": {
+              "type": "number"
+            },
+            "space": {
+              "enum": [
+                "minecraft",
+                "7dtd"
+              ]
+            }
+          }
+        },
+        "rotation": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "yaw",
+            "pitch",
+            "roll"
+          ],
+          "properties": {
+            "yaw": {
+              "type": "number",
+              "minimum": 0,
+              "exclusiveMaximum": 360
+            },
+            "pitch": {
+              "type": "number",
+              "minimum": -90,
+              "maximum": 90
+            },
+            "roll": {
+              "type": "number",
+              "minimum": -180,
+              "exclusiveMaximum": 180
+            }
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "lifecycle": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "event",
+            "reason"
+          ],
+          "properties": {
+            "event": {
+              "const": "despawn"
+            },
+            "reason": {
+              "enum": [
+                "died",
+                "despawned",
+                "out_of_scope",
+                "world_unloaded",
+                "dimension_changed"
+              ]
+            }
+          }
+        },
+        "position": {
+          "type": "null"
+        },
+        "rotation": {
+          "type": "null"
+        },
+        "metadata": {
+          "type": "object",
+          "maxProperties": 0
+        }
+      }
+    }
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "lifecycle": {
+            "properties": {
+              "event": {
+                "const": "despawn"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "not": {
+          "required": [
+            "components"
+          ]
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "lifecycle": {
+            "properties": {
+              "event": {
+                "const": "spawn"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "components": {
+            "properties": {
+              "presentation": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "renderer": {
+                    "type": "string",
+                    "pattern": "^[a-z0-9_.:-]{1,64}$",
+                    "not": {
+                      "pattern": "\\s"
+                    }
+                  },
+                  "model": {
+                    "type": "string",
+                    "pattern": "^[a-z0-9_.:-]{1,64}$",
+                    "not": {
+                      "pattern": "\\s"
+                    }
+                  },
+                  "variant": {
+                    "type": "string",
+                    "pattern": "^[a-z0-9_.:-]{1,64}$",
+                    "not": {
+                      "pattern": "\\s"
+                    }
+                  },
+                  "scale": {
+                    "type": "number",
+                    "exclusiveMinimum": 0,
+                    "maximum": 16
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

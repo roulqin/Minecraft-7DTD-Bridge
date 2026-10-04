@@ -1,0 +1,234 @@
+{
+  "id": "minecraft_avatar_v1",
+  "public_nodes": [
+    {
+      "name": "root",
+      "parent": "AvatarRoot",
+      "source": null
+    },
+    {
+      "name": "head",
+      "parent": "root",
+      "source": "rig_head"
+    },
+    {
+      "name": "body",
+      "parent": "root",
+      "source": "rig_spine"
+    },
+    {
+      "name": "arm_left",
+      "parent": "root",
+      "source": "rig_arm_left_upper"
+    },
+    {
+      "name": "arm_right",
+      "parent": "root",
+      "source": "rig_arm_right_upper"
+    },
+    {
+      "name": "leg_left",
+      "parent": "root",
+      "source": "rig_leg_left_upper"
+    },
+    {
+      "name": "leg_right",
+      "parent": "root",
+      "source": "rig_leg_right_upper"
+    }
+  ],
+  "internal_bones": [
+    {
+      "name": "rig_hips",
+      "parent": "InternalRig",
+      "position": [
+        0,
+        0.75,
+        0
+      ],
+      "human": "Hips"
+    },
+    {
+      "name": "rig_spine",
+      "parent": "rig_hips",
+      "position": [
+        0,
+        0.25,
+        0
+      ],
+      "human": "Spine"
+    },
+    {
+      "name": "rig_chest",
+      "parent": "rig_spine",
+      "position": [
+        0,
+        0.25,
+        0
+      ],
+      "human": "Chest"
+    },
+    {
+      "name": "rig_neck",
+      "parent": "rig_chest",
+      "position": [
+        0,
+        0.15,
+        0
+      ],
+      "human": "Neck"
+    },
+    {
+      "name": "rig_head",
+      "parent": "rig_neck",
+      "position": [
+        0,
+        0.1,
+        0
+      ],
+      "human": "Head"
+    },
+    {
+      "name": "rig_shoulder_left",
+      "parent": "rig_chest",
+      "position": [
+        -0.15,
+        0.125,
+        0
+      ],
+      "human": "LeftShoulder"
+    },
+    {
+      "name": "rig_arm_left_upper",
+      "parent": "rig_shoulder_left",
+      "position": [
+        -0.19375,
+        0,
+        0
+      ],
+      "human": "LeftUpperArm"
+    },
+    {
+      "name": "rig_arm_left_lower",
+      "parent": "rig_arm_left_upper",
+      "position": [
+        -0.375,
+        0,
+        0
+      ],
+      "human": "LeftLowerArm"
+    },
+    {
+      "name": "rig_hand_left",
+      "parent": "rig_arm_left_lower",
+      "position": [
+        -0.25,
+        0,
+        0
+      ],
+      "human": "LeftHand"
+    },
+    {
+      "name": "rig_leg_left_upper",
+      "parent": "rig_hips",
+      "position": [
+        -0.125,
+        0,
+        0
+      ],
+      "human": "LeftUpperLeg"
+    },
+    {
+      "name": "rig_leg_left_lower",
+      "parent": "rig_leg_left_upper",
+      "position": [
+        0,
+        -0.375,
+        0
+      ],
+      "human": "LeftLowerLeg"
+    },
+    {
+      "name": "rig_foot_left",
+      "parent": "rig_leg_left_lower",
+      "position": [
+        0,
+        -0.355,
+        0.08
+      ],
+      "human": "LeftFoot"
+    },
+    {
+      "name": "rig_shoulder_right",
+      "parent": "rig_chest",
+      "position": [
+        0.15,
+        0.125,
+        0
+      ],
+      "human": "RightShoulder"
+    },
+    {
+      "name": "rig_arm_right_upper",
+      "parent": "rig_shoulder_right",
+      "position": [
+        0.19375,
+        0,
+        0
+      ],
+      "human": "RightUpperArm"
+    },
+    {
+      "name": "rig_arm_right_lower",
+      "parent": "rig_arm_right_upper",
+      "position": [
+        0.375,
+        0,
+        0
+      ],
+      "human": "RightLowerArm"
+    },
+    {
+      "name": "rig_hand_right",
+      "parent": "rig_arm_right_lower",
+      "position": [
+        0.25,
+        0,
+        0
+      ],
+      "human": "RightHand"
+    },
+    {
+      "name": "rig_leg_right_upper",
+      "parent": "rig_hips",
+      "position": [
+        0.125,
+        0,
+        0
+      ],
+      "human": "RightUpperLeg"
+    },
+    {
+      "name": "rig_leg_right_lower",
+      "parent": "rig_leg_right_upper",
+      "position": [
+        0,
+        -0.375,
+        0
+      ],
+      "human": "RightLowerLeg"
+    },
+    {
+      "name": "rig_foot_right",
+      "parent": "rig_leg_right_lower",
+      "position": [
+        0,
+        -0.355,
+        0.08
+      ],
+      "human": "RightFoot"
+    }
+  ],
+  "coordinate_system": "Unity +Y up, +Z forward; left is -X",
+  "unit_per_pixel": 0.0625
+}

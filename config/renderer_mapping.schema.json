@@ -1,0 +1,24 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Minecraft local held_item Renderer Mapping v1",
+  "type":"object",
+  "maxProperties":256,
+  "propertyNames":{"pattern":"^7dtd:[A-Za-z0-9_.-]+$","maxLength":128},
+  "additionalProperties":{
+    "type":"object",
+    "required":["renderer","item","anchor"],
+    "additionalProperties":false,
+    "properties":{
+      "renderer":{"const":"item_display"},
+      "item":{"type":"string","pattern":"^[a-z0-9_.-]+:[a-z0-9_./-]+$","maxLength":128},
+      "anchor":{"const":"held_item"},
+      "offset":{"$ref":"#/$defs/offset"},
+      "rotation":{"$ref":"#/$defs/rotation"},
+      "scale":{"type":"number","minimum":0.05,"maximum":2,"default":0.8}
+    }
+  },
+  "$defs":{
+    "offset":{"type":"object","required":["x","y","z"],"additionalProperties":false,"properties":{"x":{"type":"number","minimum":-2,"maximum":2},"y":{"type":"number","minimum":-2,"maximum":2},"z":{"type":"number","minimum":-2,"maximum":2}}},
+    "rotation":{"type":"object","required":["x","y","z"],"additionalProperties":false,"properties":{"x":{"type":"number","minimum":-180,"maximum":180},"y":{"type":"number","minimum":-180,"maximum":180},"z":{"type":"number","minimum":-180,"maximum":180}}}
+  }
+}

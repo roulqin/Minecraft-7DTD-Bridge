@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "mapping": {
+    "7dtd:meleeWpnClubT0WoodenClub": "club",
+    "7dtd:meleeToolTorch": "torch",
+    "7dtd:meleeToolAxeT1IronFireaxe": "axe",
+    "7dtd:meleeToolAxeT2SteelAxe": "axe",
+    "7dtd:meleeToolRepairT0StoneAxe": "axe",
+    "7dtd:armorPrimitiveHelmet": "helmet",
+    "7dtd:woodenClub": "club",
+    "7dtd:torch": "torch",
+    "7dtd:ironAxe": "axe",
+    "7dtd:helmet": "helmet"
+  }
+}

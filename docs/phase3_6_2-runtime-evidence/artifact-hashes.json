@@ -1,0 +1,7 @@
+{
+  "minecraft-mod/build/libs/mc7dtd-bridge-0.1.0.jar": "35edba48c62240cca531dee5348af752cf4527c61eda5572465f12c0cd2f1f92",
+  "runtime/minecraft/mods/mc7dtd-bridge-0.1.0.jar": "35edba48c62240cca531dee5348af752cf4527c61eda5572465f12c0cd2f1f92",
+  "bridge-server/bin/Phase362/net10.0/BridgeServer.dll": "e445b71ff86e145fe3f5476e3d6bbd00e7fec3bbb8724757087f203e23f6280c",
+  "runtime/7dtd/Mods/MC7DTD-Bridge/MC7DTD.Bridge.dll": "492e3448687317ff77b633331338bb6bb1e1e3af3d1b624dcc02e9499a1db64d",
+  "7dtd-mod/bin/Phase362/net48/MC7DTD.Bridge.dll": "a7518b839784d5405ceedfa382fbc73541ac118476cc8513ac52c2be1fa8e5aa"
+}

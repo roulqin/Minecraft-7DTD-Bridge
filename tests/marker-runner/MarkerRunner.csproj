@@ -4,5 +4,8 @@
     <ProjectReference Include="../../bridge-server/BridgeServer.csproj" />
     <Compile Include="../../7dtd-mod/src/BridgeClient.cs" Link="BridgeClient.cs" />
     <Compile Include="../../7dtd-mod/src/MarkerController.cs" Link="MarkerController.cs" />
-  </ItemGroup>
+  <Compile Include="../../7dtd-mod/src/IdentitySample.cs" Link="IdentitySample.cs" />
+ <Compile Include="../../components/presentation/PresentationComponent.cs" Link="PresentationComponent.cs" />
+  <Compile Include="../../7dtd-mod/src/EntityDebugLog.cs" Link="EntityDebugLog.cs" />
+ </ItemGroup>
 </Project>

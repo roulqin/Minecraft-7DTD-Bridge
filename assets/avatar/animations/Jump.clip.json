@@ -1,0 +1,107 @@
+{
+  "name": "Jump",
+  "duration": 1,
+  "loop": true,
+  "curves": [
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_shoulder_left/rig_arm_left_upper",
+      "property": "localEulerAnglesRaw.x",
+      "keys": [
+        [
+          0,
+          -30
+        ],
+        [
+          0.5,
+          -28
+        ],
+        [
+          1,
+          -30
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_shoulder_left/rig_arm_left_upper",
+      "property": "localEulerAnglesRaw.z",
+      "keys": [
+        [
+          0,
+          90
+        ],
+        [
+          1,
+          90
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_leg_left_upper",
+      "property": "localEulerAnglesRaw.x",
+      "keys": [
+        [
+          0,
+          20
+        ],
+        [
+          0.5,
+          22
+        ],
+        [
+          1,
+          20
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_shoulder_right/rig_arm_right_upper",
+      "property": "localEulerAnglesRaw.x",
+      "keys": [
+        [
+          0,
+          30
+        ],
+        [
+          0.5,
+          32
+        ],
+        [
+          1,
+          30
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_spine/rig_chest/rig_shoulder_right/rig_arm_right_upper",
+      "property": "localEulerAnglesRaw.z",
+      "keys": [
+        [
+          0,
+          -90
+        ],
+        [
+          1,
+          -90
+        ]
+      ]
+    },
+    {
+      "path": "InternalRig/rig_hips/rig_leg_right_upper",
+      "property": "localEulerAnglesRaw.x",
+      "keys": [
+        [
+          0,
+          -20
+        ],
+        [
+          0.5,
+          -18
+        ],
+        [
+          1,
+          -20
+        ]
+      ]
+    }
+  ]
+}

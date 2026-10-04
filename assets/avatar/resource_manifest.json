@@ -1,0 +1,16 @@
+﻿{
+    "humanoid_avatar":  "Assets/Avatar/Generated/MinecraftAvatarHumanoid.asset",
+    "model":  "minecraft_humanoid",
+    "bundle_sha256":  "F4FA915EF756610B0EE3ABC22A9787E9F16ADFCAA2806BD3033CDC760E87859C",
+    "variant":  "alex_slim",
+    "build_status":  "verified_editor",
+    "bundle":  "bundles/windows/minecraft_avatar_v1",
+    "avatar_id":  "minecraft_alex_default",
+    "animation_avatar":  "Assets/Avatar/Generated/MinecraftAvatarGeneric.asset",
+    "skeleton":  "minecraft_avatar_v1",
+    "platform":  "windows",
+    "resource_version":  "minecraft_avatar_v1",
+    "animator_backend":  "generic_transform_controller",
+    "prefab":  "Assets/Avatar/Generated/MinecraftAvatarPrefab.prefab",
+    "controller":  "Assets/Avatar/Generated/MinecraftAvatarAnimator.controller"
+}

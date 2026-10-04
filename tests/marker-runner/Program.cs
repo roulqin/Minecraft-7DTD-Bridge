@@ -79,7 +79,7 @@ try {
     var config=Path.Combine(output,"network.json"); File.WriteAllText(config,JsonSerializer.Serialize(new{host="localhost",port}));
     File.WriteAllText(Path.Combine(output,"coordinate.json"),"{\"scale\":2,\"offsetX\":100,\"offsetY\":-10,\"offsetZ\":25}");
     var start=new ProcessStartInfo("dotnet"){WorkingDirectory=root,UseShellExecute=false,CreateNoWindow=true,RedirectStandardOutput=true,RedirectStandardError=true};
-    start.ArgumentList.Add(Path.Combine(root,"bridge-server/bin/Release/net10.0/BridgeServer.dll")); start.ArgumentList.Add(config);
+    start.ArgumentList.Add(Environment.GetEnvironmentVariable("MC7DTD_TEST_BRIDGE") ?? Path.Combine(root,"bridge-server/bin/Release/net10.0/BridgeServer.dll")); start.ArgumentList.Add(config);
     server=new Process{StartInfo=start}; server.OutputDataReceived+=(_,e)=>{if(e.Data!=null)serverLog.Enqueue(e.Data);}; server.ErrorDataReceived+=(_,e)=>{if(e.Data!=null)serverLog.Enqueue(e.Data);};
     server.Start(); server.BeginOutputReadLine(); server.BeginErrorReadLine();
     async Task Wait(Func<bool> condition,string name) { var watch=Stopwatch.StartNew(); while(!condition()){if(watch.ElapsedMilliseconds>12000)throw new Exception("Timeout: "+name);await Task.Delay(40);} }

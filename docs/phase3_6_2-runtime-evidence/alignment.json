@@ -1,0 +1,72 @@
+{
+  "minecraft": {
+    "type": "entity_state",
+    "version": 1,
+    "source": "minecraft",
+    "entity_type": "minecraft:player",
+    "entity_id": "68565545-3035-4a2c-95e6-50077b3329ff",
+    "stream_id": "6ae15bf1-a488-4e49-87cf-4ba11a5557ff",
+    "world_id": "mc-cf4dce40-2be1-372b-b914-917f5dcc644c",
+    "dimension": "minecraft:overworld",
+    "sequence": 2,
+    "lifecycle": {
+      "event": "update"
+    },
+    "metadata": {},
+    "position": {
+      "x": -47.30000001192093,
+      "y": 71.0,
+      "z": 72.77925174075624,
+      "space": "minecraft"
+    },
+    "rotation": {
+      "yaw": 324.45015716552734,
+      "pitch": 37.3499755859375,
+      "roll": 0
+    }
+  },
+  "7dtdPriorPosition": {
+    "authority": "7dtd",
+    "dimension": "7dtd:main",
+    "entity_id": "d8e7c437-fca2-4ccd-82e9-ad13fdaf1690",
+    "entity_type": "7dtd:player",
+    "lifecycle": {
+      "event": "update"
+    },
+    "metadata": {},
+    "origin": {
+      "dimension": "7dtd:main",
+      "entity_id": "d8e7c437-fca2-4ccd-82e9-ad13fdaf1690",
+      "game": "7dtd",
+      "world_id": "td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f"
+    },
+    "position": {
+      "space": "7dtd",
+      "x": -273.5540771484375,
+      "y": 61.07999801635742,
+      "z": 448.81915283203125
+    },
+    "rotation": {
+      "pitch": -3.125,
+      "roll": 0,
+      "yaw": 109.17742919921875
+    },
+    "sequence": 431,
+    "source": "7dtd",
+    "stream_id": "5cf26971-f748-4142-b4cd-04d762e18d59",
+    "type": "entity_state",
+    "version": 2,
+    "world_id": "td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f"
+  },
+  "minecraftProxyTarget": {
+    "x": -45.30000001192093,
+    "y": 71.0,
+    "z": 75.77925174075624
+  },
+  "coordinate": {
+    "scale": 1,
+    "offsetX": -228.25407713651657,
+    "offsetY": -9.920001983642578,
+    "offsetZ": 373.039901091275
+  }
+}

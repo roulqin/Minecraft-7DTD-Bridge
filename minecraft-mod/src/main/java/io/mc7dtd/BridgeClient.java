@@ -15,6 +15,15 @@ import java.util.function.Consumer;
 public final class BridgeClient implements AutoCloseable {
     private final URI uri;
     private final Consumer<String> log;
+    private final Consumer<JsonObject> entityReceived;
+    private final Runnable resetEntities;
+    private final HealthReceiver health;
+    private final EquipmentReceiver equipment;
+    private final PresentationReceiver presentation;
+    private final EntityInspector inspector = new EntityInspector();
+    private final DebugConfig debugConfig;
+    public EntityInspector inspector() { return inspector; }
+    public DebugConfig debugConfig() { return debugConfig; }
     private volatile boolean stopped;
     private volatile WebSocket socket;
     private volatile WebSocket positionSession;
@@ -31,7 +40,13 @@ public final class BridgeClient implements AutoCloseable {
             var thread = new Thread(task, "MC7DTD-entity-test-send"); thread.setDaemon(true); return thread;
         }, new ThreadPoolExecutor.AbortPolicy());
     public BridgeClient(Path configPath, Consumer<String> logger) throws Exception {
-        log = logger;
+        this(configPath, logger, message -> { }, () -> { });
+    }
+    public BridgeClient(Path configPath, Consumer<String> logger, Consumer<JsonObject> receiver, Runnable reset) throws Exception {
+        debugConfig = DebugConfig.load(configPath.resolveSibling("debug.json"), logger);
+        log = logger; entityReceived = receiver; resetEntities = reset;
+        health = new HealthReceiver(logger); presentation = new PresentationReceiver(logger);
+        equipment = new EquipmentReceiver(health, logger);
         var config = JsonParser.parseString(Files.readString(configPath)).getAsJsonObject();
         String host = config.get("host").getAsString();
         int port = config.get("port").getAsInt();
@@ -66,24 +81,56 @@ public final class BridgeClient implements AutoCloseable {
                         var message = JsonParser.parseString(raw).getAsJsonObject();
                         String type = message.get("type").getAsString();
                         if (type.equals("welcome") && message.get("client").getAsString().equals("minecraft")) {
-                            welcomed = true; log.accept("Bridge connected"); log.accept("Minecraft connected");
+                            welcomed = true; health.reset(); equipment.reset(); presentation.reset(); inspector.reset(); resetEntities.run(); log.accept("Bridge connected"); log.accept("Minecraft connected");
+                            inspector.appearanceConnected(true);
                             entityEpoch++; positionSession = socket;
                         } else if (welcomed && type.equals("peer_connected")) {
-                            if (message.get("client").getAsString().equals("7dtd")) entityEpoch++;
+                            if (message.get("client").getAsString().equals("7dtd")) { entityEpoch++; health.reset(); equipment.reset(); presentation.reset(); inspector.reset(); resetEntities.run(); }
+                            if (message.get("client").getAsString().equals("7dtd")) inspector.appearanceConnected(true);
                             var test = new JsonObject(); test.addProperty("type", "test"); test.addProperty("text", "Hello from Minecraft");
                             send(test.toString());
                         } else if (welcomed && type.equals("test")) {
                             if (message.get("from").getAsString().equals("7dtd") && message.get("text").getAsString().equals("MC7DTD player proxy resync")) entityEpoch++;
                             log.accept("Test received from " + message.get("from").getAsString() + ": " + message.get("text").getAsString());
-                        } else if (type.equals("error")) log.accept("Bridge error: " + message.get("code").getAsString());
+                        } else if (welcomed && type.equals("entity_state")) {
+                            // Receiver queues work for the client thread; never republishes mirrored state.
+                            logNativeEntity(message);
+                        } else if (welcomed && type.equals("entity_components")) {
+                            equipment.receive(message);
+                            try { inspector.components(message, health.state(message), equipment.state(message)); }
+                            catch (RuntimeException ex) { if (debugConfig.logging()) log.accept("[Entity Debug] Component snapshot unavailable"); }
+                        } else if (type.equals("error")) {
+                            if(message.get("code").getAsString().equals("peer_unavailable"))inspector.appearanceConnected(false);
+                            log.accept("Bridge error: " + message.get("code").getAsString());
+                        }
                     }
                     if (!stopped) log.accept("Bridge disconnected; retry in 3 seconds");
                 } catch (Exception ex) {
                     if (!stopped) log.accept("Bridge unavailable: " + ex + "; retry in 3 seconds");
-                } finally { positionSession = null; positionSender.getQueue().clear(); if (socket != null) socket.abort(); socket = null; }
+                } finally { inspector.appearanceConnected(false); health.reset(); equipment.reset(); presentation.reset(); inspector.reset(); resetEntities.run(); positionSession = null; positionSender.getQueue().clear(); if (socket != null) socket.abort(); socket = null; }
                 if (!stopped) try { Thread.sleep(3000); } catch (InterruptedException ex) { break; }
             }
         } finally { http.shutdownNow(); }
+    }
+    private void logNativeEntity(JsonObject message) {
+        try {
+            var origin = message.getAsJsonObject("origin");
+            if (message.get("version").getAsInt() != 2 || !message.get("source").getAsString().equals("7dtd")
+                || !message.get("authority").getAsString().equals("7dtd") || !origin.get("game").getAsString().equals("7dtd")
+                || !origin.get("entity_id").equals(message.get("entity_id"))) throw new IllegalArgumentException();
+            var action = message.getAsJsonObject("lifecycle").get("event").getAsString();
+            if (!java.util.Set.of("spawn", "update", "despawn").contains(action)) throw new IllegalArgumentException();
+            if (!action.equals("despawn") && !message.getAsJsonObject("position").get("space").getAsString().equals("minecraft"))
+                throw new IllegalArgumentException();
+            log.accept("7DTD entity received: " + message);
+        } catch (RuntimeException ex) { log.accept("Invalid 7DTD entity state ignored"); return; }
+        inspector.appearanceConnected(true);
+        health.lifecycle(message);
+        equipment.lifecycle(message);
+        presentation.lifecycle(message);
+        try { inspector.lifecycle(message, health.state(message), presentation.get(message)); inspector.components(message,health.state(message),equipment.state(message)); }
+        catch (RuntimeException ex) { if (debugConfig.logging()) log.accept("[Entity Debug] Entity snapshot unavailable"); }
+        entityReceived.accept(message.deepCopy());
     }
     private synchronized void send(String text) throws Exception { socket.sendText(text, true).get(5, TimeUnit.SECONDS); }
     public void publishPlayerPosition(double x, double y, double z) {

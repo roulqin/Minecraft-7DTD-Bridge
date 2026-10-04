@@ -1,0 +1,300 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Entity Inspector v1 diagnostic snapshot (not a synchronization message)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "type",
+    "source",
+    "world_id",
+    "dimension",
+    "stream_id",
+    "sequence",
+    "position",
+    "rotation",
+    "metadata",
+    "components"
+  ],
+  "properties": {
+    "equipment_visual_state": {
+      "type": ["object", "null"],
+      "required": ["equipment_state", "slots"],
+      "properties": {
+        "equipment_state": {"enum": ["known", "unknown"]},
+        "slots": {"type": "object", "required": ["head", "body", "hands", "feet", "held_item"]}
+      },
+      "additionalProperties": false
+    },
+    "proxy_appearance": {
+      "type": ["object", "null"],
+      "required": ["held_marker", "head_marker"],
+      "additionalProperties": false,
+      "properties": {
+        "held_marker": {"enum": ["club", "torch", "axe", "unknown", null]},
+        "head_marker": {"enum": ["helmet", null]},
+        "renderer": {
+          "type": ["object", "null"],
+          "required": ["type", "status", "renderer_status", "source_item"],
+          "additionalProperties": false,
+          "properties": {
+            "type": {"enum": ["item_display", "block_display"]},
+            "status": {"enum": ["active", "fallback", "unavailable", "removed"]},
+            "renderer_status": {"enum": ["item_display", "fallback_marker"]},
+            "source_item": {"type": "string"},
+            "item": {"type": "string"},
+            "reason": {"type": "string"}
+          }
+        }
+      }
+    },
+    "id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "source": {
+      "enum": [
+        "minecraft",
+        "7dtd"
+      ]
+    },
+    "world_id": {
+      "type": "string"
+    },
+    "dimension": {
+      "type": "string"
+    },
+    "stream_id": {
+      "type": "string"
+    },
+    "sequence": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "position": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "rotation": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "metadata": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "components": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "identity",
+        "health",
+        "presentation",
+        "authority"
+      ],
+      "properties": {
+        "identity": {
+          "type": "object"
+        },
+        "health": {
+          "type": "object"
+        },
+        "presentation": {
+          "type": "object"
+        },
+        "authority": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "source",
+            "owner"
+          ],
+          "properties": {
+            "source": {
+              "enum": [
+                "minecraft",
+                "7dtd"
+              ]
+            },
+            "owner": {
+              "enum": [
+                "minecraft",
+                "7dtd"
+              ]
+            },
+            "origin": {
+              "type": [
+                "object",
+                "null"
+              ]
+            }
+          }
+        },
+        "equipment": {
+          "oneOf": [
+            {
+              "type": "object",
+              "maxProperties": 0
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "slots"
+              ],
+              "properties": {
+                "slots": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "maxProperties": 5,
+                  "properties": {
+                    "head": {
+                      "oneOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "required": [
+                            "item_id"
+                          ],
+                          "properties": {
+                            "item_id": {
+                              "type": "string",
+                              "minLength": 6,
+                              "maxLength": 128,
+                              "pattern": "^7dtd:[A-Za-z0-9_.-]+$",
+                              "not": {
+                                "pattern": "\\s"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "oneOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "required": [
+                            "item_id"
+                          ],
+                          "properties": {
+                            "item_id": {
+                              "type": "string",
+                              "minLength": 6,
+                              "maxLength": 128,
+                              "pattern": "^7dtd:[A-Za-z0-9_.-]+$",
+                              "not": {
+                                "pattern": "\\s"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "hands": {
+                      "oneOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "required": [
+                            "item_id"
+                          ],
+                          "properties": {
+                            "item_id": {
+                              "type": "string",
+                              "minLength": 6,
+                              "maxLength": 128,
+                              "pattern": "^7dtd:[A-Za-z0-9_.-]+$",
+                              "not": {
+                                "pattern": "\\s"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "feet": {
+                      "oneOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "required": [
+                            "item_id"
+                          ],
+                          "properties": {
+                            "item_id": {
+                              "type": "string",
+                              "minLength": 6,
+                              "maxLength": 128,
+                              "pattern": "^7dtd:[A-Za-z0-9_.-]+$",
+                              "not": {
+                                "pattern": "\\s"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "held_item": {
+                      "oneOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "required": [
+                            "item_id"
+                          ],
+                          "properties": {
+                            "item_id": {
+                              "type": "string",
+                              "minLength": 6,
+                              "maxLength": 128,
+                              "pattern": "^7dtd:[A-Za-z0-9_.-]+$",
+                              "not": {
+                                "pattern": "\\s"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "head",
+                    "body",
+                    "hands",
+                    "feet",
+                    "held_item"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

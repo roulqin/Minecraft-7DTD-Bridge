@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "localDate": "2026-10-03",
+  "timezone": "Asia/Shanghai",
+  "entityId": "d8e7c437-fca2-4ccd-82e9-ad13fdaf1690",
+  "streamId": "5cf26971-f748-4142-b4cd-04d762e18d59",
+  "spawn": {
+    "sourceLine": 805,
+    "sourceLog": "2026-10-03T19:17:19 96.767 INF [MC7DTD] 7DTD entity sent: {\"authority\":\"7dtd\",\"dimension\":\"7dtd:main\",\"entity_id\":\"d8e7c437-fca2-4ccd-82e9-ad13fdaf1690\",\"entity_type\":\"7dtd:player\",\"lifecycle\":{\"event\":\"spawn\"},\"metadata\":{},\"origin\":{\"dimension\":\"7dtd:main\",\"entity_id\":\"d8e7c437-fca2-4ccd-82e9-ad13fdaf1690\",\"game\":\"7dtd\",\"world_id\":\"td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f\"},\"position\":{\"space\":\"7dtd\",\"x\":-273.16122436523438,\"y\":61.079998016357422,\"z\":448.56515502929688},\"rotation\":{\"pitch\":-4,\"roll\":0,\"yaw\":106.17741394042969},\"sequence\":1,\"source\":\"7dtd\",\"stream_id\":\"5cf26971-f748-4142-b4cd-04d762e18d59\",\"type\":\"entity_state\",\"version\":2,\"world_id\":\"td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f\"}",
+    "minecraftLine": 120
+  },
+  "despawn": {
+    "sourceLine": 1348,
+    "minecraftLine": 551,
+    "message": {
+      "authority": "7dtd",
+      "dimension": "7dtd:main",
+      "entity_id": "d8e7c437-fca2-4ccd-82e9-ad13fdaf1690",
+      "entity_type": "7dtd:player",
+      "lifecycle": {
+        "event": "despawn",
+        "reason": "world_unloaded"
+      },
+      "metadata": {},
+      "origin": {
+        "dimension": "7dtd:main",
+        "entity_id": "d8e7c437-fca2-4ccd-82e9-ad13fdaf1690",
+        "game": "7dtd",
+        "world_id": "td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f"
+      },
+      "position": null,
+      "rotation": null,
+      "sequence": 432,
+      "source": "7dtd",
+      "stream_id": "5cf26971-f748-4142-b4cd-04d762e18d59",
+      "type": "entity_state",
+      "version": 2,
+      "world_id": "td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f"
+    }
+  },
+  "sentEvents": 432,
+  "receivedEvents": 432,
+  "checks": {
+    "oneRealSpawn": true,
+    "oneExplicitDespawn": true,
+    "matchingDespawnReceived": true,
+    "despawnNullState": true,
+    "sameAuthorityIdentityAndStream": true,
+    "allSentEventsReceived": true,
+    "coordinatesAndRotationMatch": true,
+    "movementReceived": true,
+    "yawAndPitchChangesReceived": true,
+    "activeRecordRemoved": true,
+    "despawnForwarded": true,
+    "notDisconnectCleanup": true,
+    "bothClientsStayedConnected": true,
+    "noPostDespawnEntityEvents": true,
+    "noEcho": true,
+    "sourceAndProtocolUnmodified": true
+  },
+  "registrySemantics": "active record retired; stream tombstone retained, not physically erased",
+  "coordinateConfig": {
+    "scale": 1,
+    "offsetX": 0,
+    "offsetY": 0,
+    "offsetZ": 0
+  }
+}

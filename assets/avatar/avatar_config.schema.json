@@ -1,0 +1,14 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Local Avatar Resource Config v2",
+  "type":"object",
+  "additionalProperties":false,
+  "required":["avatar_id","model","variant","skin","skeleton"],
+  "properties":{
+    "avatar_id":{"type":"string","pattern":"^[a-z0-9_.-]{1,64}$"},
+    "model":{"const":"minecraft_humanoid"},
+    "variant":{"enum":["alex_slim","steve_classic"]},
+    "skin":{"type":"string","minLength":1,"maxLength":256},
+    "skeleton":{"const":"minecraft_avatar_v1"}
+  }
+}

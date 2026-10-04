@@ -1,0 +1,18 @@
+{
+  "mesh": "MinecraftAvatarHumanoidMesh",
+  "variant": "alex_slim",
+  "parts": [
+    "Head",
+    "Body",
+    "Arm_L",
+    "Arm_R",
+    "Leg_L",
+    "Leg_R"
+  ],
+  "layers": 2,
+  "vertices": 288,
+  "triangles": 144,
+  "height_units": 2,
+  "unit_per_pixel": 0.0625,
+  "resource_kind": "source_mesh_catalog"
+}

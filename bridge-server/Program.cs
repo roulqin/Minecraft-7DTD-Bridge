@@ -21,6 +21,15 @@ var app = builder.Build();
 var peers = new ConcurrentDictionary<string, Peer>();
 var registrationGate = new SemaphoreSlim(1, 1);
 var entities = new EntityRegistry();
+var nativeEntities = new NativeEntityRegistry();
+var healthComponents = new HealthComponents();
+var equipmentComponents = new EquipmentComponents(healthComponents);
+var equipmentPermissions = new EquipmentPermissions(Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "../../../../config")));
+var presentation = new PresentationComponent(Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "../../../../config/entity_types.json")));
+var componentPermissions = ComponentPermissions.Load(Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "../../../../config")));
+var inspector = new EntityInspector(entities, nativeEntities, healthComponents, presentation, equipmentComponents);
+var debugConfig = MC7DTD.DebugConfig.Load(Path.Combine(Path.GetDirectoryName(configPath)!, "debug.json"), message => app.Logger.LogWarning("{DebugWarning}", message));
+InspectorEndpoints.Map(app, inspector, registrationGate, debugConfig);
 app.UseWebSockets(new WebSocketOptions { KeepAliveInterval = TimeSpan.FromSeconds(20) });
 app.MapGet("/health", () => Results.Json(new { status = "ok", phase = 1, clients = peers.Keys.Order().ToArray() }));
 app.Map("/ws", async context =>
@@ -50,6 +59,11 @@ app.Map("/ws", async context =>
         {
             if (!peers.TryAdd(role, peer)) throw new ProtocolException("duplicate_client");
             registered = true;
+            // Receiver reconnect is a controlled fresh snapshot boundary for the v2 sender.
+            nativeEntities.Clear();
+            healthComponents.Clear(); equipmentComponents.Clear();
+            presentation.Clear();
+            inspector.Clear();
             await peer.Send(new { type = "welcome", client = role, message = "Bridge connected" }, ct);
             app.Logger.LogInformation("{Message}", role == "minecraft" ? "Minecraft connected" : "7DTD connected");
             if (peers.TryGetValue(otherRole, out var other))
@@ -64,24 +78,56 @@ app.Map("/ws", async context =>
             using var message = await Receive(socket, ct);
             if (message is null) break;
             var type = StringProperty(message.RootElement, "type");
+            if (type == "entity_components")
+            {
+                await registrationGate.WaitAsync(ct);
+                try
+                {
+                    if (!peers.TryGetValue("minecraft", out var componentTarget))
+                        await peer.Send(new { type = "error", code = "peer_unavailable" }, ct);
+                    else
+                    {
+                        try
+                        {
+                            var transition = equipmentComponents.Apply(message.RootElement, role, nativeEntities, componentPermissions, equipmentPermissions);
+                            if (transition.Forward)
+                            {
+                                await componentTarget.Send(message.RootElement, ct);
+                                app.Logger.LogInformation("Components: {Transition}, id={Id}, revision={Revision}; 7dtd -> minecraft",
+                                    transition.Code, StringProperty(message.RootElement, "entity_id"), message.RootElement.GetProperty("revision"));
+                            }
+                        }
+                        catch (InvalidDataException ex)
+                        { app.Logger.LogWarning("Health component rejected: {Code}", ex.Message); await peer.Send(new { type = "error", code = ex.Message }, ct); }
+                    }
+                }
+                finally { registrationGate.Release(); }
+                continue;
+            }
             if (type == "entity_state")
             {
                 System.Text.Json.Nodes.JsonObject entity;
-                try { entity = EntityTransport.Prepare(message.RootElement, role, mapper); }
+                var isV2 = message.RootElement.TryGetProperty("version", out var wireVersion) && wireVersion.ValueKind == JsonValueKind.Number && wireVersion.TryGetInt32(out var version) && version == 2;
+                try { entity = PresentationComponent.Prepare(message.RootElement, role, mapper); }
                 catch (InvalidDataException ex) { throw new ProtocolException(ex.Message); }
                 // Serialize lifecycle application/send with peer registration and disconnect cleanup.
                 await registrationGate.WaitAsync(ct);
                 try
                 {
-                    if (peers.TryGetValue("7dtd", out var entityTarget))
+                    if (peers.TryGetValue(isV2 ? "minecraft" : "7dtd", out var entityTarget))
                     {
-                        var transition = entities.Apply(entity);
+                        entity = presentation.Resolve(entity);
+                        var transition = isV2 ? nativeEntities.Apply(entity) : entities.Apply(entity);
                         app.Logger.LogInformation("Entity registry: {Transition}, id={Id}, count={Count}",
-                            transition.Code, entity["entity_id"]!.GetValue<string>(), entities.Count);
+                            transition.Code, entity["entity_id"]!.GetValue<string>(), isV2 ? nativeEntities.Count : entities.Count);
                         if (transition.Forward)
                         {
+                            presentation.Commit(entity);
+                            inspector.ObserveAccepted(entity);
+                            if (entity["components"] != null) app.Logger.LogInformation("[Presentation] entity={Id} state={State}", entity["entity_id"], entity["components"]);
+                            if (isV2 && entity["lifecycle"]!["event"]!.GetValue<string>() == "despawn") { healthComponents.Retire(entity); equipmentComponents.Retire(entity); }
                             await entityTarget.Send(entity, ct);
-                            app.Logger.LogInformation("Entity state forwarded: minecraft -> 7dtd ({Event}, {Id})",
+                            app.Logger.LogInformation("Entity state forwarded: {Source} -> {Target} ({Event}, {Id})", role, isV2 ? "minecraft" : "7dtd",
                                 entity["lifecycle"]!["event"]!.GetValue<string>(), entity["entity_id"]!.GetValue<string>());
                         }
                         else if (transition.Code is not ("duplicate_spawn" or "unknown_despawn"))
@@ -138,6 +184,10 @@ app.Map("/ws", async context =>
             {
                 peers.TryRemove(role!, out _);
                 var removed = entities.Clear();
+                if (role == "7dtd") nativeEntities.Clear();
+                healthComponents.Clear(); equipmentComponents.Clear();
+                presentation.Clear();
+                inspector.Clear();
                 app.Logger.LogInformation("Entity registry reset: disconnected {Role}, removed={Count}; fresh spawn required", role, removed);
                 app.Logger.LogInformation("Disconnected: {Role}", role);
             }

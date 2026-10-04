@@ -1,5 +1,5 @@
-[18:03:17] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.4
-[18:03:17] [main/INFO]: Loading 49 mods:
+[07:44:55] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.4
+[07:44:55] [main/INFO]: Loading 49 mods:
 	- fabric-api 0.140.2+1.21.11
 	   |-- fabric-api-base 1.0.5+4ebb5c083e
 	   |-- fabric-api-lookup-api-v1 1.6.113+1fb1cde93e
@@ -49,19 +49,17 @@
 	- java 21
 	- mc7dtd_bridge 0.1.0
 	- minecraft 1.21.11
-[18:03:17] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/D:/wenjian/minecraft/.minecraft/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[18:03:17] [main/INFO]: Compatibility level set to JAVA_21
-[18:03:18] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[18:03:19] [Datafixer Bootstrap/INFO]: 287 Datafixer optimizations took 414 milliseconds
-[18:03:23] [main/INFO]: Completely ignored arguments: []
-[18:03:23] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[18:03:23] [Render thread/INFO]: Setting user: MC7DTD-Test
-[18:03:23] [Render thread/INFO]: [Indigo] Registering Indigo renderer!
-[18:03:24] [MC7DTD-websocket/INFO]: Bridge connected
-[18:03:24] [MC7DTD-websocket/INFO]: Minecraft connected
-[18:03:24] [Render thread/INFO]: Backend library: LWJGL version 3.3.3-snapshot
-[18:03:24] [Render thread/INFO]: Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access, GL_EXT_texture_filter_anisotropic
-[18:03:25] [Download-2/ERROR]: Failed to fetch user properties
+[07:44:55] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/D:/wenjian/minecraft/.minecraft/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[07:44:55] [main/INFO]: Compatibility level set to JAVA_21
+[07:44:56] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[07:44:57] [Datafixer Bootstrap/INFO]: 287 Datafixer optimizations took 407 milliseconds
+[07:45:09] [main/INFO]: Completely ignored arguments: []
+[07:45:10] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[07:45:10] [Render thread/INFO]: Setting user: MC7DTD-Test
+[07:45:11] [Render thread/INFO]: [Indigo] Registering Indigo renderer!
+[07:45:11] [MC7DTD-websocket/INFO]: Bridge connected
+[07:45:11] [MC7DTD-websocket/INFO]: Minecraft connected
+[07:45:12] [Download-2/ERROR]: Failed to fetch user properties
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at knot//com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:59)
 	at knot//com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:150)
@@ -75,12 +73,15 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at knot//com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56)
 	at knot//com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:121)
 	... 5 more
-[18:03:25] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-resource-loader-v1, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-serialization-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader
-[18:03:25] [Worker-Main-5/INFO]: Found unifont_pua-17.0.01.hex, loading
-[18:03:25] [Worker-Main-21/INFO]: Found unifont_all_no_pua-17.0.01.hex, loading
-[18:03:25] [Worker-Main-2/INFO]: Found unifont_jp_patch-17.0.01.hex, loading
-[18:03:26] [Download-2/INFO]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
-[18:03:26] [Download-2/ERROR]: Failed to fetch Realms feature flags
+[07:45:12] [Render thread/INFO]: Backend library: LWJGL version 3.3.3-snapshot
+[07:45:13] [Render thread/INFO]: Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access, GL_EXT_texture_filter_anisotropic
+[07:45:13] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-resource-loader-v1, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-serialization-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader
+[07:45:13] [Render thread/INFO]: 7DTD proxy reset: connection=true worldReady=false
+[07:45:13] [Worker-Main-8/INFO]: Found unifont_pua-17.0.01.hex, loading
+[07:45:13] [Worker-Main-5/INFO]: Found unifont_all_no_pua-17.0.01.hex, loading
+[07:45:13] [Worker-Main-12/INFO]: Found unifont_jp_patch-17.0.01.hex, loading
+[07:45:14] [Download-2/INFO]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[07:45:14] [Download-2/ERROR]: Failed to fetch Realms feature flags
 net.minecraft.class_4355: Realms authentication error with message 'java.lang.RuntimeException: Failed to parse into SignedJWT: 0'
 	at knot//net.minecraft.class_4341.method_20998(class_4341.java:526)
 	at knot//net.minecraft.class_4341.method_68466(class_4341.java:186)
@@ -88,25 +89,25 @@ net.minecraft.class_4355: Realms authentication error with message 'java.lang.Ru
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[18:03:26] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on 扬声器 (Realtek(R) Audio)
-[18:03:26] [Render thread/INFO]: Sound engine started
-[18:03:26] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[18:03:26] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/decorated_pot.png-atlas
-[18:03:26] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
-[18:03:26] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[18:03:26] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
-[18:03:26] [Render thread/INFO]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
-[18:03:26] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/chest.png-atlas
-[18:03:26] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/celestials.png-atlas
-[18:03:26] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
-[18:03:26] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/beds.png-atlas
-[18:03:26] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/items.png-atlas
-[18:03:26] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
-[18:03:26] [Render thread/INFO]: Created: 128x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[18:03:26] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/signs.png-atlas
-[18:03:26] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/shulker_boxes.png-atlas
-[18:03:27] [IO-Worker-1/INFO]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
-[18:03:27] [IO-Worker-1/ERROR]: Couldn't connect to realms
+[07:45:15] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on 扬声器 (Realtek(R) Audio)
+[07:45:15] [Render thread/INFO]: Sound engine started
+[07:45:15] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[07:45:15] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[07:45:15] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[07:45:15] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[07:45:15] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[07:45:15] [Render thread/INFO]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[07:45:15] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/chest.png-atlas
+[07:45:15] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/celestials.png-atlas
+[07:45:15] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[07:45:15] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/beds.png-atlas
+[07:45:15] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/items.png-atlas
+[07:45:15] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[07:45:15] [Render thread/INFO]: Created: 128x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[07:45:15] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/signs.png-atlas
+[07:45:15] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[07:45:16] [IO-Worker-1/INFO]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[07:45:16] [IO-Worker-1/ERROR]: Couldn't connect to realms
 net.minecraft.class_4355: Realms authentication error with message 'java.lang.RuntimeException: Failed to parse into SignedJWT: 0'
 	at knot//net.minecraft.class_4341.method_20998(class_4341.java:526)
 	at knot//net.minecraft.class_4341.method_21027(class_4341.java:307)
@@ -115,65 +116,9 @@ net.minecraft.class_4355: Realms authentication error with message 'java.lang.Ru
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[18:04:14] [MC7DTD-websocket/INFO]: Test received from 7dtd: Hello from 7DTD
-[18:06:12] [MC7DTD-websocket/INFO]: Test received from 7dtd: Hello from 7DTD
-[18:07:32] [MC7DTD-websocket/INFO]: Test received from 7dtd: Hello from 7DTD
-[18:09:38] [MC7DTD-websocket/INFO]: Test received from 7dtd: Hello from 7DTD
-[18:13:52] [Render thread/INFO]: Loaded 1470 recipes
-[18:13:52] [Render thread/INFO]: Loaded 1584 advancements
-[18:13:52] [Render thread/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.047 ms
-[18:13:52] [Server thread/INFO]: Starting integrated minecraft server version 1.21.11
-[18:13:52] [Server thread/INFO]: Generating keypair
-[18:13:52] [Server thread/INFO]: Loading 0 persistent chunks...
-[18:13:52] [Server thread/INFO]: 准备生成区域中：16%
-[18:13:53] [Server thread/INFO]: Loading 49 chunks for player spawn...
-[18:13:53] [Server thread/INFO]: 准备生成区域中：16%
-[18:13:53] [Server thread/INFO]: 准备生成区域中：100%
-[18:13:53] [Server thread/INFO]: Time elapsed: 1012 ms
-[18:13:53] [Server thread/INFO]: MC7DTD-Test[local:E:da3890ce] logged in with entity id 64 at (-51.5, 68.0, 74.5)
-[18:13:53] [Server thread/INFO]: MC7DTD-Test加入了游戏
-[18:13:54] [Render thread/INFO]: Loaded 44 advancements
-[18:13:54] [Server thread/INFO]: Changing view distance to 16, from 10
-[18:13:54] [Server thread/INFO]: Changing simulation distance to 12, from 0
-[18:13:54] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
-[18:13:54] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
-[18:13:54] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 2 reached during a single frame. New capacity will be 16.
-[18:13:54] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
-[18:13:54] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
-[18:13:54] [Server thread/INFO]: Saving and pausing game...
-[18:13:54] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
-[18:13:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Demo World]'/minecraft:overworld
-[18:13:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_end
-[18:13:55] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
-[18:13:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_nether
-[18:13:55] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
-[18:13:56] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
-[18:13:58] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 512 reached during a single frame. New capacity will be 1024.
-[18:13:59] [Server thread/INFO]: Saving and pausing game...
-[18:13:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Demo World]'/minecraft:overworld
-[18:13:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_end
-[18:13:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_nether
-[18:14:20] [Server thread/INFO]: MC7DTD-Test取得了进度[怪物猎人]
-[18:14:20] [Render thread/INFO]: [System] [CHAT] MC7DTD-Test取得了进度[怪物猎人]
-[18:14:20] [Render thread/INFO]: Loaded 47 advancements
-[18:16:40] [Render thread/INFO]: Loaded 58 advancements
-[18:16:44] [Render thread/INFO]: Loaded 61 advancements
-[18:16:55] [Render thread/INFO]: Loaded 69 advancements
-[18:17:34] [Server thread/INFO]: Saving and pausing game...
-[18:17:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Demo World]'/minecraft:overworld
-[18:17:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_end
-[18:17:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_nether
-[18:18:14] [Server thread/INFO]: MC7DTD-Test lost connection: 连接中断
-[18:18:14] [Server thread/INFO]: MC7DTD-Test退出了游戏
-[18:18:14] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[18:18:14] [Server thread/INFO]: Stopping server
-[18:18:14] [Server thread/INFO]: Saving players
-[18:18:14] [Server thread/INFO]: Saving worlds
-[18:18:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Demo World]'/minecraft:overworld
-[18:18:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_end
-[18:18:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_nether
-[18:18:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (Demo_World): All chunks are saved
-[18:18:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:18:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:18:15] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[18:19:27] [Render thread/INFO]: Stopping!
+[07:47:59] [MC7DTD-websocket/INFO]: Test received from 7dtd: Hello from 7DTD
+[07:47:59] [Render thread/INFO]: 7DTD proxy reset: connection=true worldReady=false
+[07:50:14] [Render thread/INFO]: 7DTD proxy reset: connection=true worldReady=false
+[07:50:14] [MC7DTD-websocket/INFO]: Test received from 7dtd: Hello from 7DTD
+[08:05:41] [Render thread/INFO]: Stopping!
+[08:05:41] [Render thread/INFO]: 7DTD proxy reset: connection=true worldReady=false

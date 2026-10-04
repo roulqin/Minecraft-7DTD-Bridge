@@ -1,0 +1,8 @@
+{
+  "7dtd:woodenClub": {"renderer":"item_display","item":"minecraft:wooden_sword","anchor":"held_item","offset":{"x":0.55,"y":1.05,"z":0},"rotation":{"x":0,"y":0,"z":0},"scale":0.8},
+  "7dtd:torch": {"renderer":"item_display","item":"minecraft:torch","anchor":"held_item","offset":{"x":0.55,"y":1.05,"z":0},"rotation":{"x":0,"y":0,"z":0},"scale":0.8},
+  "7dtd:ironAxe": {"renderer":"item_display","item":"minecraft:iron_axe","anchor":"held_item","offset":{"x":0.55,"y":1.05,"z":0},"rotation":{"x":0,"y":0,"z":0},"scale":0.8},
+  "7dtd:meleeWpnClubT0WoodenClub": {"renderer":"item_display","item":"minecraft:wooden_sword","anchor":"held_item","scale":0.8},
+  "7dtd:meleeToolTorch": {"renderer":"item_display","item":"minecraft:torch","anchor":"held_item","scale":0.8},
+  "7dtd:meleeToolAxeT1IronFireaxe": {"renderer":"item_display","item":"minecraft:iron_axe","anchor":"held_item","scale":0.8}
+}

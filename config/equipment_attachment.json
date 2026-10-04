@@ -1,0 +1,314 @@
+{
+  "items": {
+    "7dtd:iron_axe": {
+      "source_game": "7dtd",
+      "style": "realistic",
+      "renderer": "7dtd_renderer",
+      "model": "axe",
+      "socket": "right_hand"
+    },
+    "7dtd:ironAxe": {
+      "source_game": "7dtd",
+      "style": "realistic",
+      "renderer": "7dtd_renderer",
+      "model": "axe",
+      "socket": "right_hand"
+    },
+    "minecraft:diamond_sword": {
+      "source_game": "minecraft",
+      "style": "blocky",
+      "renderer": "minecraft_renderer",
+      "model": "diamond_sword",
+      "socket": "right_hand"
+    },
+    "7dtd:woodenClub": {
+      "source_game": "7dtd",
+      "style": "blocky",
+      "renderer": "voxel",
+      "model": "club",
+      "socket": "right_hand"
+    },
+    "7dtd:torch": {
+      "source_game": "7dtd",
+      "style": "item_display_style",
+      "renderer": "minecraft",
+      "model": "torch",
+      "socket": "right_hand"
+    },
+    "minecraft:club": {
+      "source_game": "local_fixture",
+      "style": "item_display_style",
+      "renderer": "minecraft",
+      "model": "club",
+      "socket": "right_hand"
+    },
+    "voxel:club": {
+      "source_game": "local_fixture",
+      "style": "blocky",
+      "renderer": "voxel",
+      "model": "club",
+      "socket": "right_hand"
+    },
+    "realistic:club": {
+      "source_game": "local_fixture",
+      "style": "realistic",
+      "renderer": "realistic",
+      "model": "club",
+      "socket": "right_hand"
+    },
+    "minecraft:axe": {
+      "source_game": "local_fixture",
+      "style": "item_display_style",
+      "renderer": "minecraft",
+      "model": "axe",
+      "socket": "right_hand"
+    },
+    "voxel:axe": {
+      "source_game": "local_fixture",
+      "style": "blocky",
+      "renderer": "voxel",
+      "model": "axe",
+      "socket": "right_hand"
+    },
+    "realistic:axe": {
+      "source_game": "local_fixture",
+      "style": "realistic",
+      "renderer": "realistic",
+      "model": "axe",
+      "socket": "right_hand"
+    },
+    "minecraft:pistol": {
+      "source_game": "local_fixture",
+      "style": "item_display_style",
+      "renderer": "minecraft",
+      "model": "pistol",
+      "socket": "right_hand"
+    },
+    "voxel:pistol": {
+      "source_game": "local_fixture",
+      "style": "blocky",
+      "renderer": "voxel",
+      "model": "pistol",
+      "socket": "right_hand"
+    },
+    "realistic:pistol": {
+      "source_game": "local_fixture",
+      "style": "realistic",
+      "renderer": "realistic",
+      "model": "pistol",
+      "socket": "right_hand"
+    },
+    "minecraft:rifle": {
+      "source_game": "local_fixture",
+      "style": "item_display_style",
+      "renderer": "minecraft",
+      "model": "rifle",
+      "socket": "back"
+    },
+    "voxel:rifle": {
+      "source_game": "local_fixture",
+      "style": "blocky",
+      "renderer": "voxel",
+      "model": "rifle",
+      "socket": "back"
+    },
+    "realistic:rifle": {
+      "source_game": "local_fixture",
+      "style": "realistic",
+      "renderer": "realistic",
+      "model": "rifle",
+      "socket": "back"
+    },
+    "minecraft:torch": {
+      "source_game": "local_fixture",
+      "style": "item_display_style",
+      "renderer": "minecraft",
+      "model": "torch",
+      "socket": "right_hand"
+    },
+    "voxel:torch": {
+      "source_game": "local_fixture",
+      "style": "blocky",
+      "renderer": "voxel",
+      "model": "torch",
+      "socket": "right_hand"
+    },
+    "realistic:torch": {
+      "source_game": "local_fixture",
+      "style": "realistic",
+      "renderer": "realistic",
+      "model": "torch",
+      "socket": "right_hand"
+    },
+    "minecraft:pickaxe": {
+      "source_game": "local_fixture",
+      "style": "item_display_style",
+      "renderer": "minecraft",
+      "model": "pickaxe",
+      "socket": "right_hand"
+    },
+    "voxel:pickaxe": {
+      "source_game": "local_fixture",
+      "style": "blocky",
+      "renderer": "voxel",
+      "model": "pickaxe",
+      "socket": "right_hand"
+    },
+    "realistic:pickaxe": {
+      "source_game": "local_fixture",
+      "style": "realistic",
+      "renderer": "realistic",
+      "model": "pickaxe",
+      "socket": "right_hand"
+    },
+    "minecraft:shovel": {
+      "source_game": "local_fixture",
+      "style": "item_display_style",
+      "renderer": "minecraft",
+      "model": "shovel",
+      "socket": "right_hand"
+    },
+    "voxel:shovel": {
+      "source_game": "local_fixture",
+      "style": "blocky",
+      "renderer": "voxel",
+      "model": "shovel",
+      "socket": "right_hand"
+    },
+    "realistic:shovel": {
+      "source_game": "local_fixture",
+      "style": "realistic",
+      "renderer": "realistic",
+      "model": "shovel",
+      "socket": "right_hand"
+    },
+    "minecraft:helmet": {
+      "source_game": "local_fixture",
+      "style": "item_display_style",
+      "renderer": "minecraft",
+      "model": "helmet",
+      "socket": "head"
+    },
+    "voxel:helmet": {
+      "source_game": "local_fixture",
+      "style": "blocky",
+      "renderer": "voxel",
+      "model": "helmet",
+      "socket": "head"
+    },
+    "realistic:helmet": {
+      "source_game": "local_fixture",
+      "style": "realistic",
+      "renderer": "realistic",
+      "model": "helmet",
+      "socket": "head"
+    },
+    "minecraft:backpack": {
+      "source_game": "local_fixture",
+      "style": "item_display_style",
+      "renderer": "minecraft",
+      "model": "backpack",
+      "socket": "back"
+    },
+    "voxel:backpack": {
+      "source_game": "local_fixture",
+      "style": "blocky",
+      "renderer": "voxel",
+      "model": "backpack",
+      "socket": "back"
+    },
+    "realistic:backpack": {
+      "source_game": "local_fixture",
+      "style": "realistic",
+      "renderer": "realistic",
+      "model": "backpack",
+      "socket": "back"
+    }
+  },
+  "sockets": {
+    "right_hand": {
+      "bone": "rig_hand_right",
+      "offset": {
+        "x": 0.08,
+        "y": 0,
+        "z": 0.12
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 0.8
+    },
+    "left_hand": {
+      "bone": "rig_hand_left",
+      "offset": {
+        "x": -0.08,
+        "y": 0,
+        "z": 0.12
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 0.8
+    },
+    "head": {
+      "bone": "rig_head",
+      "offset": {
+        "x": 0,
+        "y": 0.3,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 1
+    },
+    "back": {
+      "bone": "rig_chest",
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": -0.2
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 1
+    },
+    "body": {
+      "bone": "rig_spine",
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": -0.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 0.8
+    },
+    "waist": {
+      "bone": "rig_hips",
+      "offset": {
+        "x": 0.18,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 0.8
+    }
+  }
+}

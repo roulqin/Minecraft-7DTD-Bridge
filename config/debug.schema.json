@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Entity Debug Layer v1 configuration",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["debug_name_tag", "debug_logging"],
+  "properties": {
+    "debug_name_tag": {"type": "boolean"},
+    "debug_logging": {"type": "boolean"},
+    "debug_navigation": {"type": "boolean", "default": false}
+  }
+}

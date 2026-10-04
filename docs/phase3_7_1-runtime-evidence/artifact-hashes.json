@@ -1,0 +1,19 @@
+{
+  "docs/entity_state_v2.schema.json": "90cf8b6b3d85e36477de27c05237cd4b237f6f518a9d3b0cd50fcdd5d3418513",
+  "config/entity_types.json": "861d7bb411cae1d7c9044e7ecdf316416b822d24058c72e082f8c4dc1f5d73e1",
+  "config/network.json": "f2cb34ca08e0ec2585ad0cacb889aab9ce6df7074a2a581dea4a4571ce2c2da3",
+  "config/coordinate.json": "87abc6886340c9afaf561d985dcfc7440c535db98966f6332b1b82a57b1b7c78",
+  "bridge-server/CoordinateMapper.cs": "41849d27b61cb646ecd7d167c7cae3858b40a2409924dd8e2bc90f7c466d065b",
+  "bridge-server/EntityRegistry.cs": "20efa3696ad4f6b5058cea006784281269fe1561768079e79b281299063fd763",
+  "bridge-server/EntityTransportV2.cs": "8c2136f50081796ec762d0af4fa94f0a1aba1447b266fbfde82dc1ee59b42449",
+  "minecraft-mod/src/main/java/io/mc7dtd/MinecraftProxyScene.java": "2b047a62264dc1cf97331d07bd2ac36ae4f407a7b8e927e9c5c6ed6cdcf2b19c",
+  "minecraft-mod/src/main/java/io/mc7dtd/NativeProxyController.java": "389c3daf187b9538035c30ab6afc77f57a55d9f71a64d95e9262fa83b6b9af00",
+  "7dtd-mod/src/UnityMarkerScene.cs": "b37832ffd90d938d1e30b077c6b9ff7c33afd6b2529fe3ff41cbe598f7d02b1c",
+  "7dtd-mod/src/UnityPlayerProxyScene.cs": "188ffc39a0a54898bfb79da27929e18b05f9f98de2d9b93e3215a0c4fa6e8add",
+  "minecraft-mod/build/libs/mc7dtd-bridge-0.1.0.jar": "55074c2d5fb50c35dec700571a3e2c8d4718a6d263ef673d3a41e6e656d0bf2a",
+  "runtime/minecraft/mods/mc7dtd-bridge-0.1.0.jar": "55074c2d5fb50c35dec700571a3e2c8d4718a6d263ef673d3a41e6e656d0bf2a",
+  "7dtd-mod/bin/Phase371/net48/MC7DTD.Bridge.dll": "dc8eaae018c8862826265d87c8c8c353dab5548eb61fe753895fedd330647548",
+  "runtime/7dtd/Mods/MC7DTD-Bridge/MC7DTD.Bridge.dll": "dc8eaae018c8862826265d87c8c8c353dab5548eb61fe753895fedd330647548",
+  "bridge-server/bin/Phase371/net10.0/BridgeServer.dll": "4617740429bdad0ca77a54a04fe5acc9a885aba49452266349e6180745f3f6de",
+  "docs/entity_components_v1.schema.json": "2e6702d41af0a7b78fc9341a7933b210dfd37b6a9dab1562c0adb59ff2c8bb88"
+}

@@ -1,0 +1,14 @@
+{
+  "bridge-server\\CoordinateMapper.cs": true,
+  "bridge-server\\EntityRegistry.cs": true,
+  "bridge-server\\EntityTransport.cs": true,
+  "bridge-server\\EntityTransportV2.cs": true,
+  "bridge-server\\NativeEntityRegistry.cs": true,
+  "bridge-server\\Program.cs": true,
+  "7dtd-mod\\src\\BridgeClient.cs": true,
+  "7dtd-mod\\src\\BridgeMod.cs": true,
+  "7dtd-mod\\src\\MarkerController.cs": true,
+  "7dtd-mod\\src\\NativePlayerPublisher.cs": true,
+  "7dtd-mod\\src\\UnityMarkerScene.cs": true,
+  "7dtd-mod\\src\\UnityPlayerProxyScene.cs": true
+}

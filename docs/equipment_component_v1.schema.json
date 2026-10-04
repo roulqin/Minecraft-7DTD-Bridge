@@ -1,0 +1,176 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mc7dtd.invalid/schemas/equipment_component_v1.schema.json",
+  "title": "Equipment Component v1 draft: 7DTD observation only",
+  "$defs": {
+    "item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "item_id"
+      ],
+      "properties": {
+        "item_id": {
+          "type": "string",
+          "minLength": 6,
+          "maxLength": 128,
+          "pattern": "^7dtd:[A-Za-z0-9_.-]+$",
+          "not": {
+            "pattern": "\\s"
+          }
+        }
+      }
+    },
+    "snapshot": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "slots"
+      ],
+      "properties": {
+        "slots": {
+          "type": "object",
+          "additionalProperties": false,
+          "maxProperties": 5,
+          "properties": {
+            "head": {
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/item"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "body": {
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/item"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "hands": {
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/item"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "feet": {
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/item"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "held_item": {
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/item"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "required": [
+            "head",
+            "body",
+            "hands",
+            "feet",
+            "held_item"
+          ]
+        }
+      }
+    },
+    "patch": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "slots"
+      ],
+      "properties": {
+        "slots": {
+          "type": "object",
+          "additionalProperties": false,
+          "maxProperties": 5,
+          "properties": {
+            "head": {
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/item"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "body": {
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/item"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "hands": {
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/item"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "feet": {
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/item"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "held_item": {
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/item"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "minProperties": 1
+        }
+      }
+    }
+  },
+  "oneOf": [
+    {
+      "$ref": "#/$defs/snapshot"
+    },
+    {
+      "$ref": "#/$defs/patch",
+      "not": {
+        "$ref": "#/$defs/snapshot"
+      }
+    }
+  ]
+}

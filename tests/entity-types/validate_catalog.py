@@ -4,6 +4,11 @@ from jsonschema import Draft202012Validator
 
 # Design-time description of the existing Phase 3.3 adapter, not a factory.
 ADAPTERS = {
+    ("minecraft", "block_display_proxy"): {
+        "source_type": "7dtd:player",
+        "target_type": "minecraft:player_proxy",
+        "capabilities": {"spawn", "update_position", "update_rotation", "despawn"},
+    },
     ("7dtd", "player_proxy"): {
         "source_type": "minecraft:player",
         "target_type": "7dtd:player_proxy",

@@ -1,0 +1,31 @@
+{
+  "source": "minecraft",
+  "authority": "minecraft",
+  "origin": {
+    "game": "minecraft",
+    "world_id": "mc-demo",
+    "dimension": "minecraft:overworld",
+    "entity_id": "53779af5-0e40-49c3-99bb-445ac3df7ca1"
+  },
+  "entity_id": "53779af5-0e40-49c3-99bb-445ac3df7ca1",
+  "world_id": "mc-demo",
+  "dimension": "minecraft:overworld",
+  "entity_type": "minecraft:player",
+  "stream_id": "9e4e16d2-a9a7-46e3-ae65-bcfead7fa3b8",
+  "type": "entity_components",
+  "version": 1,
+  "entity_state_version": 2,
+  "entity_sequence": 1,
+  "revision": 2,
+  "base_revision": 1,
+  "mode": "patch",
+  "components": {
+    "health": {
+      "current": 18,
+      "max": 20
+    },
+    "animation_state": {
+      "state": "minecraft:moving"
+    }
+  }
+}

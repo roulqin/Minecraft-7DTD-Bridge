@@ -1,0 +1,111 @@
+{
+  "passed": true,
+  "checks": {
+    "real_initial_identity": true,
+    "initial_metadata_tags": true,
+    "source_native_name_preserved": true,
+    "real_partial_display_name": true,
+    "real_partial_tag": true,
+    "explicit_identity_remove": true,
+    "identity_remove_preserves_health": true,
+    "source_health_changes_alongside_identity": true,
+    "receiver_states_match_source_oracle": true,
+    "receiver_identity_remove_logged": true,
+    "normal_world_exit": true,
+    "all_components_remove_before_despawn": true,
+    "oracle_retired": true,
+    "proxy_despawn_count_zero": true,
+    "no_disconnect_in_real_lifecycle": true,
+    "no_component_rejection": true,
+    "connections-before-remove.json": true,
+    "connections-after-remove.json": true,
+    "connections-after-exit.json": true,
+    "protected_v2_mapping_generation_unchanged": true,
+    "minecraft_deploy_hash": true,
+    "7dtd_deploy_hash": true,
+    "identity_config_restored": true
+  },
+  "entity_id": "5379c3ed-876b-4702-8420-365330557e73",
+  "stream_id": "64516623-0a28-4c89-b419-bc09e2d2847e",
+  "component_messages": 9,
+  "identity_observations": [
+    {
+      "revision": 1,
+      "mode": "snapshot",
+      "state": {
+        "health": {
+          "current": 93,
+          "max": 100
+        },
+        "name": {
+          "display_name": "\u8d28\u6734\u4e14\u5351\u5fae-",
+          "text": "\u8d28\u6734\u4e14\u5351\u5fae-"
+        },
+        "custom_metadata": {
+          "tag.source": "7dtd",
+          "tag.kind": "player",
+          "tag.label": "bridge"
+        }
+      },
+      "removed": false
+    },
+    {
+      "revision": 3,
+      "mode": "patch",
+      "state": {
+        "health": {
+          "current": 94,
+          "max": 100
+        },
+        "name": {
+          "display_name": "MC7DTD Identity Updated",
+          "text": "\u8d28\u6734\u4e14\u5351\u5fae-"
+        },
+        "custom_metadata": {
+          "tag.source": "7dtd",
+          "tag.kind": "player",
+          "tag.label": "runtime-update"
+        }
+      },
+      "removed": false
+    },
+    {
+      "revision": 6,
+      "mode": "patch",
+      "state": {
+        "health": {
+          "current": 96,
+          "max": 100
+        }
+      },
+      "removed": true
+    },
+    {
+      "revision": 7,
+      "mode": "patch",
+      "state": {
+        "health": {
+          "current": 96,
+          "max": 100
+        },
+        "name": {
+          "display_name": "\u8d28\u6734\u4e14\u5351\u5fae-",
+          "text": "\u8d28\u6734\u4e14\u5351\u5fae-"
+        },
+        "custom_metadata": {
+          "tag.source": "7dtd",
+          "tag.kind": "player",
+          "tag.label": "bridge"
+        }
+      },
+      "removed": false
+    },
+    {
+      "revision": 9,
+      "mode": "patch",
+      "state": {},
+      "removed": true
+    }
+  ],
+  "despawn_sequence": 468
+}

@@ -1,0 +1,25 @@
+{
+  "type": "entity_state",
+  "version": 2,
+  "source": "7dtd",
+  "authority": "7dtd",
+  "origin": {
+    "game": "7dtd",
+    "world_id": "td-demo",
+    "dimension": "7dtd:main",
+    "entity_id": "cd787d90-736c-4428-9c35-3b8b6c0fe4f8"
+  },
+  "stream_id": "e1396731-e7fa-412f-98ab-0b5d04d41f4d",
+  "entity_id": "cd787d90-736c-4428-9c35-3b8b6c0fe4f8",
+  "entity_type": "7dtd:player",
+  "world_id": "td-demo",
+  "dimension": "7dtd:main",
+  "sequence": 5,
+  "lifecycle": {
+    "event": "despawn",
+    "reason": "world_unloaded"
+  },
+  "position": null,
+  "rotation": null,
+  "metadata": {}
+}

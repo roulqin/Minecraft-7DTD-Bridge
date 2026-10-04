@@ -1,0 +1,94 @@
+{
+  "name": "MinecraftAvatarAnimator",
+  "backend": "generic_transform_controller",
+  "parameters": [
+    {
+      "name": "speed",
+      "type": "float",
+      "default": 0
+    },
+    {
+      "name": "isGrounded",
+      "type": "bool",
+      "default": true
+    },
+    {
+      "name": "verticalVelocity",
+      "type": "float",
+      "default": 0
+    },
+    {
+      "name": "actionState",
+      "type": "int",
+      "default": 0
+    },
+    {
+      "name": "jumpStart",
+      "type": "trigger"
+    }
+  ],
+  "default": "Ground",
+  "states": [
+    "Ground",
+    "JumpStart",
+    "JumpLoop",
+    "Fall",
+    "Land"
+  ],
+  "ground_blend_tree": {
+    "parameter": "speed",
+    "thresholds": {
+      "Idle": 0,
+      "Walk": 2,
+      "Run": 5
+    }
+  },
+  "flow": [
+    "Ground",
+    "JumpStart",
+    "JumpLoop",
+    "Fall",
+    "Land",
+    "Ground"
+  ],
+  "transition_duration": 0.12,
+  "root_motion": false,
+  "write_defaults": false,
+  "layer_count": 1,
+  "avatar_mask": null,
+  "air_blend_trees": {
+    "JumpStart": {
+      "parameter": "speed",
+      "thresholds": {
+        "JumpStart": 0,
+        "Walk": 2,
+        "Run": 5
+      }
+    },
+    "JumpLoop": {
+      "parameter": "speed",
+      "thresholds": {
+        "JumpLoop": 0,
+        "Walk": 2,
+        "Run": 5
+      }
+    },
+    "Fall": {
+      "parameter": "speed",
+      "thresholds": {
+        "Fall": 0,
+        "Walk": 2,
+        "Run": 5
+      }
+    },
+    "Land": {
+      "parameter": "speed",
+      "thresholds": {
+        "Land": 0,
+        "Walk": 2,
+        "Run": 5
+      }
+    }
+  },
+  "land_playback_rate": 4
+}

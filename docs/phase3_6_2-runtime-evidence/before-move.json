@@ -1,0 +1,33 @@
+{
+  "authority": "7dtd",
+  "dimension": "7dtd:main",
+  "entity_id": "1d96b662-c615-4729-a431-d3c5806bac72",
+  "entity_type": "7dtd:player",
+  "lifecycle": {
+    "event": "update"
+  },
+  "metadata": {},
+  "origin": {
+    "dimension": "7dtd:main",
+    "entity_id": "1d96b662-c615-4729-a431-d3c5806bac72",
+    "game": "7dtd",
+    "world_id": "td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f"
+  },
+  "position": {
+    "x": -45.30000001192093,
+    "y": 71,
+    "z": 75.77925174075625,
+    "space": "minecraft"
+  },
+  "rotation": {
+    "pitch": 0,
+    "roll": 0,
+    "yaw": 109.17742919921875
+  },
+  "sequence": 128,
+  "source": "7dtd",
+  "stream_id": "87f4fae0-b0b2-408f-bcab-c03d8733070c",
+  "type": "entity_state",
+  "version": 2,
+  "world_id": "td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f"
+}

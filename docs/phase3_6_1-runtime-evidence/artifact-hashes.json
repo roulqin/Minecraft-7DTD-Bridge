@@ -1,0 +1,22 @@
+{
+  "minecraft_build": {
+    "path": "minecraft-mod/build/libs/mc7dtd-bridge-0.1.0.jar",
+    "sha256": "c05a6de91a92052f3d3ca964b097ba6d44d14abfa866c8146c78d58dca371e4d"
+  },
+  "minecraft_deployed": {
+    "path": "runtime/minecraft/mods/mc7dtd-bridge-0.1.0.jar",
+    "sha256": "c05a6de91a92052f3d3ca964b097ba6d44d14abfa866c8146c78d58dca371e4d"
+  },
+  "7dtd_build": {
+    "path": "7dtd-mod/bin/Phase361/net48/MC7DTD.Bridge.dll",
+    "sha256": "492e3448687317ff77b633331338bb6bb1e1e3af3d1b624dcc02e9499a1db64d"
+  },
+  "7dtd_deployed": {
+    "path": "runtime/7dtd/Mods/MC7DTD-Bridge/MC7DTD.Bridge.dll",
+    "sha256": "492e3448687317ff77b633331338bb6bb1e1e3af3d1b624dcc02e9499a1db64d"
+  },
+  "bridge_build": {
+    "path": "bridge-server/bin/Phase361/net10.0/BridgeServer.dll",
+    "sha256": "986cd080bb0928ca9ddf2abd0d153a5a8a2281e7b76a12a1674c234f340e2040"
+  }
+}

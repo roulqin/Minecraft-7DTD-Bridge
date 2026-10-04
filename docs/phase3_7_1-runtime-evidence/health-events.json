@@ -1,0 +1,111 @@
+[
+  {
+    "authority": "7dtd",
+    "base_revision": 0,
+    "components": {
+      "health": {
+        "current": 100,
+        "max": 100
+      }
+    },
+    "dimension": "7dtd:main",
+    "entity_id": "ec5d61f7-843b-47b7-a811-28c15b00651f",
+    "entity_sequence": 1,
+    "entity_state_version": 2,
+    "entity_type": "7dtd:player",
+    "mode": "snapshot",
+    "origin": {
+      "dimension": "7dtd:main",
+      "entity_id": "ec5d61f7-843b-47b7-a811-28c15b00651f",
+      "game": "7dtd",
+      "world_id": "td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f"
+    },
+    "revision": 1,
+    "source": "7dtd",
+    "stream_id": "d6937bfa-f41f-4a3c-87a8-c01a0755b820",
+    "type": "entity_components",
+    "version": 1,
+    "world_id": "td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f"
+  },
+  {
+    "authority": "7dtd",
+    "base_revision": 1,
+    "components": {
+      "health": {
+        "current": 92,
+        "max": 100
+      }
+    },
+    "dimension": "7dtd:main",
+    "entity_id": "ec5d61f7-843b-47b7-a811-28c15b00651f",
+    "entity_sequence": 124,
+    "entity_state_version": 2,
+    "entity_type": "7dtd:player",
+    "mode": "patch",
+    "origin": {
+      "dimension": "7dtd:main",
+      "entity_id": "ec5d61f7-843b-47b7-a811-28c15b00651f",
+      "game": "7dtd",
+      "world_id": "td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f"
+    },
+    "revision": 2,
+    "source": "7dtd",
+    "stream_id": "d6937bfa-f41f-4a3c-87a8-c01a0755b820",
+    "type": "entity_components",
+    "version": 1,
+    "world_id": "td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f"
+  },
+  {
+    "authority": "7dtd",
+    "base_revision": 2,
+    "components": {
+      "health": {
+        "current": 93,
+        "max": 100
+      }
+    },
+    "dimension": "7dtd:main",
+    "entity_id": "ec5d61f7-843b-47b7-a811-28c15b00651f",
+    "entity_sequence": 241,
+    "entity_state_version": 2,
+    "entity_type": "7dtd:player",
+    "mode": "patch",
+    "origin": {
+      "dimension": "7dtd:main",
+      "entity_id": "ec5d61f7-843b-47b7-a811-28c15b00651f",
+      "game": "7dtd",
+      "world_id": "td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f"
+    },
+    "revision": 3,
+    "source": "7dtd",
+    "stream_id": "d6937bfa-f41f-4a3c-87a8-c01a0755b820",
+    "type": "entity_components",
+    "version": 1,
+    "world_id": "td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f"
+  },
+  {
+    "authority": "7dtd",
+    "base_revision": 3,
+    "components": {
+      "health": null
+    },
+    "dimension": "7dtd:main",
+    "entity_id": "ec5d61f7-843b-47b7-a811-28c15b00651f",
+    "entity_sequence": 317,
+    "entity_state_version": 2,
+    "entity_type": "7dtd:player",
+    "mode": "patch",
+    "origin": {
+      "dimension": "7dtd:main",
+      "entity_id": "ec5d61f7-843b-47b7-a811-28c15b00651f",
+      "game": "7dtd",
+      "world_id": "td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f"
+    },
+    "revision": 4,
+    "source": "7dtd",
+    "stream_id": "d6937bfa-f41f-4a3c-87a8-c01a0755b820",
+    "type": "entity_components",
+    "version": 1,
+    "world_id": "td-0d917a4eff776d999148769266591579674d2c42de6557026893a1902834f11f"
+  }
+]

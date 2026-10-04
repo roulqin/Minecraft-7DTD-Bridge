@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 2048967094
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: minecraft_avatar_v1
+      Dependencies: {}
